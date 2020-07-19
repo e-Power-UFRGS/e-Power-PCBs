@@ -1,0 +1,310 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 32 32
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5F3568F3
+P 2000 4600
+F 0 "J?" H 2000 4200 50  0000 C CNN
+F 1 "Current_Conn" H 2000 4300 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 2000 4600 50  0001 C CNN
+F 3 "~" H 2000 4600 50  0001 C CNN
+	1    2000 4600
+	1    0    0    -1  
+$EndComp
+Text Notes 1750 5250 0    50   ~ 0
+ACS758ECB-200B-PSS-T\n+-200A 10mV/A
+Wire Wire Line
+	2200 4800 2300 4800
+NoConn ~ 2300 4800
+Text Label 2300 4500 0    50   ~ 0
+VCC
+Text Label 2300 4600 0    50   ~ 0
+GND
+Text Label 2300 4700 0    50   ~ 0
+VIOUT
+$Comp
+L e-Power:LM324 U?
+U 1 1 5F36FFAB
+P 3800 4800
+AR Path="/5EA47040/5F36FFAB" Ref="U?"  Part="1" 
+AR Path="/5EA471BF/5F36FFAB" Ref="U?"  Part="1" 
+AR Path="/5EEF4361/5F36FFAB" Ref="U?"  Part="1" 
+AR Path="/5EEF524D/5F36FFAB" Ref="U?"  Part="1" 
+AR Path="/5EC044AE/5EC054C7/5F36FFAB" Ref="U?"  Part="1" 
+AR Path="/5EC044AE/5EC39151/5F36FFAB" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC054C7/5F36FFAB" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC3A225/5F36FFAB" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC4031A/5F36FFAB" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC462FD/5F36FFAB" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC4BDFE/5F36FFAB" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC51A1F/5F36FFAB" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC574F6/5F36FFAB" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC5D2D3/5F36FFAB" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC62E5E/5F36FFAB" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC6897D/5F36FFAB" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC6E4EA/5F36FFAB" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC74033/5F36FFAB" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC79B70/5F36FFAB" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC7F6A7/5F36FFAB" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC85226/5F36FFAB" Ref="U?"  Part="1" 
+AR Path="/5F3561B0/5F36FFAB" Ref="U?"  Part="1" 
+F 0 "U?" H 3900 4650 50  0000 C CNN
+F 1 "LM324" H 3800 4800 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3800 4525 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3850 5000 50  0001 C CNN
+	1    3800 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 4900 3450 4900
+Wire Wire Line
+	3450 5050 4150 5050
+Wire Wire Line
+	4150 5050 4150 4800
+Wire Wire Line
+	4150 4800 4100 4800
+Wire Wire Line
+	4150 4800 4300 4800
+Connection ~ 4150 4800
+$Comp
+L power:+5V #PWR?
+U 1 1 5F3710A8
+P 4250 5300
+F 0 "#PWR?" H 4250 5150 50  0001 C CNN
+F 1 "+5V" H 4265 5473 50  0000 C CNN
+F 2 "" H 4250 5300 50  0001 C CNN
+F 3 "" H 4250 5300 50  0001 C CNN
+	1    4250 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-5V #PWR?
+U 1 1 5F371489
+P 3450 5500
+F 0 "#PWR?" H 3450 5600 50  0001 C CNN
+F 1 "-5V" H 3465 5673 50  0000 C CNN
+F 2 "" H 3450 5500 50  0001 C CNN
+F 3 "" H 3450 5500 50  0001 C CNN
+	1    3450 5500
+	-1   0    0    1   
+$EndComp
+Text HLabel 3200 4500 2    50   Input ~ 0
+5.000V
+$Comp
+L power:GND #PWR?
+U 1 1 5F372131
+P 2600 4800
+F 0 "#PWR?" H 2600 4550 50  0001 C CNN
+F 1 "GND" H 2605 4627 50  0000 C CNN
+F 2 "" H 2600 4800 50  0001 C CNN
+F 3 "" H 2600 4800 50  0001 C CNN
+	1    2600 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 4800 2600 4600
+Wire Wire Line
+	2200 4600 2600 4600
+Wire Wire Line
+	2200 4700 3500 4700
+Wire Wire Line
+	3450 4900 3450 5050
+$Comp
+L e-Power:LM324 U?
+U 5 1 5F3748A9
+P 3850 5500
+AR Path="/5EA47040/5F3748A9" Ref="U?"  Part="1" 
+AR Path="/5EA471BF/5F3748A9" Ref="U?"  Part="1" 
+AR Path="/5EEF4361/5F3748A9" Ref="U?"  Part="1" 
+AR Path="/5EEF524D/5F3748A9" Ref="U?"  Part="1" 
+AR Path="/5EC044AE/5EC054C7/5F3748A9" Ref="U?"  Part="1" 
+AR Path="/5EC044AE/5EC39151/5F3748A9" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC054C7/5F3748A9" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC3A225/5F3748A9" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC4031A/5F3748A9" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC462FD/5F3748A9" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC4BDFE/5F3748A9" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC51A1F/5F3748A9" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC574F6/5F3748A9" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC5D2D3/5F3748A9" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC62E5E/5F3748A9" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC6897D/5F3748A9" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC6E4EA/5F3748A9" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC74033/5F3748A9" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC79B70/5F3748A9" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC7F6A7/5F3748A9" Ref="U?"  Part="1" 
+AR Path="/5EC24961/5EC85226/5F3748A9" Ref="U?"  Part="1" 
+AR Path="/5F3561B0/5F3748A9" Ref="U?"  Part="5" 
+F 0 "U?" V 3950 5500 50  0000 C CNN
+F 1 "LM324" V 3850 5500 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3850 5225 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3900 5700 50  0001 C CNN
+	5    3850 5500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 5400 4250 5400
+$Comp
+L Device:C C?
+U 1 1 5F37C448
+P 3200 5650
+AR Path="/5EA47040/5F37C448" Ref="C?"  Part="1" 
+AR Path="/5EA471BF/5F37C448" Ref="C?"  Part="1" 
+AR Path="/5EEF4361/5F37C448" Ref="C?"  Part="1" 
+AR Path="/5EEF524D/5F37C448" Ref="C?"  Part="1" 
+AR Path="/5EC044AE/5EC054C7/5F37C448" Ref="C?"  Part="1" 
+AR Path="/5EC044AE/5EC39151/5F37C448" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC054C7/5F37C448" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC3A225/5F37C448" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC4031A/5F37C448" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC462FD/5F37C448" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC4BDFE/5F37C448" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC51A1F/5F37C448" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC574F6/5F37C448" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC5D2D3/5F37C448" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC62E5E/5F37C448" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC6897D/5F37C448" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC6E4EA/5F37C448" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC74033/5F37C448" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC79B70/5F37C448" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC7F6A7/5F37C448" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC85226/5F37C448" Ref="C?"  Part="1" 
+AR Path="/5F3561B0/5F37C448" Ref="C?"  Part="1" 
+F 0 "C?" H 3315 5696 50  0000 L CNN
+F 1 "100nF" H 3315 5605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3238 5500 50  0001 C CNN
+F 3 "~" H 3200 5650 50  0001 C CNN
+	1    3200 5650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F37C9E9
+P 3200 5900
+F 0 "#PWR?" H 3200 5650 50  0001 C CNN
+F 1 "GND" H 3205 5727 50  0000 C CNN
+F 2 "" H 3200 5900 50  0001 C CNN
+F 3 "" H 3200 5900 50  0001 C CNN
+	1    3200 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F37CD3B
+P 4450 5900
+F 0 "#PWR?" H 4450 5650 50  0001 C CNN
+F 1 "GND" H 4455 5727 50  0000 C CNN
+F 2 "" H 4450 5900 50  0001 C CNN
+F 3 "" H 4450 5900 50  0001 C CNN
+	1    4450 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F37D4F6
+P 4450 5650
+AR Path="/5EA47040/5F37D4F6" Ref="C?"  Part="1" 
+AR Path="/5EA471BF/5F37D4F6" Ref="C?"  Part="1" 
+AR Path="/5EEF4361/5F37D4F6" Ref="C?"  Part="1" 
+AR Path="/5EEF524D/5F37D4F6" Ref="C?"  Part="1" 
+AR Path="/5EC044AE/5EC054C7/5F37D4F6" Ref="C?"  Part="1" 
+AR Path="/5EC044AE/5EC39151/5F37D4F6" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC054C7/5F37D4F6" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC3A225/5F37D4F6" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC4031A/5F37D4F6" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC462FD/5F37D4F6" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC4BDFE/5F37D4F6" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC51A1F/5F37D4F6" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC574F6/5F37D4F6" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC5D2D3/5F37D4F6" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC62E5E/5F37D4F6" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC6897D/5F37D4F6" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC6E4EA/5F37D4F6" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC74033/5F37D4F6" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC79B70/5F37D4F6" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC7F6A7/5F37D4F6" Ref="C?"  Part="1" 
+AR Path="/5EC24961/5EC85226/5F37D4F6" Ref="C?"  Part="1" 
+AR Path="/5F3561B0/5F37D4F6" Ref="C?"  Part="1" 
+F 0 "C?" H 4565 5696 50  0000 L CNN
+F 1 "100nF" H 4565 5605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4488 5500 50  0001 C CNN
+F 3 "~" H 4450 5650 50  0001 C CNN
+	1    4450 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 5900 3200 5800
+Wire Wire Line
+	3450 5500 3450 5400
+Wire Wire Line
+	3450 5400 3550 5400
+Wire Wire Line
+	4250 5300 4250 5400
+Wire Wire Line
+	4450 5900 4450 5800
+Text HLabel 3100 5400 0    50   Input ~ 0
++5V
+Text HLabel 4550 5400 2    50   Input ~ 0
+-5V
+Wire Wire Line
+	3100 5400 3200 5400
+Wire Wire Line
+	3200 5400 3200 5500
+Connection ~ 3200 5400
+Wire Wire Line
+	4450 5500 4450 5400
+Wire Wire Line
+	4450 5400 4550 5400
+Connection ~ 4450 5400
+Wire Wire Line
+	3200 5400 3450 5400
+Connection ~ 3450 5400
+Wire Wire Line
+	4250 5400 4450 5400
+Connection ~ 4250 5400
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 5F391983
+P 2700 4200
+F 0 "J?" V 2850 4200 50  0000 R CNN
+F 1 "jumper" V 2750 4250 50  0000 R CNN
+F 2 "" H 2700 4200 50  0001 C CNN
+F 3 "~" H 2700 4200 50  0001 C CNN
+	1    2700 4200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 4500 2700 4400
+Wire Wire Line
+	2200 4500 2700 4500
+Wire Wire Line
+	2800 4400 2800 4500
+Wire Wire Line
+	2800 4500 2900 4500
+$Comp
+L e-Power:Jumper_0805 JP?
+U 1 1 5F395F0C
+P 3000 4500
+F 0 "JP?" H 2992 4685 50  0000 C CNN
+F 1 "jumper" H 2992 4594 50  0000 C CNN
+F 2 "e-Power:zero_ohm_resistor_0805" H 3000 4375 50  0001 C CNN
+F 3 "" H 3000 4500 50  0001 C CNN
+	1    3000 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 4500 3200 4500
+$EndSCHEMATC
