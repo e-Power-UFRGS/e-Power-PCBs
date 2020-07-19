@@ -1,0 +1,5 @@
+Links interessantes:
+
+Replicate Layout
+https://github.com/MitjaNemec/Kicad_action_plugins
+https://www.youtube.com/watch?v=hJXADScAhN0&t=359s

@@ -1,0 +1,1248 @@
+ERC report (6/3/2020 4:27:05 AM, Encoding UTF8 )
+
+***** Sheet /
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(63.50 mm, 74.93 mm): Pin 9 (Input) of component U104 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(63.50 mm, 80.01 mm): Pin 6 (Input) of component U104 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(63.50 mm, 72.39 mm): Pin 10 (Input) of component U104 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(63.50 mm, 69.85 mm): Pin 11 (Input) of component U104 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(63.50 mm, 64.77 mm): Pin 3 (Passive) of component U104 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(63.50 mm, 106.68 mm): Pin 11 (Input) of component U102 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(63.50 mm, 116.84 mm): Pin 6 (Input) of component U102 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(63.50 mm, 111.76 mm): Pin 9 (Input) of component U102 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(63.50 mm, 109.22 mm): Pin 10 (Input) of component U102 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(63.50 mm, 101.60 mm): Pin 3 (Passive) of component U102 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(93.98 mm, 33.02 mm): Pin 15 (Passive) of component U105 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(93.98 mm, 35.56 mm): Pin 12 (Passive) of component U105 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(111.76 mm, 33.02 mm): Pin 11 (Input) of component U105 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(111.76 mm, 35.56 mm): Pin 10 (Input) of component U105 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(93.98 mm, 38.10 mm): Pin 1 (Passive) of component U105 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(111.76 mm, 27.94 mm): Pin 3 (Passive) of component U105 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(93.98 mm, 43.18 mm): Pin 2 (Passive) of component U105 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(111.76 mm, 38.10 mm): Pin 9 (Input) of component U105 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(111.76 mm, 43.18 mm): Pin 6 (Input) of component U105 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(93.98 mm, 40.64 mm): Pin 5 (Passive) of component U105 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(93.98 mm, 45.72 mm): Pin 4 (Passive) of component U105 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(63.50 mm, 33.02 mm): Pin 11 (Input) of component U103 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(63.50 mm, 35.56 mm): Pin 10 (Input) of component U103 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(63.50 mm, 27.94 mm): Pin 3 (Passive) of component U103 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(63.50 mm, 38.10 mm): Pin 9 (Input) of component U103 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(63.50 mm, 43.18 mm): Pin 6 (Input) of component U103 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(166.37 mm, 50.80 mm): Pin 11 (Input) of component U101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(166.37 mm, 53.34 mm): Pin 10 (Input) of component U101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 48.26 mm): Pin 1 (Tri-state) of component U101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(166.37 mm, 58.42 mm): Pin 12 (Input) of component U101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 68.58 mm): Pin 9 (Output) of component U101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(176.53 mm, 73.66 mm): Pin 8 (Power input) of component U101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 63.50 mm): Pin 7 (Tri-state) of component U101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 60.96 mm): Pin 6 (Tri-state) of component U101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 58.42 mm): Pin 5 (Tri-state) of component U101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 55.88 mm): Pin 4 (Tri-state) of component U101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 53.34 mm): Pin 3 (Tri-state) of component U101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 50.80 mm): Pin 2 (Tri-state) of component U101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(176.53 mm, 40.64 mm): Pin 16 (Power input) of component U101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(186.69 mm, 45.72 mm): Pin 15 (Tri-state) of component U101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(166.37 mm, 45.72 mm): Pin 14 (Input) of component U101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(166.37 mm, 60.96 mm): Pin 13 (Input) of component U101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(252.73 mm, 146.05 mm): Pin 4 (Passive) of component J102 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(252.73 mm, 143.51 mm): Pin 9 (Passive) of component J102 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(252.73 mm, 148.59 mm): Pin 8 (Passive) of component J102 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(252.73 mm, 153.67 mm): Pin 7 (Passive) of component J102 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(252.73 mm, 158.75 mm): Pin 6 (Passive) of component J102 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(252.73 mm, 140.97 mm): Pin 5 (Passive) of component J102 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(252.73 mm, 151.13 mm): Pin 3 (Passive) of component J102 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(252.73 mm, 156.21 mm): Pin 2 (Passive) of component J102 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(252.73 mm, 161.29 mm): Pin 1 (Passive) of component J102 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(227.33 mm, 143.51 mm): Pin 9 (Passive) of component J101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(227.33 mm, 148.59 mm): Pin 8 (Passive) of component J101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(227.33 mm, 153.67 mm): Pin 7 (Passive) of component J101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(227.33 mm, 158.75 mm): Pin 6 (Passive) of component J101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(227.33 mm, 140.97 mm): Pin 5 (Passive) of component J101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(227.33 mm, 146.05 mm): Pin 4 (Passive) of component J101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(227.33 mm, 151.13 mm): Pin 3 (Passive) of component J101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(227.33 mm, 156.21 mm): Pin 2 (Passive) of component J101 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(227.33 mm, 161.29 mm): Pin 1 (Passive) of component J101 is unconnected.
+
+***** Sheet /Voltage References/
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(138.43 mm, 31.75 mm): Pin 2 (Passive) of component R218 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(69.85 mm, 59.69 mm): Pin 2 (Passive) of component R210 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(181.61 mm, 41.91 mm): Pin 2 (Passive) of component R230 is unconnected.
+ErrType(2): Pin not connected (use a “no connection” flag to suppress this error)
+    @(76.20 mm, 25.40 mm): Pin 1 (Passive) of component R211 is unconnected.
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(64.77 mm, 78.74 mm): Pin 4 (Power input) of component U202 is not driven (Net 139).
+
+***** Sheet /Temperature Sensors/
+
+***** Sheet /Temperature Sensors/LM235_1_2/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(30.48 mm, 25.40 mm): Pin 1 (Power input) of component #PWR0199 is not driven (Net 5).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(27.94 mm, 76.20 mm): Pin 11 (Power input) of component U1501 is not driven (Net 271).
+
+***** Sheet /Temperature Sensors/LM235_3_4/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(30.48 mm, 25.40 mm): Pin 1 (Power input) of component #PWR0199 is not driven (Net 5).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(27.94 mm, 76.20 mm): Pin 11 (Power input) of component U1501 is not driven (Net 271).
+
+***** Sheet /Temperature Sensors/LM235_5_6/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(30.48 mm, 25.40 mm): Pin 1 (Power input) of component #PWR0199 is not driven (Net 5).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(27.94 mm, 76.20 mm): Pin 11 (Power input) of component U1501 is not driven (Net 271).
+
+***** Sheet /Temperature Sensors/LM235_7_8/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(30.48 mm, 25.40 mm): Pin 1 (Power input) of component #PWR0199 is not driven (Net 5).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(27.94 mm, 76.20 mm): Pin 11 (Power input) of component U1501 is not driven (Net 271).
+
+***** Sheet /Temperature Sensors/LM235_9_10/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(30.48 mm, 25.40 mm): Pin 1 (Power input) of component #PWR0199 is not driven (Net 5).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(27.94 mm, 76.20 mm): Pin 11 (Power input) of component U1501 is not driven (Net 271).
+
+***** Sheet /Temperature Sensors/LM235_11_12/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(30.48 mm, 25.40 mm): Pin 1 (Power input) of component #PWR0199 is not driven (Net 5).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(27.94 mm, 76.20 mm): Pin 11 (Power input) of component U1501 is not driven (Net 271).
+
+***** Sheet /Temperature Sensors/LM235_13_14/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(30.48 mm, 25.40 mm): Pin 1 (Power input) of component #PWR0199 is not driven (Net 5).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(27.94 mm, 76.20 mm): Pin 11 (Power input) of component U1501 is not driven (Net 271).
+
+***** Sheet /Temperature Sensors/LM235_15_16/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(30.48 mm, 25.40 mm): Pin 1 (Power input) of component #PWR0199 is not driven (Net 5).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(27.94 mm, 76.20 mm): Pin 11 (Power input) of component U1501 is not driven (Net 271).
+
+***** Sheet /Temperature Sensors/LM235_17_18/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(30.48 mm, 25.40 mm): Pin 1 (Power input) of component #PWR0199 is not driven (Net 5).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(27.94 mm, 76.20 mm): Pin 11 (Power input) of component U1501 is not driven (Net 271).
+
+***** Sheet /Temperature Sensors/LM235_19_20/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(30.48 mm, 25.40 mm): Pin 1 (Power input) of component #PWR0199 is not driven (Net 5).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(27.94 mm, 76.20 mm): Pin 11 (Power input) of component U1501 is not driven (Net 271).
+
+***** Sheet /Temperature Sensors/LM235_21_22/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(30.48 mm, 25.40 mm): Pin 1 (Power input) of component #PWR0199 is not driven (Net 5).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(27.94 mm, 76.20 mm): Pin 11 (Power input) of component U1501 is not driven (Net 271).
+
+***** Sheet /Temperature Sensors/LM235_23_24/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(30.48 mm, 25.40 mm): Pin 1 (Power input) of component #PWR0199 is not driven (Net 5).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(27.94 mm, 76.20 mm): Pin 11 (Power input) of component U1501 is not driven (Net 271).
+
+***** Sheet /Temperature Sensors/LM235_25_26/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(30.48 mm, 25.40 mm): Pin 1 (Power input) of component #PWR0199 is not driven (Net 5).
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(27.94 mm, 76.20 mm): Pin 11 (Power input) of component U1501 is not driven (Net 271).
+
+***** Sheet /Voltage Sensors/
+
+***** Sheet /Voltage Sensors/voltage_1_2/
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0144 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0146 (net 209).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0147 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0145 (net 210).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0148 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0150 (net 211).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0151 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0149 (net 221).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0138 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0136 (net 222).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0135 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0133 (net 223).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0132 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0134 (net 224).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0143 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0141 (net 225).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0140 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0142 (net 226).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0137 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0139 (net 227).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0104 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0106 (net 229).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0103 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0101 (net 230).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0107 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0105 (net 239).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0112 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0114 (net 251).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0113 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0115 (net 252).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0109 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0111 (net 253).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0116 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0118 (net 254).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0110 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0108 (net 255).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0119 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0117 (net 256).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0131 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0129 (net 257).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0130 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0128 (net 258).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0124 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0126 (net 259).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0121 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0123 (net 260).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0120 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0122 (net 261).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0127 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0125 (net 265).
+
+***** Sheet /Voltage Sensors/voltage_3_4/
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0144 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0146 (net 209).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0147 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0145 (net 210).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0148 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0150 (net 211).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0151 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0149 (net 221).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0138 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0136 (net 222).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0135 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0133 (net 223).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0132 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0134 (net 224).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0143 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0141 (net 225).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0140 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0142 (net 226).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0137 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0139 (net 227).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0104 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0106 (net 229).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0103 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0101 (net 230).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0107 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0105 (net 239).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0112 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0114 (net 251).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0113 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0115 (net 252).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0109 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0111 (net 253).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0116 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0118 (net 254).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0110 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0108 (net 255).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0119 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0117 (net 256).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0131 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0129 (net 257).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0130 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0128 (net 258).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0124 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0126 (net 259).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0121 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0123 (net 260).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0120 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0122 (net 261).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0127 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0125 (net 265).
+
+***** Sheet /Voltage Sensors/voltage_5_6/
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0144 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0146 (net 209).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0147 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0145 (net 210).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0148 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0150 (net 211).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0151 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0149 (net 221).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0138 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0136 (net 222).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0135 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0133 (net 223).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0132 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0134 (net 224).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0143 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0141 (net 225).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0140 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0142 (net 226).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0137 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0139 (net 227).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0104 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0106 (net 229).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0103 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0101 (net 230).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0107 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0105 (net 239).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0112 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0114 (net 251).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0113 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0115 (net 252).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0109 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0111 (net 253).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0116 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0118 (net 254).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0110 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0108 (net 255).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0119 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0117 (net 256).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0131 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0129 (net 257).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0130 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0128 (net 258).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0124 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0126 (net 259).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0121 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0123 (net 260).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0120 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0122 (net 261).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0127 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0125 (net 265).
+
+***** Sheet /Voltage Sensors/voltage_7_8/
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0144 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0146 (net 209).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0147 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0145 (net 210).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0148 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0150 (net 211).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0151 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0149 (net 221).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0138 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0136 (net 222).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0135 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0133 (net 223).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0132 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0134 (net 224).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0143 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0141 (net 225).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0140 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0142 (net 226).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0137 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0139 (net 227).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0104 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0106 (net 229).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0103 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0101 (net 230).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0107 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0105 (net 239).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0112 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0114 (net 251).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0113 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0115 (net 252).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0109 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0111 (net 253).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0116 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0118 (net 254).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0110 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0108 (net 255).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0119 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0117 (net 256).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0131 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0129 (net 257).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0130 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0128 (net 258).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0124 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0126 (net 259).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0121 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0123 (net 260).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0120 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0122 (net 261).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0127 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0125 (net 265).
+
+***** Sheet /Voltage Sensors/voltage_9_10/
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0144 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0146 (net 209).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0147 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0145 (net 210).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0148 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0150 (net 211).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0151 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0149 (net 221).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0138 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0136 (net 222).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0135 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0133 (net 223).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0132 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0134 (net 224).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0143 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0141 (net 225).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0140 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0142 (net 226).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0137 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0139 (net 227).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0104 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0106 (net 229).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0103 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0101 (net 230).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0107 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0105 (net 239).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0112 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0114 (net 251).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0113 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0115 (net 252).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0109 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0111 (net 253).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0116 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0118 (net 254).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0110 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0108 (net 255).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0119 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0117 (net 256).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0131 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0129 (net 257).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0130 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0128 (net 258).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0124 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0126 (net 259).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0121 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0123 (net 260).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0120 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0122 (net 261).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0127 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0125 (net 265).
+
+***** Sheet /Voltage Sensors/voltage_11_12/
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0144 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0146 (net 209).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0147 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0145 (net 210).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0148 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0150 (net 211).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0151 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0149 (net 221).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0138 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0136 (net 222).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0135 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0133 (net 223).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0132 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0134 (net 224).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0143 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0141 (net 225).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0140 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0142 (net 226).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0137 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0139 (net 227).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0104 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0106 (net 229).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0103 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0101 (net 230).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0107 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0105 (net 239).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0112 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0114 (net 251).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0113 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0115 (net 252).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0109 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0111 (net 253).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0116 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0118 (net 254).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0110 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0108 (net 255).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0119 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0117 (net 256).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0131 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0129 (net 257).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0130 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0128 (net 258).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0124 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0126 (net 259).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0121 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0123 (net 260).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0120 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0122 (net 261).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0127 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0125 (net 265).
+
+***** Sheet /Voltage Sensors/voltage_13_14/
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0144 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0146 (net 209).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0147 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0145 (net 210).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0148 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0150 (net 211).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0151 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0149 (net 221).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0138 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0136 (net 222).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0135 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0133 (net 223).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0132 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0134 (net 224).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0143 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0141 (net 225).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0140 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0142 (net 226).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0137 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0139 (net 227).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0104 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0106 (net 229).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0103 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0101 (net 230).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0107 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0105 (net 239).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0112 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0114 (net 251).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0113 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0115 (net 252).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0109 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0111 (net 253).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0116 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0118 (net 254).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0110 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0108 (net 255).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0119 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0117 (net 256).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0131 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0129 (net 257).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0130 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0128 (net 258).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0124 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0126 (net 259).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0121 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0123 (net 260).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0120 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0122 (net 261).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0127 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0125 (net 265).
+
+***** Sheet /Voltage Sensors/voltage_15_16/
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0144 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0146 (net 209).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0147 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0145 (net 210).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0148 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0150 (net 211).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0151 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0149 (net 221).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0138 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0136 (net 222).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0135 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0133 (net 223).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0132 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0134 (net 224).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0143 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0141 (net 225).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0140 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0142 (net 226).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0137 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0139 (net 227).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0104 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0106 (net 229).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0103 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0101 (net 230).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0107 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0105 (net 239).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0112 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0114 (net 251).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0113 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0115 (net 252).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0109 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0111 (net 253).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0116 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0118 (net 254).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0110 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0108 (net 255).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0119 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0117 (net 256).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0131 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0129 (net 257).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0130 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0128 (net 258).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0124 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0126 (net 259).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0121 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0123 (net 260).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0120 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0122 (net 261).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0127 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0125 (net 265).
+
+***** Sheet /Voltage Sensors/voltage_17_18/
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0144 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0146 (net 209).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0147 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0145 (net 210).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0148 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0150 (net 211).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0151 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0149 (net 221).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0138 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0136 (net 222).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0135 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0133 (net 223).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0132 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0134 (net 224).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0143 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0141 (net 225).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0140 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0142 (net 226).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0137 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0139 (net 227).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0104 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0106 (net 229).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0103 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0101 (net 230).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0107 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0105 (net 239).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0112 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0114 (net 251).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0113 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0115 (net 252).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0109 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0111 (net 253).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0116 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0118 (net 254).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0110 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0108 (net 255).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0119 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0117 (net 256).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0131 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0129 (net 257).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0130 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0128 (net 258).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0124 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0126 (net 259).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0121 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0123 (net 260).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0120 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0122 (net 261).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0127 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0125 (net 265).
+
+***** Sheet /Voltage Sensors/voltage_19_20/
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0144 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0146 (net 209).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0147 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0145 (net 210).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0148 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0150 (net 211).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0151 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0149 (net 221).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0138 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0136 (net 222).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0135 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0133 (net 223).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0132 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0134 (net 224).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0143 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0141 (net 225).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0140 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0142 (net 226).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0137 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0139 (net 227).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0104 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0106 (net 229).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0103 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0101 (net 230).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0107 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0105 (net 239).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0112 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0114 (net 251).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0113 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0115 (net 252).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0109 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0111 (net 253).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0116 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0118 (net 254).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0110 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0108 (net 255).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0119 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0117 (net 256).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0131 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0129 (net 257).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0130 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0128 (net 258).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0124 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0126 (net 259).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0121 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0123 (net 260).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0120 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0122 (net 261).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0127 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0125 (net 265).
+
+***** Sheet /Voltage Sensors/voltage_21_22/
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0144 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0146 (net 209).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0147 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0145 (net 210).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0148 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0150 (net 211).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0151 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0149 (net 221).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0138 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0136 (net 222).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0135 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0133 (net 223).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0132 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0134 (net 224).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0143 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0141 (net 225).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0140 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0142 (net 226).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0137 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0139 (net 227).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0104 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0106 (net 229).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0103 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0101 (net 230).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0107 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0105 (net 239).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0112 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0114 (net 251).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0113 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0115 (net 252).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0109 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0111 (net 253).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0116 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0118 (net 254).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0110 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0108 (net 255).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0119 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0117 (net 256).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0131 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0129 (net 257).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0130 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0128 (net 258).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0124 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0126 (net 259).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0121 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0123 (net 260).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0120 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0122 (net 261).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0127 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0125 (net 265).
+
+***** Sheet /Voltage Sensors/voltage_23_24/
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0144 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0146 (net 209).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0147 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0145 (net 210).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0148 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0150 (net 211).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0151 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0149 (net 221).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0138 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0136 (net 222).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0135 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0133 (net 223).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0132 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0134 (net 224).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0143 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0141 (net 225).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0140 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0142 (net 226).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0137 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0139 (net 227).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0104 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0106 (net 229).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0103 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0101 (net 230).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0107 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0105 (net 239).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0112 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0114 (net 251).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0113 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0115 (net 252).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0109 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0111 (net 253).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0116 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0118 (net 254).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0110 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0108 (net 255).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0119 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0117 (net 256).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0131 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0129 (net 257).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0130 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0128 (net 258).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0124 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0126 (net 259).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0121 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0123 (net 260).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0120 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0122 (net 261).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0127 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0125 (net 265).
+
+***** Sheet /Voltage Sensors/voltage_25_26/
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0144 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0146 (net 209).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0147 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0145 (net 210).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0148 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0150 (net 211).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0151 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0149 (net 221).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0138 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0136 (net 222).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0135 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0133 (net 223).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0132 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0134 (net 224).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0143 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0141 (net 225).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0140 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0142 (net 226).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0137 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0139 (net 227).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0104 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0106 (net 229).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0103 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0101 (net 230).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0107 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0105 (net 239).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0112 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0114 (net 251).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0113 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0115 (net 252).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0109 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0111 (net 253).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0116 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0118 (net 254).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0110 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0108 (net 255).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0119 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0117 (net 256).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0131 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0129 (net 257).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 105.41 mm): Pin 1 (Power output) of component #FLG0130 is connected to 
+    @(109.22 mm, 39.37 mm): pin 1 (Power output) of component #FLG0128 (net 258).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0124 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0126 (net 259).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 80.01 mm): Pin 1 (Power output) of component #FLG0121 is connected to 
+    @(109.22 mm, 66.04 mm): pin 1 (Power output) of component #FLG0123 (net 260).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 39.37 mm): Pin 1 (Power output) of component #FLG0120 is connected to 
+    @(109.22 mm, 105.41 mm): pin 1 (Power output) of component #FLG0122 (net 261).
+ErrType(5): Conflict problem between pins. Severity: error
+    @(109.22 mm, 66.04 mm): Pin 1 (Power output) of component #FLG0127 is connected to 
+    @(109.22 mm, 80.01 mm): pin 1 (Power output) of component #FLG0125 (net 265).
+
+***** Sheet /Balancing/
+
+***** Sheet /Balancing/Balancing 01/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(78.74 mm, 109.22 mm): Pin 1 (Power input) of component #PWR03708 is not driven (Net 6).
+
+***** Sheet /Balancing/Balancing 02/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(78.74 mm, 109.22 mm): Pin 1 (Power input) of component #PWR03708 is not driven (Net 6).
+
+***** Sheet /Balancing/Balancing 03/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(78.74 mm, 109.22 mm): Pin 1 (Power input) of component #PWR03708 is not driven (Net 6).
+
+***** Sheet /Balancing/Balancing 04/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(78.74 mm, 109.22 mm): Pin 1 (Power input) of component #PWR03708 is not driven (Net 6).
+
+***** Sheet /Balancing/Balancing 05/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(78.74 mm, 109.22 mm): Pin 1 (Power input) of component #PWR03708 is not driven (Net 6).
+
+***** Sheet /Balancing/Balancing 06/
+ErrType(3): Pin connected to other pins, but not driven by any pin
+    @(78.74 mm, 109.22 mm): Pin 1 (Power input) of component #PWR03708 is not driven (Net 6).
+
+***** Sheet /Balancing/Balancing 07/
+
+ ** ERC messages: 422  Errors 325  Warnings 97

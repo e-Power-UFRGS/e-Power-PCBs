@@ -1,0 +1,583 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 9055 5906
+encoding utf-8
+Sheet 5 19
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 8000 3800 2    50   Input ~ 0
+2.2727V
+Text Label 7900 3800 2    50   ~ 0
+2.2727V
+Wire Wire Line
+	8000 800  7900 800 
+Wire Wire Line
+	8000 900  7900 900 
+Wire Wire Line
+	8000 1000 7900 1000
+Wire Wire Line
+	8000 1100 7900 1100
+Wire Wire Line
+	8000 1200 7900 1200
+Wire Wire Line
+	8000 1300 7900 1300
+Wire Wire Line
+	8000 1400 7900 1400
+Wire Wire Line
+	8000 1500 7900 1500
+Wire Wire Line
+	8000 1600 7900 1600
+Wire Wire Line
+	8000 1700 7900 1700
+Wire Wire Line
+	8000 1800 7900 1800
+Wire Wire Line
+	8000 1900 7900 1900
+Wire Wire Line
+	8000 2000 7900 2000
+Wire Wire Line
+	8000 2100 7900 2100
+Wire Wire Line
+	8000 2200 7900 2200
+Wire Wire Line
+	8000 2300 7900 2300
+Wire Wire Line
+	8000 2400 7900 2400
+Wire Wire Line
+	8000 2500 7900 2500
+Wire Wire Line
+	8000 2600 7900 2600
+Wire Wire Line
+	8000 2700 7900 2700
+Wire Wire Line
+	8000 2800 7900 2800
+Wire Wire Line
+	8000 2900 7900 2900
+Wire Wire Line
+	8000 3000 7900 3000
+Wire Wire Line
+	8000 3100 7900 3100
+Wire Wire Line
+	8000 3200 7900 3200
+Wire Wire Line
+	8000 3300 7900 3300
+Wire Wire Line
+	8000 3400 7900 3400
+Wire Wire Line
+	8000 3500 7900 3500
+Wire Wire Line
+	8000 3600 7900 3600
+Wire Wire Line
+	8000 3700 7900 3700
+Text Label 7900 800  2    50   ~ 0
+0V
+Text Label 7900 1000 2    50   ~ 0
+TS_1
+Text Label 7900 1100 2    50   ~ 0
+TS_2
+Text Label 7900 1200 2    50   ~ 0
+TS_3
+Text Label 7900 1300 2    50   ~ 0
+TS_4
+Text Label 7900 1400 2    50   ~ 0
+TS_5
+Text Label 7900 1500 2    50   ~ 0
+TS_6
+Text Label 7900 1600 2    50   ~ 0
+TS_7
+Text Label 7900 1700 2    50   ~ 0
+TS_8
+Text Label 7900 1800 2    50   ~ 0
+TS_9
+Text Label 7900 1900 2    50   ~ 0
+TS_10
+Text Label 7900 2000 2    50   ~ 0
+TS_11
+Text Label 7900 900  2    50   ~ 0
+0V
+Text Label 7900 2100 2    50   ~ 0
+TS_12
+Text Label 7900 2200 2    50   ~ 0
+TS_13
+Text Label 7900 2300 2    50   ~ 0
+TS_14
+Text Label 7900 2400 2    50   ~ 0
+TS_15
+Text Label 7900 2500 2    50   ~ 0
+TS_16
+Text Label 7900 2600 2    50   ~ 0
+TS_17
+Text Label 7900 2700 2    50   ~ 0
+TS_18
+Text Label 7900 2800 2    50   ~ 0
+TS_19
+Text Label 7900 2900 2    50   ~ 0
+TS_20
+Text Label 7900 3000 2    50   ~ 0
+TS_21
+Text Label 7900 3100 2    50   ~ 0
+TS_22
+Text Label 7900 3200 2    50   ~ 0
+TS_23
+Text Label 7900 3300 2    50   ~ 0
+TS_24
+Text Label 7900 3400 2    50   ~ 0
+TS_25
+Text Label 7900 3500 2    50   ~ 0
+TS_26
+Text Label 7900 3600 2    50   ~ 0
+TS_27
+Text Label 7900 3700 2    50   ~ 0
+TS_28
+Wire Wire Line
+	7900 3800 8000 3800
+Text HLabel 2050 3650 2    50   Input ~ 0
+T10
+Text HLabel 2050 3550 2    50   Input ~ 0
+T9
+Text HLabel 2050 2950 2    50   Input ~ 0
+T8
+Text HLabel 2050 2850 2    50   Input ~ 0
+T7
+Text HLabel 2050 2250 2    50   Input ~ 0
+T6
+Text HLabel 2050 2150 2    50   Input ~ 0
+T5
+Text HLabel 2050 1550 2    50   Input ~ 0
+T4
+Text HLabel 2050 1450 2    50   Input ~ 0
+T3
+Wire Wire Line
+	1950 3650 2050 3650
+Wire Wire Line
+	1950 3550 2050 3550
+Wire Wire Line
+	1950 2950 2050 2950
+Wire Wire Line
+	1950 2850 2050 2850
+Wire Wire Line
+	1950 2250 2050 2250
+Wire Wire Line
+	1950 2150 2050 2150
+Wire Wire Line
+	1950 1550 2050 1550
+Wire Wire Line
+	1950 1450 2050 1450
+Wire Wire Line
+	1950 850  2050 850 
+Wire Wire Line
+	1950 750  2050 750 
+Text HLabel 2050 850  2    50   Input ~ 0
+T2
+Text HLabel 2050 750  2    50   Input ~ 0
+T1
+Text Label 850  1450 2    50   ~ 0
+TS_3
+Text Label 850  2350 2    50   ~ 0
+TS_6
+Text Label 850  2150 2    50   ~ 0
+TS_5
+Text Label 850  1650 2    50   ~ 0
+TS_4
+Text Label 850  2850 2    50   ~ 0
+TS_7
+Text Label 850  3050 2    50   ~ 0
+TS_8
+Text Label 850  3550 2    50   ~ 0
+TS_9
+Text Label 850  3750 2    50   ~ 0
+TS_10
+Wire Wire Line
+	950  3750 850  3750
+Wire Wire Line
+	950  3550 850  3550
+Wire Wire Line
+	950  3050 850  3050
+Wire Wire Line
+	950  2850 850  2850
+Wire Wire Line
+	950  2350 850  2350
+Wire Wire Line
+	950  2150 850  2150
+Wire Wire Line
+	950  1650 850  1650
+Wire Wire Line
+	950  1450 850  1450
+Text Label 850  950  2    50   ~ 0
+TS_2
+Text Label 850  750  2    50   ~ 0
+TS_1
+Wire Wire Line
+	950  950  850  950 
+Wire Wire Line
+	950  750  850  750 
+$Sheet
+S 950  2700 1000 500 
+U 5EC054D5
+F0 "LM235_7_8" 50
+F1 "LM235_7_8.sch" 50
+F2 "2.2727V" I L 950 2950 50 
+F3 "TS_8" I L 950 3050 50 
+F4 "T8" O R 1950 2950 50 
+F5 "TS_7" I L 950 2850 50 
+F6 "T7" O R 1950 2850 50 
+$EndSheet
+Text Label 850  850  2    50   ~ 0
+2.2727V
+Text Label 850  1550 2    50   ~ 0
+2.2727V
+Text Label 850  2250 2    50   ~ 0
+2.2727V
+Text Label 850  2950 2    50   ~ 0
+2.2727V
+Text Label 850  3650 2    50   ~ 0
+2.2727V
+Wire Wire Line
+	950  3650 850  3650
+Wire Wire Line
+	950  2950 850  2950
+Wire Wire Line
+	950  2250 850  2250
+Wire Wire Line
+	950  1550 850  1550
+Wire Wire Line
+	950  850  850  850 
+$Sheet
+S 950  3400 1000 500 
+U 5EC054E3
+F0 "LM235_9_10" 50
+F1 "LM235_9_10.sch" 50
+F2 "2.2727V" I L 950 3650 50 
+F3 "TS_10" I L 950 3750 50 
+F4 "T10" O R 1950 3650 50 
+F5 "TS_9" I L 950 3550 50 
+F6 "T9" O R 1950 3550 50 
+$EndSheet
+$Sheet
+S 950  2000 1000 500 
+U 5EC054DC
+F0 "LM235_5_6" 50
+F1 "LM235_5_6.sch" 50
+F2 "TS_6" I L 950 2350 50 
+F3 "T6" O R 1950 2250 50 
+F4 "2.2727V" I L 950 2250 50 
+F5 "TS_5" I L 950 2150 50 
+F6 "T5" O R 1950 2150 50 
+$EndSheet
+$Sheet
+S 950  1300 1000 500 
+U 5EC054CE
+F0 "LM235_3_4" 50
+F1 "LM235_3_4.sch" 50
+F2 "TS_4" I L 950 1650 50 
+F3 "T4" O R 1950 1550 50 
+F4 "2.2727V" I L 950 1550 50 
+F5 "TS_3" I L 950 1450 50 
+F6 "T3" O R 1950 1450 50 
+$EndSheet
+$Sheet
+S 950  600  1000 500 
+U 5EC054C7
+F0 "LM235_1_2" 50
+F1 "LM235_1_2.sch" 50
+F2 "TS_2" I L 950 950 50 
+F3 "T2" O R 1950 850 50 
+F4 "2.2727V" I L 950 850 50 
+F5 "TS_1" I L 950 750 50 
+F6 "T1" O R 1950 750 50 
+$EndSheet
+Text HLabel 3850 1550 2    50   Input ~ 0
+T16
+Text HLabel 3850 1450 2    50   Input ~ 0
+T15
+Wire Wire Line
+	3750 1550 3850 1550
+Wire Wire Line
+	3750 1450 3850 1450
+Wire Wire Line
+	3750 850  3850 850 
+Wire Wire Line
+	3750 750  3850 750 
+Wire Wire Line
+	1950 4350 2050 4350
+Wire Wire Line
+	1950 4250 2050 4250
+Text Label 2650 750  2    50   ~ 0
+TS_13
+Text Label 2650 1650 2    50   ~ 0
+TS_16
+Text Label 2650 1450 2    50   ~ 0
+TS_15
+Text Label 2650 950  2    50   ~ 0
+TS_14
+Wire Wire Line
+	2750 1650 2650 1650
+Wire Wire Line
+	2750 1450 2650 1450
+Wire Wire Line
+	2750 950  2650 950 
+Wire Wire Line
+	2750 750  2650 750 
+Text Label 850  4450 2    50   ~ 0
+TS_12
+Text Label 850  4250 2    50   ~ 0
+TS_11
+Wire Wire Line
+	950  4450 850  4450
+Wire Wire Line
+	950  4250 850  4250
+Text Label 850  4350 2    50   ~ 0
+2.2727V
+Text Label 2650 850  2    50   ~ 0
+2.2727V
+Text Label 2650 1550 2    50   ~ 0
+2.2727V
+Wire Wire Line
+	2750 1550 2650 1550
+Wire Wire Line
+	2750 850  2650 850 
+Wire Wire Line
+	950  4350 850  4350
+$Sheet
+S 950  4100 1000 500 
+U 5EC39151
+F0 "LM235_11_12" 50
+F1 "LM235_11_12.sch" 50
+F2 "2.2727V" I L 950 4350 50 
+F3 "TS_12" I L 950 4450 50 
+F4 "T12" O R 1950 4350 50 
+F5 "TS_11" I L 950 4250 50 
+F6 "T11" O R 1950 4250 50 
+$EndSheet
+$Sheet
+S 2750 600  1000 500 
+U 5EC3914A
+F0 "LM235_13_14" 50
+F1 "LM235_13_14.sch" 50
+F2 "2.2727V" I L 2750 850 50 
+F3 "TS_14" I L 2750 950 50 
+F4 "T14" O R 3750 850 50 
+F5 "TS_13" I L 2750 750 50 
+F6 "T13" O R 3750 750 50 
+$EndSheet
+$Sheet
+S 2750 1300 1000 500 
+U 5EC39143
+F0 "LM235_15_16" 50
+F1 "LM235_15_16.sch" 50
+F2 "2.2727V" I L 2750 1550 50 
+F3 "TS_16" I L 2750 1650 50 
+F4 "T16" O R 3750 1550 50 
+F5 "TS_15" I L 2750 1450 50 
+F6 "T15" O R 3750 1450 50 
+$EndSheet
+$Sheet
+S 2750 2700 1000 500 
+U 5EC3913C
+F0 "LM235_19_20" 50
+F1 "LM235_19_20.sch" 50
+F2 "2.2727V" I L 2750 2950 50 
+F3 "TS_20" I L 2750 3050 50 
+F4 "T20" O R 3750 2950 50 
+F5 "TS_19" I L 2750 2850 50 
+F6 "T19" O R 3750 2850 50 
+$EndSheet
+$Sheet
+S 2750 2000 1000 500 
+U 5EC3912B
+F0 "LM235_17_18" 50
+F1 "LM235_17_18.sch" 50
+F2 "2.2727V" I L 2750 2250 50 
+F3 "TS_18" I L 2750 2350 50 
+F4 "T18" O R 3750 2250 50 
+F5 "TS_17" I L 2750 2150 50 
+F6 "T17" O R 3750 2150 50 
+$EndSheet
+Wire Wire Line
+	2750 2250 2650 2250
+Wire Wire Line
+	2750 2950 2650 2950
+Text Label 2650 2950 2    50   ~ 0
+2.2727V
+Text Label 2650 2250 2    50   ~ 0
+2.2727V
+Wire Wire Line
+	2750 2150 2650 2150
+Wire Wire Line
+	2750 2350 2650 2350
+Wire Wire Line
+	2750 2850 2650 2850
+Wire Wire Line
+	2750 3050 2650 3050
+Text Label 2650 3050 2    50   ~ 0
+TS_20
+Text Label 2650 2850 2    50   ~ 0
+TS_19
+Text Label 2650 2350 2    50   ~ 0
+TS_18
+Text Label 2650 2150 2    50   ~ 0
+TS_17
+Text HLabel 2050 4250 2    50   Input ~ 0
+T11
+Text HLabel 2050 4350 2    50   Input ~ 0
+T12
+Wire Wire Line
+	3750 2150 3850 2150
+Wire Wire Line
+	3750 2250 3850 2250
+Wire Wire Line
+	3750 2850 3850 2850
+Wire Wire Line
+	3750 2950 3850 2950
+Text HLabel 3850 750  2    50   Input ~ 0
+T13
+Text HLabel 3850 850  2    50   Input ~ 0
+T14
+Text HLabel 3850 2150 2    50   Input ~ 0
+T17
+Text HLabel 3850 2250 2    50   Input ~ 0
+T18
+Text HLabel 3850 2850 2    50   Input ~ 0
+T19
+Text HLabel 3850 2950 2    50   Input ~ 0
+T20
+Wire Wire Line
+	2750 3650 2650 3650
+Text Label 2650 3650 2    50   ~ 0
+2.2727V
+Wire Wire Line
+	2750 3550 2650 3550
+Wire Wire Line
+	2750 3750 2650 3750
+Text Label 2650 3750 2    50   ~ 0
+TS_22
+Text Label 2650 3550 2    50   ~ 0
+TS_21
+Wire Wire Line
+	3750 3550 3850 3550
+Wire Wire Line
+	3750 3650 3850 3650
+Text HLabel 3850 3550 2    50   Input ~ 0
+T21
+Text HLabel 3850 3650 2    50   Input ~ 0
+T22
+Wire Wire Line
+	2750 4350 2650 4350
+Text Label 2650 4350 2    50   ~ 0
+2.2727V
+Wire Wire Line
+	2750 4250 2650 4250
+Wire Wire Line
+	2750 4450 2650 4450
+Text Label 2650 4450 2    50   ~ 0
+TS_24
+Text Label 2650 4250 2    50   ~ 0
+TS_23
+Wire Wire Line
+	3750 4250 3850 4250
+Wire Wire Line
+	3750 4350 3850 4350
+Text HLabel 3850 4250 2    50   Input ~ 0
+T23
+Text HLabel 3850 4350 2    50   Input ~ 0
+T24
+$Sheet
+S 2750 3400 1000 500 
+U 5ECCDB46
+F0 "LM235_21_22" 50
+F1 "LM235_21_22.sch" 50
+F2 "2.2727V" I L 2750 3650 50 
+F3 "TS_22" I L 2750 3750 50 
+F4 "T22" O R 3750 3650 50 
+F5 "TS_21" I L 2750 3550 50 
+F6 "T21" O R 3750 3550 50 
+$EndSheet
+$Sheet
+S 2750 4100 1000 500 
+U 5ECD28C3
+F0 "LM235_23_24" 50
+F1 "LM235_23_24.sch" 50
+F2 "2.2727V" I L 2750 4350 50 
+F3 "TS_24" I L 2750 4450 50 
+F4 "T24" O R 3750 4350 50 
+F5 "TS_23" I L 2750 4250 50 
+F6 "T23" O R 3750 4250 50 
+$EndSheet
+$Comp
+L Connector:Conn_01x30_Female J501
+U 1 1 5EC0A8C6
+P 8200 2200
+F 0 "J501" H 8228 2176 50  0000 L CNN
+F 1 "TEMP_IDC_30_CONN" H 7600 500 50  0000 L CNN
+F 2 "Connector_IDC:IDC-Header_2x15_P2.54mm_Horizontal" H 8200 2200 50  0001 C CNN
+F 3 "~" H 8200 2200 50  0001 C CNN
+	1    8200 2200
+	1    0    0    -1  
+$EndComp
+Text HLabel 5650 850  2    50   Input ~ 0
+T26
+Text HLabel 5650 750  2    50   Input ~ 0
+T25
+Wire Wire Line
+	5550 850  5650 850 
+Wire Wire Line
+	5550 750  5650 750 
+Text Label 4450 950  2    50   ~ 0
+TS_26
+Text Label 4450 750  2    50   ~ 0
+TS_25
+Wire Wire Line
+	4550 950  4450 950 
+Wire Wire Line
+	4550 750  4450 750 
+Text Label 4450 850  2    50   ~ 0
+2.2727V
+Wire Wire Line
+	4550 850  4450 850 
+$Sheet
+S 4550 600  1000 500 
+U 5ECFC008
+F0 "sheet5ECFC008" 50
+F1 "LM235_15_16.sch" 50
+F2 "2.2727V" I L 4550 850 50 
+F3 "TS_26" I L 4550 950 50 
+F4 "T26" O R 5550 850 50 
+F5 "TS_25" I L 4550 750 50 
+F6 "T25" O R 5550 750 50 
+$EndSheet
+$Sheet
+S 4550 1300 1000 500 
+U 5ECFC016
+F0 "sheet5ECFC016" 50
+F1 "LM235_17_18.sch" 50
+F2 "2.2727V" I L 4550 1550 50 
+$EndSheet
+Wire Wire Line
+	4550 1550 4450 1550
+Text Label 4450 1550 2    50   ~ 0
+2.2727V
+Wire Wire Line
+	4550 1450 4450 1450
+Wire Wire Line
+	4550 1650 4450 1650
+Text Label 4450 1650 2    50   ~ 0
+TS_28
+Text Label 4450 1450 2    50   ~ 0
+TS_27
+Wire Wire Line
+	5550 1450 5650 1450
+Wire Wire Line
+	5550 1550 5650 1550
+Text HLabel 5650 1450 2    50   Input ~ 0
+T27
+Text HLabel 5650 1550 2    50   Input ~ 0
+T28
+$EndSCHEMATC
