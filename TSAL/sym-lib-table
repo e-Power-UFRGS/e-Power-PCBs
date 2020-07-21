@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name TSAL-rescue)(type Legacy)(uri ${KIPRJMOD}/TSAL-rescue.lib)(options "")(descr ""))
+)
