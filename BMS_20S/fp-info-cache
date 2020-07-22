@@ -1,4 +1,4 @@
-17013009040972776
+17021013990965450
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75285,13 +75285,6 @@ DSUB-9_Female_EdgeMount_P2.77mm
 9
 9
 e-Power
-ESD-Logo_8.9x8mm_Copper
-Electrostatic discharge Logo
-Logo ESD
-0
-0
-0
-e-Power
 ESP-32-dev-kit
 
 
@@ -75354,6 +75347,111 @@ Choke SMD
 0
 2
 2
+e-Power
+Logo_ESD_8.9x8mm_Copper
+Electrostatic discharge Logo on Copper Layer
+Logo ESD
+0
+0
+0
+e-Power
+Logo_ESD_8.9x8mm_Silk
+Electrostatic discharge Logo on Silkscreen layer
+Logo ESD
+0
+0
+0
+e-Power
+Logo_UFRGS_9.2x5.0mm_Copper
+
+logo UFRGS
+0
+0
+0
+e-Power
+Logo_UFRGS_9.2x5.0mm_Silk
+
+logo UFRGS
+0
+0
+0
+e-Power
+Logo_UFRGS_11.0x6.0mm_Copper
+
+logo UFRGS
+0
+0
+0
+e-Power
+Logo_UFRGS_11.0x6.0mm_Silk
+
+logo UFRGS
+0
+0
+0
+e-Power
+Logo_UFRGS_14.7x8.0mm_Copper
+
+logo UFRGS
+0
+0
+0
+e-Power
+Logo_UFRGS_22.0x12.0mm_Copper
+
+logo UFRGS
+0
+0
+0
+e-Power
+Logo_e-Power_12.4x6.0mm_Copper
+
+
+0
+0
+0
+e-Power
+Logo_e-Power_12.4x6.0mm_Silk
+
+
+0
+0
+0
+e-Power
+Logo_e-Power_16.5x8.0mm_Copper
+
+
+0
+0
+0
+e-Power
+Logo_e-Power_22.8x12.0mm_Copper
+
+
+0
+0
+0
+e-Power
+Logo_e-Power_41.3x20.0mm_Copper
+
+
+0
+0
+0
+e-Power
+MountingHole_3.2mm_M3_Pad
+Mounting Hole 3.2mm, M3, 
+mounting hole 3.2mm m3 
+0
+1
+1
+e-Power
+MountingHole_3.2mm_M3_Pad_Via
+Mounting Hole 3.2mm, M3, added vias
+mounting hole 3.2mm m3
+0
+9
+1
 e-Power
 PinSocket_1x20_P2.54mm_Vertical
 Through hole straight socket strip, 1x20, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
@@ -75481,34 +75579,6 @@ THT Terminal Block Phoenix MKDS-1,5-8-5.08 pitch 5.08mm size 40.6x9.8mm^2 drill 
 8
 8
 e-Power
-UFRGS_9.2x5.0mm_Copper
-logo da UFRGS com 9.2mm de altura e 5.0mm de largura
-logo UFRGS
-0
-0
-0
-e-Power
-UFRGS_11.0x6.0mm_Copper
-logo da UFRGS com 11.0mm de altura e 6.0mm de largura
-logo UFRGS
-0
-0
-0
-e-Power
-UFRGS_14.7x8.0mm_Copper
-logo da UFRGS com 14.7mm de altura e 8.0mm de largura
-logo UFRGS
-0
-0
-0
-e-Power
-UFRGS_22.0x12.0mm_Copper
-logo da UFRGS com 22.0mm de altura e 12.0mm de largura
-logo UFRGS
-0
-0
-0
-e-Power
 UFRGS_36.7x20.0mm_Copper
 logo da UFRGS com 36.7mm de altura e 20.0mm de largura
 logo UFRGS
@@ -75540,34 +75610,6 @@ e-Power
 WEEE-Logo_5.6x8mm_Copper
 Waste Electrical and Electronic Equipment Directive
 Logo WEEE
-0
-0
-0
-e-Power
-e-Power_12.4x6.0mm_Copper
-
-
-0
-0
-0
-e-Power
-e-Power_16.5x8.0mm_Copper
-
-
-0
-0
-0
-e-Power
-e-Power_22.8x12.0mm_Copper
-
-
-0
-0
-0
-e-Power
-e-Power_41.3x20.0mm_Copper
-
-
 0
 0
 0
