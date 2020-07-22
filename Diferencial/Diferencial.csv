@@ -1,0 +1,109 @@
+Source:,C:\Users\gabri\GoogleDrive\E-POWER\Eletronica\KiCad\Diferencial\Diferencial.sch,,,,,
+Date:,7/4/2020 1:17:21 AM,,,,,
+Tool:,Eeschema (5.1.5)-3,,,,,
+Generator:,C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,
+Component Count:,64,,,,,
+,,,,,,
+Individual Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+,,C1,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C2,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C3,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C4,1u,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C5,1u,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C6,1u,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C7,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C8,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C9,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C10,100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C11,10n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C12,470u,Device:CP,Capacitor_SMD:CP_Elec_8x10,~
+,,C13,470u,Device:CP,Capacitor_SMD:CP_Elec_8x10,~
+,,D1,D_SCH_1N5819,e-Power:D_SCH_1N5819,Diode_SMD:D_SOD-323_HandSoldering,
+,,D2,LED,Device:LED,e-Power:LED_0805_1.15x1.40mm_HandSolder,~
+,,D3,LED,Device:LED,e-Power:LED_0805_1.15x1.40mm_HandSolder,~
+,,D4,LED,Device:LED,e-Power:LED_0805_1.15x1.40mm_HandSolder,~
+,,D5,1N4148,Diode:1N4148,e-Power:DO-35_SMD,https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
+,,F1,Fuse,Device:Fuse,Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,FB1,Ferrite_Bead,Device:Ferrite_Bead,Ferrite_THT:LairdTech_28C0236-0JW-10,~
+,,J1,Pedal Sensor 1,Connector_Generic:Conn_01x03,"Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal",~
+,,J2,Pedal Sensor 2,Connector_Generic:Conn_01x03,"Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal",~
+,,J3,DB9_Female,Connector:DB9_Female,Connector_Dsub:DSUB-9_Female_EdgeMount_P2.77mm, ~
+,,J4,DB9_Female,Connector:DB9_Female,Connector_Dsub:DSUB-9_Female_EdgeMount_P2.77mm, ~
+,,J5,Screw_Terminal_01x02,Connector:Screw_Terminal_01x02,"Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_2-G-7,62_1x02_P7.62mm_Horizontal",~
+,,J6,Brake Sensor,Connector_Generic:Conn_01x03,"Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal",~
+,,K1,DIPxx-1Cxx-51x,Relay:DIPxx-1Cxx-51x,Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C,https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf
+,,Q1,BC547,Transistor_BJT:BC547,Package_TO_SOT_SMD:SC-59_Handsoldering,http://www.fairchildsemi.com/ds/BC/BC547.pdf
+,,R1,ADJ,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R2,1K2,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R3,18K,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R4,ADJ,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R5,1K2,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R6,18K,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R7,10K,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R8,10K,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R9,10K,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R10,ADJ,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R11,2K2,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R12,ADJ,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R13,2K2,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R14,10K,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R15,ADJ,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R16,10K,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R17,10K,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R18,2K7,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R19,120,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R20,1K,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R21,330,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R22,330,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R23,330,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R24,330,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R25,1K,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R26,ADJ,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R27,ADJ,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R28,2K2,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R29,ADJ,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R30,3K3,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R31,10K,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,U1,LM358,Amplifier_Operational:LM358,e-Power:DIP-8_SMD,http://www.ti.com/lit/ds/symlink/lm2904-n.pdf
+,,U2,LM358,Amplifier_Operational:LM358,e-Power:DIP-8_SMD,http://www.ti.com/lit/ds/symlink/lm2904-n.pdf
+,,U3,MCP2558FD-xSN,Interface_CAN_LIN:MCP2558FD-xSN,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://ww1.microchip.com/downloads/en/DeviceDoc/20005533A.pdf
+,,U4,LM317_TO39,Regulator_Linear:LM317_TO39,Package_TO_SOT_THT:TO-39-3,http://www.ti.com/lit/ds/symlink/lm317.pdf
+,,U5,UFRGS_PILL,e-Power:UFRGS_PILL,e-Power:UFRGS_PILL,
+,,,,,,
+,,,,,,
+,,,,,,
+Collated Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+1,7,"C1, C2, C3, C7, C8, C9, C10",100n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+2,3,"C4, C5, C6",1u,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+3,1,C11,10n,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+4,2,"C12, C13",470u,Device:CP,Capacitor_SMD:CP_Elec_8x10,~
+5,1,D1,D_SCH_1N5819,e-Power:D_SCH_1N5819,Diode_SMD:D_SOD-323_HandSoldering,
+6,3,"D2, D3, D4",LED,Device:LED,e-Power:LED_0805_1.15x1.40mm_HandSolder,~
+7,1,D5,1N4148,Diode:1N4148,e-Power:DO-35_SMD,https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf
+8,1,F1,Fuse,Device:Fuse,Fuse:Fuse_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+9,1,FB1,Ferrite_Bead,Device:Ferrite_Bead,Ferrite_THT:LairdTech_28C0236-0JW-10,~
+10,1,J1,Pedal Sensor 1,Connector_Generic:Conn_01x03,"Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal",~
+11,1,J2,Pedal Sensor 2,Connector_Generic:Conn_01x03,"Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal",~
+12,2,"J3, J4",DB9_Female,Connector:DB9_Female,Connector_Dsub:DSUB-9_Female_EdgeMount_P2.77mm, ~
+13,1,J5,Screw_Terminal_01x02,Connector:Screw_Terminal_01x02,"Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_2-G-7,62_1x02_P7.62mm_Horizontal",~
+14,1,J6,Brake Sensor,Connector_Generic:Conn_01x03,"Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G_1x03_P7.50mm_Horizontal",~
+15,1,K1,DIPxx-1Cxx-51x,Relay:DIPxx-1Cxx-51x,Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C,https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf
+16,1,Q1,BC547,Transistor_BJT:BC547,Package_TO_SOT_SMD:SC-59_Handsoldering,http://www.fairchildsemi.com/ds/BC/BC547.pdf
+17,8,"R1, R4, R10, R12, R15, R26, R27, R29",ADJ,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+18,2,"R2, R5",1K2,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+19,2,"R3, R6",18K,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+20,7,"R7, R8, R9, R14, R16, R17, R31",10K,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+21,3,"R11, R13, R28",2K2,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+22,1,R18,2K7,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+23,1,R19,120,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+24,2,"R20, R25",1K,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+25,4,"R21, R22, R23, R24",330,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+26,1,R30,3K3,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+27,2,"U1, U2",LM358,Amplifier_Operational:LM358,e-Power:DIP-8_SMD,http://www.ti.com/lit/ds/symlink/lm2904-n.pdf
+28,1,U3,MCP2558FD-xSN,Interface_CAN_LIN:MCP2558FD-xSN,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,https://ww1.microchip.com/downloads/en/DeviceDoc/20005533A.pdf
+29,1,U4,LM317_TO39,Regulator_Linear:LM317_TO39,Package_TO_SOT_THT:TO-39-3,http://www.ti.com/lit/ds/symlink/lm317.pdf
+30,1,U5,UFRGS_PILL,e-Power:UFRGS_PILL,e-Power:UFRGS_PILL,

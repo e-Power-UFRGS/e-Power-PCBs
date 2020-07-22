@@ -1,0 +1,73 @@
+Source:,C:\Users\gabri\GoogleDrive\E-POWER\Eletronica\UFRGS PILL\UFRGS PILL\UFRGS PILL.sch,,,,,
+Date:,7/9/2020 12:29:23 PM,,,,,
+Tool:,Eeschema (5.1.5)-3,,,,,
+Generator:,C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,
+Component Count:,38,,,,,
+,,,,,,
+Individual Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+,,C1,100nF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C2,100nF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C3,100nF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C4,100nF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C5,10uF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C6,100nF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C7,100nF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C8,100nF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C9,10uF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C10,10uF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C11,100nF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C12,12pF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C13,12pF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C14,100pF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,C15,100pF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,D1,BAT54A,Diode:BAT54A,Package_TO_SOT_SMD:SOT-23,http://www.diodes.com/_files/datasheets/ds11005.pdf
+,,D2,BAT54A,Diode:BAT54A,e-Power:SOT-23,http://www.diodes.com/_files/datasheets/ds11005.pdf
+,,D3,GRN_LED,Device:LED,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,D4,GRN_LED,Device:LED,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,D5,GRN_LED,Device:LED,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,D6,RED_LED,Device:LED,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,FB1,Ferrite_Bead,Device:Ferrite_Bead,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,J1,ST-LINK,Connector:Conn_01x05_Male,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal,~
+,,J2,USB_B_Micro,Connector:USB_B_Micro,e-Power:USB_Micro-B_Horizontal,~
+,,J3,CONN_01x20,Connector:Conn_01x20_Male,Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical,~
+,,J4,CONN_01x20,Connector:Conn_01x20_Male,Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical,~
+,,R1,0R,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R2,0R,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R4,330R,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R5,330R,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R6,330R,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R7,330R,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,R8,10K,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+,,SW1,SW_Push,Switch:SW_Push,e-Power:SW_Push_1P1T_NO_6x6mm_H9.5mm,~
+,,U1,AZ1117-3.3,Regulator_Linear:AZ1117-3.3,Package_TO_SOT_SMD:SOT-223-3_TabPin2,https://www.diodes.com/assets/Datasheets/AZ1117.pdf
+,,U2,STM32G431CBTx,e-Power:STM32G431CBTx,Package_QFP:LQFP-48_7x7mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32g431cb.pdf
+,,Y1,24MHz,Device:Crystal,Crystal:Crystal_HC49-4H_Vertical,~
+,,Y2,32K768Hz,Device:Crystal,Crystal:Crystal_HC49-4H_Vertical,~
+,,,,,,
+,,,,,,
+,,,,,,
+Collated Components:,,,,,,
+,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet
+1,8,"C1, C2, C3, C4, C6, C7, C8, C11",100nF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+2,3,"C5, C9, C10",10uF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+3,2,"C12, C13",12pF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+4,2,"C14, C15",100pF,Device:C,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+5,1,D1,BAT54A,Diode:BAT54A,Package_TO_SOT_SMD:SOT-23,http://www.diodes.com/_files/datasheets/ds11005.pdf
+6,1,D2,BAT54A,Diode:BAT54A,e-Power:SOT-23,http://www.diodes.com/_files/datasheets/ds11005.pdf
+7,3,"D3, D4, D5",GRN_LED,Device:LED,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+8,1,D6,RED_LED,Device:LED,LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+9,1,FB1,Ferrite_Bead,Device:Ferrite_Bead,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+10,1,J1,ST-LINK,Connector:Conn_01x05_Male,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal,~
+11,1,J2,USB_B_Micro,Connector:USB_B_Micro,e-Power:USB_Micro-B_Horizontal,~
+12,2,"J3, J4",CONN_01x20,Connector:Conn_01x20_Male,Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical,~
+13,2,"R1, R2",0R,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+14,4,"R4, R5, R6, R7",330R,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+15,1,R8,10K,Device:R,Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder,~
+16,1,SW1,SW_Push,Switch:SW_Push,e-Power:SW_Push_1P1T_NO_6x6mm_H9.5mm,~
+17,1,U1,AZ1117-3.3,Regulator_Linear:AZ1117-3.3,Package_TO_SOT_SMD:SOT-223-3_TabPin2,https://www.diodes.com/assets/Datasheets/AZ1117.pdf
+18,1,U2,STM32G431CBTx,e-Power:STM32G431CBTx,Package_QFP:LQFP-48_7x7mm_P0.5mm,https://www.st.com/resource/en/datasheet/stm32g431cb.pdf
+19,1,Y1,24MHz,Device:Crystal,Crystal:Crystal_HC49-4H_Vertical,~
+20,1,Y2,32K768Hz,Device:Crystal,Crystal:Crystal_HC49-4H_Vertical,~

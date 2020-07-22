@@ -1,0 +1,448 @@
+EESchema Schematic File Version 4
+LIBS:Shutdown-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 775  1675 1450 900 
+U 5ED37395
+F0 "BSPD" 50
+F1 "BSPD_Eeschema.sch" 50
+F2 "Out_BSPD" I R 2225 1825 50 
+F3 "In_Current_S" I L 775 1825 50 
+F4 "In_Brake_Pressure_ARM" I L 775 1975 50 
+F5 "+12V" I L 775 2125 50 
+F6 "GND" I L 775 2475 50 
+F7 "Vref" I L 775 2300 50 
+$EndSheet
+$Sheet
+S 4400 1675 1575 1250
+U 5ED47577
+F0 "Set_Reset" 50
+F1 "Set-Reset_Eeschema.sch" 50
+F2 "In_IMD" I L 4400 2125 50 
+F3 "In_BMS" I L 4400 1975 50 
+F4 "In_BSPD" I L 4400 1825 50 
+F5 "+12V" I L 4400 2300 50 
+F6 "GND" I L 4400 2425 50 
+F7 "Set-Reset_Switch" I L 4400 2800 50 
+F8 "Relay_Out_IMD+" I R 5975 2100 50 
+F9 "Relay_Out_IMD-" I R 5975 2300 50 
+F10 "Relay_Out_BMS+" I R 5975 2475 50 
+F11 "Relay_Out_BMS-" I R 5975 2700 50 
+F12 "Relay_Out_BSPD+" I R 5975 1750 50 
+F13 "Relay_Out_BSPD-" I R 5975 1925 50 
+$EndSheet
+$Comp
+L Switch:SW_DIP_x01 Interlock
+U 1 1 5ED58F86
+P 6875 3000
+F 0 "Interlock" V 6829 3130 50  0000 L CNN
+F 1 "Wheel_1" V 6920 3130 50  0000 L CNN
+F 2 "" H 6875 3000 50  0001 C CNN
+F 3 "~" H 6875 3000 50  0001 C CNN
+	1    6875 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_DIP_x01 Interlock
+U 1 1 5ED5AE56
+P 6875 4000
+F 0 "Interlock" V 6829 4130 50  0000 L CNN
+F 1 "Wheel_2" V 6920 4130 50  0000 L CNN
+F 2 "" H 6875 4000 50  0001 C CNN
+F 3 "~" H 6875 4000 50  0001 C CNN
+	1    6875 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_DIP_x01 Interlock
+U 1 1 5ED5C312
+P 6875 5000
+F 0 "Interlock" V 6829 5130 50  0000 L CNN
+F 1 "Wheel_3" V 6920 5130 50  0000 L CNN
+F 2 "" H 6875 5000 50  0001 C CNN
+F 3 "~" H 6875 5000 50  0001 C CNN
+	1    6875 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_DIP_x01 Interlock
+U 1 1 5ED5CD3E
+P 6875 6000
+F 0 "Interlock" V 6829 6130 50  0000 L CNN
+F 1 "Wheel_4" V 6920 6130 50  0000 L CNN
+F 2 "" H 6875 6000 50  0001 C CNN
+F 3 "~" H 6875 6000 50  0001 C CNN
+	1    6875 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_DIP_x01 NA_Switch
+U 1 1 5ED5D65D
+P 6375 3600
+F 0 "NA_Switch" H 6175 3300 50  0000 L CNN
+F 1 "BOTS" H 6275 3400 50  0000 L CNN
+F 2 "" H 6375 3600 50  0001 C CNN
+F 3 "~" H 6375 3600 50  0001 C CNN
+	1    6375 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_DIP_x01 NA_Switch
+U 1 1 5ED5E8DC
+P 6375 4600
+F 0 "NA_Switch" H 6175 4300 50  0000 L CNN
+F 1 "TSMS" H 6275 4400 50  0000 L CNN
+F 2 "" H 6375 4600 50  0001 C CNN
+F 3 "~" H 6375 4600 50  0001 C CNN
+	1    6375 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_DIP_x01 Interlock
+U 1 1 5ED5F008
+P 7925 2700
+F 0 "Interlock" H 7925 2875 50  0000 C CNN
+F 1 "HVD" H 7925 2950 50  0000 C CNN
+F 2 "" H 7925 2700 50  0001 C CNN
+F 3 "~" H 7925 2700 50  0001 C CNN
+	1    7925 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_DIP_x01 Shutdown_Button
+U 1 1 5ED67A81
+P 9675 2300
+F 0 "Shutdown_Button" H 9675 2033 50  0000 C CNN
+F 1 "Right" H 9675 2124 50  0000 C CNN
+F 2 "" H 9675 2300 50  0001 C CNN
+F 3 "~" H 9675 2300 50  0001 C CNN
+	1    9675 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_DIP_x01 Shutdown_Button
+U 1 1 5ED6772B
+P 8650 2300
+F 0 "Shutdown_Button" H 8650 2033 50  0000 C CNN
+F 1 "Cockpit" H 8650 2124 50  0000 C CNN
+F 2 "" H 8650 2300 50  0001 C CNN
+F 3 "~" H 8650 2300 50  0001 C CNN
+	1    8650 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_DIP_x01 Shutdown_Button
+U 1 1 5ED66FB1
+P 7675 2300
+F 0 "Shutdown_Button" H 7675 2033 50  0000 C CNN
+F 1 "Left" H 7675 2124 50  0000 C CNN
+F 2 "" H 7675 2300 50  0001 C CNN
+F 3 "~" H 7675 2300 50  0001 C CNN
+	1    7675 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Switch:SW_DIP_x01 NO_Switch
+U 1 1 5ED66326
+P 6675 2300
+F 0 "NO_Switch" H 6675 2033 50  0000 C CNN
+F 1 "Inertia_Switch" H 6675 2124 50  0000 C CNN
+F 2 "" H 6675 2300 50  0001 C CNN
+F 3 "~" H 6675 2300 50  0001 C CNN
+	1    6675 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6375 2300 5975 2300
+Wire Wire Line
+	6975 2300 7375 2300
+Wire Wire Line
+	7975 2300 8350 2300
+Wire Wire Line
+	8950 2300 9375 2300
+Wire Wire Line
+	5975 2475 10125 2475
+Wire Wire Line
+	10125 2475 10125 2300
+Wire Wire Line
+	10125 2300 9975 2300
+Wire Wire Line
+	6875 3300 6875 3700
+Wire Wire Line
+	6875 4300 6875 4700
+Wire Wire Line
+	6875 5300 6875 5700
+Wire Wire Line
+	6875 2700 7625 2700
+Wire Wire Line
+	6375 3900 6375 4300
+Wire Wire Line
+	5975 2700 6375 2700
+$Comp
+L Relay:DIPxx-1Axx-11x K?
+U 1 1 5ED8708B
+P 9075 3350
+F 0 "K?" H 9405 3396 50  0001 L CNN
+F 1 "AIR_1" H 9405 3350 50  0000 L CNN
+F 2 "Relay_THT:Relay_StandexMeder_DIP_LowProfile" H 9425 3300 50  0001 L CNN
+F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 9075 3350 50  0001 C CNN
+	1    9075 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay:DIPxx-1Axx-11x K?
+U 1 1 5ED88170
+P 9075 5350
+F 0 "K?" H 9405 5396 50  0001 L CNN
+F 1 "AIR_2" H 9405 5350 50  0000 L CNN
+F 2 "Relay_THT:Relay_StandexMeder_DIP_LowProfile" H 9425 5300 50  0001 L CNN
+F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 9075 5350 50  0001 C CNN
+	1    9075 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8225 2700 8875 2700
+Wire Wire Line
+	8875 2700 8875 3050
+Wire Wire Line
+	8875 3650 8875 5050
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5ED8DD83
+P 8875 6200
+F 0 "#PWR?" H 8875 5950 50  0001 C CNN
+F 1 "GNDREF" H 8880 6027 50  0000 C CNN
+F 2 "" H 8875 6200 50  0001 C CNN
+F 3 "" H 8875 6200 50  0001 C CNN
+	1    8875 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6375 6300 6875 6300
+Wire Wire Line
+	2225 1825 4400 1825
+Wire Wire Line
+	5975 1925 6125 1925
+Wire Wire Line
+	6125 1925 6125 2100
+Wire Wire Line
+	6125 2100 5975 2100
+Wire Wire Line
+	6375 3300 6375 2700
+Wire Wire Line
+	6375 4900 6375 6300
+Wire Wire Line
+	8875 6200 8875 5650
+$Comp
+L Switch:SW_DIP_x01 Switch
+U 1 1 5EDA3433
+P 5075 925
+F 0 "Switch" H 4950 625 50  0000 L CNN
+F 1 "GLVMS" H 4950 725 50  0000 L CNN
+F 2 "" H 5075 925 50  0001 C CNN
+F 3 "~" H 5075 925 50  0001 C CNN
+	1    5075 925 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 5EDAA4A9
+P 5375 1075
+F 0 "F?" H 5315 1029 50  0001 R CNN
+F 1 "Fuse" H 5315 1075 50  0000 R CNN
+F 2 "" V 5305 1075 50  0001 C CNN
+F 3 "~" H 5375 1075 50  0001 C CNN
+	1    5375 1075
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6125 1450 6125 1750
+Wire Wire Line
+	6125 1750 5975 1750
+Wire Wire Line
+	5375 1225 5375 1450
+Wire Wire Line
+	5375 1450 6125 1450
+$Comp
+L Device:R R_GLVMP
+U 1 1 5EDADDC5
+P 3550 1225
+F 0 "R_GLVMP" V 3343 1225 50  0000 C CNN
+F 1 "15K" V 3434 1225 50  0000 C CNN
+F 2 "" V 3480 1225 50  0001 C CNN
+F 3 "~" H 3550 1225 50  0001 C CNN
+	1    3550 1225
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Battery_Cell BT?
+U 1 1 5EDAED32
+P 3950 1125
+F 0 "BT?" H 4068 1221 50  0001 L CNN
+F 1 "Battery_Low_Voltage" H 4068 1175 50  0000 L CNN
+F 2 "" V 3950 1185 50  0001 C CNN
+F 3 "~" V 3950 1185 50  0001 C CNN
+	1    3950 1125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 1225 3950 1225
+Wire Wire Line
+	3950 925  4775 925 
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5EDB237E
+P 3950 1350
+F 0 "#PWR?" H 3950 1100 50  0001 C CNN
+F 1 "GNDREF" H 3955 1177 50  0000 C CNN
+F 2 "" H 3950 1350 50  0001 C CNN
+F 3 "" H 3950 1350 50  0001 C CNN
+	1    3950 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 1350 3950 1225
+Connection ~ 3950 1225
+Wire Wire Line
+	3400 1225 3200 1225
+$Comp
+L Device:Battery BT?
+U 1 1 5EDB5BE9
+P 9275 4550
+F 0 "BT?" H 9383 4596 50  0001 L CNN
+F 1 "Battery_High_Voltage" H 9383 4550 50  0000 L CNN
+F 2 "" V 9275 4610 50  0001 C CNN
+F 3 "~" V 9275 4610 50  0001 C CNN
+	1    9275 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 5EDB7D4E
+P 9275 4025
+F 0 "F?" H 9215 3979 50  0001 R CNN
+F 1 "Fuse" H 9215 4025 50  0000 R CNN
+F 2 "" V 9205 4025 50  0001 C CNN
+F 3 "~" H 9275 4025 50  0001 C CNN
+	1    9275 4025
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9275 4175 9275 4350
+Wire Wire Line
+	9275 3875 9275 3650
+Wire Wire Line
+	9275 4750 9275 5050
+$Sheet
+S 775  5200 2000 1225
+U 5ED59845
+F0 "IMD" 50
+F1 "IMD_Eeschema.sch" 50
+F2 "In_XLA+_Line_Vol" I L 775 5325 50 
+F3 "In_XLA-_Line_Vol" I L 775 5500 50 
+F4 "Chassis_Ground" I L 775 5700 50 
+F5 "+12V" I L 775 5900 50 
+F6 "Chassis_Ground_2" I L 775 6125 50 
+F7 "Chassis_Ground_3" I L 775 6300 50 
+F8 "Out_Data_PWM_High" I R 2775 5300 50 
+F9 "Out_Data_PWM_Low" I R 2775 5500 50 
+F10 "Out_Status_IMD" I R 2775 5850 50 
+$EndSheet
+$Sheet
+S 775  3275 1650 1250
+U 5ED5DE32
+F0 "BMS" 50
+F1 "BMS_Eeschema.sch" 50
+F2 "In_Temp_S" I L 775 3425 50 
+F3 "In_Current_S" I L 775 3625 50 
+F4 "In_Voltage_S" I L 775 3825 50 
+F5 "+12V" I L 775 4125 50 
+F6 "GND" I L 775 4325 50 
+F7 "Out_BMS" I R 2425 3500 50 
+$EndSheet
+Wire Wire Line
+	2425 3500 3150 3500
+Wire Wire Line
+	3150 3500 3150 1975
+Wire Wire Line
+	3150 1975 4400 1975
+Wire Wire Line
+	2775 5850 3400 5850
+Wire Wire Line
+	3400 5850 3400 2125
+Wire Wire Line
+	3400 2125 4400 2125
+Wire Wire Line
+	9275 3050 9275 2700
+Wire Wire Line
+	9275 2700 9675 2700
+Connection ~ 9675 2700
+$Comp
+L Device:R R_TSMP
+U 1 1 5ED7542F
+P 10050 3100
+F 0 "R_TSMP" V 9843 3100 50  0000 C CNN
+F 1 "15K" V 9934 3100 50  0000 C CNN
+F 2 "" V 9980 3100 50  0001 C CNN
+F 3 "~" H 10050 3100 50  0001 C CNN
+	1    10050 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9675 3100 9900 3100
+Wire Wire Line
+	9675 2700 9675 3100
+Wire Wire Line
+	10200 3100 10475 3100
+Wire Wire Line
+	9675 2700 10075 2700
+Wire Wire Line
+	9275 5650 9675 5650
+Wire Wire Line
+	9675 5275 9675 5650
+Connection ~ 9675 5650
+Wire Wire Line
+	9675 5650 10075 5650
+$Comp
+L Device:R R_TSMP
+U 1 1 5ED7BC4F
+P 10050 5275
+F 0 "R_TSMP" V 9843 5275 50  0000 C CNN
+F 1 "15K" V 9934 5275 50  0000 C CNN
+F 2 "" V 9980 5275 50  0001 C CNN
+F 3 "~" H 10050 5275 50  0001 C CNN
+	1    10050 5275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9675 5275 9900 5275
+Wire Wire Line
+	10200 5275 10475 5275
+Text GLabel 10475 5275 2    50   Input ~ 0
+TSMP_HV-
+Text GLabel 10075 5650 2    50   Input ~ 0
+Tractive_System
+Text GLabel 10075 2700 2    50   Input ~ 0
+Tractive_System
+Text GLabel 10475 3100 2    50   Input ~ 0
+TSMP_HV+
+Text GLabel 5375 1375 2    50   Input ~ 0
+GLV_System
+Text GLabel 3950 1325 2    50   Input ~ 0
+CHASSIS
+Text GLabel 3200 1225 0    50   Input ~ 0
+GLVMP
+$EndSCHEMATC

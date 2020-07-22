@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\gabri\GoogleDrive\E-POWER\Eletronica\BUCK-BOOST\BUCK-BOOST KiCad\BUCK-BOOST KiCad.sch</source>
+    <date>7/4/2020 12:26:07 AM</date>
+    <tool>Eeschema (5.1.5)-3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BUCK-BOOST 12V</title>
+        <company>e-Power UFRGS</company>
+        <rev>0</rev>
+        <date>2020-05-10</date>
+        <source>BUCK-BOOST KiCad.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U102">
+      <value>LM2596S-ADJ</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2596.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="LM2596S-ADJ" description="Adjustable 3A Step-Down Voltage Regulator, TO-263"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB7B7A2</tstamp>
+    </comp>
+    <comp ref="J101">
+      <value>BATTERY</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB87E5A</tstamp>
+    </comp>
+    <comp ref="D101">
+      <value>SS54HF</value>
+      <footprint>e-Power:DO-214AC</footprint>
+      <datasheet>https://br.mouser.com/datasheet/2/80/20190806165140-1729178.pdf</datasheet>
+      <libsource lib="e-Power" part="D_SCH_SS54HF" description="Schottky diode SS54HF 5A 40V SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB8B647</tstamp>
+    </comp>
+    <comp ref="L102">
+      <value>3uH</value>
+      <footprint>e-Power:L_10.4x10.4_H4.8</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="e-Power" part="INDUCTOR_PWR" description="Power Inductor symbol CDRH104R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB8C274</tstamp>
+    </comp>
+    <comp ref="C103">
+      <value>470uF</value>
+      <footprint>e-Power:CP_Elec_10x10</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB8CDB2</tstamp>
+    </comp>
+    <comp ref="D103">
+      <value>SS54HF</value>
+      <footprint>e-Power:DO-214AC</footprint>
+      <datasheet>https://br.mouser.com/datasheet/2/80/20190806165140-1729178.pdf</datasheet>
+      <libsource lib="e-Power" part="D_SCH_SS54HF" description="Schottky diode SS54HF 5A 40V SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB9411D</tstamp>
+    </comp>
+    <comp ref="L104">
+      <value>10uH</value>
+      <footprint>e-Power:L_10.4x10.4_H4.8</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="e-Power" part="INDUCTOR_PWR" description="Power Inductor symbol CDRH104R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB9596B</tstamp>
+    </comp>
+    <comp ref="C108">
+      <value>220uF</value>
+      <footprint>e-Power:CP_Elec_10x10</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB96E5D</tstamp>
+    </comp>
+    <comp ref="L105">
+      <value>3uH</value>
+      <footprint>e-Power:L_10.4x10.4_H4.8</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="e-Power" part="INDUCTOR_PWR" description="Power Inductor symbol CDRH104R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB984E3</tstamp>
+    </comp>
+    <comp ref="C109">
+      <value>470uF</value>
+      <footprint>e-Power:CP_Elec_10x10</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB9947C</tstamp>
+    </comp>
+    <comp ref="R111">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB9B57D</tstamp>
+    </comp>
+    <comp ref="R110">
+      <value>180K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB9C96D</tstamp>
+    </comp>
+    <comp ref="R108">
+      <value>1K5</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB9DD09</tstamp>
+    </comp>
+    <comp ref="F101">
+      <value>Fuse</value>
+      <footprint>e-Power:Fuse_SMD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB9FF7D</tstamp>
+    </comp>
+    <comp ref="TP101">
+      <value>VIN</value>
+      <footprint>TestPoint:TestPoint_Pad_1.5x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Probe" description="test point (alternative probe-style design)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBAA296</tstamp>
+    </comp>
+    <comp ref="R107">
+      <value>ADJ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBAE0BD</tstamp>
+    </comp>
+    <comp ref="R109">
+      <value>ADJ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBB0B23</tstamp>
+    </comp>
+    <comp ref="C101">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBB5EF5</tstamp>
+    </comp>
+    <comp ref="L101">
+      <value>10uH</value>
+      <footprint>e-Power:L_10.4x10.4_H4.8</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="e-Power" part="INDUCTOR_PWR" description="Power Inductor symbol CDRH104R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBB83D9</tstamp>
+    </comp>
+    <comp ref="D102">
+      <value>SS54HF</value>
+      <footprint>e-Power:DO-214AC</footprint>
+      <datasheet>https://br.mouser.com/datasheet/2/80/20190806165140-1729178.pdf</datasheet>
+      <libsource lib="e-Power" part="D_SCH_SS54HF" description="Schottky diode SS54HF 5A 40V SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBBB940</tstamp>
+    </comp>
+    <comp ref="C107">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBC810A</tstamp>
+    </comp>
+    <comp ref="R101">
+      <value>2K2</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBCBC92</tstamp>
+    </comp>
+    <comp ref="C102">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBCECA0</tstamp>
+    </comp>
+    <comp ref="U101">
+      <value>LM2577S-ADJ</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/lm2577.pdf?&amp;ts=1589076847876</datasheet>
+      <libsource lib="e-Power" part="LM2577S-ADJ" description="5V 3A Step-Up Voltage Regulator, TO-263"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBB381F</tstamp>
+    </comp>
+    <comp ref="R102">
+      <value>12K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBEDCAF</tstamp>
+    </comp>
+    <comp ref="R104">
+      <value>1K5</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBEE74D</tstamp>
+    </comp>
+    <comp ref="R103">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBEFCF5</tstamp>
+    </comp>
+    <comp ref="R106">
+      <value>ADJ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBF6134</tstamp>
+    </comp>
+    <comp ref="R105">
+      <value>ADJ</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBFB5CA</tstamp>
+    </comp>
+    <comp ref="C104">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBFF106</tstamp>
+    </comp>
+    <comp ref="C105">
+      <value>220uF</value>
+      <footprint>e-Power:CP_Elec_10x10</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC0EF52</tstamp>
+    </comp>
+    <comp ref="L103">
+      <value>3uH</value>
+      <footprint>e-Power:L_10.4x10.4_H4.8</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="e-Power" part="INDUCTOR_PWR" description="Power Inductor symbol CDRH104R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC19C8F</tstamp>
+    </comp>
+    <comp ref="C106">
+      <value>470uF</value>
+      <footprint>e-Power:CP_Elec_10x10</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP" description="Polarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC1A2DA</tstamp>
+    </comp>
+    <comp ref="TP102">
+      <value>12V</value>
+      <footprint>TestPoint:TestPoint_Pad_1.5x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Probe" description="test point (alternative probe-style design)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC4C497</tstamp>
+    </comp>
+    <comp ref="TP103">
+      <value>9V</value>
+      <footprint>TestPoint:TestPoint_Pad_1.5x1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint_Probe" description="test point (alternative probe-style design)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBABA90</tstamp>
+    </comp>
+    <comp ref="F102">
+      <value>Fuse</value>
+      <footprint>e-Power:Fuse_SMD</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC63C6A</tstamp>
+    </comp>
+    <comp ref="J102">
+      <value>12V</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC645BA</tstamp>
+    </comp>
+    <comp ref="C110">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDB14A8</tstamp>
+    </comp>
+    <comp ref="C111">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDF18FB</tstamp>
+    </comp>
+    <comp ref="R113">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE0A43F</tstamp>
+    </comp>
+    <comp ref="D105">
+      <value>RED LED</value>
+      <footprint>e-Power:LED_0805_1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="e-Power" part="LED" description="LED 0805 SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE0B68D</tstamp>
+    </comp>
+    <comp ref="R112">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE26E51</tstamp>
+    </comp>
+    <comp ref="D104">
+      <value>RED GRN</value>
+      <footprint>e-Power:LED_0805_1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="e-Power" part="LED" description="LED 0805 SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE26E5D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint_Probe">
+      <description>test point (alternative probe-style design)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_Probe</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="LM2596S-12">
+      <aliases>
+        <alias>LM2596S-5</alias>
+        <alias>LM2596S-3.3</alias>
+        <alias>LM2596S-ADJ</alias>
+      </aliases>
+      <description>12V 3A Step-Down Voltage Regulator, TO-263</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2596.pdf</docs>
+      <footprints>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2596S-12</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-263-5_TabPin3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="OUT" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="~ON~/OFF" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="e-Power" part="D_SCH_SS54HF">
+      <description>Schottky diode SS54HF 5A 40V SMD</description>
+      <docs>https://br.mouser.com/datasheet/2/80/20190806165140-1729178.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_SCH_SS54HF</field>
+        <field name="Footprint">e-Power:DO-214AC</field>
+        <field name="LCSC">C22452</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="e-Power" part="INDUCTOR_PWR">
+      <description>Power Inductor symbol CDRH104R</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR_PWR</field>
+        <field name="Footprint">e-Power:L_10.4x10.4_H4.8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="e-Power" part="LED">
+      <description>LED 0805 SMD</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint">e-Power:LED_0805_1.15x1.40mm_HandSolder</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="e-Power" part="LM2577S-ADJ">
+      <description>5V 3A Step-Up Voltage Regulator, TO-263</description>
+      <docs>https://www.ti.com/lit/ds/symlink/lm2577.pdf?&amp;ts=1589076847876</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2577S-ADJ</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-263-5_TabPin3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COMP" type="passive"/>
+        <pin num="2" name="FB" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="SWITCH" type="input"/>
+        <pin num="5" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Switching.lib</uri>
+    </library>
+    <library logical="e-Power">
+      <uri>C:/Program Files/KiCad/share/kicad/library/e-Power.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C104-Pad2)">
+      <node ref="C104" pin="2"/>
+      <node ref="D102" pin="1"/>
+      <node ref="L103" pin="1"/>
+      <node ref="R102" pin="1"/>
+      <node ref="R105" pin="2"/>
+      <node ref="C105" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C109" pin="2"/>
+      <node ref="C108" pin="2"/>
+      <node ref="C102" pin="1"/>
+      <node ref="C111" pin="1"/>
+      <node ref="D104" pin="1"/>
+      <node ref="J102" pin="2"/>
+      <node ref="C110" pin="2"/>
+      <node ref="R107" pin="1"/>
+      <node ref="R108" pin="1"/>
+      <node ref="F101" pin="1"/>
+      <node ref="C101" pin="1"/>
+      <node ref="D103" pin="2"/>
+      <node ref="C105" pin="2"/>
+      <node ref="U102" pin="3"/>
+      <node ref="U102" pin="5"/>
+      <node ref="C103" pin="2"/>
+      <node ref="D105" pin="1"/>
+      <node ref="R106" pin="1"/>
+      <node ref="U101" pin="3"/>
+      <node ref="C106" pin="2"/>
+      <node ref="R104" pin="1"/>
+    </net>
+    <net code="3" name="Net-(R102-Pad2)">
+      <node ref="R102" pin="2"/>
+      <node ref="R103" pin="2"/>
+    </net>
+    <net code="4" name="Net-(R101-Pad2)">
+      <node ref="U101" pin="1"/>
+      <node ref="R101" pin="2"/>
+    </net>
+    <net code="5" name="Net-(C102-Pad2)">
+      <node ref="C102" pin="2"/>
+      <node ref="R101" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C104-Pad1)">
+      <node ref="R104" pin="2"/>
+      <node ref="U101" pin="2"/>
+      <node ref="R103" pin="1"/>
+      <node ref="C104" pin="1"/>
+      <node ref="R106" pin="2"/>
+      <node ref="R105" pin="1"/>
+    </net>
+    <net code="7" name="/9V">
+      <node ref="U101" pin="5"/>
+      <node ref="L101" pin="1"/>
+      <node ref="C101" pin="2"/>
+      <node ref="C109" pin="1"/>
+      <node ref="TP103" pin="1"/>
+      <node ref="L105" pin="2"/>
+      <node ref="R113" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D105-Pad2)">
+      <node ref="D105" pin="2"/>
+      <node ref="R113" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D104-Pad2)">
+      <node ref="R112" pin="2"/>
+      <node ref="D104" pin="2"/>
+    </net>
+    <net code="10" name="Net-(F102-Pad1)">
+      <node ref="F102" pin="1"/>
+      <node ref="J102" pin="1"/>
+    </net>
+    <net code="11" name="/12V">
+      <node ref="TP102" pin="1"/>
+      <node ref="C111" pin="2"/>
+      <node ref="L103" pin="2"/>
+      <node ref="R112" pin="1"/>
+      <node ref="C106" pin="1"/>
+      <node ref="F102" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D101-Pad1)">
+      <node ref="D101" pin="1"/>
+      <node ref="L102" pin="1"/>
+    </net>
+    <net code="13" name="Net-(D101-Pad2)">
+      <node ref="D101" pin="2"/>
+      <node ref="J101" pin="2"/>
+    </net>
+    <net code="14" name="Net-(F101-Pad2)">
+      <node ref="J101" pin="1"/>
+      <node ref="F101" pin="2"/>
+    </net>
+    <net code="15" name="Net-(D103-Pad1)">
+      <node ref="L104" pin="1"/>
+      <node ref="D103" pin="1"/>
+      <node ref="U102" pin="2"/>
+    </net>
+    <net code="16" name="Net-(D102-Pad2)">
+      <node ref="U101" pin="4"/>
+      <node ref="D102" pin="2"/>
+      <node ref="L101" pin="2"/>
+    </net>
+    <net code="17" name="Net-(C103-Pad1)">
+      <node ref="C103" pin="1"/>
+      <node ref="TP101" pin="1"/>
+      <node ref="U102" pin="1"/>
+      <node ref="L102" pin="2"/>
+    </net>
+    <net code="18" name="Net-(C107-Pad2)">
+      <node ref="R110" pin="1"/>
+      <node ref="C110" pin="1"/>
+      <node ref="R107" pin="2"/>
+      <node ref="R108" pin="2"/>
+      <node ref="U102" pin="4"/>
+      <node ref="R111" pin="2"/>
+      <node ref="C107" pin="2"/>
+      <node ref="R109" pin="1"/>
+    </net>
+    <net code="19" name="Net-(C107-Pad1)">
+      <node ref="L105" pin="1"/>
+      <node ref="R109" pin="2"/>
+      <node ref="C108" pin="1"/>
+      <node ref="L104" pin="2"/>
+      <node ref="R110" pin="2"/>
+      <node ref="R111" pin="1"/>
+      <node ref="C107" pin="1"/>
+    </net>
+  </nets>
+</export>
