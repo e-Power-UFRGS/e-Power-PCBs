@@ -48,7 +48,7 @@ U 1 1 5EEFB35E
 P 14700 4300
 F 0 "H101" H 14600 4500 50  0000 L CNN
 F 1 "MountingHole_Pad" H 14800 4258 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 14700 4300 50  0001 C CNN
+F 2 "e-Power:MountingHole_3.2mm_M3_Pad_Via" H 14700 4300 50  0001 C CNN
 F 3 "~" H 14700 4300 50  0001 C CNN
 	1    14700 4300
 	1    0    0    -1  
@@ -69,39 +69,6 @@ Wire Wire Line
 Connection ~ 15250 4500
 Wire Wire Line
 	15250 4500 15500 4500
-$Comp
-L Mechanical:MountingHole_Pad H102
-U 1 1 5EF05539
-P 14950 4300
-F 0 "H102" H 14850 4500 50  0000 L CNN
-F 1 "MountingHole_Pad" H 15050 4258 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 14950 4300 50  0001 C CNN
-F 3 "~" H 14950 4300 50  0001 C CNN
-	1    14950 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H103
-U 1 1 5EF0573B
-P 15250 4300
-F 0 "H103" H 15150 4500 50  0000 L CNN
-F 1 "MountingHole_Pad" H 15350 4258 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 15250 4300 50  0001 C CNN
-F 3 "~" H 15250 4300 50  0001 C CNN
-	1    15250 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H104
-U 1 1 5EF058D4
-P 15500 4300
-F 0 "H104" H 15400 4500 50  0000 L CNN
-F 1 "MountingHole_Pad" H 15600 4258 50  0001 L CNN
-F 2 "MountingHole:MountingHole_4.3mm_M4_Pad_Via" H 15500 4300 50  0001 C CNN
-F 3 "~" H 15500 4300 50  0001 C CNN
-	1    15500 4300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15100 4600 15100 4500
 Connection ~ 15100 4500
@@ -3173,8 +3140,8 @@ L power:-5V #PWR?
 U 1 1 5F27C194
 P 10400 2400
 AR Path="/5ED9340F/5F27C194" Ref="#PWR?"  Part="1" 
-AR Path="/5F27C194" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10400 2500 50  0001 C CNN
+AR Path="/5F27C194" Ref="#PWR0139"  Part="1" 
+F 0 "#PWR0139" H 10400 2500 50  0001 C CNN
 F 1 "-5V" V 10400 2600 50  0000 C CNN
 F 2 "" H 10400 2400 50  0001 C CNN
 F 3 "" H 10400 2400 50  0001 C CNN
@@ -3186,8 +3153,8 @@ L power:+5V #PWR?
 U 1 1 5F2AD521
 P 10400 2300
 AR Path="/5ED9340F/5F2AD521" Ref="#PWR?"  Part="1" 
-AR Path="/5F2AD521" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10400 2150 50  0001 C CNN
+AR Path="/5F2AD521" Ref="#PWR0140"  Part="1" 
+F 0 "#PWR0140" H 10400 2150 50  0001 C CNN
 F 1 "+5V" V 10400 2500 50  0000 C CNN
 F 2 "" H 10400 2300 50  0001 C CNN
 F 3 "" H 10400 2300 50  0001 C CNN
@@ -3228,4 +3195,37 @@ Wire Bus Line
 	9200 10250 9200 10950
 Wire Bus Line
 	9200 9450 9200 10150
+$Comp
+L Mechanical:MountingHole_Pad H102
+U 1 1 5F1B97BB
+P 14950 4300
+F 0 "H102" H 14850 4500 50  0000 L CNN
+F 1 "MountingHole_Pad" H 15050 4258 50  0001 L CNN
+F 2 "e-Power:MountingHole_3.2mm_M3_Pad_Via" H 14950 4300 50  0001 C CNN
+F 3 "~" H 14950 4300 50  0001 C CNN
+	1    14950 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H103
+U 1 1 5F1B998C
+P 15250 4300
+F 0 "H103" H 15150 4500 50  0000 L CNN
+F 1 "MountingHole_Pad" H 15350 4258 50  0001 L CNN
+F 2 "e-Power:MountingHole_3.2mm_M3_Pad_Via" H 15250 4300 50  0001 C CNN
+F 3 "~" H 15250 4300 50  0001 C CNN
+	1    15250 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H104
+U 1 1 5F1B9C0D
+P 15500 4300
+F 0 "H104" H 15400 4500 50  0000 L CNN
+F 1 "MountingHole_Pad" H 15600 4258 50  0001 L CNN
+F 2 "e-Power:MountingHole_3.2mm_M3_Pad_Via" H 15500 4300 50  0001 C CNN
+F 3 "~" H 15500 4300 50  0001 C CNN
+	1    15500 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

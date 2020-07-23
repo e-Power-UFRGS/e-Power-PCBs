@@ -1,4 +1,4 @@
-17021013990965450
+17030587644959880
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75369,7 +75369,7 @@ logo UFRGS
 0
 0
 e-Power
-Logo_UFRGS_9.2x5.0mm_Silk
+Logo_UFRGS_9.2x5.0mm_SilkS
 
 logo UFRGS
 0
@@ -75383,7 +75383,7 @@ logo UFRGS
 0
 0
 e-Power
-Logo_UFRGS_11.0x6.0mm_Silk
+Logo_UFRGS_11.0x6.0mm_SilkS
 
 logo UFRGS
 0
@@ -75397,7 +75397,21 @@ logo UFRGS
 0
 0
 e-Power
+Logo_UFRGS_14.7x8.0mm_SilkS
+
+logo UFRGS
+0
+0
+0
+e-Power
 Logo_UFRGS_22.0x12.0mm_Copper
+
+logo UFRGS
+0
+0
+0
+e-Power
+Logo_UFRGS_22.0x12.0mm_SilkS
 
 logo UFRGS
 0
@@ -75411,7 +75425,7 @@ Logo_e-Power_12.4x6.0mm_Copper
 0
 0
 e-Power
-Logo_e-Power_12.4x6.0mm_Silk
+Logo_e-Power_12.4x6.0mm_SilkS
 
 
 0
@@ -75425,6 +75439,13 @@ Logo_e-Power_16.5x8.0mm_Copper
 0
 0
 e-Power
+Logo_e-Power_16.5x8.0mm_SilkS
+
+
+0
+0
+0
+e-Power
 Logo_e-Power_22.8x12.0mm_Copper
 
 
@@ -75432,7 +75453,21 @@ Logo_e-Power_22.8x12.0mm_Copper
 0
 0
 e-Power
+Logo_e-Power_22.8x12.0mm_SilkS
+
+
+0
+0
+0
+e-Power
 Logo_e-Power_41.3x20.0mm_Copper
+
+
+0
+0
+0
+e-Power
+Logo_e-Power_41.3x20.0mm_SilkS
 
 
 0
