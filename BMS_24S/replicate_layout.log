@@ -1,0 +1,255 @@
+07-31 21:41:09 replicate_layout.action_replicate_layout 305:Plugin executed on: 'win32'
+07-31 21:41:09 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '2.7.16 (default, Aug 15 2019, 17:51:40)  [GCC 9.2.0 64 bit (AMD64)]'
+07-31 21:41:09 replicate_layout.action_replicate_layout 307:KiCad build version: Unknown
+07-31 21:41:09 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 64 started
+07-31 21:41:09 replicate_layout.action_replicate_layout 340:Preparing replicator with U502 as a reference
+07-31 21:41:09 replicate_layout.replicatelayout 211:getting project hierarchy from schematics
+07-31 21:41:09 replicate_layout.replicatelayout 213:Project hierarchy looks like:
+{'5EC24961': ['Temperature Sensors', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\temperature_sensors.sch'], '5F656EA4': ['LM235_9_10_11_12', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\LM235_1_2_3_4.sch'], '5ED9340F': ['Power Stage', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\power.sch'], '5EC1D7DE': ['Voltage References', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\voltage_references.sch'], '5F675FE6': ['LM235_13_14_15_16', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\LM235_1_2_3_4.sch'], '5F7CE31F': ['balancing_17_18_19_20', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\balancing_01.sch'], '5ED0B74E': ['voltage_17_18', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\voltage_1_2.sch'], '5ECA2942': ['voltage_1_2', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\voltage_1_2.sch'], '5F7CF78E': ['balancing_21_22_23_24', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\balancing_01.sch'], '5ED048A2': ['voltage_9_10', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\voltage_1_2.sch'], '5EC054C7': ['LM235_1_2_3_4', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\LM235_1_2_3_4.sch'], '5F489B95': ['voltage_23_24', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\voltage_1_2.sch'], '5ED0B726': ['voltage_13_14', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\voltage_1_2.sch'], '5ECF7FD2': ['voltage_5_6', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\voltage_1_2.sch'], '5F255A50': ['balancing_1_2_3_4', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\balancing_01.sch'], '5F25407D': ['Balancing', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\balancing.sch'], '5F67B671': ['LM235_17_18_19_20', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\LM235_1_2_3_4.sch'], '5ED0B762': ['voltage_19_20', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\voltage_1_2.sch'], '5F352741': ['balancing_13_14_15_16', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\balancing_01.sch'], '5F646961': ['LM235_5_6_7_8', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\LM235_1_2_3_4.sch'], '5F34C39A': ['balancing_5_6_7_8', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\balancing_01.sch'], '5EC9BDC1': ['Voltage Sensors', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\voltage_sensors.sch'], '5ECF2EC6': ['voltage_3_4', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\voltage_1_2.sch'], '5F3561B0': ['Current Sensor', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\current_sensor.sch'], '5F6A1F0B': ['LM235_21_22_23_24', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\LM235_1_2_3_4.sch'], '5F489B81': ['voltage_21_22', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\voltage_1_2.sch'], '5ED048B6': ['voltage_11_12', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\voltage_1_2.sch'], '5ED0B73A': ['voltage_15_16', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\voltage_1_2.sch'], '5F34DE6D': ['balancing_9_10_11_12', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\balancing_01.sch'], '5ECF7FE6': ['voltage_7_8', u'C:\\Users\\gabri\\Documents\\github\\e-Power-PCBs\\BMS_24S\\voltage_1_2.sch']}
+07-31 21:41:09 replicate_layout.replicatelayout 221:getting a list of all footprints on board
+07-31 21:41:09 replicate_layout.action_replicate_layout 367:source anchor footprint is u'U502'
+Located on:['Voltage Sensors', 'voltage_1_2']
+With filenames:[u'voltage_sensors.sch', u'voltage_1_2.sch']
+With sheet_id:['Voltage Sensors', 'voltage_1_2']
+07-31 21:41:09 replicate_layout.action_replicate_layout 371:Corresponding footprints are 
+[(u'U1602', ['Voltage Sensors', 'voltage_23_24']), (u'U1502', ['Voltage Sensors', 'voltage_21_22']), (u'U1402', ['Voltage Sensors', 'voltage_19_20']), (u'U1302', ['Voltage Sensors', 'voltage_17_18']), (u'U1202', ['Voltage Sensors', 'voltage_15_16']), (u'U1102', ['Voltage Sensors', 'voltage_13_14']), (u'U1002', ['Voltage Sensors', 'voltage_11_12']), (u'U902', ['Voltage Sensors', 'voltage_9_10']), (u'U802', ['Voltage Sensors', 'voltage_7_8']), (u'U702', ['Voltage Sensors', 'voltage_5_6']), (u'U602', ['Voltage Sensors', 'voltage_3_4']), (u'U502', ['Voltage Sensors', 'voltage_1_2'])]
+07-31 21:41:09 replicate_layout.action_replicate_layout 384:Showing dialog
+07-31 21:41:09 replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(-8, -8)
+07-31 21:41:09 replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(0, 0, 1920, 1080)
+07-31 21:41:09 replicate_layout.action_replicate_layout 394:Display 1: wx.Rect(155, -900, 1600, 900)
+07-31 21:41:09 replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(1722, 115)
+07-31 21:41:09 replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(1409, 115)
+07-31 21:41:14 replicate_layout.replicatelayout 245:construcing a list of sheets suitable for replication on level:'voltage_1_2', file:u'voltage_1_2.sch'
+07-31 21:41:14 replicate_layout.replicatelayout 252:Source sheet path up to the level:['Voltage Sensors', 'voltage_1_2']
+07-31 21:41:14 replicate_layout.replicatelayout 256:Footprints on the sheets:
+[u'U1602', u'U1502', u'U1402', u'U1302', u'U1202', u'U1102', u'U1002', u'U902', u'U802', u'U702', u'U602', u'U502']
+07-31 21:41:14 replicate_layout.replicatelayout 259:Footprints raw sheet ids:
+[u'/5EC9BDC1/5F489B95/5EA5A847', u'/5EC9BDC1/5F489B81/5EA5A847', u'/5EC9BDC1/5ED0B762/5EA5A847', u'/5EC9BDC1/5ED0B74E/5EA5A847', u'/5EC9BDC1/5ED0B73A/5EA5A847', u'/5EC9BDC1/5ED0B726/5EA5A847', u'/5EC9BDC1/5ED048B6/5EA5A847', u'/5EC9BDC1/5ED048A2/5EA5A847', u'/5EC9BDC1/5ECF7FE6/5EA5A847', u'/5EC9BDC1/5ECF7FD2/5EA5A847', u'/5EC9BDC1/5ECF2EC6/5EA5A847', u'/5EC9BDC1/5ECA2942/5EA5A847']
+07-31 21:41:14 replicate_layout.replicatelayout 275:All sheets to replicate:
+[['Voltage Sensors', 'voltage_23_24'], ['Voltage Sensors', 'voltage_21_22'], ['Voltage Sensors', 'voltage_19_20'], ['Voltage Sensors', 'voltage_17_18'], ['Voltage Sensors', 'voltage_15_16'], ['Voltage Sensors', 'voltage_13_14'], ['Voltage Sensors', 'voltage_11_12'], ['Voltage Sensors', 'voltage_9_10'], ['Voltage Sensors', 'voltage_7_8'], ['Voltage Sensors', 'voltage_5_6'], ['Voltage Sensors', 'voltage_3_4'], ['Voltage Sensors', 'voltage_1_2']]
+07-31 21:41:14 replicate_layout.replicatelayout 280:All sheets to replicate sorted:
+[['Voltage Sensors', 'voltage_11_12'], ['Voltage Sensors', 'voltage_13_14'], ['Voltage Sensors', 'voltage_15_16'], ['Voltage Sensors', 'voltage_17_18'], ['Voltage Sensors', 'voltage_19_20'], ['Voltage Sensors', 'voltage_1_2'], ['Voltage Sensors', 'voltage_21_22'], ['Voltage Sensors', 'voltage_23_24'], ['Voltage Sensors', 'voltage_3_4'], ['Voltage Sensors', 'voltage_5_6'], ['Voltage Sensors', 'voltage_7_8'], ['Voltage Sensors', 'voltage_9_10']]
+07-31 21:41:14 replicate_layout.replicatelayout 286:All sheets to replicate sorted and without source sheet:
+[['Voltage Sensors', 'voltage_11_12'], ['Voltage Sensors', 'voltage_13_14'], ['Voltage Sensors', 'voltage_15_16'], ['Voltage Sensors', 'voltage_17_18'], ['Voltage Sensors', 'voltage_19_20'], ['Voltage Sensors', 'voltage_21_22'], ['Voltage Sensors', 'voltage_23_24'], ['Voltage Sensors', 'voltage_3_4'], ['Voltage Sensors', 'voltage_5_6'], ['Voltage Sensors', 'voltage_7_8'], ['Voltage Sensors', 'voltage_9_10']]
+07-31 21:41:20 replicate_layout.replicatelayout 245:construcing a list of sheets suitable for replication on level:'voltage_1_2', file:u'voltage_1_2.sch'
+07-31 21:41:20 replicate_layout.replicatelayout 252:Source sheet path up to the level:['Voltage Sensors', 'voltage_1_2']
+07-31 21:41:20 replicate_layout.replicatelayout 256:Footprints on the sheets:
+[u'U1602', u'U1502', u'U1402', u'U1302', u'U1202', u'U1102', u'U1002', u'U902', u'U802', u'U702', u'U602', u'U502']
+07-31 21:41:20 replicate_layout.replicatelayout 259:Footprints raw sheet ids:
+[u'/5EC9BDC1/5F489B95/5EA5A847', u'/5EC9BDC1/5F489B81/5EA5A847', u'/5EC9BDC1/5ED0B762/5EA5A847', u'/5EC9BDC1/5ED0B74E/5EA5A847', u'/5EC9BDC1/5ED0B73A/5EA5A847', u'/5EC9BDC1/5ED0B726/5EA5A847', u'/5EC9BDC1/5ED048B6/5EA5A847', u'/5EC9BDC1/5ED048A2/5EA5A847', u'/5EC9BDC1/5ECF7FE6/5EA5A847', u'/5EC9BDC1/5ECF7FD2/5EA5A847', u'/5EC9BDC1/5ECF2EC6/5EA5A847', u'/5EC9BDC1/5ECA2942/5EA5A847']
+07-31 21:41:20 replicate_layout.replicatelayout 275:All sheets to replicate:
+[['Voltage Sensors', 'voltage_23_24'], ['Voltage Sensors', 'voltage_21_22'], ['Voltage Sensors', 'voltage_19_20'], ['Voltage Sensors', 'voltage_17_18'], ['Voltage Sensors', 'voltage_15_16'], ['Voltage Sensors', 'voltage_13_14'], ['Voltage Sensors', 'voltage_11_12'], ['Voltage Sensors', 'voltage_9_10'], ['Voltage Sensors', 'voltage_7_8'], ['Voltage Sensors', 'voltage_5_6'], ['Voltage Sensors', 'voltage_3_4'], ['Voltage Sensors', 'voltage_1_2']]
+07-31 21:41:20 replicate_layout.replicatelayout 280:All sheets to replicate sorted:
+[['Voltage Sensors', 'voltage_11_12'], ['Voltage Sensors', 'voltage_13_14'], ['Voltage Sensors', 'voltage_15_16'], ['Voltage Sensors', 'voltage_17_18'], ['Voltage Sensors', 'voltage_19_20'], ['Voltage Sensors', 'voltage_1_2'], ['Voltage Sensors', 'voltage_21_22'], ['Voltage Sensors', 'voltage_23_24'], ['Voltage Sensors', 'voltage_3_4'], ['Voltage Sensors', 'voltage_5_6'], ['Voltage Sensors', 'voltage_7_8'], ['Voltage Sensors', 'voltage_9_10']]
+07-31 21:41:20 replicate_layout.replicatelayout 286:All sheets to replicate sorted and without source sheet:
+[['Voltage Sensors', 'voltage_11_12'], ['Voltage Sensors', 'voltage_13_14'], ['Voltage Sensors', 'voltage_15_16'], ['Voltage Sensors', 'voltage_17_18'], ['Voltage Sensors', 'voltage_19_20'], ['Voltage Sensors', 'voltage_21_22'], ['Voltage Sensors', 'voltage_23_24'], ['Voltage Sensors', 'voltage_3_4'], ['Voltage Sensors', 'voltage_5_6'], ['Voltage Sensors', 'voltage_7_8'], ['Voltage Sensors', 'voltage_9_10']]
+07-31 21:41:20 replicate_layout.action_replicate_layout 179:Replicating layout
+07-31 21:41:20 replicate_layout.replicatelayout 986:Starting replication of sheets: [['Voltage Sensors', 'voltage_11_12'], ['Voltage Sensors', 'voltage_13_14'], ['Voltage Sensors', 'voltage_15_16'], ['Voltage Sensors', 'voltage_17_18'], ['Voltage Sensors', 'voltage_19_20'], ['Voltage Sensors', 'voltage_21_22'], ['Voltage Sensors', 'voltage_23_24'], ['Voltage Sensors', 'voltage_3_4'], ['Voltage Sensors', 'voltage_5_6'], ['Voltage Sensors', 'voltage_7_8'], ['Voltage Sensors', 'voltage_9_10']]
+on level: ['Voltage Sensors', 'voltage_1_2']
+with tracks=True, zone=True, text=True, containing=False, remove=True, locked=True
+07-31 21:41:20 root 261:updating GUI message: 'Preparing for replication'
+07-31 21:41:20 root 266:updating GUI with: 0
+07-31 21:41:20 replicate_layout.replicatelayout 552:Getting the list of source footprints
+07-31 21:41:20 replicate_layout.replicatelayout 556:Getting the list of all the remaining footprints
+07-31 21:41:20 replicate_layout.replicatelayout 560:Getting nets local to source footprints
+07-31 21:41:21 replicate_layout.replicatelayout 564:Getting source bounding box
+07-31 21:41:21 root 266:updating GUI with: 37
+07-31 21:41:21 replicate_layout.replicatelayout 568:Getting source tracks
+07-31 21:41:21 replicate_layout.replicatelayout 572:Getting source zones
+07-31 21:41:21 root 266:updating GUI with: 62
+07-31 21:41:21 replicate_layout.replicatelayout 576:Getting source text items
+07-31 21:41:21 replicate_layout.replicatelayout 580:Getting source text items
+07-31 21:41:21 replicate_layout.replicatelayout 1014:Removing tracks and zones, before module placement
+07-31 21:41:21 root 261:updating GUI message: 'Removing zones and tracks'
+07-31 21:41:22 root 266:updating GUI with: 9
+07-31 21:41:22 root 266:updating GUI with: 18
+07-31 21:41:22 root 266:updating GUI with: 27
+07-31 21:41:23 root 266:updating GUI with: 36
+07-31 21:41:23 root 266:updating GUI with: 45
+07-31 21:41:23 root 266:updating GUI with: 54
+07-31 21:41:24 root 266:updating GUI with: 63
+07-31 21:41:24 root 266:updating GUI with: 72
+07-31 21:41:24 root 266:updating GUI with: 81
+07-31 21:41:24 root 266:updating GUI with: 90
+07-31 21:41:25 root 261:updating GUI message: 'Replicating footprints'
+07-31 21:41:25 root 266:updating GUI with: 0
+07-31 21:41:25 replicate_layout.replicatelayout 586:Replicating footprints
+07-31 21:41:25 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['Voltage Sensors', 'voltage_11_12']
+07-31 21:41:25 root 266:updating GUI with: 2
+07-31 21:41:25 root 266:updating GUI with: 4
+07-31 21:41:25 root 266:updating GUI with: 6
+07-31 21:41:25 root 266:updating GUI with: 7
+07-31 21:41:25 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['Voltage Sensors', 'voltage_13_14']
+07-31 21:41:25 root 266:updating GUI with: 9
+07-31 21:41:25 root 266:updating GUI with: 11
+07-31 21:41:25 root 266:updating GUI with: 13
+07-31 21:41:25 root 266:updating GUI with: 15
+07-31 21:41:25 root 266:updating GUI with: 16
+07-31 21:41:25 root 266:updating GUI with: 18
+07-31 21:41:25 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['Voltage Sensors', 'voltage_15_16']
+07-31 21:41:25 root 266:updating GUI with: 20
+07-31 21:41:25 root 266:updating GUI with: 22
+07-31 21:41:25 root 266:updating GUI with: 23
+07-31 21:41:25 root 266:updating GUI with: 25
+07-31 21:41:25 root 266:updating GUI with: 26
+07-31 21:41:25 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['Voltage Sensors', 'voltage_17_18']
+07-31 21:41:25 root 266:updating GUI with: 28
+07-31 21:41:25 root 266:updating GUI with: 31
+07-31 21:41:25 root 266:updating GUI with: 33
+07-31 21:41:25 root 266:updating GUI with: 34
+07-31 21:41:25 root 266:updating GUI with: 35
+07-31 21:41:25 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['Voltage Sensors', 'voltage_19_20']
+07-31 21:41:25 root 266:updating GUI with: 36
+07-31 21:41:25 root 266:updating GUI with: 39
+07-31 21:41:25 root 266:updating GUI with: 40
+07-31 21:41:25 root 266:updating GUI with: 41
+07-31 21:41:25 root 266:updating GUI with: 43
+07-31 21:41:25 root 266:updating GUI with: 44
+07-31 21:41:25 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['Voltage Sensors', 'voltage_21_22']
+07-31 21:41:25 root 266:updating GUI with: 45
+07-31 21:41:25 root 266:updating GUI with: 46
+07-31 21:41:25 root 266:updating GUI with: 48
+07-31 21:41:25 root 266:updating GUI with: 49
+07-31 21:41:25 root 266:updating GUI with: 51
+07-31 21:41:25 root 266:updating GUI with: 53
+07-31 21:41:25 root 266:updating GUI with: 54
+07-31 21:41:25 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['Voltage Sensors', 'voltage_23_24']
+07-31 21:41:25 root 266:updating GUI with: 55
+07-31 21:41:25 root 266:updating GUI with: 56
+07-31 21:41:25 root 266:updating GUI with: 58
+07-31 21:41:25 root 266:updating GUI with: 60
+07-31 21:41:25 root 266:updating GUI with: 62
+07-31 21:41:25 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['Voltage Sensors', 'voltage_3_4']
+07-31 21:41:25 root 266:updating GUI with: 63
+07-31 21:41:25 root 266:updating GUI with: 66
+07-31 21:41:25 root 266:updating GUI with: 67
+07-31 21:41:25 root 266:updating GUI with: 69
+07-31 21:41:25 root 266:updating GUI with: 71
+07-31 21:41:25 root 266:updating GUI with: 72
+07-31 21:41:25 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['Voltage Sensors', 'voltage_5_6']
+07-31 21:41:25 root 266:updating GUI with: 73
+07-31 21:41:25 root 266:updating GUI with: 76
+07-31 21:41:25 root 266:updating GUI with: 77
+07-31 21:41:25 root 266:updating GUI with: 79
+07-31 21:41:25 root 266:updating GUI with: 80
+07-31 21:41:25 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['Voltage Sensors', 'voltage_7_8']
+07-31 21:41:25 root 266:updating GUI with: 82
+07-31 21:41:25 root 266:updating GUI with: 84
+07-31 21:41:25 root 266:updating GUI with: 86
+07-31 21:41:25 root 266:updating GUI with: 87
+07-31 21:41:25 root 266:updating GUI with: 89
+07-31 21:41:25 root 266:updating GUI with: 90
+07-31 21:41:25 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['Voltage Sensors', 'voltage_9_10']
+07-31 21:41:25 root 266:updating GUI with: 93
+07-31 21:41:25 root 266:updating GUI with: 95
+07-31 21:41:25 root 266:updating GUI with: 96
+07-31 21:41:25 root 266:updating GUI with: 98
+07-31 21:41:25 root 266:updating GUI with: 99
+07-31 21:41:25 replicate_layout.replicatelayout 1022:Removing tracks and zones, after module placement
+07-31 21:41:25 root 261:updating GUI message: 'Removing zones and tracks'
+07-31 21:41:26 root 266:updating GUI with: 9
+07-31 21:41:26 root 266:updating GUI with: 18
+07-31 21:41:26 root 266:updating GUI with: 27
+07-31 21:41:26 root 266:updating GUI with: 36
+07-31 21:41:27 root 266:updating GUI with: 45
+07-31 21:41:27 root 266:updating GUI with: 54
+07-31 21:41:27 root 266:updating GUI with: 63
+07-31 21:41:28 root 266:updating GUI with: 72
+07-31 21:41:28 root 266:updating GUI with: 81
+07-31 21:41:28 root 266:updating GUI with: 90
+07-31 21:41:28 root 261:updating GUI message: 'Replicating tracks'
+07-31 21:41:28 root 266:updating GUI with: 0
+07-31 21:41:28 replicate_layout.replicatelayout 712:Replicating tracks
+07-31 21:41:28 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['Voltage Sensors', 'voltage_11_12']
+07-31 21:41:28 root 266:updating GUI with: 0
+07-31 21:41:28 root 266:updating GUI with: 4
+07-31 21:41:28 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['Voltage Sensors', 'voltage_13_14']
+07-31 21:41:28 root 266:updating GUI with: 9
+07-31 21:41:28 root 266:updating GUI with: 13
+07-31 21:41:28 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['Voltage Sensors', 'voltage_15_16']
+07-31 21:41:28 root 266:updating GUI with: 18
+07-31 21:41:28 root 266:updating GUI with: 22
+07-31 21:41:28 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['Voltage Sensors', 'voltage_17_18']
+07-31 21:41:29 root 266:updating GUI with: 27
+07-31 21:41:29 root 266:updating GUI with: 30
+07-31 21:41:29 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['Voltage Sensors', 'voltage_19_20']
+07-31 21:41:29 root 266:updating GUI with: 36
+07-31 21:41:29 root 266:updating GUI with: 40
+07-31 21:41:29 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['Voltage Sensors', 'voltage_21_22']
+07-31 21:41:29 root 266:updating GUI with: 45
+07-31 21:41:29 root 266:updating GUI with: 50
+07-31 21:41:29 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['Voltage Sensors', 'voltage_23_24']
+07-31 21:41:29 root 266:updating GUI with: 54
+07-31 21:41:29 root 266:updating GUI with: 59
+07-31 21:41:29 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['Voltage Sensors', 'voltage_3_4']
+07-31 21:41:29 root 266:updating GUI with: 63
+07-31 21:41:29 root 266:updating GUI with: 66
+07-31 21:41:29 root 266:updating GUI with: 72
+07-31 21:41:29 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['Voltage Sensors', 'voltage_5_6']
+07-31 21:41:29 root 266:updating GUI with: 72
+07-31 21:41:29 root 266:updating GUI with: 75
+07-31 21:41:29 root 266:updating GUI with: 78
+07-31 21:41:29 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['Voltage Sensors', 'voltage_7_8']
+07-31 21:41:29 root 266:updating GUI with: 81
+07-31 21:41:29 root 266:updating GUI with: 83
+07-31 21:41:29 root 266:updating GUI with: 85
+07-31 21:41:29 root 266:updating GUI with: 90
+07-31 21:41:29 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['Voltage Sensors', 'voltage_9_10']
+07-31 21:41:29 root 266:updating GUI with: 90
+07-31 21:41:29 root 266:updating GUI with: 92
+07-31 21:41:29 root 266:updating GUI with: 94
+07-31 21:41:29 root 266:updating GUI with: 98
+07-31 21:41:29 root 261:updating GUI message: 'Replicating zones'
+07-31 21:41:29 replicate_layout.replicatelayout 763:Replicating zones
+07-31 21:41:29 replicate_layout.replicatelayout 770:Replicating zones on sheet ['Voltage Sensors', 'voltage_11_12']
+07-31 21:41:29 root 266:updating GUI with: 9
+07-31 21:41:29 replicate_layout.replicatelayout 770:Replicating zones on sheet ['Voltage Sensors', 'voltage_13_14']
+07-31 21:41:29 root 266:updating GUI with: 18
+07-31 21:41:29 replicate_layout.replicatelayout 770:Replicating zones on sheet ['Voltage Sensors', 'voltage_15_16']
+07-31 21:41:29 root 266:updating GUI with: 27
+07-31 21:41:29 replicate_layout.replicatelayout 770:Replicating zones on sheet ['Voltage Sensors', 'voltage_17_18']
+07-31 21:41:29 root 266:updating GUI with: 36
+07-31 21:41:29 replicate_layout.replicatelayout 770:Replicating zones on sheet ['Voltage Sensors', 'voltage_19_20']
+07-31 21:41:29 root 266:updating GUI with: 45
+07-31 21:41:29 replicate_layout.replicatelayout 770:Replicating zones on sheet ['Voltage Sensors', 'voltage_21_22']
+07-31 21:41:29 root 266:updating GUI with: 54
+07-31 21:41:29 replicate_layout.replicatelayout 770:Replicating zones on sheet ['Voltage Sensors', 'voltage_23_24']
+07-31 21:41:29 root 266:updating GUI with: 63
+07-31 21:41:29 replicate_layout.replicatelayout 770:Replicating zones on sheet ['Voltage Sensors', 'voltage_3_4']
+07-31 21:41:29 root 266:updating GUI with: 72
+07-31 21:41:29 replicate_layout.replicatelayout 770:Replicating zones on sheet ['Voltage Sensors', 'voltage_5_6']
+07-31 21:41:29 root 266:updating GUI with: 81
+07-31 21:41:29 replicate_layout.replicatelayout 770:Replicating zones on sheet ['Voltage Sensors', 'voltage_7_8']
+07-31 21:41:29 root 266:updating GUI with: 90
+07-31 21:41:29 replicate_layout.replicatelayout 770:Replicating zones on sheet ['Voltage Sensors', 'voltage_9_10']
+07-31 21:41:29 root 261:updating GUI message: 'Replicating text'
+07-31 21:41:29 root 266:updating GUI with: 0
+07-31 21:41:29 replicate_layout.replicatelayout 829:Replicating text
+07-31 21:41:29 replicate_layout.replicatelayout 836:Replicating text on sheet ['Voltage Sensors', 'voltage_11_12']
+07-31 21:41:29 replicate_layout.replicatelayout 836:Replicating text on sheet ['Voltage Sensors', 'voltage_13_14']
+07-31 21:41:29 replicate_layout.replicatelayout 836:Replicating text on sheet ['Voltage Sensors', 'voltage_15_16']
+07-31 21:41:29 replicate_layout.replicatelayout 836:Replicating text on sheet ['Voltage Sensors', 'voltage_17_18']
+07-31 21:41:29 replicate_layout.replicatelayout 836:Replicating text on sheet ['Voltage Sensors', 'voltage_19_20']
+07-31 21:41:29 replicate_layout.replicatelayout 836:Replicating text on sheet ['Voltage Sensors', 'voltage_21_22']
+07-31 21:41:29 replicate_layout.replicatelayout 836:Replicating text on sheet ['Voltage Sensors', 'voltage_23_24']
+07-31 21:41:29 replicate_layout.replicatelayout 836:Replicating text on sheet ['Voltage Sensors', 'voltage_3_4']
+07-31 21:41:29 replicate_layout.replicatelayout 836:Replicating text on sheet ['Voltage Sensors', 'voltage_5_6']
+07-31 21:41:29 replicate_layout.replicatelayout 836:Replicating text on sheet ['Voltage Sensors', 'voltage_7_8']
+07-31 21:41:29 replicate_layout.replicatelayout 836:Replicating text on sheet ['Voltage Sensors', 'voltage_9_10']
+07-31 21:41:29 root 261:updating GUI message: 'Replicating drawings'
+07-31 21:41:29 root 266:updating GUI with: 0
+07-31 21:41:29 replicate_layout.replicatelayout 860:Replicating drawings
+07-31 21:41:29 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['Voltage Sensors', 'voltage_11_12']
+07-31 21:41:29 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['Voltage Sensors', 'voltage_13_14']
+07-31 21:41:29 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['Voltage Sensors', 'voltage_15_16']
+07-31 21:41:29 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['Voltage Sensors', 'voltage_17_18']
+07-31 21:41:29 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['Voltage Sensors', 'voltage_19_20']
+07-31 21:41:29 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['Voltage Sensors', 'voltage_21_22']
+07-31 21:41:29 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['Voltage Sensors', 'voltage_23_24']
+07-31 21:41:29 root 266:updating GUI with: 63
+07-31 21:41:29 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['Voltage Sensors', 'voltage_3_4']
+07-31 21:41:29 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['Voltage Sensors', 'voltage_5_6']
+07-31 21:41:29 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['Voltage Sensors', 'voltage_7_8']
+07-31 21:41:29 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['Voltage Sensors', 'voltage_9_10']
+07-31 21:41:29 root 261:updating GUI message: 'Removing duplicates'
+07-31 21:41:30 replicate_layout.action_replicate_layout 201:Replication complete

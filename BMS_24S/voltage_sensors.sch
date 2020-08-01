@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 8268 5827
 encoding utf-8
-Sheet 4 32
+Sheet 4 31
 Title ""
 Date ""
 Rev "REV0"
@@ -104,9 +104,9 @@ Text Label 6800 3850 2    50   ~ 0
 1.8V
 Text Label 2100 800  0    50   ~ 0
 1.8V
-Text HLabel 2100 900  2    50   Input ~ 0
+Text HLabel 2100 900  2    50   Output ~ 0
 V1
-Text HLabel 2100 1000 2    50   Input ~ 0
+Text HLabel 2100 1000 2    50   Output ~ 0
 V2
 Text Label 900  800  2    50   ~ 0
 CELL_GND
@@ -140,9 +140,9 @@ Wire Wire Line
 	1000 1700 900  1700
 Text Label 2100 1500 0    50   ~ 0
 1.8V
-Text HLabel 2100 1600 2    50   Input ~ 0
+Text HLabel 2100 1600 2    50   Output ~ 0
 V3
-Text HLabel 2100 1700 2    50   Input ~ 0
+Text HLabel 2100 1700 2    50   Output ~ 0
 V4
 Text Label 900  1500 2    50   ~ 0
 CELL_2
@@ -176,9 +176,9 @@ Wire Wire Line
 	1000 2400 900  2400
 Text Label 2100 2200 0    50   ~ 0
 1.8V
-Text HLabel 2100 2300 2    50   Input ~ 0
+Text HLabel 2100 2300 2    50   Output ~ 0
 V5
-Text HLabel 2100 2400 2    50   Input ~ 0
+Text HLabel 2100 2400 2    50   Output ~ 0
 V6
 Text Label 900  2200 2    50   ~ 0
 CELL_4
@@ -212,9 +212,9 @@ Wire Wire Line
 	1000 3100 900  3100
 Text Label 2100 2900 0    50   ~ 0
 1.8V
-Text HLabel 2100 3000 2    50   Input ~ 0
+Text HLabel 2100 3000 2    50   Output ~ 0
 V7
-Text HLabel 2100 3100 2    50   Input ~ 0
+Text HLabel 2100 3100 2    50   Output ~ 0
 V8
 Text Label 900  2900 2    50   ~ 0
 CELL_6
@@ -248,9 +248,9 @@ Wire Wire Line
 	1000 3800 900  3800
 Text Label 2100 3600 0    50   ~ 0
 1.8V
-Text HLabel 2100 3700 2    50   Input ~ 0
+Text HLabel 2100 3700 2    50   Output ~ 0
 V9
-Text HLabel 2100 3800 2    50   Input ~ 0
+Text HLabel 2100 3800 2    50   Output ~ 0
 V10
 Text Label 900  3600 2    50   ~ 0
 CELL_8
@@ -259,45 +259,9 @@ CELL_9
 Text Label 900  3800 2    50   ~ 0
 CELL_10
 $Sheet
-S 1000 4150 1000 500 
+S 2850 650  1000 500 
 U 5ED048B6
 F0 "voltage_11_12" 50
-F1 "voltage_1_2.sch" 50
-F2 "cell_01" I L 1000 4400 50 
-F3 "cell_02" I L 1000 4500 50 
-F4 "1.8V" I R 2000 4300 50 
-F5 "cell_gnd" I L 1000 4300 50 
-F6 "V_02" O R 2000 4500 50 
-F7 "V_01" O R 2000 4400 50 
-$EndSheet
-Wire Wire Line
-	2000 4300 2100 4300
-Wire Wire Line
-	2000 4400 2100 4400
-Wire Wire Line
-	2000 4500 2100 4500
-Wire Wire Line
-	1000 4300 900  4300
-Wire Wire Line
-	1000 4400 900  4400
-Wire Wire Line
-	1000 4500 900  4500
-Text Label 2100 4300 0    50   ~ 0
-1.8V
-Text HLabel 2100 4400 2    50   Input ~ 0
-V11
-Text HLabel 2100 4500 2    50   Input ~ 0
-V12
-Text Label 900  4300 2    50   ~ 0
-CELL_10
-Text Label 900  4400 2    50   ~ 0
-CELL_11
-Text Label 900  4500 2    50   ~ 0
-CELL_12
-$Sheet
-S 2850 650  1000 500 
-U 5ED0B726
-F0 "voltage_13_14" 50
 F1 "voltage_1_2.sch" 50
 F2 "cell_01" I L 2850 900 50 
 F3 "cell_02" I L 2850 1000 50 
@@ -320,20 +284,20 @@ Wire Wire Line
 	2850 1000 2750 1000
 Text Label 3950 800  0    50   ~ 0
 1.8V
-Text HLabel 3950 900  2    50   Input ~ 0
-V13
-Text HLabel 3950 1000 2    50   Input ~ 0
-V14
+Text HLabel 3950 900  2    50   Output ~ 0
+V11
+Text HLabel 3950 1000 2    50   Output ~ 0
+V12
 Text Label 2750 800  2    50   ~ 0
-CELL_12
+CELL_10
 Text Label 2750 900  2    50   ~ 0
-CELL_13
+CELL_11
 Text Label 2750 1000 2    50   ~ 0
-CELL_14
+CELL_12
 $Sheet
 S 2850 1350 1000 500 
-U 5ED0B73A
-F0 "voltage_15_16" 50
+U 5ED0B726
+F0 "voltage_13_14" 50
 F1 "voltage_1_2.sch" 50
 F2 "cell_01" I L 2850 1600 50 
 F3 "cell_02" I L 2850 1700 50 
@@ -356,20 +320,20 @@ Wire Wire Line
 	2850 1700 2750 1700
 Text Label 3950 1500 0    50   ~ 0
 1.8V
-Text HLabel 3950 1600 2    50   Input ~ 0
-V15
-Text HLabel 3950 1700 2    50   Input ~ 0
-V16
+Text HLabel 3950 1600 2    50   Output ~ 0
+V13
+Text HLabel 3950 1700 2    50   Output ~ 0
+V14
 Text Label 2750 1500 2    50   ~ 0
-CELL_14
+CELL_12
 Text Label 2750 1600 2    50   ~ 0
-CELL_15
+CELL_13
 Text Label 2750 1700 2    50   ~ 0
-CELL_16
+CELL_14
 $Sheet
 S 2850 2050 1000 500 
-U 5ED0B74E
-F0 "voltage_17_18" 50
+U 5ED0B73A
+F0 "voltage_15_16" 50
 F1 "voltage_1_2.sch" 50
 F2 "cell_01" I L 2850 2300 50 
 F3 "cell_02" I L 2850 2400 50 
@@ -392,20 +356,20 @@ Wire Wire Line
 	2850 2400 2750 2400
 Text Label 3950 2200 0    50   ~ 0
 1.8V
-Text HLabel 3950 2300 2    50   Input ~ 0
-V17
-Text HLabel 3950 2400 2    50   Input ~ 0
-V18
+Text HLabel 3950 2300 2    50   Output ~ 0
+V15
+Text HLabel 3950 2400 2    50   Output ~ 0
+V16
 Text Label 2750 2200 2    50   ~ 0
-CELL_16
+CELL_14
 Text Label 2750 2300 2    50   ~ 0
-CELL_17
+CELL_15
 Text Label 2750 2400 2    50   ~ 0
-CELL_18
+CELL_16
 $Sheet
 S 2850 2750 1000 500 
-U 5ED0B762
-F0 "voltage_19_20" 50
+U 5ED0B74E
+F0 "voltage_17_18" 50
 F1 "voltage_1_2.sch" 50
 F2 "cell_01" I L 2850 3000 50 
 F3 "cell_02" I L 2850 3100 50 
@@ -428,15 +392,51 @@ Wire Wire Line
 	2850 3100 2750 3100
 Text Label 3950 2900 0    50   ~ 0
 1.8V
-Text HLabel 3950 3000 2    50   Input ~ 0
-V19
-Text HLabel 3950 3100 2    50   Input ~ 0
-V20
+Text HLabel 3950 3000 2    50   Output ~ 0
+V17
+Text HLabel 3950 3100 2    50   Output ~ 0
+V18
 Text Label 2750 2900 2    50   ~ 0
-CELL_18
+CELL_16
 Text Label 2750 3000 2    50   ~ 0
-CELL_19
+CELL_17
 Text Label 2750 3100 2    50   ~ 0
+CELL_18
+$Sheet
+S 2850 3450 1000 500 
+U 5ED0B762
+F0 "voltage_19_20" 50
+F1 "voltage_1_2.sch" 50
+F2 "cell_01" I L 2850 3700 50 
+F3 "cell_02" I L 2850 3800 50 
+F4 "1.8V" I R 3850 3600 50 
+F5 "cell_gnd" I L 2850 3600 50 
+F6 "V_02" O R 3850 3800 50 
+F7 "V_01" O R 3850 3700 50 
+$EndSheet
+Wire Wire Line
+	3850 3600 3950 3600
+Wire Wire Line
+	3850 3700 3950 3700
+Wire Wire Line
+	3850 3800 3950 3800
+Wire Wire Line
+	2850 3600 2750 3600
+Wire Wire Line
+	2850 3700 2750 3700
+Wire Wire Line
+	2850 3800 2750 3800
+Text Label 3950 3600 0    50   ~ 0
+1.8V
+Text HLabel 3950 3700 2    50   Output ~ 0
+V19
+Text HLabel 3950 3800 2    50   Output ~ 0
+V20
+Text Label 2750 3600 2    50   ~ 0
+CELL_18
+Text Label 2750 3700 2    50   ~ 0
+CELL_19
+Text Label 2750 3800 2    50   ~ 0
 CELL_20
 $Comp
 L Device:Fuse F416
@@ -809,10 +809,6 @@ Text GLabel 6700 2500 0    50   Input ~ 0
 CELL_13
 Text GLabel 6700 2700 0    50   Input ~ 0
 CELL_12
-Text GLabel 6700 2000 0    50   Input ~ 0
-CELL_13
-Text GLabel 6700 1800 0    50   Input ~ 0
-CELL_13
 $Comp
 L Connector:Conn_01x26_Female J?
 U 1 1 5EEA12EA
@@ -828,7 +824,85 @@ F 3 "~" H 7500 2300 50  0001 C CNN
 $EndComp
 Text GLabel 6700 1100 0    50   Input ~ 0
 CELL_20
-NoConn ~ 6700 1600
-NoConn ~ 6700 1400
-NoConn ~ 6700 1200
+$Sheet
+S 4750 650  1000 500 
+U 5F489B81
+F0 "voltage_21_22" 50
+F1 "voltage_1_2.sch" 50
+F2 "cell_01" I L 4750 900 50 
+F3 "cell_02" I L 4750 1000 50 
+F4 "1.8V" I R 5750 800 50 
+F5 "cell_gnd" I L 4750 800 50 
+F6 "V_02" O R 5750 1000 50 
+F7 "V_01" O R 5750 900 50 
+$EndSheet
+Wire Wire Line
+	5750 800  5850 800 
+Wire Wire Line
+	5750 900  5850 900 
+Wire Wire Line
+	5750 1000 5850 1000
+Wire Wire Line
+	4750 800  4650 800 
+Wire Wire Line
+	4750 900  4650 900 
+Wire Wire Line
+	4750 1000 4650 1000
+Text Label 5850 800  0    50   ~ 0
+1.8V
+Text HLabel 5850 900  2    50   Output ~ 0
+V21
+Text HLabel 5850 1000 2    50   Output ~ 0
+V22
+Text Label 4650 800  2    50   ~ 0
+CELL_20
+Text Label 4650 900  2    50   ~ 0
+CELL_21
+Text Label 4650 1000 2    50   ~ 0
+CELL_22
+$Sheet
+S 4750 1350 1000 500 
+U 5F489B95
+F0 "voltage_23_24" 50
+F1 "voltage_1_2.sch" 50
+F2 "cell_01" I L 4750 1600 50 
+F3 "cell_02" I L 4750 1700 50 
+F4 "1.8V" I R 5750 1500 50 
+F5 "cell_gnd" I L 4750 1500 50 
+F6 "V_02" O R 5750 1700 50 
+F7 "V_01" O R 5750 1600 50 
+$EndSheet
+Wire Wire Line
+	5750 1500 5850 1500
+Wire Wire Line
+	5750 1600 5850 1600
+Wire Wire Line
+	5750 1700 5850 1700
+Wire Wire Line
+	4750 1500 4650 1500
+Wire Wire Line
+	4750 1600 4650 1600
+Wire Wire Line
+	4750 1700 4650 1700
+Text Label 5850 1500 0    50   ~ 0
+1.8V
+Text HLabel 5850 1600 2    50   Output ~ 0
+V23
+Text HLabel 5850 1700 2    50   Output ~ 0
+V24
+Text Label 4650 1500 2    50   ~ 0
+CELL_22
+Text Label 4650 1600 2    50   ~ 0
+CELL_23
+Text Label 4650 1700 2    50   ~ 0
+CELL_24
+Text GLabel 6700 1200 0    50   Input ~ 0
+CELL_21
+Text GLabel 6700 1400 0    50   Input ~ 0
+CELL_22
+Text GLabel 6700 1600 0    50   Input ~ 0
+CELL_23
+Text GLabel 6700 1800 0    50   Input ~ 0
+CELL_24
+NoConn ~ 6700 2000
 $EndSCHEMATC
