@@ -1,4 +1,4 @@
-17030587644959880
+17032185920649158
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75289,7 +75289,7 @@ ESP-32-dev-kit
 
 
 0
-38
+114
 38
 e-Power
 FB_0603_1608Metric
@@ -75331,7 +75331,7 @@ LM235_MOUNT
 TO-92 horizontal, leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)
 to-92 sc-43 sc-43a sot54 PA33 transistor
 0
-3
+6
 3
 e-Power
 LQFP-48_7x7mm_P0.5mm
@@ -75488,6 +75488,13 @@ mounting hole 3.2mm m3
 9
 1
 e-Power
+MountingHole_4mm_Pad_Via
+Mounting Hole 3mm
+mounting hole 3mm
+0
+9
+1
+e-Power
 PinSocket_1x20_P2.54mm_Vertical
 Through hole straight socket strip, 1x20, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
 Through hole socket strip THT 1x20 2.54mm single row
@@ -75506,7 +75513,7 @@ SIM800L
 e-Power microcontroller standard board
 
 0
-12
+36
 12
 e-Power
 SOD-80
