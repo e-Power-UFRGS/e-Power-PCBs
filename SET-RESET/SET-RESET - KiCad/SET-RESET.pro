@@ -1,4 +1,4 @@
-update=08-May-20 13:12:09
+update=13/07/2020 00:03:53
 version=1
 last_client=pcbnew
 [general]
@@ -18,14 +18,14 @@ PageLayoutDescrFile=
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=SET-RESET.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0

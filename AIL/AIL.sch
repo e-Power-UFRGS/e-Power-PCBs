@@ -1,0 +1,529 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "AIL"
+Date "2020-17-07"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Diode:1N47xxA D2
+U 1 1 5E91587D
+P 4700 3400
+F 0 "D2" V 4563 3479 50  0000 L CNN
+F 1 "1N4747A" V 4654 3479 50  0000 L CNN
+F 2 "e-Power:DO-41_SMD" H 4700 3225 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 4700 3400 50  0001 C CNN
+F 4 "20V" V 4745 3479 50  0000 L CNN "Voltage"
+F 5 "1.3W" V 4836 3479 50  0000 L CNN "Power"
+	1    4700 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L Diode:1N47xxA D1
+U 1 1 5E915885
+P 4700 3000
+F 0 "D1" V 4563 3079 50  0000 L CNN
+F 1 "1N4747A" V 4654 3079 50  0000 L CNN
+F 2 "e-Power:DO-41_SMD" H 4700 2825 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 4700 3000 50  0001 C CNN
+F 4 "20V" V 4745 3079 50  0000 L CNN "Voltage"
+F 5 "1.3W" V 4836 3079 50  0000 L CNN "Power"
+	1    4700 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5E91588C
+P 4050 2850
+F 0 "R1" V 3753 2850 50  0000 C CNN
+F 1 "4K7R" V 3844 2850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P25.40mm_Horizontal" V 3980 2850 50  0001 C CNN
+F 3 "~" H 4050 2850 50  0001 C CNN
+F 4 "5W" V 3935 2850 50  0000 C CNN "Power"
+	1    4050 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5E915893
+P 4450 2850
+F 0 "R3" V 4153 2850 50  0000 C CNN
+F 1 "4K7R" V 4244 2850 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P25.40mm_Horizontal" V 4380 2850 50  0001 C CNN
+F 3 "~" H 4450 2850 50  0001 C CNN
+F 4 "5W" V 4335 2850 50  0000 C CNN "Power"
+	1    4450 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5E91589A
+P 4450 4050
+F 0 "R4" V 4153 4050 50  0000 C CNN
+F 1 "4K7R" V 4244 4050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P25.40mm_Horizontal" V 4380 4050 50  0001 C CNN
+F 3 "~" H 4450 4050 50  0001 C CNN
+F 4 "5W" V 4335 4050 50  0000 C CNN "Power"
+	1    4450 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5E9158A1
+P 4050 4050
+F 0 "R2" V 3753 4050 50  0000 C CNN
+F 1 "4K7R" V 3844 4050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P25.40mm_Horizontal" V 3980 4050 50  0001 C CNN
+F 3 "~" H 4050 4050 50  0001 C CNN
+F 4 "5W" V 3935 4050 50  0000 C CNN "Power"
+	1    4050 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5E9158A8
+P 3550 2150
+F 0 "J1" H 3550 1800 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 3468 1916 50  0001 C CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_2-G-7,62_1x02_P7.62mm_Horizontal" H 3550 2150 50  0001 C CNN
+F 3 "~" H 3550 2150 50  0001 C CNN
+F 4 "Tractive System Voltage" H 3550 1900 50  0000 C CNN "Comment"
+	1    3550 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4200 2850 4300 2850
+Wire Wire Line
+	4600 2850 4700 2850
+Wire Wire Line
+	4700 3150 4700 3250
+Wire Wire Line
+	4700 3550 4700 3850
+Wire Wire Line
+	4700 4050 4600 4050
+Wire Wire Line
+	4300 4050 4200 4050
+$Comp
+L e-Power:e-Power_12.4x6.0mm_Copper G1
+U 1 1 5E91CE08
+P 9750 1350
+F 0 "G1" H 9750 1457 50  0000 C CNN
+F 1 "e-Power_12.4x6.0mm_Copper" H 9750 1450 50  0001 C CNN
+F 2 "e-Power:e-Power_12.4x6.0mm_Copper" H 9750 1550 50  0001 C CNN
+F 3 "" H 9750 1350 50  0001 C CNN
+	1    9750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L e-Power:UFRGS_1_11.0x6.0mm_Copper G2
+U 1 1 5E9314EC
+P 9750 1700
+F 0 "G2" H 9750 1807 50  0000 C CNN
+F 1 "UFRGS_1_11.0x6.0mm_Copper" H 9750 1800 50  0001 C CNN
+F 2 "e-Power:UFRGS_11.0x6.0mm_Copper" H 9750 1900 50  0001 C CNN
+F 3 "" H 9750 1700 50  0001 C CNN
+	1    9750 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:SFH620A-1X006 U1
+U 1 1 5EEAFA46
+P 5000 3950
+F 0 "U1" H 5000 4317 50  0000 C CNN
+F 1 "TPL290" H 5000 4226 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W10.16mm" H 5000 3550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/83675/sfh620a.pdf" H 5000 3950 50  0001 C CNN
+	1    5000 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 4050 3900 4050
+Wire Wire Line
+	3600 2850 3900 2850
+$Comp
+L Device:R R7
+U 1 1 5F122FD2
+P 4050 4900
+F 0 "R7" V 3753 4900 50  0000 C CNN
+F 1 "4K7R" V 3844 4900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P25.40mm_Horizontal" V 3980 4900 50  0001 C CNN
+F 3 "~" H 4050 4900 50  0001 C CNN
+F 4 "5W" V 3935 4900 50  0000 C CNN "Power"
+	1    4050 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 5E8FA5D0
+P 6200 3350
+F 0 "D4" V 6239 3233 50  0000 R CNN
+F 1 "LED" V 6148 3233 50  0000 R CNN
+F 2 "e-Power:LED_0805_1.15x1.40mm_HandSolder" H 6200 3350 50  0001 C CNN
+F 3 "~" H 6200 3350 50  0001 C CNN
+	1    6200 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5E915900
+P 5350 3500
+F 0 "R5" V 5557 3500 50  0000 C CNN
+F 1 "10K" V 5466 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5280 3500 50  0001 C CNN
+F 3 "~" H 5350 3500 50  0001 C CNN
+	1    5350 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3350 5350 3200
+Wire Wire Line
+	6200 4100 6200 4050
+$Comp
+L power:GND #PWR0104
+U 1 1 5E9158D5
+P 6200 4100
+F 0 "#PWR0104" H 6200 3850 50  0001 C CNN
+F 1 "GND" H 6205 3927 50  0000 C CNN
+F 2 "" H 6200 4100 50  0001 C CNN
+F 3 "" H 6200 4100 50  0001 C CNN
+	1    6200 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3850 5900 3850
+Connection ~ 5350 3850
+Wire Wire Line
+	5500 3850 5350 3850
+$Comp
+L Device:R R6
+U 1 1 5E9158CC
+P 5650 3850
+F 0 "R6" V 5857 3850 50  0000 C CNN
+F 1 "10K" V 5766 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5580 3850 50  0001 C CNN
+F 3 "~" H 5650 3850 50  0001 C CNN
+	1    5650 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC548 Q1
+U 1 1 5E9158C6
+P 6100 3850
+F 0 "Q1" H 6291 3896 50  0000 L CNN
+F 1 "BC548" H 6291 3805 50  0000 L CNN
+F 2 "e-Power:SOT-23" H 6300 3775 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6100 3850 50  0001 L CNN
+	1    6100 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 3850 5350 3650
+Wire Wire Line
+	5300 3850 5350 3850
+Wire Wire Line
+	5350 4050 5300 4050
+Wire Wire Line
+	5350 4100 5350 4050
+$Comp
+L power:GND #PWR0102
+U 1 1 5E9158B6
+P 5350 4100
+F 0 "#PWR0102" H 5350 3850 50  0001 C CNN
+F 1 "GND" H 5355 3927 50  0000 C CNN
+F 2 "" H 5350 4100 50  0001 C CNN
+F 3 "" H 5350 4100 50  0001 C CNN
+	1    5350 4100
+	1    0    0    -1  
+$EndComp
+Text Label 4400 2050 0    50   ~ 0
+TS+
+Wire Wire Line
+	4200 2050 4400 2050
+Wire Wire Line
+	4200 2150 4400 2150
+Text Label 3600 2850 2    50   ~ 0
+TS+
+Text Label 4400 2150 0    50   ~ 0
+TS-
+Text Label 3600 4050 2    50   ~ 0
+TS-
+Wire Wire Line
+	3600 4900 3900 4900
+$Comp
+L Device:R R8
+U 1 1 5F135BF1
+P 4450 4900
+F 0 "R8" V 4153 4900 50  0000 C CNN
+F 1 "4K7R" V 4244 4900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P25.40mm_Horizontal" V 4380 4900 50  0001 C CNN
+F 3 "~" H 4450 4900 50  0001 C CNN
+F 4 "5W" V 4335 4900 50  0000 C CNN "Power"
+	1    4450 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5F1361A6
+P 4850 4900
+F 0 "R9" V 4553 4900 50  0000 C CNN
+F 1 "4K7R" V 4644 4900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P25.40mm_Horizontal" V 4780 4900 50  0001 C CNN
+F 3 "~" H 4850 4900 50  0001 C CNN
+F 4 "5W" V 4735 4900 50  0000 C CNN "Power"
+	1    4850 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5F136449
+P 5250 4900
+F 0 "R10" V 4953 4900 50  0000 C CNN
+F 1 "4K7R" V 5044 4900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P25.40mm_Horizontal" V 5180 4900 50  0001 C CNN
+F 3 "~" H 5250 4900 50  0001 C CNN
+F 4 "5W" V 5135 4900 50  0000 C CNN "Power"
+	1    5250 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5F1367FA
+P 5650 4900
+F 0 "R11" V 5353 4900 50  0000 C CNN
+F 1 "4K7R" V 5444 4900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P25.40mm_Horizontal" V 5580 4900 50  0001 C CNN
+F 3 "~" H 5650 4900 50  0001 C CNN
+F 4 "5W" V 5535 4900 50  0000 C CNN "Power"
+	1    5650 4900
+	0    1    1    0   
+$EndComp
+Text Label 3600 4900 2    50   ~ 0
+TS+
+$Comp
+L Device:R R12
+U 1 1 5F1379F6
+P 6050 4900
+F 0 "R12" V 5753 4900 50  0000 C CNN
+F 1 "4K7R" V 5844 4900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P25.40mm_Horizontal" V 5980 4900 50  0001 C CNN
+F 3 "~" H 6050 4900 50  0001 C CNN
+F 4 "5W" V 5935 4900 50  0000 C CNN "Power"
+	1    6050 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 4900 4300 4900
+Wire Wire Line
+	4600 4900 4700 4900
+Wire Wire Line
+	5000 4900 5100 4900
+Wire Wire Line
+	5400 4900 5500 4900
+Wire Wire Line
+	5800 4900 5900 4900
+Wire Wire Line
+	6200 4900 6300 4900
+$Comp
+L Diode:1N47xxA D3
+U 1 1 5F1396A6
+P 6300 5150
+F 0 "D3" V 6163 5229 50  0000 L CNN
+F 1 "1N4747A" V 6254 5229 50  0000 L CNN
+F 2 "e-Power:DO-41_SMD" H 6300 4975 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 6300 5150 50  0001 C CNN
+F 4 "20V" V 6345 5229 50  0000 L CNN "Voltage"
+F 5 "1.3W" V 6436 5229 50  0000 L CNN "Power"
+	1    6300 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 5000 6300 4900
+Text Label 6150 5400 2    50   ~ 0
+TS-
+Wire Wire Line
+	6150 5400 6300 5400
+Wire Wire Line
+	6300 5400 6300 5300
+$Comp
+L power:GND #PWR0101
+U 1 1 5F13B8E3
+P 6300 5450
+F 0 "#PWR0101" H 6300 5200 50  0001 C CNN
+F 1 "GND" H 6305 5277 50  0000 C CNN
+F 2 "" H 6300 5450 50  0001 C CNN
+F 3 "" H 6300 5450 50  0001 C CNN
+	1    6300 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 5450 6300 5400
+Connection ~ 6300 5400
+Text GLabel 6400 4750 2    50   Output ~ 0
++20V
+Wire Wire Line
+	6300 4900 6300 4750
+Wire Wire Line
+	6300 4750 6400 4750
+Connection ~ 6300 4900
+Text GLabel 5350 3200 2    50   Input ~ 0
++20V
+Wire Wire Line
+	6200 3650 6200 3550
+$Comp
+L Device:C C1
+U 1 1 5F14614D
+P 6900 5150
+F 0 "C1" H 7015 5196 50  0000 L CNN
+F 1 "100n" H 7015 5105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6938 5000 50  0001 C CNN
+F 3 "~" H 6900 5150 50  0001 C CNN
+	1    6900 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 4900 6900 4900
+Wire Wire Line
+	6900 4900 6900 5000
+Wire Wire Line
+	6300 5400 6900 5400
+Wire Wire Line
+	6900 5400 6900 5300
+$Comp
+L Device:CP C2
+U 1 1 5F14813E
+P 7400 5150
+F 0 "C2" H 7518 5196 50  0000 L CNN
+F 1 "10u" H 7518 5105 50  0000 L CNN
+F 2 "e-Power:CP_Elec_10x10" H 7438 5000 50  0001 C CNN
+F 3 "~" H 7400 5150 50  0001 C CNN
+	1    7400 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 4900 7400 4900
+Wire Wire Line
+	7400 4900 7400 5000
+Connection ~ 6900 4900
+Wire Wire Line
+	6900 5400 7400 5400
+Wire Wire Line
+	7400 5400 7400 5300
+Connection ~ 6900 5400
+$Comp
+L e-Power:Fuse_1206 F1
+U 1 1 5F14FB8F
+P 4050 2050
+F 0 "F1" V 3945 2050 50  0000 C CNN
+F 1 "Fuse_1206" V 3944 2050 50  0001 C CNN
+F 2 "e-Power:FUSE_1206_3216Metric" V 3980 2050 50  0001 C CNN
+F 3 "" H 4050 2050 50  0001 C CNN
+	1    4050 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L e-Power:Fuse_1206 F2
+U 1 1 5F150096
+P 4050 2150
+F 0 "F2" V 4150 2150 50  0000 C CNN
+F 1 "Fuse_1206" V 3944 2150 50  0001 C CNN
+F 2 "e-Power:FUSE_1206_3216Metric" V 3980 2150 50  0001 C CNN
+F 3 "" H 4050 2150 50  0001 C CNN
+	1    4050 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 2050 3900 2050
+Wire Wire Line
+	3750 2150 3900 2150
+Wire Wire Line
+	6750 3550 6200 3550
+Connection ~ 6200 3550
+Wire Wire Line
+	6200 3550 6200 3500
+Wire Wire Line
+	6750 3400 6750 3550
+Text GLabel 6500 2150 2    50   Input ~ 0
++20V
+$Comp
+L Device:R R13
+U 1 1 5F13F310
+P 6200 2550
+F 0 "R13" V 6407 2550 50  0000 C CNN
+F 1 "1K" V 6316 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6130 2550 50  0001 C CNN
+F 3 "~" H 6200 2550 50  0001 C CNN
+	1    6200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5F14A2D7
+P 6200 2950
+F 0 "R14" V 6407 2950 50  0000 C CNN
+F 1 "1K" V 6316 2950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6130 2950 50  0001 C CNN
+F 3 "~" H 6200 2950 50  0001 C CNN
+	1    6200 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2400 6200 2300
+Wire Wire Line
+	6200 3200 6200 3100
+Wire Wire Line
+	6200 2700 6200 2800
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5F1F2C76
+P 6950 3300
+F 0 "J2" H 7030 3292 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 7030 3201 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 6950 3300 50  0001 C CNN
+F 3 "~" H 6950 3300 50  0001 C CNN
+	1    6950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5F207930
+P 6750 3000
+F 0 "R16" V 6957 3000 50  0000 C CNN
+F 1 "1K" V 6866 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6680 3000 50  0001 C CNN
+F 3 "~" H 6750 3000 50  0001 C CNN
+	1    6750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5F207BFF
+P 6750 2600
+F 0 "R15" V 6957 2600 50  0000 C CNN
+F 1 "1K" V 6866 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6680 2600 50  0001 C CNN
+F 3 "~" H 6750 2600 50  0001 C CNN
+	1    6750 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2300 6500 2300
+Wire Wire Line
+	6750 2300 6750 2450
+Wire Wire Line
+	6750 2750 6750 2850
+Wire Wire Line
+	6750 3300 6750 3150
+Connection ~ 6500 2300
+Wire Wire Line
+	6500 2300 6750 2300
+Wire Wire Line
+	6500 2150 6500 2300
+$EndSCHEMATC
