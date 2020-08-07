@@ -769,46 +769,10 @@ Wire Wire Line
 	7100 1800 7300 1800
 Wire Wire Line
 	7100 2000 7300 2000
-Text GLabel 6700 2900 0    50   Input ~ 0
-CELL_11
-Text GLabel 6700 2400 0    50   Input ~ 0
-CELL_1
-Text GLabel 6700 2600 0    50   Input ~ 0
-CELL_2
-Text GLabel 6700 3100 0    50   Input ~ 0
-CELL_10
-Text GLabel 6700 2800 0    50   Input ~ 0
-CELL_3
-Text GLabel 6700 3300 0    50   Input ~ 0
-CELL_9
-Text GLabel 6700 3000 0    50   Input ~ 0
-CELL_4
-Text GLabel 6700 3500 0    50   Input ~ 0
-CELL_8
-Text GLabel 6700 3200 0    50   Input ~ 0
-CELL_5
-Text GLabel 6700 3600 0    50   Input ~ 0
-CELL_7
-Text GLabel 6700 3400 0    50   Input ~ 0
-CELL_6
-Text GLabel 6700 1300 0    50   Input ~ 0
-CELL_19
-Text GLabel 6700 1500 0    50   Input ~ 0
+Text GLabel 6700 1100 0    50   Input ~ 0
 CELL_18
-Text GLabel 6700 1700 0    50   Input ~ 0
+Text GLabel 6700 1200 0    50   Input ~ 0
 CELL_17
-Text GLabel 6700 1900 0    50   Input ~ 0
-CELL_16
-Text GLabel 6700 2100 0    50   Input ~ 0
-CELL_15
-Text GLabel 6700 2300 0    50   Input ~ 0
-CELL_14
-Text GLabel 6700 2200 0    50   Input ~ 0
-CELL_GND
-Text GLabel 6700 2500 0    50   Input ~ 0
-CELL_13
-Text GLabel 6700 2700 0    50   Input ~ 0
-CELL_12
 $Comp
 L Connector:Conn_01x26_Female J?
 U 1 1 5EEA12EA
@@ -822,8 +786,6 @@ F 3 "~" H 7500 2300 50  0001 C CNN
 	1    7500 2300
 	1    0    0    -1  
 $EndComp
-Text GLabel 6700 1100 0    50   Input ~ 0
-CELL_20
 $Sheet
 S 4750 650  1000 500 
 U 5F489B81
@@ -896,13 +858,51 @@ Text Label 4650 1600 2    50   ~ 0
 CELL_23
 Text Label 4650 1700 2    50   ~ 0
 CELL_24
-Text GLabel 6700 1200 0    50   Input ~ 0
+Text GLabel 6700 2000 0    50   Input ~ 0
 CELL_21
-Text GLabel 6700 1400 0    50   Input ~ 0
-CELL_22
 Text GLabel 6700 1600 0    50   Input ~ 0
 CELL_23
-Text GLabel 6700 1800 0    50   Input ~ 0
+Text GLabel 6700 1400 0    50   Input ~ 0
 CELL_24
-NoConn ~ 6700 2000
+NoConn ~ 6700 2200
+Text GLabel 6700 1800 0    50   Input ~ 0
+CELL_22
+Text GLabel 6700 1300 0    50   Input ~ 0
+CELL_19
+Text GLabel 6700 1500 0    50   Input ~ 0
+CELL_20
+Text GLabel 6700 1700 0    50   Input ~ 0
+CELL_13
+Text GLabel 6700 1900 0    50   Input ~ 0
+CELL_14
+Text GLabel 6700 2100 0    50   Input ~ 0
+CELL_15
+Text GLabel 6700 2300 0    50   Input ~ 0
+CELL_16
+Text GLabel 6700 2500 0    50   Input ~ 0
+CELL_9
+Text GLabel 6700 2700 0    50   Input ~ 0
+CELL_10
+Text GLabel 6700 2900 0    50   Input ~ 0
+CELL_11
+Text GLabel 6700 3100 0    50   Input ~ 0
+CELL_12
+Text GLabel 6700 3300 0    50   Input ~ 0
+CELL_5
+Text GLabel 6700 3500 0    50   Input ~ 0
+CELL_6
+Text GLabel 6700 3600 0    50   Input ~ 0
+CELL_7
+Text GLabel 6700 3400 0    50   Input ~ 0
+CELL_8
+Text GLabel 6700 3000 0    50   Input ~ 0
+CELL_1
+Text GLabel 6700 2800 0    50   Input ~ 0
+CELL_2
+Text GLabel 6700 2600 0    50   Input ~ 0
+CELL_3
+Text GLabel 6700 2400 0    50   Input ~ 0
+CELL_4
+Text GLabel 6700 3200 0    50   Input ~ 0
+CELL_GND
 $EndSCHEMATC

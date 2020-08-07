@@ -1279,8 +1279,6 @@ Text Label 4350 2400 2    50   ~ 0
 TS_19
 Text HLabel 5550 2100 2    50   Output ~ 0
 T17
-Text HLabel 5550 2200 2    50   Output ~ 0
-T18
 Wire Wire Line
 	5450 2100 5550 2100
 Wire Wire Line
@@ -1350,4 +1348,6 @@ Text Label 6700 2200 2    50   ~ 0
 TS_13
 Text Label 6700 2300 2    50   ~ 0
 TS_14
+Text HLabel 5550 2200 2    50   Output ~ 0
+T18
 $EndSCHEMATC
