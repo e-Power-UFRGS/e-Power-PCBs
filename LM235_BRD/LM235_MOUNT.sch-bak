@@ -1,0 +1,54 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L e-Power:LM235 U101
+U 1 1 5EDEF5A7
+P 4500 3000
+F 0 "U101" H 4430 3046 50  0000 R CNN
+F 1 "LM235" H 4430 2955 50  0000 R CNN
+F 2 "e-Power:LM235_MOUNT" H 4550 2375 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm235.pdf" H 4475 3000 50  0001 C CNN
+F 4 "Por algum motivo, os componentes que nós recebemos da ST tem os pinos 1 e 3 invertidos" H 4550 2225 50  0001 C CNN "Comments"
+	1    4500 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5EDF1ABD
+P 4500 3300
+F 0 "#PWR0102" H 4500 3050 50  0001 C CNN
+F 1 "GND" H 4505 3127 50  0000 C CNN
+F 2 "" H 4500 3300 50  0001 C CNN
+F 3 "" H 4500 3300 50  0001 C CNN
+	1    4500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5EDF23A1
+P 4500 2700
+F 0 "#PWR0101" H 4500 2550 50  0001 C CNN
+F 1 "VCC" H 4517 2873 50  0000 C CNN
+F 2 "" H 4500 2700 50  0001 C CNN
+F 3 "" H 4500 2700 50  0001 C CNN
+	1    4500 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2700 4500 2900
+Wire Wire Line
+	4500 3100 4500 3300
+$EndSCHEMATC
