@@ -166,7 +166,7 @@ U 1 1 5E8FA5D0
 P 6200 3350
 F 0 "D4" V 6239 3233 50  0000 R CNN
 F 1 "LED" V 6148 3233 50  0000 R CNN
-F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_2-G-7,62_1x02_P7.62mm_Horizontal" H 6200 3350 50  0001 C CNN
+F 2 "e-Power:LED_0805_1.15x1.40mm_HandSolder" H 6200 3350 50  0001 C CNN
 F 3 "~" H 6200 3350 50  0001 C CNN
 	1    6200 3350
 	0    -1   -1   0   
@@ -375,25 +375,8 @@ Wire Wire Line
 Connection ~ 6300 4900
 Text GLabel 5350 3200 2    50   Input ~ 0
 +20V
-Text GLabel 6200 2300 2    50   Input ~ 0
-+20V
-$Comp
-L Device:R R13
-U 1 1 5F13F310
-P 6200 2550
-F 0 "R13" V 6407 2550 50  0000 C CNN
-F 1 "1K" V 6316 2550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6130 2550 50  0001 C CNN
-F 3 "~" H 6200 2550 50  0001 C CNN
-	1    6200 2550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6200 3650 6200 3500
-Wire Wire Line
-	6200 2400 6200 2300
-Wire Wire Line
-	6200 3200 6200 3100
+	6200 3650 6200 3550
 $Comp
 L Device:C C1
 U 1 1 5F14614D
@@ -435,19 +418,6 @@ Wire Wire Line
 	7400 5400 7400 5300
 Connection ~ 6900 5400
 $Comp
-L Device:R R14
-U 1 1 5F14A2D7
-P 6200 2950
-F 0 "R14" V 6407 2950 50  0000 C CNN
-F 1 "1K" V 6316 2950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6130 2950 50  0001 C CNN
-F 3 "~" H 6200 2950 50  0001 C CNN
-	1    6200 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6200 2700 6200 2800
-$Comp
 L e-Power:Fuse_1206 F1
 U 1 1 5F14FB8F
 P 4050 2050
@@ -473,4 +443,87 @@ Wire Wire Line
 	3750 2050 3900 2050
 Wire Wire Line
 	3750 2150 3900 2150
+Wire Wire Line
+	6750 3550 6200 3550
+Connection ~ 6200 3550
+Wire Wire Line
+	6200 3550 6200 3500
+Wire Wire Line
+	6750 3400 6750 3550
+Text GLabel 6500 2150 2    50   Input ~ 0
++20V
+$Comp
+L Device:R R13
+U 1 1 5F13F310
+P 6200 2550
+F 0 "R13" V 6407 2550 50  0000 C CNN
+F 1 "1K" V 6316 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6130 2550 50  0001 C CNN
+F 3 "~" H 6200 2550 50  0001 C CNN
+	1    6200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5F14A2D7
+P 6200 2950
+F 0 "R14" V 6407 2950 50  0000 C CNN
+F 1 "1K" V 6316 2950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6130 2950 50  0001 C CNN
+F 3 "~" H 6200 2950 50  0001 C CNN
+	1    6200 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2400 6200 2300
+Wire Wire Line
+	6200 3200 6200 3100
+Wire Wire Line
+	6200 2700 6200 2800
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5F1F2C76
+P 6950 3300
+F 0 "J2" H 7030 3292 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 7030 3201 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 6950 3300 50  0001 C CNN
+F 3 "~" H 6950 3300 50  0001 C CNN
+	1    6950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5F207930
+P 6750 3000
+F 0 "R16" V 6957 3000 50  0000 C CNN
+F 1 "1K" V 6866 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6680 3000 50  0001 C CNN
+F 3 "~" H 6750 3000 50  0001 C CNN
+	1    6750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5F207BFF
+P 6750 2600
+F 0 "R15" V 6957 2600 50  0000 C CNN
+F 1 "1K" V 6866 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6680 2600 50  0001 C CNN
+F 3 "~" H 6750 2600 50  0001 C CNN
+	1    6750 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2300 6500 2300
+Wire Wire Line
+	6750 2300 6750 2450
+Wire Wire Line
+	6750 2750 6750 2850
+Wire Wire Line
+	6750 3300 6750 3150
+Connection ~ 6500 2300
+Wire Wire Line
+	6500 2300 6750 2300
+Wire Wire Line
+	6500 2150 6500 2300
 $EndSCHEMATC

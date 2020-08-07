@@ -228,7 +228,7 @@ U 1 1 5EF68C4D
 P 5300 5200
 F 0 "C2" H 5418 5246 50  0000 L CNN
 F 1 "470uF" H 5418 5155 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm" H 5338 5050 50  0001 C CNN
+F 2 "e-Power:CP_Elec_10x10" H 5338 5050 50  0001 C CNN
 F 3 "~" H 5300 5200 50  0001 C CNN
 	1    5300 5200
 	1    0    0    -1  
@@ -760,8 +760,6 @@ F 3 "" H 9050 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10600 4800 10550 4800
-Wire Wire Line
 	10550 5000 10600 5000
 $Comp
 L e-Power:LED D4
@@ -775,17 +773,6 @@ F 3 "" H 9150 5650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+12V #PWR0106
-U 1 1 5DD753F4
-P 10550 4700
-F 0 "#PWR0106" H 10550 4550 50  0001 C CNN
-F 1 "+12V" H 10565 4873 50  0000 C CNN
-F 2 "" H 10550 4700 50  0001 C CNN
-F 3 "" H 10550 4700 50  0001 C CNN
-	1    10550 4700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GNDREF #PWR0105
 U 1 1 5DD73DAD
 P 10550 5100
@@ -796,21 +783,8 @@ F 3 "" H 10550 5100 50  0001 C CNN
 	1    10550 5100
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Screw_Terminal_01x03 output_BSPD1
-U 1 1 5DD6EEAA
-P 10800 4900
-F 0 "output_BSPD1" V 10900 4900 50  0000 C CNN
-F 1 "Screw_Terminal_01x03" H 10718 4666 50  0001 C CNN
-F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_3-G-7,62_1x03_P7.62mm_Horizontal" H 10800 4900 50  0001 C CNN
-F 3 "~" H 10800 4900 50  0001 C CNN
-	1    10800 4900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10550 5100 10550 5000
-Wire Wire Line
-	10550 4800 10550 4700
 $Comp
 L Transistor_BJT:BC548 Q4
 U 1 1 5F1DA1DE
@@ -1000,7 +974,7 @@ U 1 1 5F62CFB0
 P 5250 6700
 F 0 "FB1" V 4950 6650 50  0000 L CNN
 F 1 "Ferrite_Bead" V 5050 6500 50  0000 L CNN
-F 2 "Ferrite_THT:LairdTech_28C0236-0JW-10" V 5180 6700 50  0001 C CNN
+F 2 "e-Power:FB_0603_1608Metric" V 5180 6700 50  0001 C CNN
 F 3 "~" H 5250 6700 50  0001 C CNN
 	1    5250 6700
 	0    1    1    0   
@@ -1123,7 +1097,7 @@ U 1 1 5F6C4DEE
 P 6500 7100
 F 0 "C8" H 6618 7146 50  0000 L CNN
 F 1 "470uF" H 6618 7055 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm" H 6538 6950 50  0001 C CNN
+F 2 "e-Power:CP_Elec_10x10" H 6538 6950 50  0001 C CNN
 F 3 "~" H 6500 7100 50  0001 C CNN
 	1    6500 7100
 	1    0    0    -1  
@@ -1762,4 +1736,15 @@ F 3 "" H 5800 6550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5800 6550 5800 6700
+$Comp
+L Connector:Screw_Terminal_01x02 output_BSPD1
+U 1 1 5F1939E8
+P 10800 5000
+F 0 "output_BSPD1" H 10800 4800 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 10880 4901 50  0001 L CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_2-G-7,62_1x02_P7.62mm_Horizontal" H 10800 5000 50  0001 C CNN
+F 3 "~" H 10800 5000 50  0001 C CNN
+	1    10800 5000
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC

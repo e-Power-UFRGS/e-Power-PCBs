@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Luz de Freio-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -381,17 +380,6 @@ Wire Wire Line
 Connection ~ 8150 3925
 Wire Wire Line
 	8150 3925 8150 3825
-$Comp
-L power:GND #PWR016
-U 1 1 5E440644
-P 8150 4575
-F 0 "#PWR016" H 8150 4325 50  0001 C CNN
-F 1 "GND" H 8155 4402 50  0000 C CNN
-F 2 "" H 8150 4575 50  0001 C CNN
-F 3 "" H 8150 4575 50  0001 C CNN
-	1    8150 4575
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7200 3625 7050 3625
 $Comp
@@ -445,17 +433,6 @@ Wire Wire Line
 	5850 3625 5850 3975
 Text Notes 5425 4400 0    79   ~ 16
 CONSTANT CURRENT SOURCE
-$Comp
-L Device:C C4
-U 1 1 5E6ECC87
-P 8850 4325
-F 0 "C4" H 8735 4279 50  0000 R CNN
-F 1 "100nF" H 8735 4370 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8888 4175 50  0001 C CNN
-F 3 "~" H 8850 4325 50  0001 C CNN
-	1    8850 4325
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5850 3175 5850 3425
 $Comp
@@ -738,184 +715,7 @@ Text GLabel 6450 5775 0    50   Input ~ 0
 Input_Power
 Wire Wire Line
 	8150 3925 8150 4075
-$Comp
-L Device:R R18
-U 1 1 5F0C5155
-P 8675 4325
-F 0 "R18" H 8750 4200 50  0000 C CNN
-F 1 "100R" V 8675 4325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8605 4325 50  0001 C CNN
-F 3 "~" H 8675 4325 50  0001 C CNN
-F 4 "" H 8875 4425 50  0001 C CNN "Power"
-	1    8675 4325
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R17
-U 1 1 5F0D9DEC
-P 8500 4325
-F 0 "R17" H 8575 4200 50  0000 C CNN
-F 1 "100R" V 8500 4325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8430 4325 50  0001 C CNN
-F 3 "~" H 8500 4325 50  0001 C CNN
-F 4 "" H 8700 4425 50  0001 C CNN "Power"
-	1    8500 4325
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R16
-U 1 1 5F0DA3E1
-P 8325 4325
-F 0 "R16" H 8400 4200 50  0000 C CNN
-F 1 "100R" V 8325 4325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8255 4325 50  0001 C CNN
-F 3 "~" H 8325 4325 50  0001 C CNN
-F 4 "" H 8525 4425 50  0001 C CNN "Power"
-	1    8325 4325
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R15
-U 1 1 5F0DA75C
-P 8150 4325
-F 0 "R15" H 8225 4200 50  0000 C CNN
-F 1 "100R" V 8150 4325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8080 4325 50  0001 C CNN
-F 3 "~" H 8150 4325 50  0001 C CNN
-F 4 "" H 8350 4425 50  0001 C CNN "Power"
-	1    8150 4325
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R14
-U 1 1 5F0DAABB
-P 7975 4325
-F 0 "R14" H 8050 4200 50  0000 C CNN
-F 1 "100R" V 7975 4325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7905 4325 50  0001 C CNN
-F 3 "~" H 7975 4325 50  0001 C CNN
-F 4 "" H 8175 4425 50  0001 C CNN "Power"
-	1    7975 4325
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R13
-U 1 1 5F0DAC2A
-P 7800 4325
-F 0 "R13" H 7875 4200 50  0000 C CNN
-F 1 "100R" V 7800 4325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7730 4325 50  0001 C CNN
-F 3 "~" H 7800 4325 50  0001 C CNN
-F 4 "" H 8000 4425 50  0001 C CNN "Power"
-	1    7800 4325
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R12
-U 1 1 5F0F5889
-P 7625 4325
-F 0 "R12" H 7700 4200 50  0000 C CNN
-F 1 "100R" V 7625 4325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7555 4325 50  0001 C CNN
-F 3 "~" H 7625 4325 50  0001 C CNN
-F 4 "" H 7825 4425 50  0001 C CNN "Power"
-	1    7625 4325
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R11
-U 1 1 5F0F5BDC
-P 7450 4325
-F 0 "R11" H 7525 4200 50  0000 C CNN
-F 1 "100R" V 7450 4325 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7380 4325 50  0001 C CNN
-F 3 "~" H 7450 4325 50  0001 C CNN
-F 4 "" H 7650 4425 50  0001 C CNN "Power"
-	1    7450 4325
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7450 4175 7450 4075
-Wire Wire Line
-	7450 4075 7625 4075
-Wire Wire Line
-	8850 4075 8850 4175
-Wire Wire Line
-	8675 4175 8675 4075
-Connection ~ 8675 4075
-Wire Wire Line
-	8675 4075 8850 4075
-Wire Wire Line
-	8500 4175 8500 4075
-Connection ~ 8500 4075
-Wire Wire Line
-	8500 4075 8675 4075
-Wire Wire Line
-	8325 4175 8325 4075
-Connection ~ 8325 4075
-Wire Wire Line
-	8325 4075 8500 4075
-Wire Wire Line
-	8150 4175 8150 4075
 Connection ~ 8150 4075
-Wire Wire Line
-	8150 4075 8325 4075
-Wire Wire Line
-	7975 4175 7975 4075
-Connection ~ 7975 4075
-Wire Wire Line
-	7975 4075 8150 4075
-Wire Wire Line
-	7800 4175 7800 4075
-Connection ~ 7800 4075
-Wire Wire Line
-	7800 4075 7975 4075
-Wire Wire Line
-	7625 4175 7625 4075
-Connection ~ 7625 4075
-Wire Wire Line
-	7625 4075 7800 4075
-Wire Wire Line
-	7450 4475 7450 4575
-Wire Wire Line
-	7450 4575 7625 4575
-Wire Wire Line
-	8850 4575 8850 4475
-Wire Wire Line
-	8675 4475 8675 4575
-Connection ~ 8675 4575
-Wire Wire Line
-	8675 4575 8850 4575
-Wire Wire Line
-	8500 4475 8500 4575
-Connection ~ 8500 4575
-Wire Wire Line
-	8500 4575 8675 4575
-Wire Wire Line
-	8325 4475 8325 4575
-Connection ~ 8325 4575
-Wire Wire Line
-	8325 4575 8500 4575
-Wire Wire Line
-	8150 4475 8150 4575
-Connection ~ 8150 4575
-Wire Wire Line
-	8150 4575 8325 4575
-Wire Wire Line
-	7975 4475 7975 4575
-Connection ~ 7975 4575
-Wire Wire Line
-	7975 4575 8150 4575
-Wire Wire Line
-	7800 4475 7800 4575
-Connection ~ 7800 4575
-Wire Wire Line
-	7800 4575 7975 4575
-Wire Wire Line
-	7625 4475 7625 4575
-Connection ~ 7625 4575
-Wire Wire Line
-	7625 4575 7800 4575
 Wire Wire Line
 	8750 5775 9100 5775
 $Comp
@@ -995,4 +795,203 @@ Wire Wire Line
 Connection ~ 3750 2775
 Wire Wire Line
 	3750 2775 4500 2775
+Connection ~ 7625 4075
+Connection ~ 7800 4075
+Wire Wire Line
+	7800 4075 7975 4075
+Wire Wire Line
+	7975 4075 8150 4075
+Connection ~ 7975 4075
+Wire Wire Line
+	8150 4075 8325 4075
+Wire Wire Line
+	8325 4075 8500 4075
+Connection ~ 8325 4075
+Connection ~ 8500 4075
+Wire Wire Line
+	8500 4075 8675 4075
+Wire Wire Line
+	8675 4075 8850 4075
+Connection ~ 8675 4075
+Wire Wire Line
+	7625 4075 7800 4075
+Wire Wire Line
+	7450 4075 7625 4075
+Wire Wire Line
+	7625 4575 7800 4575
+Connection ~ 7625 4575
+Wire Wire Line
+	7625 4475 7625 4575
+Wire Wire Line
+	7800 4575 7975 4575
+Connection ~ 7800 4575
+Wire Wire Line
+	7800 4475 7800 4575
+Wire Wire Line
+	7975 4575 8150 4575
+Connection ~ 7975 4575
+Wire Wire Line
+	7975 4475 7975 4575
+Wire Wire Line
+	8150 4575 8325 4575
+Connection ~ 8150 4575
+Wire Wire Line
+	8150 4475 8150 4575
+Wire Wire Line
+	8325 4575 8500 4575
+Connection ~ 8325 4575
+Wire Wire Line
+	8325 4475 8325 4575
+Wire Wire Line
+	8500 4575 8675 4575
+Connection ~ 8500 4575
+Wire Wire Line
+	8500 4475 8500 4575
+Wire Wire Line
+	8675 4575 8850 4575
+Connection ~ 8675 4575
+Wire Wire Line
+	8675 4475 8675 4575
+Wire Wire Line
+	8850 4575 8850 4475
+Wire Wire Line
+	7450 4575 7625 4575
+Wire Wire Line
+	7450 4475 7450 4575
+Wire Wire Line
+	7625 4175 7625 4075
+Wire Wire Line
+	7800 4175 7800 4075
+Wire Wire Line
+	7975 4175 7975 4075
+Wire Wire Line
+	8150 4175 8150 4075
+Wire Wire Line
+	8325 4175 8325 4075
+Wire Wire Line
+	8500 4175 8500 4075
+Wire Wire Line
+	8675 4175 8675 4075
+Wire Wire Line
+	8850 4075 8850 4175
+Wire Wire Line
+	7450 4175 7450 4075
+$Comp
+L Device:R R11
+U 1 1 5F0F5BDC
+P 7450 4325
+F 0 "R11" H 7525 4200 50  0000 C CNN
+F 1 "100R" V 7450 4325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7380 4325 50  0001 C CNN
+F 3 "~" H 7450 4325 50  0001 C CNN
+F 4 "" H 7650 4425 50  0001 C CNN "Power"
+	1    7450 4325
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5F0F5889
+P 7625 4325
+F 0 "R12" H 7700 4200 50  0000 C CNN
+F 1 "100R" V 7625 4325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7555 4325 50  0001 C CNN
+F 3 "~" H 7625 4325 50  0001 C CNN
+F 4 "" H 7825 4425 50  0001 C CNN "Power"
+	1    7625 4325
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5F0DAC2A
+P 7800 4325
+F 0 "R13" H 7875 4200 50  0000 C CNN
+F 1 "100R" V 7800 4325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7730 4325 50  0001 C CNN
+F 3 "~" H 7800 4325 50  0001 C CNN
+F 4 "" H 8000 4425 50  0001 C CNN "Power"
+	1    7800 4325
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5F0DAABB
+P 7975 4325
+F 0 "R14" H 8050 4200 50  0000 C CNN
+F 1 "100R" V 7975 4325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7905 4325 50  0001 C CNN
+F 3 "~" H 7975 4325 50  0001 C CNN
+F 4 "" H 8175 4425 50  0001 C CNN "Power"
+	1    7975 4325
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5F0DA75C
+P 8150 4325
+F 0 "R15" H 8225 4200 50  0000 C CNN
+F 1 "100R" V 8150 4325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8080 4325 50  0001 C CNN
+F 3 "~" H 8150 4325 50  0001 C CNN
+F 4 "" H 8350 4425 50  0001 C CNN "Power"
+	1    8150 4325
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5F0DA3E1
+P 8325 4325
+F 0 "R16" H 8400 4200 50  0000 C CNN
+F 1 "100R" V 8325 4325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8255 4325 50  0001 C CNN
+F 3 "~" H 8325 4325 50  0001 C CNN
+F 4 "" H 8525 4425 50  0001 C CNN "Power"
+	1    8325 4325
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 5F0D9DEC
+P 8500 4325
+F 0 "R17" H 8575 4200 50  0000 C CNN
+F 1 "100R" V 8500 4325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8430 4325 50  0001 C CNN
+F 3 "~" H 8500 4325 50  0001 C CNN
+F 4 "" H 8700 4425 50  0001 C CNN "Power"
+	1    8500 4325
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R18
+U 1 1 5F0C5155
+P 8675 4325
+F 0 "R18" H 8750 4200 50  0000 C CNN
+F 1 "100R" V 8675 4325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8605 4325 50  0001 C CNN
+F 3 "~" H 8675 4325 50  0001 C CNN
+F 4 "" H 8875 4425 50  0001 C CNN "Power"
+	1    8675 4325
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5E6ECC87
+P 8850 4325
+F 0 "C4" H 8735 4279 50  0000 R CNN
+F 1 "100nF" H 8735 4370 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8888 4175 50  0001 C CNN
+F 3 "~" H 8850 4325 50  0001 C CNN
+	1    8850 4325
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 5E440644
+P 8150 4575
+F 0 "#PWR016" H 8150 4325 50  0001 C CNN
+F 1 "GND" H 8155 4402 50  0000 C CNN
+F 2 "" H 8150 4575 50  0001 C CNN
+F 3 "" H 8150 4575 50  0001 C CNN
+	1    8150 4575
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
