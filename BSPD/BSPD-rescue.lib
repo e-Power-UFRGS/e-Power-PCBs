@@ -1,24 +1,48 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# ICL7660-e-Power
+# LED-e-Power
 #
-DEF ICL7660-e-Power U 0 40 Y Y 1 F N
-F0 "U" 0 450 50 H V C CNN
-F1 "ICL7660-e-Power" 0 350 50 H V C CNN
-F2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" -50 -100 50 H I C CNN
+DEF LED-e-Power D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "LED-e-Power" 0 -100 50 H V C CNN
+F2 "e-Power:LED_0805_1.15x1.40mm_HandSolder" 0 -175 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# UFRGS_1_14.7x8.0mm_Copper-e-Power
+#
+DEF UFRGS_1_14.7x8.0mm_Copper-e-Power G 0 40 Y Y 1 F N
+F0 "G" 0 -100 50 H V C CNN
+F1 "UFRGS_1_14.7x8.0mm_Copper-e-Power" 0 100 50 H I C CNN
+F2 "e-Power:UFRGS_14.7x8.0mm_Copper" 0 200 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-S -300 -300 300 300 1 1 10 f
-X NC 1 -300 0 100 R 50 50 1 1 N N
-X CAP+ 2 400 0 100 L 50 50 1 1 P
-X GND 3 0 -400 100 U 50 50 1 1 W
-X CAP- 4 400 -200 100 L 50 50 1 1 P
-X OUT 5 400 200 100 L 50 50 1 1 O
-X LV 6 -400 -200 100 R 50 50 1 1 P
-X OSC 7 -400 0 100 R 50 50 1 1 P
-X NC 8 300 0 100 L 50 50 1 1 N N
-X VCC 8 -400 200 100 R 50 50 1 1 W
+T 0 0 0 50 0 0 0 UFRGS_0_14.7x8.0mm_Copper Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+# e-Power_16.5x8.0mm_Copper-e-Power
+#
+DEF e-Power_16.5x8.0mm_Copper-e-Power G 0 40 Y Y 1 F N
+F0 "G" 0 -100 50 H V C CNN
+F1 "e-Power_16.5x8.0mm_Copper-e-Power" 0 100 50 H I C CNN
+F2 "e-Power:e-Power_16.5x8.0mm_Copper" 0 200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 0 50 0 0 0 e-Power_16.5x8.0mm_Copper Normal 0 C C
 ENDDRAW
 ENDDEF
 #
