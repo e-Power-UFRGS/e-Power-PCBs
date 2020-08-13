@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 20)
+    (drawings 18)
     (tracks 2)
     (zones 0)
     (modules 5)
@@ -18,7 +18,7 @@
     (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
-    (37 F.SilkS user hide)
+    (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
@@ -128,7 +128,7 @@
   )
 
   (module e-Power:Logo_UFRGS_11.0x6.0mm_Silk (layer F.Cu) (tedit 5F17764B) (tstamp 5F17FDFB)
-    (at 133.35 70.485)
+    (at 133.35 61.341)
     (tags "logo UFRGS")
     (attr virtual)
     (fp_text reference G*** (at -2.6162 3.6576) (layer F.SilkS) hide
@@ -257,7 +257,7 @@
   )
 
   (module e-Power:Logo_UFRGS_11.0x6.0mm_Copper (layer F.Cu) (tedit 5F1775DC) (tstamp 5F17FC1D)
-    (at 133.35 70.485)
+    (at 133.35 61.341)
     (tags "logo UFRGS")
     (fp_text reference G*** (at -2.6162 3.6576) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -385,7 +385,7 @@
   )
 
   (module e-Power:Logo_e-Power_12.4x6.0mm_Silk (layer F.Cu) (tedit 5F17736D) (tstamp 5F17F6ED)
-    (at 120.65 70.485)
+    (at 120.65 61.341)
     (attr virtual)
     (fp_text reference G*** (at -2.032 -4.064) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -745,7 +745,7 @@
   )
 
   (module e-Power:Logo_e-Power_12.4x6.0mm_Copper (layer F.Cu) (tedit 5F177293) (tstamp 5F17F5CC)
-    (at 120.65 70.485)
+    (at 120.65 61.341)
     (attr virtual)
     (fp_text reference G*** (at -2.032 -4.064) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -1104,6 +1104,10 @@
       (xy -0.077615 -2.772833) (xy -0.024855 -2.770111)) (layer F.Cu) (width 0.01))
   )
 
+  (gr_text TESTED (at 114.046 80.772 90) (layer F.SilkS)
+    (effects (font (size 0.95 0.95) (thickness 0.225)) (justify left))
+  )
+  (gr_poly (pts (xy 140.462 80.772) (xy 114.808 80.772) (xy 114.808 75.692) (xy 140.462 75.692)) (layer F.SilkS) (width 0.1))
   (gr_arc (start 172.72 83.82) (end 172.72 88.9) (angle -90) (layer Edge.Cuts) (width 0.12))
   (gr_text "- usar componentes SMD sempre que possível\n" (at 109.22 52.705) (layer Cmts.User) (tstamp 5F17947B)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
@@ -1145,31 +1149,19 @@
   (gr_text "Homemade pcb via " (at 147.32 73.025) (layer Cmts.User) (tstamp 5F17FE98)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
-  (gr_text "Board description" (at 126.365 64.77) (layer Cmts.User)
+  (gr_text "Board description" (at 126.365 55.626) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "> e-Power UFRGS" (at 112.903 83.185) (layer F.SilkS) (tstamp 5F17CAFA)
+  (gr_text "> e-Power UFRGS" (at 112.903 73.152) (layer F.SilkS) (tstamp 5F17CAFA)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
-  (gr_text "> Rev. X | dd.mm.aaaa" (at 112.903 80.645) (layer F.SilkS) (tstamp 5F17CAF7)
+  (gr_text "> Rev. X | dd.mm.aaaa" (at 112.903 70.866) (layer F.SilkS) (tstamp 5F17CAF7)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
-  (gr_text "> Nome do Circuito" (at 112.903 78.105) (layer F.SilkS) (tstamp 5F17CAF4)
+  (gr_text "> Nome do Circuito" (at 112.903 68.58) (layer F.SilkS) (tstamp 5F17CAF4)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
-  (gr_text "> Nome do Autor" (at 112.903 75.565) (layer F.SilkS) (tstamp 5F17CAEF)
-    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
-  )
-  (gr_text "> Nome do Circuito" (at 112.903 78.105) (layer F.Cu) (tstamp 5F17C6D2)
-    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
-  )
-  (gr_text "> Nome do Autor" (at 112.903 75.565) (layer F.Cu) (tstamp 5F17C6D1)
-    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
-  )
-  (gr_text "> Rev. X | dd.mm.aaaa" (at 112.903 80.645) (layer F.Cu) (tstamp 5F17C6D0)
-    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
-  )
-  (gr_text "> e-Power UFRGS" (at 112.903 83.185) (layer F.Cu) (tstamp 5F17C6CF)
+  (gr_text "> Nome do Autor" (at 112.903 66.294) (layer F.SilkS) (tstamp 5F17CAEF)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
 
