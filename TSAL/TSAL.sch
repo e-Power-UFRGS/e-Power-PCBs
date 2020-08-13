@@ -1798,30 +1798,6 @@ Connection ~ 10250 3600
 Wire Wire Line
 	10650 5050 10650 4950
 $Comp
-L Reference_Voltage:TL431DBZ U6
-U 1 1 5F71BCAC
-P 6850 4750
-F 0 "U6" V 6896 4681 50  0000 R CNN
-F 1 "TL431" V 6805 4681 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 6850 4600 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/tl431.pdf" H 6850 4750 50  0001 C CIN
-F 4 "C190245" V 6850 4750 50  0001 C CNN "LCSC"
-	1    6850 4750
-	0    1    -1   0   
-$EndComp
-$Comp
-L Reference_Voltage:TL431DBZ U3
-U 1 1 5F728B3A
-P 7350 3300
-F 0 "U3" V 7396 3231 50  0000 R CNN
-F 1 "TL431" V 7305 3231 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 7350 3150 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/tl431.pdf" H 7350 3300 50  0001 C CIN
-F 4 "C190245" V 7350 3300 50  0001 C CNN "LCSC"
-	1    7350 3300
-	0    1    -1   0   
-$EndComp
-$Comp
 L Timer:NE555 U2
 U 1 1 5F72AB1B
 P 5350 2650
@@ -2669,5 +2645,27 @@ F 2 "e-Power:Logo_e-Power_22.8x12.0mm_SilkS" H 3250 3050 50  0001 C CNN
 F 3 "" H 3250 3050 50  0001 C CNN
 	1    3250 3050
 	1    0    0    -1  
+$EndComp
+$Comp
+L Reference_Voltage:TL432DBZ U3
+U 1 1 5F372C96
+P 7350 3300
+F 0 "U3" V 7396 3231 50  0000 R CNN
+F 1 "TL431" V 7305 3231 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7350 3150 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tl431.pdf" H 7350 3300 50  0001 C CIN
+	1    7350 3300
+	0    1    -1   0   
+$EndComp
+$Comp
+L Reference_Voltage:TL432DBZ U6
+U 1 1 5F37A9A8
+P 6850 4750
+F 0 "U6" V 6896 4681 50  0000 R CNN
+F 1 "TL431" V 6805 4681 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6850 4600 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tl431.pdf" H 6850 4750 50  0001 C CIN
+	1    6850 4750
+	0    1    -1   0   
 $EndComp
 $EndSCHEMATC
