@@ -113,12 +113,12 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J1
 U 1 1 5E2CCD12
-P 1200 1050
-F 0 "J1" H 1200 1150 50  0000 C CNN
-F 1 "Tractive System " H 1118 816 50  0001 C CNN
-F 2 "e-Power:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.08mm_Horizontal" H 1200 1050 50  0001 C CNN
-F 3 "~" H 1200 1050 50  0001 C CNN
-	1    1200 1050
+P 800 1050
+F 0 "J1" H 800 1150 50  0000 C CNN
+F 1 "Tractive System " H 718 816 50  0001 C CNN
+F 2 "e-Power:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.08mm_Horizontal" H 800 1050 50  0001 C CNN
+F 3 "~" H 800 1050 50  0001 C CNN
+	1    800  1050
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2668,4 +2668,32 @@ F 3 "http://www.ti.com/lit/ds/symlink/tl431.pdf" H 6850 4750 50  0001 C CIN
 	1    6850 4750
 	0    1    -1   0   
 $EndComp
+$Comp
+L Device:Fuse F3
+U 1 1 5F37DB3A
+P 1250 1150
+F 0 "F3" V 1050 1150 50  0000 C CNN
+F 1 "Fuse" V 1150 1150 50  0000 C CNN
+F 2 "e-Power:FUSE_1206_3216Metric" V 1180 1150 50  0001 C CNN
+F 3 "~" H 1250 1150 50  0001 C CNN
+F 4 "C182445" V 1250 1150 50  0001 C CNN "LCSC"
+	1    1250 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Fuse F2
+U 1 1 5F3800A4
+P 1250 1050
+F 0 "F2" V 1050 1050 50  0000 C CNN
+F 1 "Fuse" V 1150 1050 50  0000 C CNN
+F 2 "e-Power:FUSE_1206_3216Metric" V 1180 1050 50  0001 C CNN
+F 3 "~" H 1250 1050 50  0001 C CNN
+F 4 "C182445" V 1250 1050 50  0001 C CNN "LCSC"
+	1    1250 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1000 1050 1100 1050
+Wire Wire Line
+	1000 1150 1100 1150
 $EndSCHEMATC
