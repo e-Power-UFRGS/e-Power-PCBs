@@ -93,7 +93,7 @@ U 1 1 5E9158A8
 P 3550 2150
 F 0 "J1" H 3550 1800 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 3468 1916 50  0001 C CNN
-F 2 "e-Power:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.08mm_Horizontal" H 3550 2150 50  0001 C CNN
+F 2 "Connector_Phoenix_GMSTB:PhoenixContact_GMSTBA_2,5_2-G-7,62_1x02_P7.62mm_Horizontal" H 3550 2150 50  0001 C CNN
 F 3 "~" H 3550 2150 50  0001 C CNN
 F 4 "Tractive System Voltage" H 3550 1900 50  0000 C CNN "Comment"
 	1    3550 2150
@@ -114,23 +114,23 @@ Wire Wire Line
 $Comp
 L e-Power:e-Power_12.4x6.0mm_Copper G1
 U 1 1 5E91CE08
-P 9700 1450
-F 0 "G1" H 9700 1557 50  0000 C CNN
-F 1 "e-Power_12.4x6.0mm_Copper" H 9700 1550 50  0001 C CNN
-F 2 "e-Power:Logo_e-Power_12.4x6.0mm_SilkS" H 9700 1650 50  0001 C CNN
-F 3 "" H 9700 1450 50  0001 C CNN
-	1    9700 1450
+P 9750 1350
+F 0 "G1" H 9750 1457 50  0000 C CNN
+F 1 "e-Power_12.4x6.0mm_Copper" H 9750 1450 50  0001 C CNN
+F 2 "e-Power:e-Power_12.4x6.0mm_Copper" H 9750 1550 50  0001 C CNN
+F 3 "" H 9750 1350 50  0001 C CNN
+	1    9750 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L e-Power:UFRGS_1_11.0x6.0mm_Copper G2
 U 1 1 5E9314EC
-P 9700 1800
-F 0 "G2" H 9700 1907 50  0000 C CNN
-F 1 "UFRGS_1_11.0x6.0mm_Copper" H 9700 1900 50  0001 C CNN
-F 2 "e-Power:Logo_UFRGS_11.0x6.0mm_SilkS" H 9700 2000 50  0001 C CNN
-F 3 "" H 9700 1800 50  0001 C CNN
-	1    9700 1800
+P 9750 1700
+F 0 "G2" H 9750 1807 50  0000 C CNN
+F 1 "UFRGS_1_11.0x6.0mm_Copper" H 9750 1800 50  0001 C CNN
+F 2 "e-Power:UFRGS_11.0x6.0mm_Copper" H 9750 1900 50  0001 C CNN
+F 3 "" H 9750 1700 50  0001 C CNN
+	1    9750 1700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -486,7 +486,7 @@ U 1 1 5F1F2C76
 P 6950 3300
 F 0 "J2" H 7030 3292 50  0000 L CNN
 F 1 "Screw_Terminal_01x02" H 7030 3201 50  0000 L CNN
-F 2 "e-Power:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.08mm_Horizontal" H 6950 3300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 6950 3300 50  0001 C CNN
 F 3 "~" H 6950 3300 50  0001 C CNN
 	1    6950 3300
 	1    0    0    -1  
@@ -527,10 +527,10 @@ Wire Wire Line
 Wire Wire Line
 	6500 2150 6500 2300
 $Comp
-L Connector:TestPoint TP2
+L Connector:TestPoint TP?
 U 1 1 5F2DBCEA
 P 7400 5400
-F 0 "TP2" H 7342 5426 50  0000 R CNN
+F 0 "TP?" H 7342 5426 50  0000 R CNN
 F 1 "GND" H 7342 5517 50  0000 R CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7600 5400 50  0001 C CNN
 F 3 "~" H 7600 5400 50  0001 C CNN
@@ -539,10 +539,10 @@ F 3 "~" H 7600 5400 50  0001 C CNN
 $EndComp
 Connection ~ 7400 5400
 $Comp
-L Connector:TestPoint TP1
+L Connector:TestPoint TP?
 U 1 1 5F2DC33C
 P 7400 4900
-F 0 "TP1" H 7458 5018 50  0000 L CNN
+F 0 "TP?" H 7458 5018 50  0000 L CNN
 F 1 "+20V" H 7458 4927 50  0000 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7600 4900 50  0001 C CNN
 F 3 "~" H 7600 4900 50  0001 C CNN
@@ -551,10 +551,10 @@ F 3 "~" H 7600 4900 50  0001 C CNN
 $EndComp
 Connection ~ 7400 4900
 $Comp
-L Mechanical:MountingHole_Pad H1
+L Mechanical:MountingHole_Pad H?
 U 1 1 5F2DCAE7
 P 8000 4900
-F 0 "H1" H 7950 5100 50  0000 L CNN
+F 0 "H?" H 7950 5100 50  0000 L CNN
 F 1 "NC" H 8100 4858 50  0001 L CNN
 F 2 "e-Power:MountingHole_3.2mm_M3_Pad_Via" H 8000 4900 50  0001 C CNN
 F 3 "~" H 8000 4900 50  0001 C CNN
@@ -563,10 +563,10 @@ F 3 "~" H 8000 4900 50  0001 C CNN
 $EndComp
 NoConn ~ 8000 5000
 $Comp
-L Mechanical:MountingHole_Pad H2
+L Mechanical:MountingHole_Pad H?
 U 1 1 5F2E02B0
 P 8200 4900
-F 0 "H2" H 8150 5100 50  0000 L CNN
+F 0 "H?" H 8150 5100 50  0000 L CNN
 F 1 "NC" H 8300 4858 50  0001 L CNN
 F 2 "e-Power:MountingHole_3.2mm_M3_Pad_Via" H 8200 4900 50  0001 C CNN
 F 3 "~" H 8200 4900 50  0001 C CNN
@@ -574,10 +574,10 @@ F 3 "~" H 8200 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H3
+L Mechanical:MountingHole_Pad H?
 U 1 1 5F2E0AF2
 P 8400 4900
-F 0 "H3" H 8350 5100 50  0000 L CNN
+F 0 "H?" H 8350 5100 50  0000 L CNN
 F 1 "NC" H 8500 4858 50  0001 L CNN
 F 2 "e-Power:MountingHole_3.2mm_M3_Pad_Via" H 8400 4900 50  0001 C CNN
 F 3 "~" H 8400 4900 50  0001 C CNN
@@ -585,10 +585,10 @@ F 3 "~" H 8400 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H4
+L Mechanical:MountingHole_Pad H?
 U 1 1 5F2E0CF8
 P 8600 4900
-F 0 "H4" H 8550 5100 50  0000 L CNN
+F 0 "H?" H 8550 5100 50  0000 L CNN
 F 1 "NC" H 8700 4858 50  0001 L CNN
 F 2 "e-Power:MountingHole_3.2mm_M3_Pad_Via" H 8600 4900 50  0001 C CNN
 F 3 "~" H 8600 4900 50  0001 C CNN
