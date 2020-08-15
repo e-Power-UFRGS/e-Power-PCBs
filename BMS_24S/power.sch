@@ -511,7 +511,7 @@ Wire Wire Line
 Connection ~ 3750 1000
 Wire Wire Line
 	3750 1000 3900 1000
-Text Notes 4550 1850 0    50   ~ 0
+Text Notes 4550 1750 0    50   ~ 0
 Vref = 1.25V
 Wire Wire Line
 	6250 1000 6500 1000
