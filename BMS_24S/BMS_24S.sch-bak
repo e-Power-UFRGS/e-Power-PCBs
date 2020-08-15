@@ -32,17 +32,6 @@ Text Notes 4250 7300 0    50   ~ 0
 Text Notes 4250 7400 0    50   ~ 0
 0.00V ~~ 4.20V\n
 $Comp
-L power:GND #PWR0129
-U 1 1 5EEFA243
-P 15100 4600
-F 0 "#PWR0129" H 15100 4350 50  0001 C CNN
-F 1 "GND" H 15105 4427 50  0000 C CNN
-F 2 "" H 15100 4600 50  0001 C CNN
-F 3 "" H 15100 4600 50  0001 C CNN
-	1    15100 4600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad H101
 U 1 1 5EEFB35E
 P 14700 4300
@@ -53,27 +42,6 @@ F 3 "~" H 14700 4300 50  0001 C CNN
 	1    14700 4300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14950 4400 14950 4500
-Wire Wire Line
-	14700 4500 14950 4500
-Wire Wire Line
-	14700 4400 14700 4500
-Connection ~ 14950 4500
-Wire Wire Line
-	14950 4500 15100 4500
-Wire Wire Line
-	15500 4500 15500 4400
-Wire Wire Line
-	15250 4400 15250 4500
-Connection ~ 15250 4500
-Wire Wire Line
-	15250 4500 15500 4500
-Wire Wire Line
-	15100 4600 15100 4500
-Connection ~ 15100 4500
-Wire Wire Line
-	15100 4500 15250 4500
 Text Label 14800 2700 2    50   ~ 0
 BMS_ERROR
 Text Label 14800 2400 2    50   ~ 0
@@ -5939,6 +5907,10 @@ Connection ~ 5450 10900
 Wire Wire Line
 	5450 10900 5450 10700
 NoConn ~ 6150 10800
+NoConn ~ 14700 4400
+NoConn ~ 14950 4400
+NoConn ~ 15250 4400
+NoConn ~ 15500 4400
 Wire Bus Line
 	3950 5450 3950 6150
 Wire Bus Line
