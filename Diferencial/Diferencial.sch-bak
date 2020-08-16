@@ -506,17 +506,6 @@ F 3 "" H 14975 9500 50  0001 C CNN
 	1    14975 9500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Regulator_Linear:LM317_TO39 U5
-U 1 1 5ECB47C0
-P 14475 8525
-F 0 "U5" H 14475 8767 50  0000 C CNN
-F 1 "LM317_TO39" H 14475 8676 50  0000 C CNN
-F 2 "e-Power:TO-220-3_Horizontal_TabDown" H 14475 8750 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 14475 8525 50  0001 C CNN
-	1    14475 8525
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14975 9400 14975 9450
 Wire Wire Line
@@ -857,62 +846,23 @@ F 3 "" H 5475 3125 50  0001 C CNN
 	1    5475 3125
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:DB9_Female J7
-U 1 1 5ED2A193
-P 1550 9900
-F 0 "J7" H 1730 9946 50  0000 L CNN
-F 1 "DB9_Female" H 1730 9855 50  0000 L CNN
-F 2 "e-Power:DSUB-9_Female_EdgeMount_P2.77mm" H 1550 9900 50  0001 C CNN
-F 3 " ~" H 1550 9900 50  0001 C CNN
-	1    1550 9900
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR054
-U 1 1 5ED2A199
-P 1850 10200
-F 0 "#PWR054" H 1850 9950 50  0001 C CNN
-F 1 "GND" V 1855 10072 50  0000 R CNN
-F 2 "" H 1850 10200 50  0001 C CNN
-F 3 "" H 1850 10200 50  0001 C CNN
-	1    1850 10200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR048
-U 1 1 5ED2A19F
-P 1850 9500
-F 0 "#PWR048" H 1850 9250 50  0001 C CNN
-F 1 "GND" V 1855 9372 50  0000 R CNN
-F 2 "" H 1850 9500 50  0001 C CNN
-F 3 "" H 1850 9500 50  0001 C CNN
-	1    1850 9500
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
-	1850 9600 2425 9600
-Text Label 2425 9600 2    50   ~ 0
-Input_Power
-Wire Wire Line
-	1850 10000 2425 10000
-Text Label 2425 10000 2    50   ~ 0
+	1725 9775 2300 9775
+Text Label 2300 9775 2    50   ~ 0
 CAN_H
 Wire Wire Line
-	1850 10100 2425 10100
-Text Label 2425 10100 2    50   ~ 0
+	1725 9875 2300 9875
+Text Label 2300 9875 2    50   ~ 0
 CAN_L
 Wire Wire Line
-	1850 9900 2425 9900
-Text Label 2425 9900 2    50   ~ 0
+	1725 9675 2300 9675
+Text Label 2300 9675 2    50   ~ 0
 CAN_GND
 Wire Wire Line
-	1850 10300 2425 10300
-Text Label 2425 10300 2    50   ~ 0
+	1725 9975 2300 9975
+Text Label 2300 9975 2    50   ~ 0
 Input_Power
-NoConn ~ 1850 9700
-NoConn ~ 1850 9800
-Text Label 10500 2925 2    50   ~ 0
+Text Label 11550 3725 0    50   ~ 0
 Ready_to_Drive
 Text Label 6475 9325 2    50   ~ 0
 Ready_to_Drive
@@ -1001,7 +951,7 @@ F 3 "" H 9200 9325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 8825 8500
-Text Label 11550 3625 0    50   ~ 0
+Text Label 10500 3025 2    50   ~ 0
 Brake_Sensor_1
 Connection ~ 4000 2450
 $Comp
@@ -1027,8 +977,6 @@ F 3 "" H 4925 4475 50  0001 C CNN
 	1    4925 4475
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4925 4175 5175 4175
 Connection ~ 4925 4175
 $Comp
 L Device:C C7
@@ -1041,8 +989,6 @@ F 3 "~" H 4925 4325 50  0001 C CNN
 	1    4925 4325
 	-1   0    0    1   
 $EndComp
-Text Label 5175 4175 0    50   ~ 0
-Brake_Sensor_1
 Connection ~ 4425 4175
 Wire Wire Line
 	4425 4175 4925 4175
@@ -1645,9 +1591,9 @@ Wire Wire Line
 	12850 3575 13400 3575
 Text Label 15125 7325 0    50   ~ 0
 Brake_Light
-Text Label 10500 3025 2    50   ~ 0
+Text Label 11550 3625 0    50   ~ 0
 Brake_Light
-Text Label 11550 3725 0    50   ~ 0
+Text Label 10500 2925 2    50   ~ 0
 Brake_Sensor_2
 Wire Notes Line
 	13150 7925 15925 7925
@@ -2446,10 +2392,10 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 7750 9325 50  000
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP9
 U 1 1 5F3C7037
 P 14975 9450
-F 0 "TP?" H 14900 9725 50  0000 L CNN
+F 0 "TP9" H 14900 9725 50  0000 L CNN
 F 1 "GND" H 14900 9650 50  0000 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 15175 9450 50  0001 C CNN
 F 3 "~" H 15175 9450 50  0001 C CNN
@@ -2459,4 +2405,98 @@ $EndComp
 Connection ~ 14975 9450
 Wire Wire Line
 	14975 9450 14975 9500
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5F3C983B
+P 4925 1050
+F 0 "TP3" H 4850 1325 50  0000 L CNN
+F 1 "AS_1" H 4850 1250 50  0000 L CNN
+F 2 "e-Power:TestPoint_Pad_D1.0mm" H 5125 1050 50  0001 C CNN
+F 3 "~" H 5125 1050 50  0001 C CNN
+	1    4925 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5F3CA5F4
+P 4900 2450
+F 0 "TP4" H 4825 2725 50  0000 L CNN
+F 1 "AS_2" H 4825 2650 50  0000 L CNN
+F 2 "e-Power:TestPoint_Pad_D1.0mm" H 5100 2450 50  0001 C CNN
+F 3 "~" H 5100 2450 50  0001 C CNN
+	1    4900 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP7
+U 1 1 5F3CAABA
+P 4925 5675
+F 0 "TP7" H 4850 5950 50  0000 L CNN
+F 1 "BS_2" H 4850 5875 50  0000 L CNN
+F 2 "e-Power:TestPoint_Pad_D1.0mm" H 5125 5675 50  0001 C CNN
+F 3 "~" H 5125 5675 50  0001 C CNN
+	1    4925 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5F3CB025
+P 4925 4175
+F 0 "TP6" H 4850 4450 50  0000 L CNN
+F 1 "BS_1" H 4850 4375 50  0000 L CNN
+F 2 "e-Power:TestPoint_Pad_D1.0mm" H 5125 4175 50  0001 C CNN
+F 3 "~" H 5125 4175 50  0001 C CNN
+	1    4925 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5F3CB6F0
+P 5475 6350
+F 0 "TP8" H 5400 6625 50  0000 L CNN
+F 1 "GND" H 5400 6550 50  0000 L CNN
+F 2 "e-Power:TestPoint_Pad_D1.0mm" H 5675 6350 50  0001 C CNN
+F 3 "~" H 5675 6350 50  0001 C CNN
+	1    5475 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5F3CBF2E
+P 5475 3125
+F 0 "TP5" H 5400 3400 50  0000 L CNN
+F 1 "GND" H 5400 3325 50  0000 L CNN
+F 2 "e-Power:TestPoint_Pad_D1.0mm" H 5675 3125 50  0001 C CNN
+F 3 "~" H 5675 3125 50  0001 C CNN
+	1    5475 3125
+	0    1    1    0   
+$EndComp
+Connection ~ 5475 3125
+Connection ~ 5475 6350
+Wire Wire Line
+	4925 4175 5175 4175
+$Comp
+L Regulator_Linear:LM317_3PinPackage U5
+U 1 1 5F3B31FD
+P 14475 8525
+F 0 "U5" H 14475 8767 50  0000 C CNN
+F 1 "LM317_3PinPackage" H 14475 8676 50  0000 C CNN
+F 2 "e-Power:TO-220-3_Horizontal_TabDown" H 14475 8775 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 14475 8525 50  0001 C CNN
+	1    14475 8525
+	1    0    0    -1  
+$EndComp
+Text Label 5175 4175 0    50   ~ 0
+Brake_Sensor_1
+$Comp
+L Connector:Screw_Terminal_01x04 J7
+U 1 1 5F83DA47
+P 1525 9875
+F 0 "J7" H 1443 9450 50  0000 C CNN
+F 1 "Screw_Terminal_01x04" H 1443 9541 50  0000 C CNN
+F 2 "e-Power:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal" H 1525 9875 50  0001 C CNN
+F 3 "~" H 1525 9875 50  0001 C CNN
+	1    1525 9875
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
