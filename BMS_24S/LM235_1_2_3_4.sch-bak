@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 7874 4725
 encoding utf-8
-Sheet 20 31
+Sheet 23 31
 Title ""
 Date ""
 Rev "REV A"
@@ -49,6 +49,7 @@ F 0 "U2301" V 1075 3100 50  0000 C CNN
 F 1 "LM324" V 1166 3100 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1400 2825 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 1450 3300 50  0001 C CNN
+F 4 "C71035" H 1400 3100 50  0001 C CNN "LCSC"
 	5    1400 3100
 	0    1    1    0   
 $EndComp
@@ -296,6 +297,7 @@ F 0 "U2301" H 2050 1100 50  0000 C CNN
 F 1 "LM324" H 1950 1250 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1950 975 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2000 1450 50  0001 C CNN
+F 4 "C71035" H 1950 1250 50  0001 C CNN "LCSC"
 	1    1950 1250
 	1    0    0    -1  
 $EndComp
@@ -511,6 +513,7 @@ F 0 "U2301" H 2050 1800 50  0000 C CNN
 F 1 "LM324" H 1900 1950 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 1950 1675 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 2000 2150 50  0001 C CNN
+F 4 "C71035" H 1950 1950 50  0001 C CNN "LCSC"
 	2    1950 1950
 	1    0    0    -1  
 $EndComp
@@ -764,6 +767,7 @@ F 0 "U2301" H 3950 1100 50  0000 C CNN
 F 1 "LM324" H 3850 1250 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3850 975 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3900 1450 50  0001 C CNN
+F 4 "C71035" H 3850 1250 50  0001 C CNN "LCSC"
 	3    3850 1250
 	1    0    0    -1  
 $EndComp
@@ -809,6 +813,7 @@ F 0 "U2301" H 3950 1800 50  0000 C CNN
 F 1 "LM324" H 3800 1950 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3850 1675 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3900 2150 50  0001 C CNN
+F 4 "C71035" H 3850 1950 50  0001 C CNN "LCSC"
 	4    3850 1950
 	1    0    0    -1  
 $EndComp
