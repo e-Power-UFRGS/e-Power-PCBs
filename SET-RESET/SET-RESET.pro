@@ -1,4 +1,4 @@
-update=13/07/2020 00:03:53
+update=17/08/2020 19:00:54
 version=1
 last_client=pcbnew
 [general]
@@ -42,6 +42,7 @@ TrackWidth1=0.25
 TrackWidth2=0.3
 TrackWidth3=0.4
 TrackWidth4=0.5
+TrackWidth5=1
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
