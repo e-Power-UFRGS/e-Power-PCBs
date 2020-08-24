@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 26)
-    (tracks 576)
+    (tracks 584)
     (zones 0)
     (modules 112)
     (nets 63)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.7)
+    (last_trace_width 0.4)
     (user_trace_width 0.3)
     (user_trace_width 0.4)
     (user_trace_width 0.7)
@@ -6120,6 +6120,14 @@
   (via (at 143.00708 115.189) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 39))
   (segment (start 141.3833 115.1843) (end 143.00238 115.1843) (width 0.4) (layer F.Cu) (net 39))
   (segment (start 143.00238 115.1843) (end 143.00708 115.189) (width 0.4) (layer F.Cu) (net 39))
+  (segment (start 145.0848 140.17752) (end 144.5848 140.17752) (width 0.4) (layer F.Cu) (net 39))
+  (via (at 142.99184 136.5504) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 39))
+  (segment (start 143.00708 115.189) (end 143.00708 136.53516) (width 0.4) (layer B.Cu) (net 39))
+  (segment (start 143.00708 136.53516) (end 142.99184 136.5504) (width 0.4) (layer B.Cu) (net 39))
+  (segment (start 142.98822 137.119705) (end 142.98822 138.58094) (width 0.4) (layer F.Cu) (net 39))
+  (segment (start 142.99184 137.116085) (end 142.98822 137.119705) (width 0.4) (layer F.Cu) (net 39))
+  (segment (start 142.99184 136.5504) (end 142.99184 137.116085) (width 0.4) (layer F.Cu) (net 39))
+  (segment (start 144.5848 140.17752) (end 142.98822 138.58094) (width 0.4) (layer F.Cu) (net 39))
   (segment (start 94.5012 87.5268) (end 94.5012 85.6398) (width 0.4) (layer F.Cu) (net 40) (tstamp 5F3AC557))
   (segment (start 98.5445 85.6398) (end 98.5457 85.641) (width 0.4) (layer F.Cu) (net 40) (tstamp 5F3AC54B))
   (segment (start 94.5012 85.6398) (end 98.5445 85.6398) (width 0.4) (layer F.Cu) (net 40) (tstamp 5F3AC55A))
