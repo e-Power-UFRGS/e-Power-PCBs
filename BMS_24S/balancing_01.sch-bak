@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr User 7087 6299
 encoding utf-8
-Sheet 28 31
+Sheet 29 31
 Title ""
 Date "2020-04-26"
 Rev "0"
@@ -98,6 +98,7 @@ F 0 "U3001" H 3500 2900 50  0000 C CNN
 F 1 "TLP290-4" H 3500 3300 50  0000 C CNN
 F 2 "e-Power:SOIC-16_4.55x10.3mm_P1.27mm(TLP290-4)" H 2650 2900 50  0001 L CIN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12855&prodName=TLP290-4" H 3525 3100 50  0001 L CNN
+F 4 "C39031" H 3500 3100 50  0001 C CNN "LCSC"
 	3    3500 3100
 	1    0    0    -1  
 $EndComp
@@ -1530,6 +1531,7 @@ F 0 "U3001" H 3500 900 50  0000 C CNN
 F 1 "TLP290-4" H 3500 1300 50  0000 C CNN
 F 2 "e-Power:SOIC-16_4.55x10.3mm_P1.27mm(TLP290-4)" H 2650 900 50  0001 L CIN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12855&prodName=TLP290-4" H 3525 1100 50  0001 L CNN
+F 4 "C39031" H 3500 1100 50  0001 C CNN "LCSC"
 	1    3500 1100
 	1    0    0    -1  
 $EndComp
@@ -1644,6 +1646,7 @@ F 0 "U3001" H 3500 1900 50  0000 C CNN
 F 1 "TLP290-4" H 3500 2300 50  0000 C CNN
 F 2 "e-Power:SOIC-16_4.55x10.3mm_P1.27mm(TLP290-4)" H 2650 1900 50  0001 L CIN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12855&prodName=TLP290-4" H 3525 2100 50  0001 L CNN
+F 4 "C39031" H 3500 2100 50  0001 C CNN "LCSC"
 	2    3500 2100
 	1    0    0    -1  
 $EndComp
@@ -1834,6 +1837,7 @@ F 0 "U3001" H 3500 3900 50  0000 C CNN
 F 1 "TLP290-4" H 3500 4300 50  0000 C CNN
 F 2 "e-Power:SOIC-16_4.55x10.3mm_P1.27mm(TLP290-4)" H 2650 3900 50  0001 L CIN
 F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12855&prodName=TLP290-4" H 3525 4100 50  0001 L CNN
+F 4 "C39031" H 3500 4100 50  0001 C CNN "LCSC"
 	4    3500 4100
 	1    0    0    -1  
 $EndComp
