@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\gabri\Documents\github\e-Power-PCBs\BMS_24S\BMS_24S.sch</source>
-    <date>8/27/2020 7:24:07 PM</date>
+    <date>8/28/2020 10:01:56 PM</date>
     <tool>Eeschema (5.1.5)-3</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1860,7 +1860,7 @@
       <tstamp>61C168AA</tstamp>
     </comp>
     <comp ref="U110">
-      <value>MCP2558FD-xSN</value>
+      <value>MCP2558</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/20005533A.pdf</datasheet>
       <libsource lib="Interface_CAN_LIN" part="MCP2558FD-xSN" description="CAN FD Transceiver with Silent Mode, up to 8 Mbps, SOIC-8"/>

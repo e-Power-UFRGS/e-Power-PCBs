@@ -104,7 +104,7 @@ Comment,Designator,Footprint,LCSC, LCSC, Power, Precision, Voltage
 "74HC4051","U105,U103,U101,U106,U104,U102","Package_SO:SOP-16_4.4x10.4mm_P1.27mm","","C9386","","",""
 "74HC595","U107,U109,U111","Package_SO:SOP-16_4.4x10.4mm_P1.27mm","","C5947","","",""
 "STM32G431CBTx","U108","Package_QFP:LQFP-48_7x7mm_P0.5mm",""
-"MCP2558FD-xSN","U110","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",""
+"MCP2558","U110","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",""
 "LM324","U112,U113,U201,U1801,U1901,U2001,U2101,U2201,U2301,U3101","Package_SO:SOIC-14_3.9x8.7mm_P1.27mm","","C71035","","",""
 "TL431","U203,U202,U204","Package_TO_SOT_SMD:SOT-23","","C3113","","",""
 "LM317","U301","e-Power:TO-220-3_Horizontal_TabDown",""
