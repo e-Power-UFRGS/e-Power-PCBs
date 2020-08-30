@@ -207,8 +207,6 @@ F 3 "~" H 2650 5150 50  0001 C CNN
 	1    2650 5150
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	3000 4350 3600 4350
 $Comp
 L Device:CP C2
 U 1 1 5EF68C4D
@@ -367,9 +365,9 @@ Wire Wire Line
 Wire Wire Line
 	8550 1300 8700 1300
 Wire Wire Line
-	9000 1300 9200 1300
+	9000 1300 9050 1300
 Wire Wire Line
-	9000 2300 9150 2300
+	9000 2300 9050 2300
 $Comp
 L Device:R R40
 U 1 1 5EF0623F
@@ -1909,4 +1907,121 @@ F 3 "" H 10600 1350 50  0001 C CNN
 	1    10600 1350
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:TestPoint TP11
+U 1 1 5F48A2CA
+P 6700 4150
+F 0 "TP11" H 6758 4268 50  0001 L CNN
+F 1 "ERRO_BSPD" H 6750 4300 50  0000 L CNN
+F 2 "e-Power:TestPoint_Pad_D1.0mm" H 6900 4150 50  0001 C CNN
+F 3 "~" H 6900 4150 50  0001 C CNN
+	1    6700 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP12
+U 1 1 5F48AC56
+P 9050 1150
+F 0 "TP12" H 9108 1268 50  0001 L CNN
+F 1 "ERRO_SENSOR-CURTO" H 9100 1300 50  0000 L CNN
+F 2 "e-Power:TestPoint_Pad_D1.0mm" H 9250 1150 50  0001 C CNN
+F 3 "~" H 9250 1150 50  0001 C CNN
+	1    9050 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP13
+U 1 1 5F48BB79
+P 9050 2150
+F 0 "TP13" H 9108 2268 50  0001 L CNN
+F 1 "ERRO_SENSOR-ABERTO" H 9100 2300 50  0000 L CNN
+F 2 "e-Power:TestPoint_Pad_D1.0mm" H 9250 2150 50  0001 C CNN
+F 3 "~" H 9250 2150 50  0001 C CNN
+	1    9050 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 2150 9050 2300
+Connection ~ 9050 2300
+Wire Wire Line
+	9050 2300 9150 2300
+Wire Wire Line
+	9050 1150 9050 1300
+Connection ~ 9050 1300
+Wire Wire Line
+	9050 1300 9200 1300
+Wire Wire Line
+	6700 4150 6700 4350
+$Comp
+L Connector:TestPoint TP10
+U 1 1 5F4A694B
+P 5600 4650
+F 0 "TP10" H 5658 4768 50  0001 L CNN
+F 1 "CAPACITOR" H 5650 4700 50  0000 L CNN
+F 2 "e-Power:TestPoint_Pad_D1.0mm" H 5800 4650 50  0001 C CNN
+F 3 "~" H 5800 4650 50  0001 C CNN
+	1    5600 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4650 5500 4650
+Connection ~ 5500 4650
+$Comp
+L Connector:TestPoint TP9
+U 1 1 5F4BBC0B
+P 3450 4550
+F 0 "TP9" H 3508 4668 50  0001 L CNN
+F 1 "FREIO_SINAL" H 3250 4650 50  0000 L CNN
+F 2 "e-Power:TestPoint_Pad_D1.0mm" H 3650 4550 50  0001 C CNN
+F 3 "~" H 3650 4550 50  0001 C CNN
+	1    3450 4550
+	1    0    0    -1  
+$EndComp
+Connection ~ 3450 4550
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5F4BEA8A
+P 3150 4250
+F 0 "TP8" H 3208 4368 50  0001 L CNN
+F 1 "COMP_OUT" H 2950 4450 50  0000 L CNN
+F 2 "e-Power:TestPoint_Pad_D1.0mm" H 3350 4250 50  0001 C CNN
+F 3 "~" H 3350 4250 50  0001 C CNN
+	1    3150 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4350 3150 4350
+Wire Wire Line
+	3150 4250 3150 4350
+Connection ~ 3150 4350
+Wire Wire Line
+	3150 4350 3600 4350
+$Comp
+L Connector:TestPoint TP14
+U 1 1 5F4DF687
+P 9300 3900
+F 0 "TP14" H 9358 4018 50  0001 L CNN
+F 1 "ERRO_GERAL" H 9350 3950 50  0000 L CNN
+F 2 "e-Power:TestPoint_Pad_D1.0mm" H 9500 3900 50  0001 C CNN
+F 3 "~" H 9500 3900 50  0001 C CNN
+	1    9300 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 3900 9300 3950
+Connection ~ 9300 3950
+$Comp
+L Connector:TestPoint TP15
+U 1 1 5F4A18E2
+P 4300 7050
+F 0 "TP15" H 4358 7168 50  0001 L CNN
+F 1 "GDN" H 4200 7000 50  0000 L CNN
+F 2 "e-Power:TestPoint_Pad_D1.0mm" H 4500 7050 50  0001 C CNN
+F 3 "~" H 4500 7050 50  0001 C CNN
+	1    4300 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 7050 4300 7050
+Connection ~ 4100 7050
 $EndSCHEMATC
