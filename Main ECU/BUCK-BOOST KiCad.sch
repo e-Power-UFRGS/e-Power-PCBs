@@ -234,7 +234,7 @@ U 1 1 5EB9FF7D
 P 2825 1675
 F 0 "F2" V 2750 1675 50  0000 C CNN
 F 1 "Fuse" V 2925 1675 50  0000 C CNN
-F 2 "e-Power:Fuse_SMD" V 2755 1675 50  0001 C CNN
+F 2 "e-Power:FUSE_1206_3216Metric" V 2755 1675 50  0001 C CNN
 F 3 "~" H 2825 1675 50  0001 C CNN
 	1    2825 1675
 	0    1    1    0   
@@ -402,7 +402,7 @@ F 3 "https://www.ti.com/lit/ds/symlink/lm2577.pdf?&ts=1589076847876" H 1425 4375
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	925  6025 925  6075
+	925  6025 925  6050
 $Comp
 L power:GND #PWR028
 U 1 1 5EBDF343
@@ -548,7 +548,7 @@ U 1 1 5EC63C6A
 P 4950 3875
 F 0 "F3" V 4850 3875 50  0000 C CNN
 F 1 "Fuse" V 5050 3875 50  0000 C CNN
-F 2 "e-Power:Fuse_SMD" V 4880 3875 50  0001 C CNN
+F 2 "e-Power:FUSE_1206_3216Metric" V 4880 3875 50  0001 C CNN
 F 3 "~" H 4950 3875 50  0001 C CNN
 	1    4950 3875
 	0    1    1    0   
@@ -720,7 +720,7 @@ U 1 1 5F388AA4
 P 3200 1675
 F 0 "FB2" V 3382 1675 50  0000 C CNN
 F 1 "Ferrite_Bead_0603" H 3337 1630 50  0001 L CNN
-F 2 "e-Power:FB_0603_1608Metric" V 2950 1850 50  0001 C CNN
+F 2 "e-Power:FB_0805_2012Metric" V 2950 1850 50  0001 C CNN
 F 3 "" H 3200 1675 50  0001 C CNN
 	1    3200 1675
 	0    -1   -1   0   
@@ -1256,33 +1256,33 @@ Connection ~ 5625 5000
 Wire Wire Line
 	5625 5000 5625 5100
 $Comp
-L Connector:TestPoint TP5
+L Connector:TestPoint C+_Cells1
 U 1 1 5F4AB9A3
 P 1900 1675
-F 0 "TP5" H 1825 1875 50  0000 L CNN
-F 1 "TestPoint" H 1525 1775 50  0001 L CNN
+F 0 "C+_Cells1" V 1900 1900 50  0000 L CNN
+F 1 "C+_Cells" H 1525 1775 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 2100 1675 50  0001 C CNN
 F 3 "~" H 2100 1675 50  0001 C CNN
 	1    1900 1675
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP9
+L Connector:TestPoint C+2
 U 1 1 5F4ABF4E
 P 5300 4650
-F 0 "TP9" H 5225 4850 50  0000 L CNN
-F 1 "TestPoint" H 5125 4850 50  0001 L CNN
+F 0 "C+2" H 5225 4850 50  0000 L CNN
+F 1 "C+" H 5125 4850 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 5500 4650 50  0001 C CNN
 F 3 "~" H 5500 4650 50  0001 C CNN
 	1    5300 4650
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP10
+L Connector:TestPoint C-2
 U 1 1 5F4AC66B
 P 6300 4650
-F 0 "TP10" H 6100 4725 50  0000 L CNN
-F 1 "TestPoint" H 6358 4677 50  0001 L CNN
+F 0 "C-2" H 6200 4850 50  0000 L CNN
+F 1 "C-" H 6358 4677 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 6500 4650 50  0001 C CNN
 F 3 "~" H 6500 4650 50  0001 C CNN
 	1    6300 4650
@@ -1291,11 +1291,11 @@ $EndComp
 Text HLabel 6900 3875 1    50   Input ~ 0
 12V
 $Comp
-L Connector:TestPoint TP6
+L Connector:TestPoint C-_Cells1
 U 1 1 5F4ABDBE
 P 2600 1675
-F 0 "TP6" H 2600 1875 50  0000 L CNN
-F 1 "TestPoint" H 2650 1850 50  0001 L CNN
+F 0 "C-_Cells1" V 2600 1925 50  0000 L CNN
+F 1 "C-_Cells" H 2650 1850 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 2800 1675 50  0001 C CNN
 F 3 "~" H 2800 1675 50  0001 C CNN
 	1    2600 1675
@@ -1304,11 +1304,11 @@ $EndComp
 Wire Wire Line
 	7550 1575 7600 1575
 $Comp
-L Connector:TestPoint TP3
+L Connector:TestPoint C+1
 U 1 1 5F4FFB70
 P 7600 975
-F 0 "TP3" V 7600 1163 50  0000 L CNN
-F 1 "9V" V 7645 1163 50  0000 L CNN
+F 0 "C+1" H 7450 1175 50  0000 L CNN
+F 1 "C+" H 7500 1050 50  0000 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7800 975 50  0001 C CNN
 F 3 "~" H 7800 975 50  0001 C CNN
 	1    7600 975 
@@ -4391,11 +4391,11 @@ Wire Wire Line
 Wire Wire Line
 	7600 1875 8025 1875
 $Comp
-L Connector:TestPoint TP7
+L Connector:TestPoint C-1
 U 1 1 5F4399D7
 P 8025 1875
-F 0 "TP7" H 8025 2063 50  0000 L CNN
-F 1 "9V" V 8070 2063 50  0001 L CNN
+F 0 "C-1" H 8025 2063 50  0000 L CNN
+F 1 "C-" V 8070 2063 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 8225 1875 50  0001 C CNN
 F 3 "~" H 8225 1875 50  0001 C CNN
 	1    8025 1875
@@ -4469,10 +4469,10 @@ Connection ~ 2600 1675
 Wire Wire Line
 	2600 1675 2675 1675
 $Comp
-L Connector:TestPoint TP4
+L Connector:TestPoint VIN1
 U 1 1 5F452565
 P 4500 1575
-F 0 "TP4" H 4525 1775 50  0000 L CNN
+F 0 "VIN1" H 4525 1775 50  0000 L CNN
 F 1 "VIN" H 4550 1700 50  0000 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 4700 1575 50  0001 C CNN
 F 3 "~" H 4700 1575 50  0001 C CNN
@@ -4480,10 +4480,10 @@ F 3 "~" H 4700 1575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP8
+L Connector:TestPoint 12V1
 U 1 1 5F466899
 P 3750 3725
-F 0 "TP8" H 3675 3925 50  0000 L CNN
+F 0 "12V1" H 3675 3925 50  0000 L CNN
 F 1 "12V" H 3575 3925 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 3950 3725 50  0001 C CNN
 F 3 "~" H 3950 3725 50  0001 C CNN
@@ -4664,4 +4664,50 @@ Wire Wire Line
 Connection ~ 2400 3875
 Wire Wire Line
 	2400 3875 2625 3875
+$Comp
+L Device:C C22
+U 1 1 5F57D791
+P 6200 7200
+F 0 "C22" H 6350 7200 50  0000 C CNN
+F 1 "100nF" H 6350 7125 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6238 7050 50  0001 C CNN
+F 3 "~" H 6200 7200 50  0001 C CNN
+	1    6200 7200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6200 7050 6200 6850
+Wire Wire Line
+	6200 6850 6500 6850
+Wire Wire Line
+	6200 7350 6200 7450
+Wire Wire Line
+	6200 7450 6500 7450
+Connection ~ 6500 7450
+$Comp
+L Connector:TestPoint GND1
+U 1 1 5F625521
+P 925 6050
+F 0 "GND1" H 850 6250 50  0000 L CNN
+F 1 "GND" H 750 6250 50  0001 L CNN
+F 2 "e-Power:TestPoint_Pad_D1.0mm" H 1125 6050 50  0001 C CNN
+F 3 "~" H 1125 6050 50  0001 C CNN
+	1    925  6050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 925  6050
+Wire Wire Line
+	925  6050 925  6075
+$Comp
+L Connector:TestPoint GND2
+U 1 1 5F628F33
+P 3750 4475
+F 0 "GND2" H 3675 4675 50  0000 L CNN
+F 1 "GND" H 3575 4675 50  0001 L CNN
+F 2 "e-Power:TestPoint_Pad_D1.0mm" H 3950 4475 50  0001 C CNN
+F 3 "~" H 3950 4475 50  0001 C CNN
+	1    3750 4475
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3750 4475
 $EndSCHEMATC
