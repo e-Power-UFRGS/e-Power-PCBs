@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# UFRGS_1_11.0x6.0mm_Copper-e-Power
+#
+DEF UFRGS_1_11.0x6.0mm_Copper-e-Power G 0 40 Y Y 1 F N
+F0 "G" 0 -100 50 H V C CNN
+F1 "UFRGS_1_11.0x6.0mm_Copper-e-Power" 0 100 50 H I C CNN
+F2 "e-Power:UFRGS_11.0x6.0mm_Copper" 0 200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 0 50 0 0 0 UFRGS_0_11.0x6.0mm_Copper Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+# e-Power_12.4x6.0mm_Copper-e-Power
+#
+DEF e-Power_12.4x6.0mm_Copper-e-Power G 0 40 Y Y 1 F N
+F0 "G" 0 -100 50 H V C CNN
+F1 "e-Power_12.4x6.0mm_Copper-e-Power" 0 100 50 H I C CNN
+F2 "e-Power:e-Power_12.4x6.0mm_Copper" 0 200 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+T 0 0 0 50 0 0 0 e-Power_12.4x6.0mm_Copper Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+#End Library
