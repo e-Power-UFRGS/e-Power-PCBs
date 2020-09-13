@@ -983,7 +983,7 @@
     (tags "mounting hole 3.2mm m3")
     (path /5F571E38)
     (attr virtual)
-    (fp_text reference H1 (at 0 -4.2) (layer F.SilkS)
+    (fp_text reference H1 (at 0.298 4.289) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_Pad (at 0 4.2) (layer F.Fab)
