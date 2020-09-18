@@ -1,0 +1,9 @@
+Relatório de ERC (05/05/2020 16:46:35, Codificação UTF8 )
+
+***** Folha /
+ErrType(3): Pino conectado a outros pinos, mas não conduzido por nenhum pino
+    @(110,49 mm, 29,21 mm): Pino 1 (Alimentação) do componente #PWR0107 não está conduzindo (Rede 5)
+ErrType(3): Pino conectado a outros pinos, mas não conduzido por nenhum pino
+    @(48,26 mm, 24,13 mm): Pino 1 (Alimentação) do componente #PWR0114 não está conduzindo (Rede 9)
+
+** Mensagens ERC: 2 Erros 0 Advertências 2
