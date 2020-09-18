@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew "(5.1.4)-1")
+(kicad_pcb (version 20171130) (host pcbnew "(5.1.5)-3")
 
   (general
     (thickness 1.6)
@@ -89,9 +89,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "GERBERS/"))
   )
 
   (net 0 "")
@@ -6129,7 +6129,7 @@
   (segment (start 155.8624 86.5058) (end 155.9271 86.4411) (width 0.7) (layer F.Cu) (net 61))
   (segment (start 153.8764 86.5058) (end 155.8624 86.5058) (width 0.7) (layer F.Cu) (net 61))
 
-  (zone (net 0) (net_name "") (layer B.SilkS) (tstamp 5F3BD66F) (hatch full 0.508)
+  (zone (net 0) (net_name "") (layer B.SilkS) (tstamp 5F6455CD) (hatch full 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))

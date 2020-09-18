@@ -1,18 +1,18 @@
-<<<<<<< HEAD
+0
 124487422945664
 e-Power
 Allegro_CB_PSF
 Allegro MicroSystems, CB-PSF Package (http://www.allegromicro.com/en/Products/Current-Sensor-ICs/Fifty-To-Two-Hundred-Amp-Integrated-Conductor-Sensor-ICs/ACS758.aspx)
-Allegro CB-PSF
+0
 0
 5
 5
 e-Power
 CP_Elec_10x10
 SMD capacitor, aluminum electrolytic, Nichicon, 10.0x10.0mm
-capacitor electrolytic
-=======
-161241348765241
+0
+0
+3981506105
 Capacitor_SMD
 CP_Elec_3x5.3
 SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 
@@ -640,196 +640,195 @@ Capacitor_SMD
 C_Elec_8x10.2
 SMD capacitor, aluminum electrolytic nonpolar, 8.0x10.2mm
 capacitor electrolyic nonpolar
->>>>>>> ef3c77c5aac41e55b0f113d8876a1e0a1ab417e5
+0
 0
 2
 2
 Capacitor_SMD
 C_Elec_10x10.2
 SMD capacitor, aluminum electrolytic nonpolar, 10.0x10.2mm
-capacitor electrolyic nonpolar
+0
 0
 2
 2
 Capacitor_SMD
 C_Trimmer_Murata_TZB4-A
 trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb
- Murata TZB4 TZB4-A
+0
 0
 2
 2
 Capacitor_SMD
 C_Trimmer_Murata_TZB4-B
 trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb
- Murata TZB4 TZB4-A
+0
 0
 2
 2
 Capacitor_SMD
 C_Trimmer_Murata_TZC3
 trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb
- Murata TZC3
+0
 0
 2
 2
 Capacitor_SMD
 C_Trimmer_Murata_TZR1
 trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb
- Murata TZR1
+0
 0
 2
 2
 Capacitor_SMD
 C_Trimmer_Murata_TZW4
 trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb
- Murata TZW4
+0
 0
 2
 2
 Capacitor_SMD
 C_Trimmer_Murata_TZY2
 trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb
- Murata TZY2
+0
 0
 2
 2
 Capacitor_SMD
 C_Trimmer_Sprague-Goodman_SGC3
 trimmer capacitor SMD horizontal, http://media.wix.com/ugd/d86717_38d9821e12823a7aa9cef38c6c2a73cc.pdf
- Sprague Goodman SGC3
+0
 0
 2
 2
 Capacitor_SMD
 C_Trimmer_Voltronics_JN
 trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf
- Voltronics JN
+0
 0
 2
 2
 Capacitor_SMD
 C_Trimmer_Voltronics_JQ
 trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf
- Voltronics JQ
+0
 0
 2
 2
 Capacitor_SMD
 C_Trimmer_Voltronics_JR
 trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf
- Voltronics JR
+0
 0
 2
 2
 Capacitor_SMD
 C_Trimmer_Voltronics_JV
 trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf
- Voltronics JV
+0
 0
 2
 2
 <<<<<<< HEAD
 e-Power
 SOIC-16_4.55x10.3mm_P1.27mm
-SOIC, 16 Pin (https://toshiba.semicon-storage.com/info/docget.jsp?did=12858&prodName=TLP291-4), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO
+0
+0
 0
 16
 16
 e-Power
 SOIC-16_4.55x10.3mm_P1.27mm(TLP290-4)
-SOIC, 16 Pin (https://toshiba.semicon-storage.com/info/docget.jsp?did=12858&prodName=TLP291-4), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOIC SO
+0
+0
 0
 16
 16
 e-Power
 SOT-23
-SOT-23, Standard
-SOT-23
+0
+0
 0
 3
 3
 e-Power
 ST_6.5x4.1mm_Copper
-logo da ST com 6.5mm de largura e 4.1mm de altura
-logo ST
+0
+0
 0
 0
 0
 e-Power
 SW_Push_1P1T_NO_6x6mm_H9.5mm
-tactile push button, 6x6mm e.g. PTS645xx series, height=9.5mm
-tact sw push 6mm smd
+0
+0
 0
 4
 2
 e-Power
 SW_SPST_CK_8.0x2.5x3.65mm
-https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf
-SPST button tactile switch
+0
+0
 0
 2
 2
 e-Power
 TLP290-4
-16-lead TH DIP package
-THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+16
+0
 0
 16
 16
 e-Power
 TLP290-4(curso)
-
-
+0
+0
 0
 16
 16
 e-Power
 TO-92_HandSolder_SMD
-TO-92 SMD
-TO-92 SMD
+0
+0
 0
 3
 3
 e-Power
 TO-220-3_Horizontal_TabDown
-TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
-TO-220-3 Horizontal RM 2.54mm
+0
+0
 0
 4
 3
 e-Power
 TO-220-3_SMD_horizontal
-TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
-TO-220-3 Horizontal RM 2.54mm
+0
+0
 0
 4
 3
 e-Power
 TRIMPOT_10TURNS
-Potentiometer, horizontal, Vishay T73XW, http://www.vishay.com/docs/51016/t73.pdf
-Potentiometer horizontal Vishay T73XW
+0
+0
 0
 3
 3
 e-Power
 TRIMPOT_10TURNS(2)
-Potentiometer, horizontal, Vishay T73XW, http://www.vishay.com/docs/51016/t73.pdf
-Potentiometer horizontal Vishay T73XW
+0
+0
 0
 3
 3
 e-Power
 TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.08mm_Horizontal
-Terminal Block Phoenix MKDS-1,5-2, 2 pins, pitch 5.08mm, size 10x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
-THT Terminal Block Phoenix MKDS-1,5-2 pitch 5.08mm size 10x9.8mm^2 drill 1.3mm pad 2.6mm
-=======
+0
+0
+0
 Capacitor_SMD
 C_Trimmer_Voltronics_JZ
 trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf
  Voltronics JR
->>>>>>> ef3c77c5aac41e55b0f113d8876a1e0a1ab417e5
 0
-2
+0
 2
