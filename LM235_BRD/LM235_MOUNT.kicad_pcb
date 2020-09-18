@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -86,9 +86,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "GERBERS/"))
   )
 
   (net 0 "")
@@ -142,8 +142,8 @@
     )
   )
 
-  (dimension 9.0678 (width 0.12) (layer F.SilkS)
-    (gr_text "9.068 mm" (at 246.888 144.3101 90) (layer F.SilkS)
+  (dimension 9.0678 (width 0.12) (layer Cmts.User)
+    (gr_text "9.068 mm" (at 246.888 144.3101 90) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 244.602 139.7762) (xy 246.204421 139.7762)))
@@ -154,8 +154,8 @@
     (arrow2a (pts (xy 245.618 148.844) (xy 246.204421 147.717496)))
     (arrow2b (pts (xy 245.618 148.844) (xy 245.031579 147.717496)))
   )
-  (dimension 7.112 (width 0.12) (layer F.SilkS)
-    (gr_text "7.112 mm" (at 241.046 151.638) (layer F.SilkS)
+  (dimension 7.112 (width 0.12) (layer Cmts.User)
+    (gr_text "7.112 mm" (at 241.046 151.638) (layer Cmts.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 237.49 148.844) (xy 237.49 150.954421)))
