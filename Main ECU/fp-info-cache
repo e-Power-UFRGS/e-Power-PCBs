@@ -1,4 +1,4 @@
-17054565266106956
+17056163932169994
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75633,6 +75633,13 @@ tactile push button, 6x6mm e.g. PTS645xx series, height=9.5mm
 tact sw push 6mm smd
 0
 4
+2
+e-Power
+SW_SPST_CK_8.0x2.5x3.65mm
+https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf
+SPST button tactile switch
+0
+2
 2
 e-Power
 TLP290-4
