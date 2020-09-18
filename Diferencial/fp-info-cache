@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 124487422945664
 e-Power
 Allegro_CB_PSF
@@ -10,366 +11,724 @@ e-Power
 CP_Elec_10x10
 SMD capacitor, aluminum electrolytic, Nichicon, 10.0x10.0mm
 capacitor electrolytic
+=======
+161241348765241
+Capacitor_SMD
+CP_Elec_3x5.3
+SMT capacitor, aluminium electrolytic, 3x5.3, Cornell Dubilier Electronics 
+Capacitor Electrolytic
 0
 2
 2
-e-Power
-DIP-8_SMD
-SMD 8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
-THT DIP DIL PDIP 2.54mm 7.62mm 300mil
-0
-8
-8
-e-Power
-DIP-14-LM324
-DIP-14 LM324
-THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket
-0
-14
-14
-e-Power
-DO-35_SMD
-DO-35 SMD 1N4148
-DIODE, DO-35 SMD FOOTPRINT
+Capacitor_SMD
+CP_Elec_3x5.4
+SMD capacitor, aluminum electrolytic, Nichicon, 3.0x5.4mm
+capacitor electrolytic
 0
 2
 2
-e-Power
-DO-41_SMD
-DO-41 SMD 1N5819
-Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm
+Capacitor_SMD
+CP_Elec_4x3
+SMD capacitor, aluminum electrolytic, Nichicon, 4.0x3mm
+capacitor electrolytic
 0
 2
 2
-e-Power
-DO-214AC
-DO-214AC https://www.vishay.com/docs/88958/byg20d.pdf
-DO-214AC
+Capacitor_SMD
+CP_Elec_4x3.9
+SMD capacitor, aluminum electrolytic, Nichicon, 4.0x3.9mm
+capacitor electrolytic
 0
 2
 2
-e-Power
-DSUB-9_Female_EdgeMount_P2.77mm
-9-pin D-Sub connector, solder-cups edge-mounted, female, x-pin-pitch 2.77mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
-9-pin D-Sub connector edge mount solder cup female x-pin-pitch 2.77mm mounting holes distance 25mm
-0
-9
-9
-e-Power
-ESP-32-dev-kit
-
-
-0
-114
-38
-e-Power
-FB_0603_1608Metric
-Ferrite bead SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-Ferrite bead
+Capacitor_SMD
+CP_Elec_4x4.5
+SMD capacitor, aluminum electrolytic, Nichicon, 4.0x4.5mm
+capacitor electrolytic
 0
 2
 2
-e-Power
-FB_0805_2012Metric
-Ferrite bead SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-Ferrite bead
+Capacitor_SMD
+CP_Elec_4x5.3
+SMD capacitor, aluminum electrolytic, Vishay, 4.0x5.3mm
+capacitor electrolytic
 0
 2
 2
-e-Power
-FUSE_1206_3216Metric
-FUSE SMD 1206 (3216 Metric), square (rectangular) end terminal
-FUSE
+Capacitor_SMD
+CP_Elec_4x5.4
+SMD capacitor, aluminum electrolytic, Panasonic A5 / Nichicon, 4.0x5.4mm
+capacitor electrolytic
 0
 2
 2
-e-Power
-Fuse_SMD
-Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
-resistor
+Capacitor_SMD
+CP_Elec_4x5.7
+SMD capacitor, aluminum electrolytic, United Chemi-Con, 4.0x5.7mm
+capacitor electrolytic
 0
 2
 2
-e-Power
-Fuse_TH
-Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
-resistor
+Capacitor_SMD
+CP_Elec_4x5.8
+SMD capacitor, aluminum electrolytic, Panasonic, 4.0x5.8mm
+capacitor electrolytic
 0
 2
 2
-e-Power
-LED_0805_1.15x1.40mm_HandSolder
-LED SMD 0805 1.15x1.40mm Hand Solder
-LED SMD 0505
+Capacitor_SMD
+CP_Elec_5x3
+SMD capacitor, aluminum electrolytic, Nichicon, 5.0x3.0mm
+capacitor electrolytic
 0
 2
 2
-e-Power
-LM235_MOUNT
-TO-92 horizontal, leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)
-to-92 sc-43 sc-43a sot54 PA33 transistor
-0
-6
-3
-e-Power
-LQFP-48_7x7mm_P0.5mm
-LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
-LQFP QFP
-0
-48
-48
-e-Power
-L_10.4x10.4_H4.8
-Choke, SMD, 10.4x10.4mm 4.8mm height
-Choke SMD
+Capacitor_SMD
+CP_Elec_5x3.9
+SMD capacitor, aluminum electrolytic, Nichicon, 5.0x3.9mm
+capacitor electrolytic
 0
 2
 2
-e-Power
-L_12x12mm_H6mm
-Choke, SMD, 12x12mm 6mm height
-Choke SMD
+Capacitor_SMD
+CP_Elec_5x4.4
+SMD capacitor, aluminum electrolytic, Panasonic B45, 5.0x4.4mm
+capacitor electrolytic
 0
 2
 2
-e-Power
-Logo_ESD_8.9x8mm_Copper
-Electrostatic discharge Logo on Copper Layer
-Logo ESD
-0
-0
-0
-e-Power
-Logo_ESD_8.9x8mm_Silk
-Electrostatic discharge Logo on Silkscreen layer
-Logo ESD
-0
-0
-0
-e-Power
-Logo_High_Voltage_6.8x6.0mm_Copper
-
-logo
-0
-0
-0
-e-Power
-Logo_High_Voltage_6.8x6.0mm_SilkS
-
-logo
-0
-0
-0
-e-Power
-Logo_High_Voltage_9.1x8.0mm_Copper
-
-logo
-0
-0
-0
-e-Power
-Logo_High_Voltage_9.1x8.0mm_SilkS
-
-logo
-0
-0
-0
-e-Power
-Logo_High_Voltage_13.7x12.0mm_Copper
-
-logo
-0
-0
-0
-e-Power
-Logo_High_Voltage_13.7x12.0mm_SilkS
-
-logo
-0
-0
-0
-e-Power
-Logo_UFRGS_9.2x5.0mm_Copper
-
-logo UFRGS
-0
-0
-0
-e-Power
-Logo_UFRGS_9.2x5.0mm_SilkS
-
-logo UFRGS
-0
-0
-0
-e-Power
-Logo_UFRGS_11.0x6.0mm_Copper
-
-logo UFRGS
-0
-0
-0
-e-Power
-Logo_UFRGS_11.0x6.0mm_SilkS
-
-logo UFRGS
-0
-0
-0
-e-Power
-Logo_UFRGS_14.7x8.0mm_Copper
-
-logo UFRGS
-0
-0
-0
-e-Power
-Logo_UFRGS_14.7x8.0mm_SilkS
-
-logo UFRGS
-0
-0
-0
-e-Power
-Logo_UFRGS_22.0x12.0mm_Copper
-
-logo UFRGS
-0
-0
-0
-e-Power
-Logo_UFRGS_22.0x12.0mm_Mask
-
-logo UFRGS
-0
-0
-0
-e-Power
-Logo_UFRGS_22.0x12.0mm_SilkS
-
-logo UFRGS
-0
-0
-0
-e-Power
-Logo_e-Power_12.4x6.0mm_Copper
-
-
-0
-0
-0
-e-Power
-Logo_e-Power_12.4x6.0mm_SilkS
-
-
-0
-0
-0
-e-Power
-Logo_e-Power_16.5x8.0mm_Copper
-
-
-0
-0
-0
-e-Power
-Logo_e-Power_16.5x8.0mm_SilkS
-
-
-0
-0
-0
-e-Power
-Logo_e-Power_22.8x12.0mm_Copper
-
-
-0
-0
-0
-e-Power
-Logo_e-Power_22.8x12.0mm_Mask
-
-
-0
-0
-0
-e-Power
-Logo_e-Power_22.8x12.0mm_SilkS
-
-
-0
-0
-0
-e-Power
-Logo_e-Power_41.3x20.0mm_Copper
-
-
-0
-0
-0
-e-Power
-Logo_e-Power_41.3x20.0mm_SilkS
-
-
-0
-0
-0
-e-Power
-Molex_Mini-Fit_Jr_2x04_P4.20mm_Horizontal
-Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-08A2, example for new mpn: 39-30-0080, 4 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf), generated with kicad-footprint-generator
-connector Molex Mini-Fit_Jr top entryplastic_peg
-0
-8
-8
-e-Power
-MountingHole_3.2mm_M3_Pad
-Mounting Hole 3.2mm, M3, 
-mounting hole 3.2mm m3 
-0
-1
-1
-e-Power
-MountingHole_3.2mm_M3_Pad_Via
-Mounting Hole 3.2mm, M3, added vias
-mounting hole 3.2mm m3
-0
-9
-1
-e-Power
-MountingHole_4mm_Pad_Via
-Mounting Hole 3mm
-mounting hole 3mm
-0
-9
-1
-e-Power
-PinSocket_1x20_P2.54mm_Vertical
-Through hole straight socket strip, 1x20, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
-Through hole socket strip THT 1x20 2.54mm single row
-0
-20
-20
-e-Power
-Relay_SPDT_SANYOU_SRD
-relay Sanyou SRD series Form C http://www.sanyourelay.ca/public/products/pdf/SRD.pdf
-relay Sanyu SRD form C
-0
-5
-5
-e-Power
-SIM800L
-e-Power microcontroller standard board
-
-0
-36
-12
-e-Power
-SOD-80
-SOD-80 LL4148 footprint
-
+Capacitor_SMD
+CP_Elec_5x4.5
+SMD capacitor, aluminum electrolytic, Nichicon, 5.0x4.5mm
+capacitor electrolytic
 0
 2
 2
+Capacitor_SMD
+CP_Elec_5x5.3
+SMD capacitor, aluminum electrolytic, Nichicon, 5.0x5.3mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_5x5.4
+SMD capacitor, aluminum electrolytic, Nichicon, 5.0x5.4mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_5x5.7
+SMD capacitor, aluminum electrolytic, United Chemi-Con, 5.0x5.7mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_5x5.8
+SMD capacitor, aluminum electrolytic, Panasonic, 5.0x5.8mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_5x5.9
+SMD capacitor, aluminum electrolytic, Panasonic B6, 5.0x5.9mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_6.3x3
+SMD capacitor, aluminum electrolytic, Nichicon, 6.3x3.0mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_6.3x3.9
+SMD capacitor, aluminum electrolytic, Nichicon, 6.3x3.9mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_6.3x4.5
+SMD capacitor, aluminum electrolytic, Nichicon, 6.3x4.5mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_6.3x4.9
+SMD capacitor, aluminum electrolytic, Panasonic C5, 6.3x4.9mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_6.3x5.2
+SMD capacitor, aluminum electrolytic, United Chemi-Con, 6.3x5.2mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_6.3x5.3
+SMD capacitor, aluminum electrolytic, Cornell Dubilier, 6.3x5.3mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_6.3x5.4
+SMD capacitor, aluminum electrolytic, Panasonic C55, 6.3x5.4mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_6.3x5.4_Nichicon
+SMD capacitor, aluminum electrolytic, Nichicon, 6.3x5.4mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_6.3x5.7
+SMD capacitor, aluminum electrolytic, United Chemi-Con, 6.3x5.7mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_6.3x5.8
+SMD capacitor, aluminum electrolytic, Nichicon, 6.3x5.8mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_6.3x5.9
+SMD capacitor, aluminum electrolytic, Panasonic C6, 6.3x5.9mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_6.3x7.7
+SMD capacitor, aluminum electrolytic, Nichicon, 6.3x7.7mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_6.3x9.9
+SMD capacitor, aluminum electrolytic, Panasonic C10, 6.3x9.9mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_8x5.4
+SMD capacitor, aluminum electrolytic, Nichicon, 8.0x5.4mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_8x6.2
+SMD capacitor, aluminum electrolytic, Nichicon, 8.0x6.2mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_8x6.5
+SMD capacitor, aluminum electrolytic, Rubycon, 8.0x6.5mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_8x6.7
+SMD capacitor, aluminum electrolytic, United Chemi-Con, 8.0x6.7mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_8x6.9
+SMD capacitor, aluminum electrolytic, Panasonic E7, 8.0x6.9mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_8x10
+SMD capacitor, aluminum electrolytic, Nichicon, 8.0x10mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_8x10.5
+SMD capacitor, aluminum electrolytic, Vishay 0810, 8.0x10.5mm, http://www.vishay.com/docs/28395/150crz.pdf
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_8x11.9
+SMD capacitor, aluminum electrolytic, Panasonic E12, 8.0x11.9mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_10x7.7
+SMD capacitor, aluminum electrolytic, Nichicon, 10.0x7.7mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_10x7.9
+SMD capacitor, aluminum electrolytic, Panasonic F8, 10.0x7.9mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_10x10
+SMD capacitor, aluminum electrolytic, Nichicon, 10.0x10.0mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_10x10.5
+SMD capacitor, aluminum electrolytic, Vishay 1010, 10.0x10.5mm, http://www.vishay.com/docs/28395/150crz.pdf
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_10x12.5
+SMD capacitor, aluminum electrolytic, Vishay 1012, 10.0x12.5mm, http://www.vishay.com/docs/28395/150crz.pdf
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_10x12.6
+SMD capacitor, aluminum electrolytic, Panasonic F12, 10.0x12.6mm
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_10x14.3
+SMD capacitor, aluminum electrolytic, Vishay 1014, 10.0x14.3mm, http://www.vishay.com/docs/28395/150crz.pdf
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_16x17.5
+SMD capacitor, aluminum electrolytic, Vishay 1616, 16.0x17.5mm, http://www.vishay.com/docs/28395/150crz.pdf
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_16x22
+SMD capacitor, aluminum electrolytic, Vishay 1621, 16.0x22.0mm, http://www.vishay.com/docs/28395/150crz.pdf
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_18x17.5
+SMD capacitor, aluminum electrolytic, Vishay 1816, 18.0x17.5mm, http://www.vishay.com/docs/28395/150crz.pdf
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+CP_Elec_18x22
+SMD capacitor, aluminum electrolytic, Vishay 1821, 18.0x22.0mm, http://www.vishay.com/docs/28395/150crz.pdf
+capacitor electrolytic
+0
+2
+2
+Capacitor_SMD
+C_0201_0603Metric
+Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
+capacitor
+0
+4
+2
+Capacitor_SMD
+C_0402_1005Metric
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Capacitor_SMD
+C_0603_1608Metric
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Capacitor_SMD
+C_0603_1608Metric_Pad1.05x0.95mm_HandSolder
+Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
+C_0805_2012Metric
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Capacitor_SMD
+C_0805_2012Metric_Pad1.15x1.40mm_HandSolder
+Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
+C_01005_0402Metric
+Capacitor SMD 01005 (0402 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.vishay.com/docs/20056/crcw01005e3.pdf), generated with kicad-footprint-generator
+capacitor
+0
+4
+2
+Capacitor_SMD
+C_1206_3216Metric
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Capacitor_SMD
+C_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
+C_1210_3225Metric
+Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Capacitor_SMD
+C_1210_3225Metric_Pad1.42x2.65mm_HandSolder
+Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
+C_1806_4516Metric
+Capacitor SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Capacitor_SMD
+C_1806_4516Metric_Pad1.57x1.80mm_HandSolder
+Capacitor SMD 1806 (4516 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.modelithics.com/models/Vendor/MuRata/BLM41P.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
+C_1812_4532Metric
+Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Capacitor_SMD
+C_1812_4532Metric_Pad1.30x3.40mm_HandSolder
+Capacitor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
+C_1825_4564Metric
+Capacitor SMD 1825 (4564 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Capacitor_SMD
+C_1825_4564Metric_Pad1.88x6.70mm_HandSolder
+Capacitor SMD 1825 (4564 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
+C_2010_5025Metric
+Capacitor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Capacitor_SMD
+C_2010_5025Metric_Pad1.52x2.65mm_HandSolder
+Capacitor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
+C_2220_5650Metric
+Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Capacitor_SMD
+C_2220_5650Metric_Pad1.97x5.40mm_HandSolder
+Capacitor SMD 2220 (5650 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
+C_2225_5664Metric
+Capacitor SMD 2225 (5664 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Capacitor_SMD
+C_2225_5664Metric_Pad1.80x6.60mm_HandSolder
+Capacitor SMD 2225 (5664 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
+C_2512_6332Metric
+Capacitor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Capacitor_SMD
+C_2512_6332Metric_Pad1.52x3.35mm_HandSolder
+Capacitor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
+C_2816_7142Metric
+Capacitor SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Capacitor_SMD
+C_2816_7142Metric_Pad3.20x4.45mm_HandSolder
+Capacitor SMD 2816 (7142 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: https://www.vishay.com/docs/30100/wsl.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
+C_3640_9110Metric
+Capacitor SMD 3640 (9110 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
+Capacitor_SMD
+C_3640_9110Metric_Pad2.10x10.45mm_HandSolder
+Capacitor SMD 3640 (9110 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size from: http://datasheets.avx.com/AVX-HV_MLCC.pdf), generated with kicad-footprint-generator
+capacitor handsolder
+0
+2
+2
+Capacitor_SMD
+C_Elec_3x5.4
+SMD capacitor, aluminum electrolytic nonpolar, 3.0x5.4mm
+capacitor electrolyic nonpolar
+0
+2
+2
+Capacitor_SMD
+C_Elec_4x5.4
+SMD capacitor, aluminum electrolytic nonpolar, 4.0x5.4mm
+capacitor electrolyic nonpolar
+0
+2
+2
+Capacitor_SMD
+C_Elec_4x5.8
+SMD capacitor, aluminum electrolytic nonpolar, 4.0x5.8mm
+capacitor electrolyic nonpolar
+0
+2
+2
+Capacitor_SMD
+C_Elec_5x5.4
+SMD capacitor, aluminum electrolytic nonpolar, 5.0x5.4mm
+capacitor electrolyic nonpolar
+0
+2
+2
+Capacitor_SMD
+C_Elec_5x5.8
+SMD capacitor, aluminum electrolytic nonpolar, 5.0x5.8mm
+capacitor electrolyic nonpolar
+0
+2
+2
+Capacitor_SMD
+C_Elec_6.3x5.4
+SMD capacitor, aluminum electrolytic nonpolar, 6.3x5.4mm
+capacitor electrolyic nonpolar
+0
+2
+2
+Capacitor_SMD
+C_Elec_6.3x5.8
+SMD capacitor, aluminum electrolytic nonpolar, 6.3x5.8mm
+capacitor electrolyic nonpolar
+0
+2
+2
+Capacitor_SMD
+C_Elec_6.3x7.7
+SMD capacitor, aluminum electrolytic nonpolar, 6.3x7.7mm
+capacitor electrolyic nonpolar
+0
+2
+2
+Capacitor_SMD
+C_Elec_8x5.4
+SMD capacitor, aluminum electrolytic nonpolar, 8.0x5.4mm
+capacitor electrolyic nonpolar
+0
+2
+2
+Capacitor_SMD
+C_Elec_8x6.2
+SMD capacitor, aluminum electrolytic nonpolar, 8.0x6.2mm
+capacitor electrolyic nonpolar
+0
+2
+2
+Capacitor_SMD
+C_Elec_8x10.2
+SMD capacitor, aluminum electrolytic nonpolar, 8.0x10.2mm
+capacitor electrolyic nonpolar
+>>>>>>> ef3c77c5aac41e55b0f113d8876a1e0a1ab417e5
+0
+2
+2
+Capacitor_SMD
+C_Elec_10x10.2
+SMD capacitor, aluminum electrolytic nonpolar, 10.0x10.2mm
+capacitor electrolyic nonpolar
+0
+2
+2
+Capacitor_SMD
+C_Trimmer_Murata_TZB4-A
+trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb
+ Murata TZB4 TZB4-A
+0
+2
+2
+Capacitor_SMD
+C_Trimmer_Murata_TZB4-B
+trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb
+ Murata TZB4 TZB4-A
+0
+2
+2
+Capacitor_SMD
+C_Trimmer_Murata_TZC3
+trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb
+ Murata TZC3
+0
+2
+2
+Capacitor_SMD
+C_Trimmer_Murata_TZR1
+trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb
+ Murata TZR1
+0
+2
+2
+Capacitor_SMD
+C_Trimmer_Murata_TZW4
+trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb
+ Murata TZW4
+0
+2
+2
+Capacitor_SMD
+C_Trimmer_Murata_TZY2
+trimmer capacitor SMD horizontal, http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/trimmer/t13e.ashx?la=en-gb
+ Murata TZY2
+0
+2
+2
+Capacitor_SMD
+C_Trimmer_Sprague-Goodman_SGC3
+trimmer capacitor SMD horizontal, http://media.wix.com/ugd/d86717_38d9821e12823a7aa9cef38c6c2a73cc.pdf
+ Sprague Goodman SGC3
+0
+2
+2
+Capacitor_SMD
+C_Trimmer_Voltronics_JN
+trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf
+ Voltronics JN
+0
+2
+2
+Capacitor_SMD
+C_Trimmer_Voltronics_JQ
+trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf
+ Voltronics JQ
+0
+2
+2
+Capacitor_SMD
+C_Trimmer_Voltronics_JR
+trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf
+ Voltronics JR
+0
+2
+2
+Capacitor_SMD
+C_Trimmer_Voltronics_JV
+trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf
+ Voltronics JV
+0
+2
+2
+<<<<<<< HEAD
 e-Power
 SOIC-16_4.55x10.3mm_P1.27mm
 SOIC, 16 Pin (https://toshiba.semicon-storage.com/info/docget.jsp?did=12858&prodName=TLP291-4), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -465,83 +824,12 @@ e-Power
 TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.08mm_Horizontal
 Terminal Block Phoenix MKDS-1,5-2, 2 pins, pitch 5.08mm, size 10x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
 THT Terminal Block Phoenix MKDS-1,5-2 pitch 5.08mm size 10x9.8mm^2 drill 1.3mm pad 2.6mm
+=======
+Capacitor_SMD
+C_Trimmer_Voltronics_JZ
+trimmer capacitor SMD horizontal, http://www.knowlescapacitors.com/File%20Library/Voltronics/English/GlobalNavigation/Products/Trimmer%20Capacitors/CerChipTrimCap.pdf
+ Voltronics JR
+>>>>>>> ef3c77c5aac41e55b0f113d8876a1e0a1ab417e5
 0
-4
 2
-e-Power
-TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.08mm_Horizontal_3D
-Terminal Block Phoenix MKDS-1,5-2, 2 pins, pitch 5.08mm, size 10x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
-THT Terminal Block Phoenix MKDS-1,5-2 pitch 5.08mm size 10x9.8mm^2 drill 1.3mm pad 2.6mm
-0
-4
 2
-e-Power
-TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal
-Terminal Block Phoenix MKDS-1,5-4-5.08, 4 pins, pitch 5.08mm, size 20.3x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
-THT Terminal Block Phoenix MKDS-1,5-4-5.08 pitch 5.08mm size 20.3x9.8mm^2 drill 1.3mm pad 2.6mm
-0
-8
-4
-e-Power
-TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal
-Terminal Block Phoenix MKDS-1,5-8-5.08, 8 pins, pitch 5.08mm, size 40.6x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
-THT Terminal Block Phoenix MKDS-1,5-8-5.08 pitch 5.08mm size 40.6x9.8mm^2 drill 1.3mm pad 2.6mm
-0
-8
-8
-e-Power
-TestPoint_Pad_D1.0mm
-SMD pad as test Point, diameter 1.0mm
-test point SMD pad
-0
-1
-1
-e-Power
-UFRGS_36.7x20.0mm_Copper
-logo da UFRGS com 36.7mm de altura e 20.0mm de largura
-logo UFRGS
-0
-0
-0
-e-Power
-UFRGS_PILL
-e-Power microcontroller standard board
-
-0
-40
-40
-e-Power
-UFRGS_logo
-logo da UFRGS de teste
-
-0
-0
-0
-e-Power
-USB_Micro-B_Horizontal
-Micro USB Type B 10103594-0001LF, http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf
-USB USB_B USB_micro USB_OTG
-0
-17
-6
-e-Power
-WEEE-Logo_5.6x8mm_Copper
-Waste Electrical and Electronic Equipment Directive
-Logo WEEE
-0
-0
-0
-e-Power
-ufrgs_logo_curso
-
-
-0
-0
-0
-e-Power
-zero_ohm_resistor_0805
-zero_ohm_resistor_0805
-
-0
-1
-1
