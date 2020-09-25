@@ -1,4 +1,4 @@
-17238586229941855
+17187388422028070
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -46871,6 +46871,559 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+G474
+Allegro_CB_PSF
+Allegro MicroSystems, CB-PSF Package (http://www.allegromicro.com/en/Products/Current-Sensor-ICs/Fifty-To-Two-Hundred-Amp-Integrated-Conductor-Sensor-ICs/ACS758.aspx)
+Allegro CB-PSF
+0
+5
+5
+G474
+CP_Elec_10x10
+SMD capacitor, aluminum electrolytic, Nichicon, 10.0x10.0mm
+capacitor electrolytic
+0
+2
+2
+G474
+DIP-8_SMD
+SMD 8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+8
+8
+G474
+DIP-14-LM324
+DIP-14 LM324
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket
+0
+14
+14
+G474
+DO-35_SMD
+DO-35 SMD 1N4148
+DIODE, DO-35 SMD FOOTPRINT
+0
+2
+2
+G474
+DO-41_SMD
+DO-41 SMD 1N5819
+Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm
+0
+2
+2
+G474
+DO-214AC
+DO-214AC https://www.vishay.com/docs/88958/byg20d.pdf
+DO-214AC
+0
+2
+2
+G474
+DSUB-9_Female_EdgeMount_P2.77mm
+9-pin D-Sub connector, solder-cups edge-mounted, female, x-pin-pitch 2.77mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
+9-pin D-Sub connector edge mount solder cup female x-pin-pitch 2.77mm mounting holes distance 25mm
+0
+9
+9
+G474
+ESP-32-dev-kit
+
+
+0
+114
+38
+G474
+FB_0603_1608Metric
+Ferrite bead SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+Ferrite bead
+0
+2
+2
+G474
+FB_0805_2012Metric
+Ferrite bead SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+Ferrite bead
+0
+2
+2
+G474
+FUSE_1206_3216Metric
+FUSE SMD 1206 (3216 Metric), square (rectangular) end terminal
+FUSE
+0
+2
+2
+G474
+Fuse_SMD
+Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+G474
+Fuse_TH
+Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+G474
+G474
+Grupo StepUp generated footprint
+
+0
+77
+66
+G474
+LED_0805_1.15x1.40mm_HandSolder
+LED SMD 0805 1.15x1.40mm Hand Solder
+LED SMD 0505
+0
+2
+2
+G474
+LM235_MOUNT
+TO-92 horizontal, leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)
+to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+6
+3
+G474
+LQFP-48_7x7mm_P0.5mm
+LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+48
+48
+G474
+L_10.4x10.4_H4.8
+Choke, SMD, 10.4x10.4mm 4.8mm height
+Choke SMD
+0
+2
+2
+G474
+L_12x12mm_H6mm
+Choke, SMD, 12x12mm 6mm height
+Choke SMD
+0
+2
+2
+G474
+Logo_ESD_8.9x8mm_Copper
+Electrostatic discharge Logo on Copper Layer
+Logo ESD
+0
+0
+0
+G474
+Logo_ESD_8.9x8mm_Silk
+Electrostatic discharge Logo on Silkscreen layer
+Logo ESD
+0
+0
+0
+G474
+Logo_High_Voltage_6.8x6.0mm_Copper
+
+logo
+0
+0
+0
+G474
+Logo_High_Voltage_6.8x6.0mm_SilkS
+
+logo
+0
+0
+0
+G474
+Logo_High_Voltage_9.1x8.0mm_Copper
+
+logo
+0
+0
+0
+G474
+Logo_High_Voltage_9.1x8.0mm_SilkS
+
+logo
+0
+0
+0
+G474
+Logo_High_Voltage_13.7x12.0mm_Copper
+
+logo
+0
+0
+0
+G474
+Logo_High_Voltage_13.7x12.0mm_SilkS
+
+logo
+0
+0
+0
+G474
+Logo_UFRGS_9.2x5.0mm_Copper
+
+logo UFRGS
+0
+0
+0
+G474
+Logo_UFRGS_9.2x5.0mm_SilkS
+
+logo UFRGS
+0
+0
+0
+G474
+Logo_UFRGS_11.0x6.0mm_Copper
+
+logo UFRGS
+0
+0
+0
+G474
+Logo_UFRGS_11.0x6.0mm_SilkS
+
+logo UFRGS
+0
+0
+0
+G474
+Logo_UFRGS_14.7x8.0mm_Copper
+
+logo UFRGS
+0
+0
+0
+G474
+Logo_UFRGS_14.7x8.0mm_SilkS
+
+logo UFRGS
+0
+0
+0
+G474
+Logo_UFRGS_22.0x12.0mm_Copper
+
+logo UFRGS
+0
+0
+0
+G474
+Logo_UFRGS_22.0x12.0mm_Mask
+
+logo UFRGS
+0
+0
+0
+G474
+Logo_UFRGS_22.0x12.0mm_SilkS
+
+logo UFRGS
+0
+0
+0
+G474
+Logo_e-Power_12.4x6.0mm_Copper
+
+
+0
+0
+0
+G474
+Logo_e-Power_12.4x6.0mm_SilkS
+
+
+0
+0
+0
+G474
+Logo_e-Power_16.5x8.0mm_Copper
+
+
+0
+0
+0
+G474
+Logo_e-Power_16.5x8.0mm_SilkS
+
+
+0
+0
+0
+G474
+Logo_e-Power_22.8x12.0mm_Copper
+
+
+0
+0
+0
+G474
+Logo_e-Power_22.8x12.0mm_Mask
+
+
+0
+0
+0
+G474
+Logo_e-Power_22.8x12.0mm_SilkS
+
+
+0
+0
+0
+G474
+Logo_e-Power_41.3x20.0mm_Copper
+
+
+0
+0
+0
+G474
+Logo_e-Power_41.3x20.0mm_SilkS
+
+
+0
+0
+0
+G474
+Molex_Mini-Fit_Jr_2x04_P4.20mm_Horizontal
+Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-08A2, example for new mpn: 39-30-0080, 4 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf), generated with kicad-footprint-generator
+connector Molex Mini-Fit_Jr top entryplastic_peg
+0
+8
+8
+G474
+MountingHole_3.2mm_M3_Pad
+Mounting Hole 3.2mm, M3, 
+mounting hole 3.2mm m3 
+0
+1
+1
+G474
+MountingHole_3.2mm_M3_Pad_Via
+Mounting Hole 3.2mm, M3, added vias
+mounting hole 3.2mm m3
+0
+9
+1
+G474
+MountingHole_4mm_Pad_Via
+Mounting Hole 3mm
+mounting hole 3mm
+0
+9
+1
+G474
+PinSocket_1x20_P2.54mm_Vertical
+Through hole straight socket strip, 1x20, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x20 2.54mm single row
+0
+20
+20
+G474
+Relay_SPDT_SANYOU_SRD
+relay Sanyou SRD series Form C http://www.sanyourelay.ca/public/products/pdf/SRD.pdf
+relay Sanyu SRD form C
+0
+5
+5
+G474
+SIM800L
+e-Power microcontroller standard board
+
+0
+36
+12
+G474
+SOD-80
+SOD-80 LL4148 footprint
+
+0
+2
+2
+G474
+SOIC-16_4.55x10.3mm_P1.27mm
+SOIC, 16 Pin (https://toshiba.semicon-storage.com/info/docget.jsp?did=12858&prodName=TLP291-4), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+16
+16
+G474
+SOIC-16_4.55x10.3mm_P1.27mm(TLP290-4)
+SOIC, 16 Pin (https://toshiba.semicon-storage.com/info/docget.jsp?did=12858&prodName=TLP291-4), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+16
+16
+G474
+SOT-23
+SOT-23, Standard
+SOT-23
+0
+3
+3
+G474
+ST_6.5x4.1mm_Copper
+logo da ST com 6.5mm de largura e 4.1mm de altura
+logo ST
+0
+0
+0
+G474
+SW_Push_1P1T_NO_6x6mm_H9.5mm
+tactile push button, 6x6mm e.g. PTS645xx series, height=9.5mm
+tact sw push 6mm smd
+0
+4
+2
+G474
+SW_SPST_CK_8.0x2.5x3.65mm
+https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf
+SPST button tactile switch
+0
+2
+2
+G474
+TLP290-4
+16-lead TH DIP package
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil
+0
+16
+16
+G474
+TLP290-4(curso)
+
+
+0
+16
+16
+G474
+TO-92_HandSolder_SMD
+TO-92 SMD
+TO-92 SMD
+0
+3
+3
+G474
+TO-220-3_Horizontal_TabDown
+TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Horizontal RM 2.54mm
+0
+4
+3
+G474
+TO-220-3_SMD_horizontal
+TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Horizontal RM 2.54mm
+0
+4
+3
+G474
+TRIMPOT_10TURNS
+Potentiometer, horizontal, Vishay T73XW, http://www.vishay.com/docs/51016/t73.pdf
+Potentiometer horizontal Vishay T73XW
+0
+3
+3
+G474
+TRIMPOT_10TURNS(2)
+Potentiometer, horizontal, Vishay T73XW, http://www.vishay.com/docs/51016/t73.pdf
+Potentiometer horizontal Vishay T73XW
+0
+3
+3
+G474
+TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.08mm_Horizontal
+Terminal Block Phoenix MKDS-1,5-2, 2 pins, pitch 5.08mm, size 10x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1,5-2 pitch 5.08mm size 10x9.8mm^2 drill 1.3mm pad 2.6mm
+0
+4
+2
+G474
+TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.08mm_Horizontal_3D
+Terminal Block Phoenix MKDS-1,5-2, 2 pins, pitch 5.08mm, size 10x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1,5-2 pitch 5.08mm size 10x9.8mm^2 drill 1.3mm pad 2.6mm
+0
+4
+2
+G474
+TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal
+Terminal Block Phoenix MKDS-1,5-4-5.08, 4 pins, pitch 5.08mm, size 20.3x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1,5-4-5.08 pitch 5.08mm size 20.3x9.8mm^2 drill 1.3mm pad 2.6mm
+0
+8
+4
+G474
+TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal
+Terminal Block Phoenix MKDS-1,5-8-5.08, 8 pins, pitch 5.08mm, size 40.6x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1,5-8-5.08 pitch 5.08mm size 40.6x9.8mm^2 drill 1.3mm pad 2.6mm
+0
+8
+8
+G474
+TestPoint_Pad_D1.0mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
+G474
+UFRGS_36.7x20.0mm_Copper
+logo da UFRGS com 36.7mm de altura e 20.0mm de largura
+logo UFRGS
+0
+0
+0
+G474
+UFRGS_PILL
+e-Power microcontroller standard board
+
+0
+40
+40
+G474
+UFRGS_logo
+logo da UFRGS de teste
+
+0
+0
+0
+G474
+USB_Micro-B_Horizontal
+Micro USB Type B 10103594-0001LF, http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf
+USB USB_B USB_micro USB_OTG
+0
+17
+6
+G474
+WEEE-Logo_5.6x8mm_Copper
+Waste Electrical and Electronic Equipment Directive
+Logo WEEE
+0
+0
+0
+G474
+ufrgs_logo_curso
+
+
+0
+0
+0
+G474
+zero_ohm_resistor_0805
+zero_ohm_resistor_0805
+
+0
+1
+1
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -68662,13 +69215,6 @@ rotary encoder
 0
 5
 4
-STGAP1AS
-SOIC127P1032X265-24N
-
-
-0
-24
-24
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -68998,20 +69544,6 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
-Sensor_Voltage
-e-Power_logo
-
-
-0
-0
-0
-Sensor_Voltage
-ufrgs_logo
-
-
-0
-0
-0
 Socket
 3M_Textool_240-1288-00-0602J_2x20_P2.54mm
 3M 40-pin zero insertion force socket, though-hole, row spacing 25.4 mm (1000 mils)
@@ -70076,762 +70608,6 @@ Logo WEEE
 0
 0
 0
-TO_SOT_Packages_SMD
-ATPAK-2
-ATPAK SMD package, http://www.onsemi.com/pub/Collateral/ENA2192-D.PDF
-ATPAK 
-0
-7
-3
-TO_SOT_Packages_SMD
-Analog_KS-4
-Analog Devices KS-4, http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/sc70ks/ks_4.pdf
-Analog Devices KS-4 (like EIAJ SC-82)
-0
-4
-4
-TO_SOT_Packages_SMD
-HVSOF5
-HVSOF5, http://rohmfs.rohm.com/en/techdata_basic/ic/package/hvsof5_1-e.pdf
-HVSOF5
-0
-9
-5
-TO_SOT_Packages_SMD
-HVSOF6
-HVSOF6, http://rohmfs.rohm.com/en/techdata_basic/ic/package/hvsof6_1-e.pdf, http://rohmfs.rohm.com/en/products/databook/datasheet/ic/audio_video/video_amplifier/bh76106hfv-e.pdf
-HVSOF6
-0
-7
-7
-TO_SOT_Packages_SMD
-Infineon_PG-HSOF-8-1
-Infineon HSOF-8-1 power mosfet http://www.infineon.com/cms/en/product/packages/PG-HSOF/PG-HSOF-8-1/
-mosfet hsof
-0
-54
-3
-TO_SOT_Packages_SMD
-Infineon_PG-HSOF-8-1_ThermalVias
-HSOF-8-1 power mosfet http://www.infineon.com/cms/en/product/packages/PG-HSOF/PG-HSOF-8-1/
-mosfet hsof thermal vias
-0
-57
-3
-TO_SOT_Packages_SMD
-Infineon_PG-TO-220-7Lead_TabPin8
-Infineon PG-TO-220-7, Tab as Pin 8, see e.g. https://www.infineon.com/dgdl/Infineon-BTS50055-1TMC-DS-v01_00-EN.pdf?fileId=5546d4625a888733015aa9b0007235e9
-Infineon PG-TO-220-7
-0
-12
-8
-TO_SOT_Packages_SMD
-PQFN_8x8
-Low profile 8x8mm PQFN package e.g. https://www.fairchildsemi.com/datasheets/FD/FDMT80080DC.pdf
-pqfn vdfn mosfet
-0
-16
-3
-TO_SOT_Packages_SMD
-PowerMacro_M234_NoHole
-TO-50-4 Power Macro Package Style M234
-TO-50-4 Power Macro Package Style M234
-0
-4
-4
-TO_SOT_Packages_SMD
-PowerMacro_M234_WithHole
-TO-50-4 Power Macro Package Style M234
-TO-50-4 Power Macro Package Style M234
-0
-4
-4
-TO_SOT_Packages_SMD
-Rohm_HRP7
-Rohm HRP7 SMD package, http://rohmfs.rohm.com/en/techdata_basic/ic/package/hrp7_1-e.pdf, http://rohmfs.rohm.com/en/products/databook/datasheet/ic/motor/dc/bd621x-e.pdf
-Rohm HRP7 SMD
-0
-69
-7
-TO_SOT_Packages_SMD
-SC-59
-SC-59, https://lib.chipdip.ru/images/import_diod/original/SOT-23_SC-59.jpg
-SC-59
-0
-3
-3
-TO_SOT_Packages_SMD
-SC-59_Handsoldering
-SC-59, hand-soldering varaint, https://lib.chipdip.ru/images/import_diod/original/SOT-23_SC-59.jpg
-SC-59 hand-soldering
-0
-3
-3
-TO_SOT_Packages_SMD
-SC-70-8
-SC70-8
-SC70-8
-0
-8
-8
-TO_SOT_Packages_SMD
-SC-70-8_Handsoldering
-SC70-8, Handsoldering
-SC70-8 Handsoldering
-0
-8
-8
-TO_SOT_Packages_SMD
-SC-82AA
-SC-82AA
-SC-82AA
-0
-4
-4
-TO_SOT_Packages_SMD
-SC-82AA_Handsoldering
-SC-82AA
-SC-82AA
-0
-4
-4
-TO_SOT_Packages_SMD
-SC-82AB
-SC-82AB
-SC-82AB
-0
-4
-4
-TO_SOT_Packages_SMD
-SC-82AB_Handsoldering
-SC-82AB
-SC-82AB
-0
-4
-4
-TO_SOT_Packages_SMD
-SOT-23
-SOT-23, Standard
-SOT-23
-0
-3
-3
-TO_SOT_Packages_SMD
-SOT-23-5
-5-pin SOT23 package
-SOT-23-5
-0
-5
-5
-TO_SOT_Packages_SMD
-SOT-23-5_HandSoldering
-5-pin SOT23 package
-SOT-23-5 hand-soldering
-0
-5
-5
-TO_SOT_Packages_SMD
-SOT-23-6
-6-pin SOT-23 package
-SOT-23-6
-0
-6
-6
-TO_SOT_Packages_SMD
-SOT-23-6_Handsoldering
-6-pin SOT-23 package, Handsoldering
-SOT-23-6 Handsoldering
-0
-6
-6
-TO_SOT_Packages_SMD
-SOT-23-8
-8-pin SOT-23 package, http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/sot-23rj/rj_8.pdf
-SOT-23-8
-0
-8
-8
-TO_SOT_Packages_SMD
-SOT-23-8_Handsoldering
-8-pin SOT-23 package, Handsoldering, http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/sot-23rj/rj_8.pdf
-SOT-23-8 Handsoldering
-0
-8
-8
-TO_SOT_Packages_SMD
-SOT-23W
-SOT-23W http://www.allegromicro.com/~/media/Files/Datasheets/A112x-Datasheet.ashx?la=en&hash=7BC461E058CC246E0BAB62433B2F1ECA104CA9D3
-SOT-23W
-0
-3
-3
-TO_SOT_Packages_SMD
-SOT-23W_Handsoldering
-SOT-23W http://www.allegromicro.com/~/media/Files/Datasheets/A112x-Datasheet.ashx?la=en&hash=7BC461E058CC246E0BAB62433B2F1ECA104CA9D3
-SOT-23W for handsoldering
-0
-3
-3
-TO_SOT_Packages_SMD
-SOT-23_Handsoldering
-SOT-23, Handsoldering
-SOT-23
-0
-3
-3
-TO_SOT_Packages_SMD
-SOT-89-3
-SOT-89-3
-SOT-89-3
-0
-6
-3
-TO_SOT_Packages_SMD
-SOT-89-3_Handsoldering
-SOT-89-3 Handsoldering
-SOT-89-3 Handsoldering
-0
-5
-3
-TO_SOT_Packages_SMD
-SOT-89-5_Housing
-SOT-89-5, Housing,http://www.e-devices.ricoh.co.jp/en/products/product_power/pkg/sot-89-5.pdf
-SOT-89-5 Housing 
-0
-9
-5
-TO_SOT_Packages_SMD
-SOT-89-5_Housing_Handsoldering
-SOT89-5, Housing,http://www.e-devices.ricoh.co.jp/en/products/product_power/pkg/sot-89-5.pdf
-SOT89-5 Housing 
-0
-9
-5
-TO_SOT_Packages_SMD
-SOT-143
-SOT-143
-SOT-143
-0
-4
-4
-TO_SOT_Packages_SMD
-SOT-143R_Reverse
-SOT-143R Reverse
-SOT-143R Reverse
-0
-4
-4
-TO_SOT_Packages_SMD
-SOT-143R_Reverse_Handsoldering
-SOT-143R Reverse Handsoldering
-SOT-143 Reverse Handsoldering
-0
-4
-4
-TO_SOT_Packages_SMD
-SOT-143_Handsoldering
-SOT-143 Handsoldering
-SOT-143 Handsoldering
-0
-4
-4
-TO_SOT_Packages_SMD
-SOT-223
-module CMS SOT223 4 pins
-CMS SOT
-0
-4
-4
-TO_SOT_Packages_SMD
-SOT-223-3_TabPin2
-module CMS SOT223 4 pins
-CMS SOT
-0
-4
-3
-TO_SOT_Packages_SMD
-SOT-223-5
-module CMS SOT223 5 pins, http://ww1.microchip.com/downloads/en/DeviceDoc/51751a.pdf
-CMS SOT
-0
-5
-5
-TO_SOT_Packages_SMD
-SOT-223-6
-module CMS SOT223 6 pins, http://www.ti.com/lit/ds/symlink/tps737.pdf
-CMS SOT
-0
-6
-6
-TO_SOT_Packages_SMD
-SOT-223-6_TabPin3
-module CMS SOT223 6 pins, http://www.ti.com/lit/ds/symlink/tps737.pdf
-CMS SOT
-0
-6
-5
-TO_SOT_Packages_SMD
-SOT-223-8
-module CMS SOT223 8 pins, https://www.diodes.com/assets/Datasheets/ZXSBMR16PT8.pdf
-CMS SOT
-0
-8
-8
-TO_SOT_Packages_SMD
-SOT-323_SC-70
-SOT-323, SC-70
-SOT-323 SC-70
-0
-3
-3
-TO_SOT_Packages_SMD
-SOT-323_SC-70_Handsoldering
-SOT-323, SC-70 Handsoldering
-SOT-323 SC-70 Handsoldering
-0
-3
-3
-TO_SOT_Packages_SMD
-SOT-343_SC-70-4
-SOT-343, SC-70-4
-SOT-343 SC-70-4
-0
-4
-4
-TO_SOT_Packages_SMD
-SOT-343_SC-70-4_Handsoldering
-SOT-343, SC-70-4, Handsoldering
-SOT-343 SC-70-4 Handsoldering
-0
-4
-4
-TO_SOT_Packages_SMD
-SOT-353_SC-70-5
-SOT-353, SC-70-5
-SOT-353 SC-70-5
-0
-5
-5
-TO_SOT_Packages_SMD
-SOT-353_SC-70-5_Handsoldering
-SOT-353, SC-70-5, Handsoldering
-SOT-353 SC-70-5 Handsoldering
-0
-5
-5
-TO_SOT_Packages_SMD
-SOT-363_SC-70-6
-SOT-363, SC-70-6
-SOT-363 SC-70-6
-0
-6
-6
-TO_SOT_Packages_SMD
-SOT-363_SC-70-6_Handsoldering
-SOT-363, SC-70-6, Handsoldering
-SOT-363 SC-70-6 Handsoldering
-0
-6
-6
-TO_SOT_Packages_SMD
-SOT-383F
-8-pin SOT-383F, http://www.mouser.com/ds/2/80/CPDVR085V0C-HF-RevB-10783.pdf
-SOT-383F
-0
-9
-9
-TO_SOT_Packages_SMD
-SOT-383FL
-8-pin SOT-383FL package, http://www.onsemi.com/pub_link/Collateral/ENA2267-D.PDF
-SOT-383FL
-0
-8
-8
-TO_SOT_Packages_SMD
-SOT-543
-SOT-543 4 lead surface package
-SOT-543 SC-107A EMD4
-0
-4
-4
-TO_SOT_Packages_SMD
-SOT-553
-SOT553
-SOT-553
-0
-5
-5
-TO_SOT_Packages_SMD
-SOT-665
-SOT665
-SOT-665
-0
-5
-5
-TO_SOT_Packages_SMD
-SOT-666
-SOT666
-SOT-666
-0
-6
-6
-TO_SOT_Packages_SMD
-SOT-669_LFPAK
-LFPAK www.nxp.com/documents/leaflet/939775016838_LR.pdf
-LFPAK SOT-669 Power-SO8
-0
-19
-5
-TO_SOT_Packages_SMD
-SOT-669_LFPAK_ThermalVias-1
-LFPAK www.nxp.com/documents/leaflet/939775016838_LR.pdf
-LFPAK SOT669 Thermal Vias 0.4mm Power-SO8
-0
-65
-5
-TO_SOT_Packages_SMD
-SOT-669_LFPAK_ThermalVias-2
-LFPAK www.nxp.com/documents/leaflet/939775016838_LR.pdf
-LFPAK SOT669 Thermical Vias Power-SO8
-0
-30
-5
-TO_SOT_Packages_SMD
-SOT-886
-SOT-886
-SOT-886
-0
-6
-6
-TO_SOT_Packages_SMD
-SOT-963
-SOT 963 6 pins package 1x0.8mm pitch 0.35mm
-SOT 963 6 pins package 1x0.8mm pitch 0.35mm
-0
-6
-6
-TO_SOT_Packages_SMD
-SOT-1333-1
-SOT-1333-1 
-SOT-1333-1 
-0
-9
-9
-TO_SOT_Packages_SMD
-SOT-1334-1
-SOT-1334-1
-SOT-1334-1
-0
-14
-14
-TO_SOT_Packages_SMD
-SuperSOT-3
-3-pin SuperSOT package https://www.fairchildsemi.com/package-drawings/MA/MA03B.pdf
-SuperSOT-3 SSOT-3
-0
-3
-3
-TO_SOT_Packages_SMD
-SuperSOT-6
-6-pin SuperSOT package http://www.mouser.com/ds/2/149/FMB5551-889214.pdf
-SuperSOT-6 SSOT-6
-0
-6
-6
-TO_SOT_Packages_SMD
-SuperSOT-8
-8-pin SuperSOT package, http://www.icbank.com/icbank_data/semi_package/ssot8_dim.pdf
-SuperSOT-8 SSOT-8
-0
-8
-8
-TO_SOT_Packages_SMD
-TDSON-8-1
-Power MOSFET package, TDSON-8-1, SuperS08, SON-8_5x6mm
-tdson 
-0
-13
-5
-TO_SOT_Packages_SMD
-TDSON-8-1_HandSoldering
-Power MOSFET package, TDSON-8-1, SuperS08, SON-8_5x6mm
-tdson 
-0
-13
-5
-TO_SOT_Packages_SMD
-TO-50-3_LongPad-NoHole_Housing
-TO-50-3 Macro T Package Style M236
-TO-50-3 Macro T Package Style M236
-0
-3
-3
-TO_SOT_Packages_SMD
-TO-50-3_LongPad-WithHole_Housing
-TO-50-3 Macro T Package Style M236
-TO-50-3 Macro T Package Style M236
-0
-3
-3
-TO_SOT_Packages_SMD
-TO-50-3_ShortPad-NoHole_Housing
-TO-50-3 Macro T Package Style M236
-TO-50-3 Macro T Package Style M236
-0
-3
-3
-TO_SOT_Packages_SMD
-TO-50-3_ShortPad-WithHole_Housing
-TO-50-3 Macro T Package Style M236
-TO-50-3 Macro T Package Style M236
-0
-3
-3
-TO_SOT_Packages_SMD
-TO-50-4_LongPad-NoHole_Housing
-TO-50-4 Macro X Package Style M238
-TO-50-4 Macro X Package Style M238
-0
-4
-4
-TO_SOT_Packages_SMD
-TO-50-4_LongPad-WithHole_Housing
-TO-50-4 Macro X Package Style M238
-TO-50-4 Macro X Package Style M238
-0
-4
-4
-TO_SOT_Packages_SMD
-TO-50-4_ShortPad-NoHole_Housing
-TO-50-4 Macro X Package Style M238
-TO-50-4 Macro X Package Style M238
-0
-4
-4
-TO_SOT_Packages_SMD
-TO-50-4_ShortPad-WithHole_Housing
-TO-50-4 Macro X Package Style M238
-TO-50-4 Macro X Package Style M238
-0
-4
-4
-TO_SOT_Packages_SMD
-TO-252-2
-TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
-DPAK TO-252 DPAK-3 TO-252-3 SOT-428
-0
-7
-3
-TO_SOT_Packages_SMD
-TO-252-2_Rectifier
-TO-252-2
-TO-252-2 Rectifier
-0
-3
-3
-TO_SOT_Packages_SMD
-TO-252-3_TabPin2
-TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
-DPAK TO-252 DPAK-3 TO-252-3 SOT-428
-0
-8
-3
-TO_SOT_Packages_SMD
-TO-252-3_TabPin4
-TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-3-1/
-DPAK TO-252 DPAK-3 TO-252-3 SOT-428
-0
-8
-4
-TO_SOT_Packages_SMD
-TO-252-4
-TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-5-11/
-DPAK TO-252 DPAK-5 TO-252-5
-0
-9
-5
-TO_SOT_Packages_SMD
-TO-252-5_TabPin3
-TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-5-11/
-DPAK TO-252 DPAK-5 TO-252-5
-0
-10
-5
-TO_SOT_Packages_SMD
-TO-252-5_TabPin6
-TO-252 / DPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO252/PG-TO252-5-11/
-DPAK TO-252 DPAK-5 TO-252-5
-0
-10
-6
-TO_SOT_Packages_SMD
-TO-263-2
-TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
-D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
-0
-7
-3
-TO_SOT_Packages_SMD
-TO-263-3_TabPin2
-TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
-D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
-0
-8
-3
-TO_SOT_Packages_SMD
-TO-263-3_TabPin4
-TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-3-1/
-D2PAK DDPAK TO-263 D2PAK-3 TO-263-3 SOT-404
-0
-8
-4
-TO_SOT_Packages_SMD
-TO-263-4
-TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/
-D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426
-0
-9
-5
-TO_SOT_Packages_SMD
-TO-263-5_TabPin3
-TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/
-D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426
-0
-10
-5
-TO_SOT_Packages_SMD
-TO-263-5_TabPin6
-TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/
-D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426
-0
-10
-6
-TO_SOT_Packages_SMD
-TO-263-6
-TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/
-D2PAK DDPAK TO-263 D2PAK-7 TO-263-7 SOT-427
-0
-11
-7
-TO_SOT_Packages_SMD
-TO-263-7_TabPin4
-TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/
-D2PAK DDPAK TO-263 D2PAK-7 TO-263-7 SOT-427
-0
-12
-7
-TO_SOT_Packages_SMD
-TO-263-7_TabPin8
-TO-263 / D2PAK / DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-7-1/
-D2PAK DDPAK TO-263 D2PAK-7 TO-263-7 SOT-427
-0
-12
-8
-TO_SOT_Packages_SMD
-TO-263-9_TabPin5
-TO-263 / D2PAK / DDPAK SMD package, http://www.ti.com/lit/ds/symlink/lm4755.pdf
-D2PAK DDPAK TO-263 D2PAK-9 TO-263-9
-0
-14
-9
-TO_SOT_Packages_SMD
-TO-263-9_TabPin10
-TO-263 / D2PAK / DDPAK SMD package, http://www.ti.com/lit/ds/symlink/lm4755.pdf
-D2PAK DDPAK TO-263 D2PAK-9 TO-263-9
-0
-14
-10
-TO_SOT_Packages_SMD
-TO-268-2
-TO-268/D3PAK SMD package, http://www.icbank.com/icbank_data/semi_package/to268aa_dim.pdf
-D3PAK TO-268 D3PAK-3 TO-268-3
-0
-7
-3
-TO_SOT_Packages_SMD
-TO-277A
-Thermal enhanced ultra thin SMD package; 3 leads; body: 5.8 x 4.3 x 0.78 mm
-TO-277A SOT-1289
-0
-3
-3
-TO_SOT_Packages_SMD
-TSOT-23
-3-pin TSOT23 package, http://www.analog.com.tw/pdf/All_In_One.pdf
-TSOT-23
-0
-3
-3
-TO_SOT_Packages_SMD
-TSOT-23-5
-5-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_5_05-08-1635.pdf
-TSOT-23-5
-0
-5
-5
-TO_SOT_Packages_SMD
-TSOT-23-5_HandSoldering
-5-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_5_05-08-1635.pdf
-TSOT-23-5 Hand-soldering
-0
-5
-5
-TO_SOT_Packages_SMD
-TSOT-23-6
-6-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_6_05-08-1636.pdf
-TSOT-23-6 MK06A TSOT-6
-0
-6
-6
-TO_SOT_Packages_SMD
-TSOT-23-6_HandSoldering
-6-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_6_05-08-1636.pdf
-TSOT-23-6 MK06A TSOT-6 Hand-soldering
-0
-6
-6
-TO_SOT_Packages_SMD
-TSOT-23-8
-8-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_8_05-08-1637.pdf
-TSOT-23-8
-0
-8
-8
-TO_SOT_Packages_SMD
-TSOT-23-8_HandSoldering
-8-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_8_05-08-1637.pdf
-TSOT-23-8 Hand-soldering
-0
-8
-8
-TO_SOT_Packages_SMD
-TSOT-23_HandSoldering
-5-pin TSOT23 package, http://cds.linear.com/docs/en/packaging/SOT_5_05-08-1635.pdf
-TSOT-23 Hand-soldering
-0
-3
-3
-TO_SOT_Packages_SMD
-Texas_DRT-3
-Texas Instrument DRT-3 1x0.8mm Pitch 0.7mm http://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf
-DRT-3 1x0.8mm Pitch 0.7mm
-0
-3
-3
-TO_SOT_Packages_SMD
-Texas_R-PDSO-G6
-R-PDSO-G6, http://www.ti.com/lit/ds/slis144b/slis144b.pdf
-R-PDSO-G6 SC-70-6
-0
-6
-6
-TO_SOT_Packages_SMD
-VSOF5
-VSOF5
-VSOF5
-0
-5
-5
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -76033,584 +75809,542 @@ varistor SIOV
 0
 2
 2
-ePower
+e-Power
 Allegro_CB_PSF
 Allegro MicroSystems, CB-PSF Package (http://www.allegromicro.com/en/Products/Current-Sensor-ICs/Fifty-To-Two-Hundred-Amp-Integrated-Conductor-Sensor-ICs/ACS758.aspx)
 Allegro CB-PSF
 0
 5
 5
-ePower
+e-Power
 CP_Elec_10x10
 SMD capacitor, aluminum electrolytic, Nichicon, 10.0x10.0mm
 capacitor electrolytic
 0
 2
 2
-ePower
+e-Power
 DIP-8_SMD
 SMD 8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)
 THT DIP DIL PDIP 2.54mm 7.62mm 300mil
 0
 8
 8
-ePower
+e-Power
 DIP-14-LM324
 DIP-14 LM324
 THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket
 0
 14
 14
-ePower
+e-Power
 DO-35_SMD
 DO-35 SMD 1N4148
 DIODE, DO-35 SMD FOOTPRINT
 0
 2
 2
-ePower
+e-Power
 DO-41_SMD
 DO-41 SMD 1N5819
 Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm
 0
 2
 2
-ePower
+e-Power
 DO-214AC
 DO-214AC https://www.vishay.com/docs/88958/byg20d.pdf
 DO-214AC
 0
 2
 2
-ePower
+e-Power
 DSUB-9_Female_EdgeMount_P2.77mm
 9-pin D-Sub connector, solder-cups edge-mounted, female, x-pin-pitch 2.77mm, distance of mounting holes 25mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf
 9-pin D-Sub connector edge mount solder cup female x-pin-pitch 2.77mm mounting holes distance 25mm
 0
 9
 9
-ePower
+e-Power
 ESP-32-dev-kit
 
 
 0
 114
 38
-ePower
+e-Power
 FB_0603_1608Metric
 Ferrite bead SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 Ferrite bead
 0
 2
 2
-ePower
+e-Power
 FB_0805_2012Metric
 Ferrite bead SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 Ferrite bead
 0
 2
 2
-ePower
+e-Power
 FUSE_1206_3216Metric
 FUSE SMD 1206 (3216 Metric), square (rectangular) end terminal
 FUSE
 0
 2
 2
-ePower
+e-Power
 Fuse_SMD
 Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
 resistor
 0
 2
 2
-ePower
+e-Power
 Fuse_TH
 Fuse SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator
 resistor
 0
 2
 2
-ePower
-G474
-Grupo StepUp generated footprint
-
-0
-77
-65
-ePower
+e-Power
 LED_0805_1.15x1.40mm_HandSolder
 LED SMD 0805 1.15x1.40mm Hand Solder
 LED SMD 0505
 0
 2
 2
-ePower
+e-Power
 LM235_MOUNT
 TO-92 horizontal, leads in-line, narrow, oval pads, drill 0.75mm (see NXP sot054_po.pdf)
 to-92 sc-43 sc-43a sot54 PA33 transistor
 0
 6
 3
-ePower
+e-Power
 LQFP-48_7x7mm_P0.5mm
 LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 LQFP QFP
 0
 48
 48
-ePower
+e-Power
 L_10.4x10.4_H4.8
 Choke, SMD, 10.4x10.4mm 4.8mm height
 Choke SMD
 0
 2
 2
-ePower
+e-Power
 L_12x12mm_H6mm
 Choke, SMD, 12x12mm 6mm height
 Choke SMD
 0
 2
 2
-ePower
+e-Power
 Logo_ESD_8.9x8mm_Copper
 Electrostatic discharge Logo on Copper Layer
 Logo ESD
 0
 0
 0
-ePower
+e-Power
 Logo_ESD_8.9x8mm_Silk
 Electrostatic discharge Logo on Silkscreen layer
 Logo ESD
 0
 0
 0
-ePower
+e-Power
 Logo_High_Voltage_6.8x6.0mm_Copper
 
 logo
 0
 0
 0
-ePower
+e-Power
 Logo_High_Voltage_6.8x6.0mm_SilkS
 
 logo
 0
 0
 0
-ePower
+e-Power
 Logo_High_Voltage_9.1x8.0mm_Copper
 
 logo
 0
 0
 0
-ePower
+e-Power
 Logo_High_Voltage_9.1x8.0mm_SilkS
 
 logo
 0
 0
 0
-ePower
+e-Power
 Logo_High_Voltage_13.7x12.0mm_Copper
 
 logo
 0
 0
 0
-ePower
+e-Power
 Logo_High_Voltage_13.7x12.0mm_SilkS
 
 logo
 0
 0
 0
-ePower
+e-Power
 Logo_UFRGS_9.2x5.0mm_Copper
 
 logo UFRGS
 0
 0
 0
-ePower
+e-Power
 Logo_UFRGS_9.2x5.0mm_SilkS
 
 logo UFRGS
 0
 0
 0
-ePower
+e-Power
 Logo_UFRGS_11.0x6.0mm_Copper
 
 logo UFRGS
 0
 0
 0
-ePower
+e-Power
 Logo_UFRGS_11.0x6.0mm_SilkS
 
 logo UFRGS
 0
 0
 0
-ePower
+e-Power
 Logo_UFRGS_14.7x8.0mm_Copper
 
 logo UFRGS
 0
 0
 0
-ePower
+e-Power
 Logo_UFRGS_14.7x8.0mm_SilkS
 
 logo UFRGS
 0
 0
 0
-ePower
+e-Power
 Logo_UFRGS_22.0x12.0mm_Copper
 
 logo UFRGS
 0
 0
 0
-ePower
+e-Power
 Logo_UFRGS_22.0x12.0mm_Mask
 
 logo UFRGS
 0
 0
 0
-ePower
+e-Power
 Logo_UFRGS_22.0x12.0mm_SilkS
 
 logo UFRGS
 0
 0
 0
-ePower
+e-Power
 Logo_e-Power_12.4x6.0mm_Copper
 
 
 0
 0
 0
-ePower
+e-Power
 Logo_e-Power_12.4x6.0mm_SilkS
 
 
 0
 0
 0
-ePower
+e-Power
 Logo_e-Power_16.5x8.0mm_Copper
 
 
 0
 0
 0
-ePower
+e-Power
 Logo_e-Power_16.5x8.0mm_SilkS
 
 
 0
 0
 0
-ePower
+e-Power
 Logo_e-Power_22.8x12.0mm_Copper
 
 
 0
 0
 0
-ePower
+e-Power
 Logo_e-Power_22.8x12.0mm_Mask
 
 
 0
 0
 0
-ePower
+e-Power
 Logo_e-Power_22.8x12.0mm_SilkS
 
 
 0
 0
 0
-ePower
+e-Power
 Logo_e-Power_41.3x20.0mm_Copper
 
 
 0
 0
 0
-ePower
+e-Power
 Logo_e-Power_41.3x20.0mm_SilkS
 
 
 0
 0
 0
-ePower
+e-Power
 Molex_Mini-Fit_Jr_2x04_P4.20mm_Horizontal
 Molex Mini-Fit Jr. Power Connectors, old mpn/engineering number: 5569-08A2, example for new mpn: 39-30-0080, 4 Pins per row, Mounting: Snap-in Plastic Peg PCB Lock (http://www.molex.com/pdm_docs/sd/039300020_sd.pdf), generated with kicad-footprint-generator
 connector Molex Mini-Fit_Jr top entryplastic_peg
 0
 8
 8
-ePower
+e-Power
 MountingHole_3.2mm_M3_Pad
 Mounting Hole 3.2mm, M3, 
 mounting hole 3.2mm m3 
 0
 1
 1
-ePower
+e-Power
 MountingHole_3.2mm_M3_Pad_Via
 Mounting Hole 3.2mm, M3, added vias
 mounting hole 3.2mm m3
 0
 9
 1
-ePower
+e-Power
 MountingHole_4mm_Pad_Via
 Mounting Hole 3mm
 mounting hole 3mm
 0
 9
 1
-ePower
+e-Power
 PinSocket_1x20_P2.54mm_Vertical
 Through hole straight socket strip, 1x20, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
 Through hole socket strip THT 1x20 2.54mm single row
 0
 20
 20
-ePower
+e-Power
 Relay_SPDT_SANYOU_SRD
 relay Sanyou SRD series Form C http://www.sanyourelay.ca/public/products/pdf/SRD.pdf
 relay Sanyu SRD form C
 0
 5
 5
-ePower
+e-Power
 SIM800L
 e-Power microcontroller standard board
 
 0
 36
 12
-ePower
+e-Power
 SOD-80
 SOD-80 LL4148 footprint
 
 0
 2
 2
-ePower
+e-Power
 SOIC-16_4.55x10.3mm_P1.27mm
 SOIC, 16 Pin (https://toshiba.semicon-storage.com/info/docget.jsp?did=12858&prodName=TLP291-4), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOIC SO
 0
 16
 16
-ePower
+e-Power
 SOIC-16_4.55x10.3mm_P1.27mm(TLP290-4)
 SOIC, 16 Pin (https://toshiba.semicon-storage.com/info/docget.jsp?did=12858&prodName=TLP291-4), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOIC SO
 0
 16
 16
-ePower
+e-Power
 SOT-23
 SOT-23, Standard
 SOT-23
 0
 3
 3
-ePower
+e-Power
 ST_6.5x4.1mm_Copper
 logo da ST com 6.5mm de largura e 4.1mm de altura
 logo ST
 0
 0
 0
-ePower
+e-Power
 SW_Push_1P1T_NO_6x6mm_H9.5mm
 tactile push button, 6x6mm e.g. PTS645xx series, height=9.5mm
 tact sw push 6mm smd
 0
 4
 2
-ePower
-SW_SPST_CK_8.0x2.5x3.65mm
-https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf
-SPST button tactile switch
-0
-2
-2
-ePower
+e-Power
 TLP290-4
 16-lead TH DIP package
 THT DIP DIL PDIP 2.54mm 7.62mm 300mil
 0
 16
 16
-ePower
+e-Power
 TLP290-4(curso)
 
 
 0
 16
 16
-ePower
+e-Power
 TO-92_HandSolder_SMD
 TO-92 SMD
 TO-92 SMD
 0
 3
 3
-ePower
+e-Power
 TO-220-3_Horizontal_TabDown
 TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
 TO-220-3 Horizontal RM 2.54mm
 0
 4
 3
-ePower
+e-Power
 TO-220-3_SMD_horizontal
 TO-220-3, Horizontal, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
 TO-220-3 Horizontal RM 2.54mm
 0
 4
 3
-ePower
+e-Power
 TRIMPOT_10TURNS
 Potentiometer, horizontal, Vishay T73XW, http://www.vishay.com/docs/51016/t73.pdf
 Potentiometer horizontal Vishay T73XW
 0
 3
 3
-ePower
+e-Power
 TRIMPOT_10TURNS(2)
 Potentiometer, horizontal, Vishay T73XW, http://www.vishay.com/docs/51016/t73.pdf
 Potentiometer horizontal Vishay T73XW
 0
 3
 3
-ePower
+e-Power
 TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.08mm_Horizontal
 Terminal Block Phoenix MKDS-1,5-2, 2 pins, pitch 5.08mm, size 10x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
 THT Terminal Block Phoenix MKDS-1,5-2 pitch 5.08mm size 10x9.8mm^2 drill 1.3mm pad 2.6mm
 0
 4
 2
-ePower
+e-Power
 TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.08mm_Horizontal_3D
 Terminal Block Phoenix MKDS-1,5-2, 2 pins, pitch 5.08mm, size 10x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
 THT Terminal Block Phoenix MKDS-1,5-2 pitch 5.08mm size 10x9.8mm^2 drill 1.3mm pad 2.6mm
 0
 4
 2
-ePower
+e-Power
 TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal
 Terminal Block Phoenix MKDS-1,5-4-5.08, 4 pins, pitch 5.08mm, size 20.3x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
 THT Terminal Block Phoenix MKDS-1,5-4-5.08 pitch 5.08mm size 20.3x9.8mm^2 drill 1.3mm pad 2.6mm
 0
 8
 4
-ePower
+e-Power
 TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal
 Terminal Block Phoenix MKDS-1,5-8-5.08, 8 pins, pitch 5.08mm, size 40.6x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
 THT Terminal Block Phoenix MKDS-1,5-8-5.08 pitch 5.08mm size 40.6x9.8mm^2 drill 1.3mm pad 2.6mm
 0
 8
 8
-ePower
+e-Power
 TestPoint_Pad_D1.0mm
 SMD pad as test Point, diameter 1.0mm
 test point SMD pad
 0
 1
 1
-ePower
+e-Power
 UFRGS_36.7x20.0mm_Copper
 logo da UFRGS com 36.7mm de altura e 20.0mm de largura
 logo UFRGS
 0
 0
 0
-ePower
+e-Power
 UFRGS_PILL
 e-Power microcontroller standard board
 
 0
 40
 40
-ePower
+e-Power
 UFRGS_logo
 logo da UFRGS de teste
 
 0
 0
 0
-ePower
+e-Power
 USB_Micro-B_Horizontal
 Micro USB Type B 10103594-0001LF, http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10103594.pdf
 USB USB_B USB_micro USB_OTG
 0
 17
 6
-ePower
+e-Power
 WEEE-Logo_5.6x8mm_Copper
 Waste Electrical and Electronic Equipment Directive
 Logo WEEE
 0
 0
 0
-ePower
+e-Power
 ufrgs_logo_curso
 
 
 0
 0
 0
-ePower
+e-Power
 zero_ohm_resistor_0805
 zero_ohm_resistor_0805
 
 0
 1
 1
-eec
-STMicroelectronics-UFQFPN48-A0B9-0-3-IPC_A
-
-
-0
-49
-49
-eec
-STMicroelectronics-UFQFPN48-A0B9-0-3-IPC_B
-
-
-0
-49
-49
-eec
-STMicroelectronics-UFQFPN48-A0B9-0-3-IPC_C
-
-
-0
-49
-49
-eec
-STMicroelectronics-UFQFPN48-A0B9-0-3-MFG
-
-
-0
-49
-49
