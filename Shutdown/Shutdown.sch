@@ -2,9 +2,9 @@ EESchema Schematic File Version 4
 LIBS:Shutdown-cache
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
-Sheet 1 5
+Sheet 1 43
 Title ""
 Date ""
 Rev ""
@@ -14,36 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 775  1675 1450 900 
-U 5ED37395
-F0 "BSPD" 50
-F1 "BSPD_Eeschema.sch" 50
-F2 "Out_BSPD" I R 2225 1825 50 
-F3 "In_Current_S" I L 775 1825 50 
-F4 "In_Brake_Pressure_ARM" I L 775 1975 50 
-F5 "+12V" I L 775 2125 50 
-F6 "GND" I L 775 2475 50 
-F7 "Vref" I L 775 2300 50 
-$EndSheet
-$Sheet
-S 4400 1675 1575 1250
-U 5ED47577
-F0 "Set_Reset" 50
-F1 "Set-Reset_Eeschema.sch" 50
-F2 "In_IMD" I L 4400 2125 50 
-F3 "In_BMS" I L 4400 1975 50 
-F4 "In_BSPD" I L 4400 1825 50 
-F5 "+12V" I L 4400 2300 50 
-F6 "GND" I L 4400 2425 50 
-F7 "Set-Reset_Switch" I L 4400 2800 50 
-F8 "Relay_Out_IMD+" I R 5975 2100 50 
-F9 "Relay_Out_IMD-" I R 5975 2300 50 
-F10 "Relay_Out_BMS+" I R 5975 2475 50 
-F11 "Relay_Out_BMS-" I R 5975 2700 50 
-F12 "Relay_Out_BSPD+" I R 5975 1750 50 
-F13 "Relay_Out_BSPD-" I R 5975 1925 50 
-$EndSheet
 $Comp
 L Switch:SW_DIP_x01 Interlock
 U 1 1 5ED58F86
@@ -233,8 +203,6 @@ $EndComp
 Wire Wire Line
 	6375 6300 6875 6300
 Wire Wire Line
-	2225 1825 4400 1825
-Wire Wire Line
 	5975 1925 6125 1925
 Wire Wire Line
 	6125 1925 6125 2100
@@ -361,30 +329,6 @@ F8 "Out_Data_PWM_High" I R 2775 5300 50
 F9 "Out_Data_PWM_Low" I R 2775 5500 50 
 F10 "Out_Status_IMD" I R 2775 5850 50 
 $EndSheet
-$Sheet
-S 775  3275 1650 1250
-U 5ED5DE32
-F0 "BMS" 50
-F1 "BMS_Eeschema.sch" 50
-F2 "In_Temp_S" I L 775 3425 50 
-F3 "In_Current_S" I L 775 3625 50 
-F4 "In_Voltage_S" I L 775 3825 50 
-F5 "+12V" I L 775 4125 50 
-F6 "GND" I L 775 4325 50 
-F7 "Out_BMS" I R 2425 3500 50 
-$EndSheet
-Wire Wire Line
-	2425 3500 3150 3500
-Wire Wire Line
-	3150 3500 3150 1975
-Wire Wire Line
-	3150 1975 4400 1975
-Wire Wire Line
-	2775 5850 3400 5850
-Wire Wire Line
-	3400 5850 3400 2125
-Wire Wire Line
-	3400 2125 4400 2125
 Wire Wire Line
 	9275 3050 9275 2700
 Wire Wire Line
@@ -445,4 +389,54 @@ Text GLabel 3950 1325 2    50   Input ~ 0
 CHASSIS
 Text GLabel 3200 1225 0    50   Input ~ 0
 GLVMP
+$Sheet
+S 900  7000 1850 1325
+U 5F81360E
+F0 "TSAL" 50
+F1 "TSAL.sch" 50
+F2 "HV+" I L 900 7175 50 
+F3 "HV-" I L 900 7425 50 
+$EndSheet
+$Sheet
+S 12575 1625 2325 1575
+U 5F7F3A4D
+F0 "AIL" 50
+F1 "AIL.sch" 50
+$EndSheet
+$Sheet
+S 12500 3775 3075 2275
+U 5F7F3E0E
+F0 "BSPD" 50
+F1 "BSPD.sch" 50
+$EndSheet
+$Sheet
+S 12400 6950 2725 1825
+U 5F804484
+F0 "Main ECU" 50
+F1 "Main ECU.sch" 50
+$EndSheet
+$Sheet
+S 9500 7000 1700 875 
+U 5F804E36
+F0 "Luz de Freio" 50
+F1 "Luz de Freio.sch" 50
+$EndSheet
+$Sheet
+S 6025 7300 2575 1800
+U 5F8053B6
+F0 "SET-RESET" 50
+F1 "SET-RESET.sch" 50
+$EndSheet
+$Sheet
+S 2025 9050 2700 1875
+U 5F805AC0
+F0 "BMS" 50
+F1 "BMS_24S.sch" 50
+$EndSheet
+$Sheet
+S 7525 9375 2725 1775
+U 5F88E279
+F0 "Diferencial" 50
+F1 "Diferencial.sch" 50
+$EndSheet
 $EndSCHEMATC

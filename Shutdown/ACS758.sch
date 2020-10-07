@@ -1,0 +1,255 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr User 5906 4331
+encoding utf-8
+Sheet 4 19
+Title ""
+Date "2020-05-14"
+Rev ""
+Comp "e-Power"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L e-Power:ACS758ECB-200B-PSF U401
+U 1 1 5EBD854D
+P 1700 1400
+F 0 "U401" H 1750 1750 50  0000 L CNN
+F 1 "ACS758ECB-200B-PSF" H 1750 1650 50  0000 L CNN
+F 2 "e-Power:Allegro_CB_PSF" H 2300 1150 50  0001 C CNN
+F 3 "http://www.allegromicro.com/~/media/Files/Datasheets/ACS758-Datasheet.ashx?la=en" H 1700 1400 50  0001 C CNN
+	1    1700 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 1700 1700 1900
+$Comp
+L power:GND #PWR?
+U 1 1 5EBE108F
+P 1700 1900
+AR Path="/5EAE2BF2/5EBE108F" Ref="#PWR?"  Part="1" 
+AR Path="/5EBD8456/5EBE108F" Ref="#PWR0401"  Part="1" 
+F 0 "#PWR0401" H 1700 1650 50  0001 C CNN
+F 1 "GND" H 1705 1727 50  0000 C CNN
+F 2 "" H 1700 1900 50  0001 C CNN
+F 3 "" H 1700 1900 50  0001 C CNN
+	1    1700 1900
+	1    0    0    -1  
+$EndComp
+Text HLabel 1700 900  1    50   Input ~ 0
+5.000V
+Wire Wire Line
+	1700 900  1700 1100
+$Comp
+L Device:R R401
+U 1 1 5EBE2681
+P 3150 1400
+F 0 "R401" V 3050 1350 50  0000 L CNN
+F 1 "10K" V 3150 1350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3080 1400 50  0001 C CNN
+F 3 "~" H 3150 1400 50  0001 C CNN
+F 4 "0.1%" H 3150 1400 50  0001 C CNN "Precision"
+	1    3150 1400
+	0    1    1    0   
+$EndComp
+NoConn ~ 3800 1800
+NoConn ~ 3900 1800
+Wire Wire Line
+	3500 1400 3400 1400
+$Comp
+L Device:R R404
+U 1 1 5EBE4A93
+P 3700 900
+F 0 "R404" V 3600 850 50  0000 L CNN
+F 1 "10K" V 3700 850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3630 900 50  0001 C CNN
+F 3 "~" H 3700 900 50  0001 C CNN
+F 4 "0.1%" H 3700 900 50  0001 C CNN "Precision"
+	1    3700 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R402
+U 1 1 5EBE517E
+P 3150 1600
+F 0 "R402" V 3250 1550 50  0000 L CNN
+F 1 "10K" V 3150 1550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3080 1600 50  0001 C CNN
+F 3 "~" H 3150 1600 50  0001 C CNN
+F 4 "0.1%" H 3150 1600 50  0001 C CNN "Precision"
+	1    3150 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EBE6E40
+P 3400 2100
+AR Path="/5EAE2BF2/5EBE6E40" Ref="#PWR?"  Part="1" 
+AR Path="/5EBD8456/5EBE6E40" Ref="#PWR0403"  Part="1" 
+F 0 "#PWR0403" H 3400 1850 50  0001 C CNN
+F 1 "GND" H 3405 1927 50  0000 C CNN
+F 2 "" H 3400 2100 50  0001 C CNN
+F 3 "" H 3400 2100 50  0001 C CNN
+	1    3400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R403
+U 1 1 5EBE5CFB
+P 3400 1850
+F 0 "R403" H 3500 1900 50  0000 L CNN
+F 1 "10K" V 3400 1800 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3330 1850 50  0001 C CNN
+F 3 "~" H 3400 1850 50  0001 C CNN
+F 4 "0.1%" H 3400 1850 50  0001 C CNN "Precision"
+	1    3400 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L e-Power:OP07 U402
+U 1 1 5EBE173C
+P 3800 1500
+F 0 "U402" H 3950 1650 50  0000 L CNN
+F 1 "OP07" H 3950 1400 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4325 1425 50  0001 C CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/OP07.pdf" H 3850 1650 50  0001 C CNN
+	1    3800 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2100 3400 2000
+Wire Wire Line
+	3400 1600 3500 1600
+Wire Wire Line
+	3400 1700 3400 1600
+Wire Wire Line
+	3300 1600 3400 1600
+Connection ~ 3400 1600
+Wire Wire Line
+	3700 1800 3700 1900
+Wire Wire Line
+	3700 1900 3800 1900
+Wire Wire Line
+	3700 1200 3700 1050
+Wire Wire Line
+	3700 1050 3800 1050
+Wire Wire Line
+	3550 900  3400 900 
+Wire Wire Line
+	3400 900  3400 1400
+Connection ~ 3400 1400
+Wire Wire Line
+	3400 1400 3300 1400
+Wire Wire Line
+	4100 1500 4200 1500
+Wire Wire Line
+	4200 1500 4200 900 
+Wire Wire Line
+	4200 900  3850 900 
+Text HLabel 2950 1600 0    50   Input ~ 0
+0.850V
+Text Notes 2100 1400 0    50   ~ 0
+ACS758_OUTPUT\n
+Wire Wire Line
+	2100 1400 3000 1400
+Text Notes 2100 1500 0    50   ~ 0
+2.5V ~~ 0.00A
+Text Notes 2100 1600 0    50   ~ 0
+10mV/A\n
+Wire Wire Line
+	2950 1600 3000 1600
+$Comp
+L Device:C C402
+U 1 1 5EBF29D2
+P 3700 2100
+F 0 "C402" H 3815 2146 50  0000 L CNN
+F 1 "100nF" H 3815 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3738 1950 50  0001 C CNN
+F 3 "~" H 3700 2100 50  0001 C CNN
+	1    3700 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EBF2E8E
+P 3700 2300
+AR Path="/5EAE2BF2/5EBF2E8E" Ref="#PWR?"  Part="1" 
+AR Path="/5EBD8456/5EBF2E8E" Ref="#PWR0404"  Part="1" 
+F 0 "#PWR0404" H 3700 2050 50  0001 C CNN
+F 1 "GND" H 3705 2127 50  0000 C CNN
+F 2 "" H 3700 2300 50  0001 C CNN
+F 3 "" H 3700 2300 50  0001 C CNN
+	1    3700 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2300 3700 2250
+Wire Wire Line
+	3700 1950 3700 1900
+Connection ~ 3700 1900
+$Comp
+L Device:C C401
+U 1 1 5EBF3455
+P 3150 1050
+F 0 "C401" V 2898 1050 50  0000 C CNN
+F 1 "100nF" V 2989 1050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3188 900 50  0001 C CNN
+F 3 "~" H 3150 1050 50  0001 C CNN
+	1    3150 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EBF41A1
+P 2950 1050
+AR Path="/5EAE2BF2/5EBF41A1" Ref="#PWR?"  Part="1" 
+AR Path="/5EBD8456/5EBF41A1" Ref="#PWR0402"  Part="1" 
+F 0 "#PWR0402" H 2950 800 50  0001 C CNN
+F 1 "GND" H 2955 877 50  0000 C CNN
+F 2 "" H 2950 1050 50  0001 C CNN
+F 3 "" H 2950 1050 50  0001 C CNN
+	1    2950 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 1050 3000 1050
+Wire Wire Line
+	3300 1050 3700 1050
+Connection ~ 3700 1050
+Wire Wire Line
+	4200 1500 4550 1500
+Connection ~ 4200 1500
+Text HLabel 4550 1500 2    50   Input ~ 0
+ACS758_OUT
+Text Notes 4550 1700 0    50   ~ 0
+1.650V ~~ 0.00A\n10mV/A\n
+Text HLabel 1300 1300 0    50   Input ~ 0
+IP+
+Text HLabel 1300 1500 0    50   Input ~ 0
+IP-
+$Comp
+L power:+5V #PWR0405
+U 1 1 5EC01A2E
+P 3800 1050
+F 0 "#PWR0405" H 3800 900 50  0001 C CNN
+F 1 "+5V" V 3815 1178 50  0000 L CNN
+F 2 "" H 3800 1050 50  0001 C CNN
+F 3 "" H 3800 1050 50  0001 C CNN
+	1    3800 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:-5V #PWR0406
+U 1 1 5EC0242D
+P 3800 1900
+F 0 "#PWR0406" H 3800 2000 50  0001 C CNN
+F 1 "-5V" V 3815 2028 50  0000 L CNN
+F 2 "" H 3800 1900 50  0001 C CNN
+F 3 "" H 3800 1900 50  0001 C CNN
+	1    3800 1900
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
