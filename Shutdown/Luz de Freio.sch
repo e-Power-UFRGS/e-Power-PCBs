@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:Shutdown-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 43
+Sheet 10 43
 Title "Luz de Freio"
 Date ""
 Rev ""
@@ -208,7 +207,7 @@ F 3 "" H 3400 1125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:RELAY_19.1x15.5mm K?
+L Shutdown-rescue:RELAY_19.1x15.5mm-e-Power K?
 U 1 1 5F0862CF
 P 5500 1450
 F 0 "K?" H 5930 1496 50  0000 L CNN
@@ -482,7 +481,7 @@ F 3 "~" H 3700 6275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:INDUCTOR_PWR L?
+L Shutdown-rescue:INDUCTOR_PWR-e-Power L?
 U 1 1 5F081938
 P 2700 6050
 F 0 "L?" H 2700 6275 50  0000 C CNN
@@ -881,7 +880,7 @@ Connection ~ 2875 6900
 Wire Wire Line
 	2875 6900 3700 6900
 $Comp
-L e-Power:Logo_e-Power_Large G?
+L Shutdown-rescue:Logo_e-Power_Large-e-Power G?
 U 1 1 5F3E273D
 P 975 800
 F 0 "G?" H 975 625 60  0001 C CNN
@@ -892,7 +891,7 @@ F 3 "" H 975 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:Logo_UFRGS_Large G?
+L Shutdown-rescue:Logo_UFRGS_Large-e-Power G?
 U 1 1 5F3E3C29
 P 1875 775
 F 0 "G?" H 1875 575 60  0001 C CNN
@@ -947,7 +946,7 @@ F 3 "~" H 10275 650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:Si2302DS Q?
+L Shutdown-rescue:Si2302DS-e-Power Q?
 U 1 1 5F4C2749
 P 4750 2050
 F 0 "Q?" H 4954 2096 50  0000 L CNN
@@ -1215,7 +1214,7 @@ Connection ~ 7800 2225
 Wire Wire Line
 	7800 2225 7800 2700
 $Comp
-L e-Power:SS54HF D?
+L Shutdown-rescue:SS54HF-e-Power D?
 U 1 1 5F5C0FB4
 P 4850 1450
 F 0 "D?" H 4800 1300 50  0000 L CNN
@@ -1247,7 +1246,7 @@ Wire Wire Line
 	10725 6300 10725 6175
 Connection ~ 10925 6300
 $Comp
-L e-Power:SS54HF D?
+L Shutdown-rescue:SS54HF-e-Power D?
 U 1 1 5F5E50A2
 P 6325 5750
 F 0 "D?" H 6275 5600 50  0000 L CNN
@@ -1301,4 +1300,6 @@ Wire Wire Line
 Connection ~ 7975 4300
 Wire Wire Line
 	7975 4300 7975 4350
+Text HLabel 3100 2050 3    50   Input ~ 0
+In_Brake_ON_OFF
 $EndSCHEMATC

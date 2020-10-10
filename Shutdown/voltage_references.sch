@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Shutdown-cache
 EELAYER 30 0
 EELAYER END
 $Descr User 7717 4331
@@ -33,7 +32,7 @@ Text HLabel 2950 2400 2    50   Output ~ 0
 Text HLabel 3100 1000 2    50   Output ~ 0
 1.8V
 $Comp
-L e-Power:LM324 U?
+L Shutdown-rescue:LM324-e-Power U?
 U 1 1 5EAE9BFA
 P 2300 2000
 F 0 "U?" H 2300 2367 50  0000 C CNN
@@ -45,7 +44,7 @@ F 4 "C71035" H 2300 2000 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:LM324 U?
+L Shutdown-rescue:LM324-e-Power U?
 U 2 1 5EAEB674
 P 2300 1000
 F 0 "U?" H 2300 1367 50  0000 C CNN
@@ -57,7 +56,7 @@ F 4 "C71035" H 2300 1000 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:LM324 U?
+L Shutdown-rescue:LM324-e-Power U?
 U 3 1 5EAECE19
 P 5100 1950
 F 0 "U?" H 5100 2317 50  0000 C CNN
@@ -1067,7 +1066,7 @@ F 3 "" H 2650 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:LM324 U?
+L Shutdown-rescue:LM324-e-Power U?
 U 5 1 5EAEE4D6
 P 2250 3200
 F 0 "U?" V 1925 3200 50  0000 C CNN
@@ -1175,7 +1174,7 @@ Connection ~ 5450 1600
 Wire Wire Line
 	5450 1600 5450 1650
 $Comp
-L e-Power:LM324 U?
+L Shutdown-rescue:LM324-e-Power U?
 U 4 1 5EAEDF43
 P 6800 2050
 F 0 "U?" H 6800 2417 50  0000 C CNN
@@ -1220,6 +1219,7 @@ U 1 1 5FB7FD92
 P 2900 2450
 AR Path="/5ED9340F/5FB7FD92" Ref="TP?"  Part="1" 
 AR Path="/5EC1D7DE/5FB7FD92" Ref="TP205"  Part="1" 
+AR Path="/5F805AC0/5EC1D7DE/5FB7FD92" Ref="TP?"  Part="1" 
 F 0 "TP?" H 2850 2650 50  0000 L CNN
 F 1 "2.2727V" H 2550 2500 50  0000 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 3100 2450 50  0001 C CNN
@@ -1233,6 +1233,7 @@ U 1 1 5FB877AE
 P 3050 900
 AR Path="/5ED9340F/5FB877AE" Ref="TP?"  Part="1" 
 AR Path="/5EC1D7DE/5FB877AE" Ref="TP201"  Part="1" 
+AR Path="/5F805AC0/5EC1D7DE/5FB877AE" Ref="TP?"  Part="1" 
 F 0 "TP?" H 3000 1100 50  0000 L CNN
 F 1 "1.8V" H 3000 1200 50  0000 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 3250 900 50  0001 C CNN
@@ -1246,6 +1247,7 @@ U 1 1 5FB88B6A
 P 5550 1150
 AR Path="/5ED9340F/5FB88B6A" Ref="TP?"  Part="1" 
 AR Path="/5EC1D7DE/5FB88B6A" Ref="TP202"  Part="1" 
+AR Path="/5F805AC0/5EC1D7DE/5FB88B6A" Ref="TP?"  Part="1" 
 F 0 "TP?" H 5500 1350 50  0000 L CNN
 F 1 "5.000V" H 5500 1450 50  0000 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 5750 1150 50  0001 C CNN
@@ -1259,6 +1261,7 @@ U 1 1 5FB89627
 P 7050 1550
 AR Path="/5ED9340F/5FB89627" Ref="TP?"  Part="1" 
 AR Path="/5EC1D7DE/5FB89627" Ref="TP204"  Part="1" 
+AR Path="/5F805AC0/5EC1D7DE/5FB89627" Ref="TP?"  Part="1" 
 F 0 "TP?" H 6800 1550 50  0000 L CNN
 F 1 "0.850V" V 7050 1750 50  0000 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7250 1550 50  0001 C CNN
@@ -1291,7 +1294,7 @@ F 4 "C3113" H 1000 1650 50  0001 C CNN "LCSC"
 	0    1    -1   0   
 $EndComp
 $Comp
-L e-Power:TL431 U?
+L Shutdown-rescue:TL431-e-Power U?
 U 1 1 5FBA715A
 P 3400 1250
 F 0 "U?" V 3446 1181 50  0000 R CNN
@@ -1303,7 +1306,7 @@ F 4 "C3113" H 3400 1250 50  0001 C CNN "LCSC"
 	0    1    -1   0   
 $EndComp
 $Comp
-L e-Power:TL431 U?
+L Shutdown-rescue:TL431-e-Power U?
 U 1 1 5FBA816C
 P 4100 2150
 F 0 "U?" V 4146 2081 50  0000 R CNN
@@ -1320,6 +1323,7 @@ U 1 1 5FC6D345
 P 4750 1350
 AR Path="/5ED9340F/5FC6D345" Ref="TP?"  Part="1" 
 AR Path="/5EC1D7DE/5FC6D345" Ref="TP203"  Part="1" 
+AR Path="/5F805AC0/5EC1D7DE/5FC6D345" Ref="TP?"  Part="1" 
 F 0 "TP?" H 4700 1550 50  0000 L CNN
 F 1 "GND" H 4800 1450 50  0000 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 4950 1350 50  0001 C CNN

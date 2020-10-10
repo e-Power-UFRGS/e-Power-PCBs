@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Shutdown-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -61,12 +60,12 @@ $EndComp
 $Comp
 L Switch:SW_DIP_x01 NA_Switch
 U 1 1 5ED5D65D
-P 6375 3600
-F 0 "NA_Switch" H 6175 3300 50  0000 L CNN
-F 1 "BOTS" H 6275 3400 50  0000 L CNN
-F 2 "" H 6375 3600 50  0001 C CNN
-F 3 "~" H 6375 3600 50  0001 C CNN
-	1    6375 3600
+P 6375 3775
+F 0 "NA_Switch" H 6175 3475 50  0000 L CNN
+F 1 "BOTS" H 6275 3575 50  0000 L CNN
+F 2 "" H 6375 3775 50  0001 C CNN
+F 3 "~" H 6375 3775 50  0001 C CNN
+	1    6375 3775
 	0    1    1    0   
 $EndComp
 $Comp
@@ -136,15 +135,11 @@ F 3 "~" H 6675 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6375 2300 5975 2300
-Wire Wire Line
 	6975 2300 7375 2300
 Wire Wire Line
 	7975 2300 8350 2300
 Wire Wire Line
 	8950 2300 9375 2300
-Wire Wire Line
-	5975 2475 10125 2475
 Wire Wire Line
 	10125 2475 10125 2300
 Wire Wire Line
@@ -157,10 +152,6 @@ Wire Wire Line
 	6875 5300 6875 5700
 Wire Wire Line
 	6875 2700 7625 2700
-Wire Wire Line
-	6375 3900 6375 4300
-Wire Wire Line
-	5975 2700 6375 2700
 $Comp
 L Relay:DIPxx-1Axx-11x K?
 U 1 1 5ED8708B
@@ -203,14 +194,6 @@ $EndComp
 Wire Wire Line
 	6375 6300 6875 6300
 Wire Wire Line
-	5975 1925 6125 1925
-Wire Wire Line
-	6125 1925 6125 2100
-Wire Wire Line
-	6125 2100 5975 2100
-Wire Wire Line
-	6375 3300 6375 2700
-Wire Wire Line
 	6375 4900 6375 6300
 Wire Wire Line
 	8875 6200 8875 5650
@@ -237,13 +220,7 @@ F 3 "~" H 5375 1075 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	6125 1450 6125 1750
-Wire Wire Line
-	6125 1750 5975 1750
-Wire Wire Line
 	5375 1225 5375 1450
-Wire Wire Line
-	5375 1450 6125 1450
 $Comp
 L Device:R R_GLVMP
 U 1 1 5EDADDC5
@@ -267,7 +244,7 @@ F 3 "~" V 3950 1185 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3700 1225 3950 1225
+	3700 1225 3800 1225
 Wire Wire Line
 	3950 925  4775 925 
 $Comp
@@ -315,19 +292,19 @@ Wire Wire Line
 Wire Wire Line
 	9275 4750 9275 5050
 $Sheet
-S 775  5200 2000 1225
+S 625  1700 2000 1225
 U 5ED59845
 F0 "IMD" 50
 F1 "IMD_Eeschema.sch" 50
-F2 "In_XLA+_Line_Vol" I L 775 5325 50 
-F3 "In_XLA-_Line_Vol" I L 775 5500 50 
-F4 "Chassis_Ground" I L 775 5700 50 
-F5 "+12V" I L 775 5900 50 
-F6 "Chassis_Ground_2" I L 775 6125 50 
-F7 "Chassis_Ground_3" I L 775 6300 50 
-F8 "Out_Data_PWM_High" I R 2775 5300 50 
-F9 "Out_Data_PWM_Low" I R 2775 5500 50 
-F10 "Out_Status_IMD" I R 2775 5850 50 
+F2 "In_XLA+_Line_Vol" I L 625 1825 50 
+F3 "In_XLA-_Line_Vol" I L 625 2000 50 
+F4 "Chassis_Ground" I L 625 2200 50 
+F5 "+12V" I L 625 2400 50 
+F6 "Chassis_Ground_2" I L 625 2625 50 
+F7 "Chassis_Ground_3" I L 625 2800 50 
+F8 "Out_Data_PWM_High" I R 2625 1800 50 
+F9 "Out_Data_PWM_Low" I R 2625 2000 50 
+F10 "Out_Status_IMD" I R 2625 2350 50 
 $EndSheet
 Wire Wire Line
 	9275 3050 9275 2700
@@ -390,53 +367,190 @@ CHASSIS
 Text GLabel 3200 1225 0    50   Input ~ 0
 GLVMP
 $Sheet
-S 900  7000 1850 1325
+S 10800 6450 975  650 
 U 5F81360E
 F0 "TSAL" 50
 F1 "TSAL.sch" 50
-F2 "HV+" I L 900 7175 50 
-F3 "HV-" I L 900 7425 50 
+F2 "HV+" I L 10800 6625 50 
+F3 "HV-" I L 10800 6875 50 
 $EndSheet
 $Sheet
-S 12575 1625 2325 1575
+S 10800 7425 900  550 
 U 5F7F3A4D
 F0 "AIL" 50
 F1 "AIL.sch" 50
+F2 "HV_+" I L 10800 7600 50 
+F3 "HV_-" I L 10800 7750 50 
 $EndSheet
 $Sheet
-S 12500 3775 3075 2275
+S 625  3500 1300 725 
 U 5F7F3E0E
 F0 "BSPD" 50
 F1 "BSPD.sch" 50
+F2 "Out_BSPD" I R 1925 3650 50 
 $EndSheet
 $Sheet
-S 12400 6950 2725 1825
+S 675  5800 1375 700 
 U 5F804484
 F0 "Main ECU" 50
 F1 "Main ECU.sch" 50
+F2 "V_Cell_1" I L 675 6225 50 
+F3 "V_Cell_2" I L 675 6350 50 
+F4 "CAN_H" I R 2050 5950 50 
+F5 "CAN_L" I R 2050 6100 50 
+F6 "CAN_GND" I R 2050 6250 50 
 $EndSheet
 $Sheet
-S 9500 7000 1700 875 
+S 1150 9125 1700 875 
 U 5F804E36
 F0 "Luz de Freio" 50
 F1 "Luz de Freio.sch" 50
+F2 "In_Brake_ON_OFF" I L 1150 9350 50 
 $EndSheet
 $Sheet
-S 6025 7300 2575 1800
-U 5F8053B6
-F0 "SET-RESET" 50
-F1 "SET-RESET.sch" 50
-$EndSheet
-$Sheet
-S 2025 9050 2700 1875
+S 600  4500 1400 775 
 U 5F805AC0
 F0 "BMS" 50
 F1 "BMS_24S.sch" 50
+F2 "CAN_L" I R 2000 5175 50 
+F3 "CAN_H" I R 2000 5050 50 
 $EndSheet
 $Sheet
-S 7525 9375 2725 1775
+S 1150 6950 2725 1775
 U 5F88E279
 F0 "Diferencial" 50
 F1 "Diferencial.sch" 50
+F2 "In_ACCS_1" I L 1150 7250 50 
+F3 "In_ACCS_2" I L 1150 7425 50 
+F4 "In_Brake_Sensor_1" I L 1150 7825 50 
+F5 "In_Brake_Pedal_2" I L 1150 7975 50 
+F6 "Out_Brake_Light" I L 1150 8375 50 
+F7 "Buzzer_Out" I R 3875 8400 50 
+F8 "CAN_H" I R 3875 7650 50 
+F9 "CAN_L" I R 3875 7825 50 
 $EndSheet
+$Sheet
+S 2900 2075 2575 1800
+U 5F8053B6
+F0 "SET-RESET" 50
+F1 "SET-RESET.sch" 50
+F2 "In_Status_IMD" I L 2900 2350 50 
+F3 "In_Status_BMS" I L 2900 2600 50 
+F4 "In_Status_BSPD" I L 2900 2850 50 
+F5 "IMD_Shutdown_in" I R 5475 2275 50 
+F6 "IMD_Shutdown_out" I R 5475 2450 50 
+F7 "BMS_Shutdown_in" I R 5475 2775 50 
+F8 "BMS_Shutdown_out" I R 5475 2950 50 
+F9 "BSPD_Shutdown_in" I R 5475 3350 50 
+F10 "BSPD_shutdown_out" I R 5475 3475 50 
+$EndSheet
+Wire Wire Line
+	5675 2275 5475 2275
+Wire Wire Line
+	5900 2300 6375 2300
+Wire Wire Line
+	6375 2475 6375 3350
+Wire Wire Line
+	2625 2350 2925 2350
+Wire Wire Line
+	625  2625 550  2625
+Wire Wire Line
+	550  1475 3800 1475
+Wire Wire Line
+	3800 1475 3800 1225
+Wire Wire Line
+	550  1475 550  2625
+Connection ~ 3800 1225
+Wire Wire Line
+	3800 1225 3950 1225
+Wire Wire Line
+	5475 2450 5575 2450
+Wire Wire Line
+	5575 2450 5575 2775
+Wire Wire Line
+	5575 2775 5475 2775
+Wire Wire Line
+	5475 3475 6375 3475
+Wire Wire Line
+	6375 4075 6375 4300
+Wire Wire Line
+	6375 2475 10125 2475
+Wire Wire Line
+	5475 3350 6375 3350
+Wire Wire Line
+	5900 2300 5900 2950
+Wire Wire Line
+	5900 2950 5475 2950
+Wire Wire Line
+	5375 1450 5675 1450
+Wire Wire Line
+	5675 1450 5675 2275
+Wire Wire Line
+	2900 2850 2725 2850
+Wire Wire Line
+	2725 2850 2725 3650
+Wire Wire Line
+	2725 3650 1925 3650
+Wire Wire Line
+	2900 2600 2825 2600
+Wire Wire Line
+	2825 2600 2825 4800
+Wire Wire Line
+	2825 4800 2000 4800
+Wire Wire Line
+	2050 5950 2600 5950
+Wire Wire Line
+	4100 5950 4100 7650
+Wire Wire Line
+	4100 7650 3875 7650
+Wire Wire Line
+	2050 6100 2400 6100
+Wire Wire Line
+	4275 6100 4275 7825
+Wire Wire Line
+	4275 7825 3875 7825
+Wire Wire Line
+	2000 5175 2400 5175
+Wire Wire Line
+	2400 5175 2400 6100
+Connection ~ 2400 6100
+Wire Wire Line
+	2400 6100 4275 6100
+Wire Wire Line
+	2000 5050 2600 5050
+Wire Wire Line
+	2600 5050 2600 5950
+Connection ~ 2600 5950
+Wire Wire Line
+	2600 5950 4100 5950
+Wire Wire Line
+	1150 8375 925  8375
+Wire Wire Line
+	925  8375 925  9350
+Wire Wire Line
+	925  9350 1150 9350
+Text GLabel 10700 6625 0    50   Input ~ 0
+TSMP_HV+
+Text GLabel 10700 6875 0    50   Input ~ 0
+TSMP_HV-
+Wire Wire Line
+	10700 6625 10800 6625
+Wire Wire Line
+	10700 6875 10800 6875
+Text GLabel 10625 7575 0    50   Input ~ 0
+TSMP_HV+
+Text GLabel 10625 7825 0    50   Input ~ 0
+TSMP_HV-
+Wire Wire Line
+	10625 7575 10725 7575
+Wire Wire Line
+	10725 7575 10725 7600
+Wire Wire Line
+	10725 7600 10800 7600
+Wire Wire Line
+	10625 7825 10700 7825
+Wire Wire Line
+	10700 7825 10700 7750
+Wire Wire Line
+	10700 7750 10800 7750
 $EndSCHEMATC

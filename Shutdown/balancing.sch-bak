@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Shutdown-cache
 EELAYER 30 0
 EELAYER END
 $Descr User 8268 5827

@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:Shutdown-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 43
+Sheet 4 43
 Title "AIL"
 Date "2020-17-07"
 Rev ""
@@ -397,7 +396,7 @@ Wire Wire Line
 	7400 5400 7400 5300
 Connection ~ 6900 5400
 $Comp
-L e-Power:Fuse_1206 F?
+L Shutdown-rescue:Fuse_1206-e-Power F?
 U 1 1 5F14FB8F
 P 4050 2050
 F 0 "F?" V 3945 2050 50  0000 C CNN
@@ -408,7 +407,7 @@ F 3 "" H 4050 2050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L e-Power:Fuse_1206 F?
+L Shutdown-rescue:Fuse_1206-e-Power F?
 U 1 1 5F150096
 P 4050 2150
 F 0 "F?" V 4150 2150 50  0000 C CNN
@@ -578,7 +577,7 @@ NoConn ~ 8200 5000
 NoConn ~ 8400 5000
 NoConn ~ 8600 5000
 $Comp
-L e-Power:Logo_UFRGS_Large G?
+L Shutdown-rescue:Logo_UFRGS_Large-e-Power G?
 U 1 1 5F5590C7
 P 7900 2700
 F 0 "G?" H 7900 2500 60  0001 C CNN
@@ -589,7 +588,7 @@ F 3 "" H 7900 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:Logo_e-Power_Large G?
+L Shutdown-rescue:Logo_e-Power_Large-e-Power G?
 U 1 1 5F559F30
 P 7900 2300
 F 0 "G?" H 7900 2125 60  0001 C CNN
@@ -599,4 +598,8 @@ F 3 "" H 7900 2300 50  0001 C CNN
 	1    7900 2300
 	1    0    0    -1  
 $EndComp
+Text HLabel 4275 2050 1    50   Input ~ 0
+HV_+
+Text HLabel 4275 2150 3    50   Input ~ 0
+HV_-
 $EndSCHEMATC

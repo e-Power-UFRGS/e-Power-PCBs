@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:Shutdown-cache
 EELAYER 30 0
 EELAYER END
 $Descr User 8268 5827
 encoding utf-8
-Sheet 4 43
+Sheet 14 43
 Title ""
 Date ""
 Rev "REV0"
@@ -780,6 +779,7 @@ U 1 1 5EEA12EA
 P 7500 2300
 AR Path="/5EC24961/5EEA12EA" Ref="J?"  Part="1" 
 AR Path="/5EC9BDC1/5EEA12EA" Ref="J401"  Part="1" 
+AR Path="/5F805AC0/5EC9BDC1/5EEA12EA" Ref="J?"  Part="1" 
 F 0 "J?" H 7550 2300 50  0000 L CNN
 F 1 "VOLT_IDC_26_CONN" H 6750 900 50  0000 L CNN
 F 2 "Connector_IDC:IDC-Header_2x13_P2.54mm_Horizontal" H 7500 2300 50  0001 C CNN

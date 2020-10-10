@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:Shutdown-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 43
+Sheet 11 43
 Title "SET-RESET"
 Date "2020-01-31"
 Rev "0.2"
@@ -1388,7 +1387,7 @@ F 3 "" H 3450 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:RELAY_19.1x15.5mm K?
+L Shutdown-rescue:RELAY_19.1x15.5mm-e-Power K?
 U 1 1 5F93B0A3
 P 4350 1500
 F 0 "K?" H 4400 1250 50  0000 R CNN
@@ -1404,7 +1403,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 1100 4550 1200
 $Comp
-L e-Power:RELAY_19.1x15.5mm K?
+L Shutdown-rescue:RELAY_19.1x15.5mm-e-Power K?
 U 1 1 5F93B0AC
 P 3250 1500
 F 0 "K?" H 3300 1250 50  0000 R CNN
@@ -1436,7 +1435,7 @@ F 3 "" H 3450 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:RELAY_19.1x15.5mm K?
+L Shutdown-rescue:RELAY_19.1x15.5mm-e-Power K?
 U 1 1 5F9742E7
 P 4350 6300
 F 0 "K?" H 4400 6050 50  0000 R CNN
@@ -1452,7 +1451,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 5900 4550 6000
 $Comp
-L e-Power:RELAY_19.1x15.5mm K?
+L Shutdown-rescue:RELAY_19.1x15.5mm-e-Power K?
 U 1 1 5F9742F0
 P 3250 6300
 F 0 "K?" H 3300 6050 50  0000 R CNN
@@ -1505,7 +1504,7 @@ Connection ~ 3750 6000
 Wire Wire Line
 	3750 6000 4150 6000
 $Comp
-L e-Power:RELAY_19.1x15.5mm K?
+L Shutdown-rescue:RELAY_19.1x15.5mm-e-Power K?
 U 1 1 5F46E10C
 P 3250 3900
 F 0 "K?" H 3300 3650 50  0000 R CNN
@@ -1516,7 +1515,7 @@ F 3 "" H 3250 3900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L e-Power:RELAY_19.1x15.5mm K?
+L Shutdown-rescue:RELAY_19.1x15.5mm-e-Power K?
 U 1 1 5F46E112
 P 4350 3900
 F 0 "K?" H 4400 3650 50  0000 R CNN
@@ -1651,7 +1650,7 @@ Wire Notes Line
 Wire Notes Line
 	8400 550  550  550 
 Wire Notes Line
-	550  550  550  2800
+	2350 1725 100  1725
 Text Label 9050 600  2    50   ~ 0
 led_IMD
 Text Label 9050 700  2    50   ~ 0
@@ -1727,7 +1726,7 @@ F 3 "~" H 11000 5500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L e-Power:Fuse_1206 F?
+L Shutdown-rescue:Fuse_1206-e-Power F?
 U 1 1 5F0E7C9E
 P 9550 5100
 F 0 "F?" V 9750 5050 50  0000 L CNN
@@ -1738,7 +1737,7 @@ F 3 "" H 9550 5100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L e-Power:Ferrite_Bead_0603 FB?
+L Shutdown-rescue:Ferrite_Bead_0603-e-Power FB?
 U 1 1 5F0FC16C
 P 9900 5100
 F 0 "FB?" V 10150 5100 50  0000 C CNN
@@ -1855,7 +1854,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 5850 9100 5900
 $Comp
-L e-Power:Si2302DS Q?
+L Shutdown-rescue:Si2302DS-e-Power Q?
 U 1 1 5F1C6764
 P 3350 6950
 F 0 "Q?" H 3554 6996 50  0000 L CNN
@@ -1867,7 +1866,7 @@ F 3 "" H 3350 6950 50  0001 L CNN
 $EndComp
 Connection ~ 3450 6750
 $Comp
-L e-Power:Si2302DS Q?
+L Shutdown-rescue:Si2302DS-e-Power Q?
 U 1 1 5F1C79DB
 P 3350 4500
 F 0 "Q?" H 3554 4546 50  0000 L CNN
@@ -1879,7 +1878,7 @@ F 3 "" H 3350 4500 50  0001 L CNN
 $EndComp
 Connection ~ 3450 4300
 $Comp
-L e-Power:Si2302DS Q?
+L Shutdown-rescue:Si2302DS-e-Power Q?
 U 1 1 5F1C8632
 P 3350 2150
 F 0 "Q?" H 3554 2196 50  0000 L CNN
@@ -1919,7 +1918,7 @@ Wire Notes Line
 Wire Notes Line
 	6900 6500 8400 6500
 $Comp
-L e-Power:Logo_e-Power_Large G?
+L Shutdown-rescue:Logo_e-Power_Large-e-Power G?
 U 1 1 5F3D90FC
 P 10850 2200
 F 0 "G?" H 10850 2025 60  0001 C CNN
@@ -1930,7 +1929,7 @@ F 3 "" H 10850 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:Logo_UFRGS_Large G?
+L Shutdown-rescue:Logo_UFRGS_Large-e-Power G?
 U 1 1 5F3D9FE3
 P 8900 2150
 F 0 "G?" H 8900 1950 60  0001 C CNN
@@ -2058,9 +2057,11 @@ F 3 "https://www.onsemi.com/pub/Collateral/MMBTA92LT1-D.PDF" H 2600 1450 50  000
 	1    0    0    1   
 $EndComp
 $Comp
-L e-Power:1N5819 D?
+L Shutdown-rescue:1N5819-e-Power D?
 U 1 1 5F55A921
 P 3750 1500
+AR Path="/5F55A921" Ref="D?"  Part="1" 
+AR Path="/5F8053B6/5F55A921" Ref="D?"  Part="1" 
 F 0 "D?" H 3600 1450 50  0000 L CNN
 F 1 "SS54HF" H 3600 1600 50  0000 L CNN
 F 2 "e-Power:DO-214AC" H 3750 1325 50  0001 C CNN
@@ -2069,9 +2070,11 @@ F 3 "" H 3750 1500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L e-Power:1N5819 D?
+L Shutdown-rescue:1N5819-e-Power D?
 U 1 1 5F59001B
 P 3750 3900
+AR Path="/5F59001B" Ref="D?"  Part="1" 
+AR Path="/5F8053B6/5F59001B" Ref="D?"  Part="1" 
 F 0 "D?" H 3600 3850 50  0000 L CNN
 F 1 "SS54HF" H 3600 4000 50  0000 L CNN
 F 2 "e-Power:DO-214AC" H 3750 3725 50  0001 C CNN
@@ -2080,9 +2083,11 @@ F 3 "" H 3750 3900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L e-Power:1N5819 D?
+L Shutdown-rescue:1N5819-e-Power D?
 U 1 1 5F590A36
 P 3750 6300
+AR Path="/5F590A36" Ref="D?"  Part="1" 
+AR Path="/5F8053B6/5F590A36" Ref="D?"  Part="1" 
 F 0 "D?" H 3600 6250 50  0000 L CNN
 F 1 "SS54HF" H 3600 6400 50  0000 L CNN
 F 2 "e-Power:DO-214AC" H 3750 6125 50  0001 C CNN
@@ -2091,9 +2096,11 @@ F 3 "" H 3750 6300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L e-Power:1N5819 D?
+L Shutdown-rescue:1N5819-e-Power D?
 U 1 1 5F598BC8
 P 9200 5100
+AR Path="/5F598BC8" Ref="D?"  Part="1" 
+AR Path="/5F8053B6/5F598BC8" Ref="D?"  Part="1" 
 F 0 "D?" H 9150 5000 50  0000 L CNN
 F 1 "SS54HF" H 9050 5200 50  0000 L CNN
 F 2 "e-Power:DO-214AC" H 9200 4925 50  0001 C CNN
@@ -2644,4 +2651,22 @@ Wire Wire Line
 NoConn ~ 10750 1600
 NoConn ~ 9500 6250
 NoConn ~ 9700 6250
+Text HLabel 875  2050 1    50   Input ~ 0
+In_Status_IMD
+Text HLabel 825  4350 1    50   Input ~ 0
+In_Status_BMS
+Text HLabel 825  6850 1    50   Input ~ 0
+In_Status_BSPD
+Text HLabel 4550 1125 0    50   Input ~ 0
+IMD_Shutdown_in
+Text HLabel 4650 1125 2    50   Input ~ 0
+IMD_Shutdown_out
+Text HLabel 4550 3525 0    50   Input ~ 0
+BMS_Shutdown_in
+Text HLabel 4650 3525 2    50   Input ~ 0
+BMS_Shutdown_out
+Text HLabel 4550 5925 0    50   Input ~ 0
+BSPD_Shutdown_in
+Text HLabel 4650 5925 2    50   Input ~ 0
+BSPD_shutdown_out
 $EndSCHEMATC

@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:Shutdown-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 43 43
+Sheet 42 43
 Title "Diferencial Board"
 Date "2020-08-06"
 Rev ""
@@ -299,7 +298,7 @@ F 3 "" H 4900 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:UFRGS_PILL U?
+L Shutdown-rescue:UFRGS_PILL-e-Power U?
 U 1 1 5ECDC53F
 P 11250 4125
 F 0 "U?" H 11025 6480 50  0000 C CNN
@@ -1163,7 +1162,7 @@ Wire Wire Line
 	6325 4775 6325 4925
 Connection ~ 6575 4775
 $Comp
-L e-Power:LED D?
+L Shutdown-rescue:LED-e-Power D?
 U 1 1 5F15AABA
 P 8925 9750
 F 0 "D?" V 8964 9633 50  0000 R CNN
@@ -1240,7 +1239,7 @@ F 3 "~" H 13750 6950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L e-Power:RELAY_19.1x15.5mm K?
+L Shutdown-rescue:RELAY_19.1x15.5mm-e-Power K?
 U 1 1 5F1FE295
 P 8725 8800
 F 0 "K?" H 9155 8846 50  0000 L CNN
@@ -1658,7 +1657,7 @@ F 3 "~" H 8925 9450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L e-Power:D_SCH_SS54HF D?
+L Shutdown-rescue:D_SCH_SS54HF-e-Power D?
 U 1 1 5F36ACFB
 P 7850 8800
 F 0 "D?" H 7800 8625 50  0000 L CNN
@@ -2285,7 +2284,7 @@ F 3 "~" H 15175 8525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:Logo_UFRGS_Large G?
+L Shutdown-rescue:Logo_UFRGS_Large-e-Power G?
 U 1 1 5F37D1F5
 P 15650 875
 F 0 "G?" H 15650 675 60  0001 C CNN
@@ -2296,7 +2295,7 @@ F 3 "" H 15650 875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:Logo_e-Power_Large G?
+L Shutdown-rescue:Logo_e-Power_Large-e-Power G?
 U 1 1 5F37FB8E
 P 15650 1375
 F 0 "G?" H 15650 1200 60  0001 C CNN
@@ -2425,7 +2424,7 @@ F 3 "~" H 1525 9875 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L e-Power:SS54HF D?
+L Shutdown-rescue:SS54HF-e-Power D?
 U 1 1 5F4E4A0E
 P 11825 8525
 F 0 "D?" H 11825 8309 50  0000 C CNN
@@ -2450,4 +2449,20 @@ F 3 "~" H 4875 9800 50  0001 C CNN
 	1    4875 9800
 	1    0    0    -1  
 $EndComp
+Text HLabel 1150 1400 3    50   Input ~ 0
+In_ACCS_1
+Text HLabel 1500 2800 1    50   Input ~ 0
+In_ACCS_2
+Text HLabel 1400 4525 3    50   Input ~ 0
+In_Brake_Sensor_1
+Text HLabel 1475 6025 3    50   Input ~ 0
+In_Brake_Pedal_2
+Text HLabel 14525 6950 2    50   Input ~ 0
+Out_Brake_Light
+Text HLabel 9150 9225 1    50   Input ~ 0
+Buzzer_Out
+Text HLabel 2300 9775 2    50   Input ~ 0
+CAN_H
+Text HLabel 2300 9875 2    50   Input ~ 0
+CAN_L
 $EndSCHEMATC

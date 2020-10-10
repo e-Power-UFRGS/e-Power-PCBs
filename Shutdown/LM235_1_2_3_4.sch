@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Shutdown-cache
 EELAYER 30 0
 EELAYER END
 $Descr User 7874 4725
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L e-Power:LM324 U?
+L Shutdown-rescue:LM324-e-Power U?
 U 5 1 5EA4C987
 P 1400 3100
 AR Path="/5EA47040/5EA4C987" Ref="U?"  Part="5" 
@@ -293,7 +292,7 @@ Wire Wire Line
 Text HLabel 1500 1150 0    50   Input ~ 0
 TS_1
 $Comp
-L e-Power:LM324 U?
+L Shutdown-rescue:LM324-e-Power U?
 U 1 1 5EC12A89
 P 1950 1250
 AR Path="/5EA47040/5EC12A89" Ref="U?"  Part="1" 
@@ -539,7 +538,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 3400 1800 3500
 $Comp
-L e-Power:LM324 U?
+L Shutdown-rescue:LM324-e-Power U?
 U 2 1 5EA4A09D
 P 1950 1950
 AR Path="/5EA47040/5EA4A09D" Ref="U?"  Part="2" 
@@ -823,7 +822,7 @@ Wire Wire Line
 Text HLabel 3400 1150 0    50   Input ~ 0
 TS_3
 $Comp
-L e-Power:LM324 U?
+L Shutdown-rescue:LM324-e-Power U?
 U 3 1 5F5E9E0E
 P 3850 1250
 AR Path="/5EA47040/5F5E9E0E" Ref="U?"  Part="1" 
@@ -875,7 +874,7 @@ Wire Wire Line
 Text HLabel 4300 1250 2    50   Output ~ 0
 T3
 $Comp
-L e-Power:LM324 U?
+L Shutdown-rescue:LM324-e-Power U?
 U 4 1 5F5E9E1B
 P 3850 1950
 AR Path="/5EA47040/5F5E9E1B" Ref="U?"  Part="2" 

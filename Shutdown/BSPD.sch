@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Shutdown-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -109,7 +108,7 @@ out_bspd
 Wire Wire Line
 	7100 4350 7250 4350
 $Comp
-L e-Power:LED D?
+L Shutdown-rescue:LED-e-Power D?
 U 1 1 5EF511BA
 P 6700 4900
 F 0 "D?" V 6739 4783 50  0000 R CNN
@@ -1420,7 +1419,7 @@ Wire Wire Line
 Text GLabel 3500 6950 2    50   Input ~ 0
 Input_Power
 $Comp
-L e-Power:LED D?
+L Shutdown-rescue:LED-e-Power D?
 U 1 1 5F337AD6
 P 9300 4900
 F 0 "D?" V 9339 4783 50  0000 R CNN
@@ -1431,9 +1430,11 @@ F 3 "" H 9300 4900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L e-Power:1N5819 D?
+L Shutdown-rescue:1N5819-e-Power D?
 U 1 1 5F358A00
 P 4750 6700
+AR Path="/5F358A00" Ref="D?"  Part="1" 
+AR Path="/5F7F3E0E/5F358A00" Ref="D?"  Part="1" 
 F 0 "D?" H 4750 6484 50  0000 C CNN
 F 1 "1N5819" H 4750 6575 50  0000 C CNN
 F 2 "e-Power:DO-214AC" H 4750 6525 50  0001 C CNN
@@ -1834,9 +1835,11 @@ $EndComp
 Wire Wire Line
 	4900 4150 4950 4150
 $Comp
-L e-Power:1N5819 D?
+L Shutdown-rescue:1N5819-e-Power D?
 U 1 1 5F368B0A
 P 5100 4150
+AR Path="/5F368B0A" Ref="D?"  Part="1" 
+AR Path="/5F7F3E0E/5F368B0A" Ref="D?"  Part="1" 
 F 0 "D?" H 5100 4400 50  0000 C CNN
 F 1 "1N5819" H 5100 4300 50  0000 C CNN
 F 2 "e-Power:DO-214AC" H 5100 3975 50  0001 C CNN
@@ -1887,7 +1890,7 @@ Wire Wire Line
 	3700 4900 3450 4900
 Connection ~ 3450 4900
 $Comp
-L e-Power:Logo_UFRGS_Large G?
+L Shutdown-rescue:Logo_UFRGS_Large-e-Power G?
 U 1 1 5F60255C
 P 10600 850
 F 0 "G?" H 10600 650 60  0001 C CNN
@@ -1898,7 +1901,7 @@ F 3 "" H 10600 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:Logo_e-Power_Large G?
+L Shutdown-rescue:Logo_e-Power_Large-e-Power G?
 U 1 1 5F602D9E
 P 10600 1350
 F 0 "G?" H 10600 1175 60  0001 C CNN
@@ -2025,4 +2028,6 @@ $EndComp
 Wire Wire Line
 	4100 7050 4300 7050
 Connection ~ 4100 7050
+Text HLabel 7175 4350 1    50   Input ~ 0
+Out_BSPD
 $EndSCHEMATC

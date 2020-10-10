@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Shutdown-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1015,7 +1014,7 @@ F 4 "C39031" H 8700 5850 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:INDUCTOR_PWR L?
+L Shutdown-rescue:INDUCTOR_PWR-e-Power L?
 U 1 1 5F085F28
 P 2650 4050
 F 0 "L?" H 2650 4250 50  0000 C CNN
@@ -1028,7 +1027,7 @@ F 5 "C169389" H 2650 4050 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:D_SCH_1N5819 D?
+L Shutdown-rescue:D_SCH_1N5819-e-Power D?
 U 1 1 5F0B5787
 P 1850 6300
 F 0 "D?" H 1850 6084 50  0000 C CNN
@@ -1147,7 +1146,7 @@ $EndComp
 Text GLabel 1300 6300 0    50   Input ~ 0
 Input_Power
 $Comp
-L e-Power:RELAY_19.1x15.5mm K?
+L Shutdown-rescue:RELAY_19.1x15.5mm-e-Power K?
 U 1 1 5F11030F
 P 4650 1350
 F 0 "K?" H 5080 1396 50  0000 L CNN
@@ -1367,7 +1366,7 @@ F 4 "C311611" H 4150 4300 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:D_SCH_1N5819 D?
+L Shutdown-rescue:D_SCH_1N5819-e-Power D?
 U 1 1 5F486FD6
 P 3250 4050
 F 0 "D?" H 3250 3834 50  0000 C CNN
@@ -1379,7 +1378,7 @@ F 4 "C22452" H 3250 4050 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L e-Power:D_SCH_1N5819 D?
+L Shutdown-rescue:D_SCH_1N5819-e-Power D?
 U 1 1 5F487A9C
 P 4150 1350
 F 0 "D?" H 4150 1134 50  0000 C CNN
@@ -2120,7 +2119,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 1800 4550 4100
 $Comp
-L e-Power:Si2302DS Q?
+L Shutdown-rescue:Si2302DS-e-Power Q?
 U 1 1 60C7FE8D
 P 4050 1950
 F 0 "Q?" H 3900 2050 50  0000 L CNN
@@ -2500,7 +2499,7 @@ F 3 "~" H 4700 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:Logo_High_Voltage_Large G?
+L Shutdown-rescue:Logo_High_Voltage_Large-e-Power G?
 U 1 1 5F45B899
 P 1500 3000
 F 0 "G?" H 1500 3250 60  0000 C CNN
@@ -2626,7 +2625,7 @@ F 3 "" H 2600 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:Logo_UFRGS_Large G?
+L Shutdown-rescue:Logo_UFRGS_Large-e-Power G?
 U 1 1 5F9561DD
 P 2400 3000
 F 0 "G?" H 2400 2750 60  0000 C CNN
@@ -2637,7 +2636,7 @@ F 3 "" H 2400 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:Logo_e-Power_Large G?
+L Shutdown-rescue:Logo_e-Power_Large-e-Power G?
 U 1 1 5F95A5B2
 P 3250 3050
 F 0 "G?" H 3250 3300 60  0000 C CNN
@@ -2701,4 +2700,6 @@ Text HLabel 1050 1050 1    50   Input ~ 0
 HV+
 Text HLabel 1050 1150 3    50   Input ~ 0
 HV-
+Text HLabel 1300 7050 1    50   Input ~ 0
+Input_Power
 $EndSCHEMATC

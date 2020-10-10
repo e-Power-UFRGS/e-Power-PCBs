@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Shutdown-cache
 EELAYER 30 0
 EELAYER END
 $Descr User 7087 6299
@@ -2197,7 +2196,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 600  3200 600 
 $Comp
-L e-Power:LED D2503
+L Shutdown-rescue:LED-e-Power D2503
 U 1 1 5EEF5CEC
 P 6150 3100
 AR Path="/5F25407D/5F255A50/5EEF5CEC" Ref="D2503"  Part="1" 
@@ -2273,7 +2272,7 @@ Wire Wire Line
 	5900 3250 5900 2950
 Connection ~ 5900 2950
 $Comp
-L e-Power:LED D2504
+L Shutdown-rescue:LED-e-Power D2504
 U 1 1 5EEF5CEE
 P 6150 4100
 AR Path="/5F25407D/5F255A50/5EEF5CEE" Ref="D2504"  Part="1" 
@@ -2347,7 +2346,7 @@ Wire Wire Line
 	5900 4250 5900 3950
 Connection ~ 5900 3950
 $Comp
-L e-Power:LED D2502
+L Shutdown-rescue:LED-e-Power D2502
 U 1 1 5F454CCC
 P 6150 2100
 AR Path="/5F25407D/5F255A50/5F454CCC" Ref="D2502"  Part="1" 
@@ -2421,7 +2420,7 @@ Wire Wire Line
 	5900 2250 5900 1950
 Connection ~ 5900 1950
 $Comp
-L e-Power:LED D2501
+L Shutdown-rescue:LED-e-Power D2501
 U 1 1 5F46A117
 P 6150 1100
 AR Path="/5F25407D/5F255A50/5F46A117" Ref="D2501"  Part="1" 
@@ -3135,7 +3134,7 @@ Connection ~ 4500 3950
 Wire Wire Line
 	4500 3950 4300 3950
 $Comp
-L e-Power:Si2302DS Q2501
+L Shutdown-rescue:Si2302DS-e-Power Q2501
 U 1 1 5F341634
 P 5000 1200
 AR Path="/5F25407D/5F255A50/5F341634" Ref="Q2501"  Part="1" 
@@ -3158,7 +3157,7 @@ F 3 "https://www.vishay.com/docs/70628/70628.pdf" H 5000 1200 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:Si2302DS Q2502
+L Shutdown-rescue:Si2302DS-e-Power Q2502
 U 1 1 5F34235C
 P 5000 2200
 AR Path="/5F25407D/5F255A50/5F34235C" Ref="Q2502"  Part="1" 
@@ -3181,7 +3180,7 @@ F 3 "https://www.vishay.com/docs/70628/70628.pdf" H 5000 2200 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:Si2302DS Q2503
+L Shutdown-rescue:Si2302DS-e-Power Q2503
 U 1 1 5F3428FA
 P 5000 3200
 AR Path="/5F25407D/5F255A50/5F3428FA" Ref="Q2503"  Part="1" 
@@ -3204,7 +3203,7 @@ F 3 "https://www.vishay.com/docs/70628/70628.pdf" H 5000 3200 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:Si2302DS Q2504
+L Shutdown-rescue:Si2302DS-e-Power Q2504
 U 1 1 5F3433A2
 P 5000 4200
 AR Path="/5F25407D/5F255A50/5F3433A2" Ref="Q2504"  Part="1" 

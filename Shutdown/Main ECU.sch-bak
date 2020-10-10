@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Shutdown-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -46,7 +45,7 @@ F4 "Input_Voltage_Cells" I L 2375 875 50
 F5 "Current_Data_Out" I R 3500 1275 50 
 $EndSheet
 $Comp
-L e-Power:UFRGS_PILL U?
+L Shutdown-rescue:UFRGS_PILL-e-Power U?
 U 1 1 5F4C01C0
 P 5975 5125
 F 0 "U?" H 5750 7480 50  0000 C CNN
@@ -442,7 +441,7 @@ F 3 "~" H 8500 1225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:LL4148 D?
+L Shutdown-rescue:LL4148-e-Power D?
 U 1 1 5F78EE56
 P 8500 1550
 F 0 "D?" V 8525 1425 50  0000 C CNN
@@ -453,7 +452,7 @@ F 3 "" H 8500 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L e-Power:LL4148 D?
+L Shutdown-rescue:LL4148-e-Power D?
 U 1 1 5F78F7F5
 P 8500 1850
 F 0 "D?" V 8525 1725 50  0000 C CNN
@@ -464,7 +463,7 @@ F 3 "" H 8500 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L e-Power:LL4148 D?
+L Shutdown-rescue:LL4148-e-Power D?
 U 1 1 5F78FB62
 P 8500 2150
 F 0 "D?" V 8546 2071 50  0000 R CNN
@@ -554,7 +553,7 @@ F 3 "" H 5625 1775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:D_SCH_SS54HF D?
+L Shutdown-rescue:D_SCH_SS54HF-e-Power D?
 U 1 1 5F3833A0
 P 4075 1025
 F 0 "D?" H 4075 809 50  0000 C CNN
@@ -566,7 +565,7 @@ F 4 "C22452" H 4075 1125 50  0001 C CNN "LCSC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L e-Power:Fuse_1206 F?
+L Shutdown-rescue:Fuse_1206-e-Power F?
 U 1 1 5F38446D
 P 4600 1025
 F 0 "F?" V 4403 1025 50  0000 C CNN
@@ -579,7 +578,7 @@ $EndComp
 Wire Wire Line
 	4450 1025 4225 1025
 $Comp
-L e-Power:Ferrite_Bead_0603 FB?
+L Shutdown-rescue:Ferrite_Bead_0603-e-Power FB?
 U 1 1 5F385B17
 P 5175 1025
 F 0 "FB?" V 4901 1025 50  0000 C CNN
@@ -787,7 +786,7 @@ Wire Wire Line
 Wire Wire Line
 	7125 4025 6275 4025
 $Comp
-L e-Power:LED D?
+L Shutdown-rescue:LED-e-Power D?
 U 1 1 5F52FB0B
 P 7575 3950
 F 0 "D?" H 7550 3875 50  0000 C CNN
@@ -918,7 +917,7 @@ Out_DC
 Wire Wire Line
 	5225 4425 4925 4425
 $Comp
-L e-Power:LED D?
+L Shutdown-rescue:LED-e-Power D?
 U 1 1 5F533C23
 P 7575 4400
 F 0 "D?" H 7550 4325 50  0000 C CNN
@@ -929,7 +928,7 @@ F 3 "" H 7575 4400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L e-Power:LED D?
+L Shutdown-rescue:LED-e-Power D?
 U 1 1 5F5339EE
 P 7575 4250
 F 0 "D?" H 7550 4175 50  0000 C CNN
@@ -940,7 +939,7 @@ F 3 "" H 7575 4250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L e-Power:LED D?
+L Shutdown-rescue:LED-e-Power D?
 U 1 1 5F53373F
 P 7575 4100
 F 0 "D?" H 7550 4025 50  0000 C CNN
@@ -995,7 +994,7 @@ F 3 "~" H 9800 875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:Logo_e-Power_Large G?
+L Shutdown-rescue:Logo_e-Power_Large-e-Power G?
 U 1 1 5F594A1D
 P 10625 6825
 F 0 "G?" H 10625 6650 60  0001 C CNN
@@ -1006,7 +1005,7 @@ F 3 "" H 10625 6825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:Logo_UFRGS_Large G?
+L Shutdown-rescue:Logo_UFRGS_Large-e-Power G?
 U 1 1 5F595FBB
 P 7475 6775
 F 0 "G?" H 7475 6575 60  0001 C CNN
@@ -1243,4 +1242,18 @@ F 3 "~" H 1975 6700 50  0001 C CNN
 	1    1975 6700
 	0    1    1    0   
 $EndComp
+Text HLabel 1375 3100 1    50   Input ~ 0
+V_Cell_1
+Text HLabel 1475 3250 1    50   Input ~ 0
+V_Cell_2
+Text HLabel 1375 4200 1    50   Input ~ 0
+V_Cell_1
+Text HLabel 1450 4375 1    50   Input ~ 0
+V_Cell_2
+Text HLabel 10150 4300 3    50   Input ~ 0
+CAN_H
+Text HLabel 10025 4200 1    50   Input ~ 0
+CAN_L
+Text HLabel 9550 4400 3    50   Input ~ 0
+CAN_GND
 $EndSCHEMATC

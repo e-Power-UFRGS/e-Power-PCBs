@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:Shutdown-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 43
+Sheet 7 43
 Title "BUCK-BOOST 12V"
 Date "2020-05-10"
 Rev "0"
@@ -26,7 +25,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2596.pdf" H 5350 1775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:D_SCH_SS54HF D?
+L Shutdown-rescue:D_SCH_SS54HF-e-Power D?
 U 1 1 5EB8B647
 P 3550 1675
 F 0 "D?" H 3550 1459 50  0000 C CNN
@@ -87,7 +86,7 @@ Connection ~ 4500 1675
 Wire Wire Line
 	4500 1675 4850 1675
 $Comp
-L e-Power:D_SCH_SS54HF D?
+L Shutdown-rescue:D_SCH_SS54HF-e-Power D?
 U 1 1 5EB9411D
 P 6000 2125
 F 0 "D?" V 5954 2204 50  0000 L CNN
@@ -115,7 +114,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 2275 6000 2375
 $Comp
-L e-Power:INDUCTOR_PWR L?
+L Shutdown-rescue:INDUCTOR_PWR-e-Power L?
 U 1 1 5EB9596B
 P 6350 1875
 F 0 "L?" H 6350 1975 50  0000 C CNN
@@ -294,7 +293,7 @@ F 3 "~" H 725 4125 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L e-Power:INDUCTOR_PWR L?
+L Shutdown-rescue:INDUCTOR_PWR-e-Power L?
 U 1 1 5EBB83D9
 P 1425 3875
 F 0 "L?" H 1425 4090 50  0000 C CNN
@@ -322,7 +321,7 @@ Wire Wire Line
 Wire Wire Line
 	1725 3875 1675 3875
 $Comp
-L e-Power:D_SCH_SS54HF D?
+L Shutdown-rescue:D_SCH_SS54HF-e-Power D?
 U 1 1 5EBBB940
 P 1975 3875
 F 0 "D?" H 1975 3659 50  0000 C CNN
@@ -391,7 +390,7 @@ F 3 "~" H 925 5875 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L e-Power:LM2577S-ADJ U?
+L Shutdown-rescue:LM2577S-ADJ-e-Power U?
 U 1 1 5EBB381F
 P 1425 4375
 F 0 "U?" H 1375 4475 50  0000 L CNN
@@ -651,7 +650,7 @@ Wire Wire Line
 Wire Wire Line
 	8025 2625 8025 2575
 $Comp
-L e-Power:LED D?
+L Shutdown-rescue:LED-e-Power D?
 U 1 1 5EE0B68D
 P 8025 2425
 F 0 "D?" V 8064 2307 50  0000 R CNN
@@ -692,7 +691,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 4625 4000 4575
 $Comp
-L e-Power:LED D?
+L Shutdown-rescue:LED-e-Power D?
 U 1 1 5EE26E5D
 P 4000 4425
 F 0 "D?" V 4039 4308 50  0000 R CNN
@@ -704,7 +703,7 @@ F 3 "" H 4000 4425 50  0001 C CNN
 $EndComp
 Connection ~ 4000 3875
 $Comp
-L e-Power:INDUCTOR_PWR L?
+L Shutdown-rescue:INDUCTOR_PWR-e-Power L?
 U 1 1 5F3769B1
 P 7250 1875
 F 0 "L?" H 7250 1975 50  0000 C CNN
@@ -715,7 +714,7 @@ F 3 "~" H 7250 1875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:Ferrite_Bead_0603 FB?
+L Shutdown-rescue:Ferrite_Bead_0603-e-Power FB?
 U 1 1 5F388AA4
 P 3200 1675
 F 0 "FB?" V 3382 1675 50  0000 C CNN
@@ -728,7 +727,7 @@ $EndComp
 Text HLabel 1650 1675 0    50   Input ~ 0
 Input_Voltage_Cells
 $Comp
-L e-Power:INDUCTOR_PWR L?
+L Shutdown-rescue:INDUCTOR_PWR-e-Power L?
 U 1 1 5F3C9968
 P 3450 3875
 F 0 "L?" H 3450 4090 50  0000 C CNN
@@ -761,7 +760,7 @@ F 3 "~" H 4500 1925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:INDUCTOR_PWR L?
+L Shutdown-rescue:INDUCTOR_PWR-e-Power L?
 U 1 1 5F3EAA4E
 P 4100 1675
 F 0 "L?" H 4100 1890 50  0000 C CNN

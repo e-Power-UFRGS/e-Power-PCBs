@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:Shutdown-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 12 43
+Sheet 11 43
 Title ""
 Date ""
 Rev "REV0"
@@ -7913,7 +7912,7 @@ Wire Wire Line
 Wire Wire Line
 	15000 6300 15350 6300
 $Comp
-L e-Power:Logo_UFRGS_Large G?
+L Shutdown-rescue:Logo_UFRGS_Large-e-Power G?
 U 1 1 62BF7C1B
 P 10900 10100
 F 0 "G?" H 10900 9900 60  0000 C CNN
@@ -8573,7 +8572,7 @@ F 3 "~" H 9330 8150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:Logo_e-Power_Large G?
+L Shutdown-rescue:Logo_e-Power_Large-e-Power G?
 U 1 1 62BF88DC
 P 10900 9650
 F 0 "G?" H 10900 9475 60  0000 C CNN
@@ -8584,7 +8583,7 @@ F 3 "" H 10900 9650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:Logo_UFRGS_Large G?
+L Shutdown-rescue:Logo_UFRGS_Large-e-Power G?
 U 1 1 6038A412
 P 10900 10650
 F 0 "G?" H 10900 10450 60  0000 C CNN
@@ -8624,4 +8623,8 @@ Wire Bus Line
 	1200 1200 1200 1900
 Wire Bus Line
 	3900 1200 3900 1900
+Text HLabel 15400 6100 1    50   Input ~ 0
+CAN_L
+Text HLabel 15375 6500 3    50   Input ~ 0
+CAN_H
 $EndSCHEMATC
