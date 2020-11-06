@@ -1,4 +1,4 @@
-17056163932169994
+17068991859276493
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75236,6 +75236,13 @@ Allegro CB-PSF
 5
 5
 e-Power
+BatteryHolder_1x18650
+Battery holder for 18650 cylindrical cells http://www.keyelco.com/product.cfm/product_id/918
+18650 Keystone 1042 Li-ion
+0
+3
+3
+e-Power
 CP_Elec_10x10
 SMD capacitor, aluminum electrolytic, Nichicon, 10.0x10.0mm
 capacitor electrolytic
@@ -75283,6 +75290,13 @@ DSUB-9_Female_EdgeMount_P2.77mm
 9-pin D-Sub connector edge mount solder cup female x-pin-pitch 2.77mm mounting holes distance 25mm
 0
 9
+9
+e-Power
+ESOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.81mm_ThermalVias
+SOIC, 8 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ada4898-1_4898-2.pdf#page=29), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+20
 9
 e-Power
 ESP-32-dev-kit
@@ -75350,6 +75364,13 @@ LQFP QFP
 e-Power
 L_10.4x10.4_H4.8
 Choke, SMD, 10.4x10.4mm 4.8mm height
+Choke SMD
+0
+2
+2
+e-Power
+L_12.6x13.45mm_H8mm
+Choke, SMD, 12x12mm 8mm height
 Choke SMD
 0
 2
@@ -75586,6 +75607,13 @@ relay Sanyu SRD form C
 5
 5
 e-Power
+Relay_SPST_Omron-G5Q-1A
+Relay SPST-NO Omron Serie G5NB
+Relay SPST-NO Omron Serie G5NB
+0
+4
+4
+e-Power
 SIM800L
 e-Power microcontroller standard board
 
@@ -75757,6 +75785,34 @@ e-Power
 WEEE-Logo_5.6x8mm_Copper
 Waste Electrical and Electronic Equipment Directive
 Logo WEEE
+0
+0
+0
+e-Power
+mouse-bite-1mm-slot
+
+
+0
+0
+0
+e-Power
+mouse-bite-2.54mm-slot
+
+
+0
+0
+0
+e-Power
+mouse-bite-2.54mm-slot-single
+
+
+0
+0
+0
+e-Power
+mouse-bite-2mm-slot
+
+
 0
 0
 0
