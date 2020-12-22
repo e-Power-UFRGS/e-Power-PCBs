@@ -1,0 +1,355 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L e-Power:ACS712 U1
+U 1 1 5FE2462A
+P 3700 2500
+F 0 "U1" H 3700 3081 50  0000 C CNN
+F 1 "ACS712" H 3700 2990 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4800 3400 50  0001 C CNN
+F 3 "" H 4800 3400 50  0001 C CNN
+	1    3700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5FE25D92
+P 6100 2350
+F 0 "R2" H 6170 2396 50  0000 L CNN
+F 1 "10k" H 6170 2305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6030 2350 50  0001 C CNN
+F 3 "~" H 6100 2350 50  0001 C CNN
+	1    6100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L e-Power:TL431 U2
+U 1 1 5FE2642D
+P 5800 2650
+F 0 "U2" V 5846 2581 50  0000 R CNN
+F 1 "TL431" V 5755 2581 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5800 2500 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tl431.pdf" H 5800 2650 50  0001 C CIN
+	1    5800 2650
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J1
+U 1 1 5FE29835
+P 2250 2400
+F 0 "J1" H 2168 2075 50  0000 C CNN
+F 1 "IN_corrente" H 2168 2166 50  0000 C CNN
+F 2 "e-Power:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.08mm_Horizontal" H 2250 2400 50  0001 C CNN
+F 3 "~" H 2250 2400 50  0001 C CNN
+	1    2250 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J2
+U 1 1 5FE2BBB0
+P 4800 2400
+F 0 "J2" H 4718 2075 50  0000 C CNN
+F 1 "OUT_sensor" H 4718 2166 50  0000 C CNN
+F 2 "e-Power:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.08mm_Horizontal" H 4800 2400 50  0001 C CNN
+F 3 "~" H 4800 2400 50  0001 C CNN
+	1    4800 2400
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5FE2E8DD
+P 6100 2950
+F 0 "R3" H 6170 2996 50  0000 L CNN
+F 1 "10k" H 6170 2905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6030 2950 50  0001 C CNN
+F 3 "~" H 6100 2950 50  0001 C CNN
+	1    6100 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2500 6100 2650
+Wire Wire Line
+	6100 2650 6100 2800
+Connection ~ 6100 2650
+$Comp
+L Device:R R1
+U 1 1 5FE2F3D6
+P 5550 2200
+F 0 "R1" H 5620 2246 50  0000 L CNN
+F 1 "1k" H 5620 2155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5480 2200 50  0001 C CNN
+F 3 "~" H 5550 2200 50  0001 C CNN
+	1    5550 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 2550 5800 2200
+Wire Wire Line
+	5800 2200 5700 2200
+Wire Wire Line
+	5800 2750 5800 3100
+$Comp
+L power:+12V #PWR0101
+U 1 1 5FE30ACE
+P 5300 2200
+F 0 "#PWR0101" H 5300 2050 50  0001 C CNN
+F 1 "+12V" H 5315 2373 50  0000 C CNN
+F 2 "" H 5300 2200 50  0001 C CNN
+F 3 "" H 5300 2200 50  0001 C CNN
+	1    5300 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2200 5300 2200
+$Comp
+L power:GND #PWR0102
+U 1 1 5FE3166A
+P 5950 3150
+F 0 "#PWR0102" H 5950 2900 50  0001 C CNN
+F 1 "GND" H 5955 2977 50  0000 C CNN
+F 2 "" H 5950 3150 50  0001 C CNN
+F 3 "" H 5950 3150 50  0001 C CNN
+	1    5950 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3100 5950 3100
+Wire Wire Line
+	5900 2650 6100 2650
+Wire Wire Line
+	5800 2200 6100 2200
+Connection ~ 5800 2200
+$Comp
+L Device:C_Small C2
+U 1 1 5FE32D75
+P 6400 2400
+F 0 "C2" H 6492 2446 50  0000 L CNN
+F 1 "100n" H 6492 2355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6400 2400 50  0001 C CNN
+F 3 "~" H 6400 2400 50  0001 C CNN
+	1    6400 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3150 5950 3100
+Connection ~ 5950 3100
+Wire Wire Line
+	5950 3100 6100 3100
+$Comp
+L power:GND #PWR0103
+U 1 1 5FE348F1
+P 6400 2600
+F 0 "#PWR0103" H 6400 2350 50  0001 C CNN
+F 1 "GND" H 6405 2427 50  0000 C CNN
+F 2 "" H 6400 2600 50  0001 C CNN
+F 3 "" H 6400 2600 50  0001 C CNN
+	1    6400 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2500 6400 2600
+Wire Wire Line
+	3200 2300 3200 2400
+Wire Wire Line
+	3200 2600 3200 2700
+Connection ~ 3200 2300
+Wire Wire Line
+	2900 2400 2900 2600
+Wire Wire Line
+	2900 2600 3200 2600
+Connection ~ 3200 2600
+Text GLabel 6600 2200 2    50   BiDi ~ 0
+5V
+Text GLabel 3900 2050 2    50   BiDi ~ 0
+5V
+Wire Wire Line
+	3700 2050 3700 2100
+Wire Wire Line
+	3700 2050 3900 2050
+$Comp
+L power:GND #PWR0104
+U 1 1 5FE38DAB
+P 3700 3050
+F 0 "#PWR0104" H 3700 2800 50  0001 C CNN
+F 1 "GND" H 3705 2877 50  0000 C CNN
+F 2 "" H 3700 3050 50  0001 C CNN
+F 3 "" H 3700 3050 50  0001 C CNN
+	1    3700 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3050 3700 2950
+$Comp
+L Device:C_Small C1
+U 1 1 5FE3BAFB
+P 4300 2850
+F 0 "C1" H 4392 2896 50  0000 L CNN
+F 1 "100n" H 4392 2805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4300 2850 50  0001 C CNN
+F 3 "~" H 4300 2850 50  0001 C CNN
+	1    4300 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2950 4300 2950
+Connection ~ 3700 2950
+Wire Wire Line
+	3700 2950 3700 2900
+Wire Wire Line
+	4200 2700 4300 2700
+Wire Wire Line
+	4300 2700 4300 2750
+Connection ~ 6100 2200
+Wire Wire Line
+	6100 2200 6400 2200
+Wire Wire Line
+	6400 2300 6400 2200
+Connection ~ 6400 2200
+Wire Wire Line
+	6400 2200 6600 2200
+$Comp
+L power:GND #PWR0105
+U 1 1 5FE41149
+P 4600 2500
+F 0 "#PWR0105" H 4600 2250 50  0001 C CNN
+F 1 "GND" H 4605 2327 50  0000 C CNN
+F 2 "" H 4600 2500 50  0001 C CNN
+F 3 "" H 4600 2500 50  0001 C CNN
+	1    4600 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2500 4600 2400
+Wire Wire Line
+	4200 2300 4600 2300
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 5FE48AB9
+P 2250 3500
+F 0 "J3" H 2168 3175 50  0000 C CNN
+F 1 "POWER" H 2168 3266 50  0000 C CNN
+F 2 "e-Power:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.08mm_Horizontal" H 2250 3500 50  0001 C CNN
+F 3 "~" H 2250 3500 50  0001 C CNN
+	1    2250 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR0106
+U 1 1 5FE49437
+P 2650 3400
+F 0 "#PWR0106" H 2650 3250 50  0001 C CNN
+F 1 "+12V" H 2665 3573 50  0000 C CNN
+F 2 "" H 2650 3400 50  0001 C CNN
+F 3 "" H 2650 3400 50  0001 C CNN
+	1    2650 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3400 2450 3400
+$Comp
+L power:GND #PWR0107
+U 1 1 5FE4A443
+P 2650 3550
+F 0 "#PWR0107" H 2650 3300 50  0001 C CNN
+F 1 "GND" H 2655 3377 50  0000 C CNN
+F 2 "" H 2650 3550 50  0001 C CNN
+F 3 "" H 2650 3550 50  0001 C CNN
+	1    2650 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 3500 2650 3500
+Wire Wire Line
+	2650 3500 2650 3550
+$Comp
+L e-Power:Fuse_1206 F1
+U 1 1 5FE63FAE
+P 2700 2300
+F 0 "F1" V 2503 2300 50  0000 C CNN
+F 1 "Fuse_1206" V 2594 2300 50  0000 C CNN
+F 2 "e-Power:FUSE_1206_3216Metric" V 2630 2300 50  0001 C CNN
+F 3 "" H 2700 2300 50  0001 C CNN
+	1    2700 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L e-Power:Fuse_1206 F2
+U 1 1 5FE663FB
+P 2700 2400
+F 0 "F2" V 2503 2400 50  0000 C CNN
+F 1 "Fuse_1206" V 2594 2400 50  0000 C CNN
+F 2 "e-Power:FUSE_1206_3216Metric" V 2630 2400 50  0001 C CNN
+F 3 "" H 2700 2400 50  0001 C CNN
+	1    2700 2400
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	2850 2300 3200 2300
+Wire Wire Line
+	2900 2400 2850 2400
+Wire Wire Line
+	2550 2400 2450 2400
+Wire Wire Line
+	2450 2300 2550 2300
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5FE83AED
+P 3400 3700
+F 0 "H1" H 3350 3900 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3500 3658 50  0001 L CNN
+F 2 "e-Power:MountingHole_3.2mm_M3_Pad_Via" H 3400 3700 50  0001 C CNN
+F 3 "~" H 3400 3700 50  0001 C CNN
+	1    3400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5FE87EFE
+P 3600 3700
+F 0 "H2" H 3550 3900 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3700 3658 50  0001 L CNN
+F 2 "e-Power:MountingHole_3.2mm_M3_Pad_Via" H 3600 3700 50  0001 C CNN
+F 3 "~" H 3600 3700 50  0001 C CNN
+	1    3600 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 5FE88731
+P 3800 3700
+F 0 "H3" H 3750 3900 50  0000 L CNN
+F 1 "MountingHole_Pad" H 3900 3658 50  0001 L CNN
+F 2 "e-Power:MountingHole_3.2mm_M3_Pad_Via" H 3800 3700 50  0001 C CNN
+F 3 "~" H 3800 3700 50  0001 C CNN
+	1    3800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 5FE88E86
+P 4000 3700
+F 0 "H4" H 3950 3900 50  0000 L CNN
+F 1 "MountingHole_Pad" H 4100 3658 50  0001 L CNN
+F 2 "e-Power:MountingHole_3.2mm_M3_Pad_Via" H 4000 3700 50  0001 C CNN
+F 3 "~" H 4000 3700 50  0001 C CNN
+	1    4000 3700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3400 3800
+NoConn ~ 3600 3800
+NoConn ~ 3800 3800
+NoConn ~ 4000 3800
+$EndSCHEMATC
