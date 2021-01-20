@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Luz de Freio-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1301,4 +1300,21 @@ Wire Wire Line
 Connection ~ 7975 4300
 Wire Wire Line
 	7975 4300 7975 4350
+$Comp
+L power:GND #PWR?
+U 1 1 600264D0
+P 5450 1100
+F 0 "#PWR?" H 5450 850 50  0001 C CNN
+F 1 "GND" H 5450 1150 50  0000 C CNN
+F 2 "" H 5450 1100 50  0001 C CNN
+F 3 "" H 5450 1100 50  0001 C CNN
+	1    5450 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 1100 5600 1100
+Wire Wire Line
+	5600 1100 5600 1150
+Text Notes 2475 2750 0    59   ~ 0
+PEDAL PRESSIONADO -> 12V\nPEDAL LIVRE -> 0V
 $EndSCHEMATC

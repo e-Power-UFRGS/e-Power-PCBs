@@ -1,0 +1,155 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+5V #PWR0101
+U 1 1 6008878A
+P 4950 2350
+F 0 "#PWR0101" H 4950 2200 50  0001 C CNN
+F 1 "+5V" H 4965 2523 50  0000 C CNN
+F 2 "" H 4950 2350 50  0001 C CNN
+F 3 "" H 4950 2350 50  0001 C CNN
+	1    4950 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J1
+U 1 1 6008B043
+P 3550 2850
+F 0 "J1" H 3550 2350 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 3550 2450 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 3550 2850 50  0001 C CNN
+F 3 "~" H 3550 2850 50  0001 C CNN
+	1    3550 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 6008D119
+P 3750 2600
+F 0 "#PWR0102" H 3750 2450 50  0001 C CNN
+F 1 "+5V" H 3765 2773 50  0000 C CNN
+F 2 "" H 3750 2600 50  0001 C CNN
+F 3 "" H 3750 2600 50  0001 C CNN
+	1    3750 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2650 3750 2600
+$Comp
+L Device:R R2
+U 1 1 60094D85
+P 4450 3550
+F 0 "R2" H 4500 3600 50  0000 L CNN
+F 1 "10k" H 4500 3500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4380 3550 50  0001 C CNN
+F 3 "~" H 4450 3550 50  0001 C CNN
+	1    4450 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2350 4950 2650
+$Comp
+L power:GND #PWR0103
+U 1 1 600956DC
+P 4950 3900
+F 0 "#PWR0103" H 4950 3650 50  0001 C CNN
+F 1 "GND" H 4955 3727 50  0000 C CNN
+F 2 "" H 4950 3900 50  0001 C CNN
+F 3 "" H 4950 3900 50  0001 C CNN
+	1    4950 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 3450 4950 3800
+Wire Wire Line
+	4450 3400 4450 3250
+Wire Wire Line
+	4450 3700 4450 3800
+Wire Wire Line
+	4450 3800 4950 3800
+Wire Wire Line
+	4950 3900 4950 3800
+Connection ~ 4950 3800
+$Comp
+L Device:R R1
+U 1 1 60097110
+P 4200 3550
+F 0 "R1" H 4250 3600 50  0000 L CNN
+F 1 "10k" H 4250 3500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4130 3550 50  0001 C CNN
+F 3 "~" H 4200 3550 50  0001 C CNN
+	1    4200 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3400 4200 3250
+Wire Wire Line
+	4200 3250 4450 3250
+Wire Wire Line
+	4200 3700 4200 3800
+Wire Wire Line
+	4200 3800 4450 3800
+Connection ~ 4450 3800
+Wire Wire Line
+	3750 2850 4450 2850
+Wire Wire Line
+	3750 2950 4450 2950
+Wire Wire Line
+	3750 3050 4000 3050
+Wire Wire Line
+	3950 3150 3750 3150
+Connection ~ 4450 3250
+$Comp
+L Interface_CAN_LIN:MCP2551-I-SN U1
+U 1 1 60087AEF
+P 4950 3050
+F 0 "U1" H 4950 3631 50  0000 C CNN
+F 1 "MCP2551-I-SN" H 4950 3540 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4950 2550 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/21667d.pdf" H 4950 3050 50  0001 C CNN
+	1    4950 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 4200 3950 3150
+Wire Wire Line
+	4000 3050 4000 4150
+Wire Wire Line
+	5500 4150 5500 3150
+Wire Wire Line
+	5500 3150 5450 3150
+Wire Wire Line
+	4000 4150 5500 4150
+Wire Wire Line
+	3950 4200 5550 4200
+Wire Wire Line
+	5550 4200 5550 2950
+Wire Wire Line
+	5550 2950 5450 2950
+$Comp
+L power:GND #PWR0104
+U 1 1 600A661F
+P 3800 2750
+F 0 "#PWR0104" H 3800 2500 50  0001 C CNN
+F 1 "GND" V 3800 2550 50  0000 C CNN
+F 2 "" H 3800 2750 50  0001 C CNN
+F 3 "" H 3800 2750 50  0001 C CNN
+	1    3800 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 2750 3800 2750
+$EndSCHEMATC

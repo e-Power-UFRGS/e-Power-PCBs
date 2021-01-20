@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Luz de Freio-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1055,22 +1054,6 @@ Wire Wire Line
 	7625 4700 7800 4700
 Wire Wire Line
 	7625 4650 7625 4700
-Wire Wire Line
-	7975 4300 7975 4350
-Connection ~ 7975 4300
-Wire Wire Line
-	7625 4300 7625 4350
-Connection ~ 7625 4300
-Wire Wire Line
-	7625 4300 7975 4300
-Wire Wire Line
-	7975 3900 7975 3950
-Connection ~ 7975 3900
-Wire Wire Line
-	7625 3900 7625 3950
-Connection ~ 7625 3900
-Wire Wire Line
-	7625 3900 7975 3900
 $Comp
 L Device:R R24
 U 1 1 5F5244B0
@@ -1206,17 +1189,9 @@ Wire Wire Line
 Wire Wire Line
 	7975 3550 7975 3450
 Wire Wire Line
-	7625 3850 7625 3900
+	7800 4250 7800 4300
 Wire Wire Line
-	7975 4250 7975 4300
-Wire Wire Line
-	7800 4250 7800 4350
-Wire Wire Line
-	7625 4250 7625 4300
-Wire Wire Line
-	7975 3850 7975 3900
-Wire Wire Line
-	7800 3850 7800 3950
+	7800 3850 7800 3900
 Wire Wire Line
 	7625 3450 7800 3450
 Wire Wire Line
@@ -1291,4 +1266,53 @@ Wire Wire Line
 	7800 3100 7800 3400
 Wire Wire Line
 	6050 3175 6050 3400
+Wire Wire Line
+	7625 3850 7625 3900
+Wire Wire Line
+	7975 3850 7975 3900
+Wire Wire Line
+	7975 3900 7800 3900
+Connection ~ 7975 3900
+Wire Wire Line
+	7975 3900 7975 3950
+Connection ~ 7800 3900
+Wire Wire Line
+	7800 3900 7800 3950
+Wire Wire Line
+	7625 3900 7800 3900
+Connection ~ 7625 3900
+Wire Wire Line
+	7625 3900 7625 3950
+Wire Wire Line
+	7625 4250 7625 4300
+Wire Wire Line
+	7975 4250 7975 4300
+Wire Wire Line
+	7625 4300 7800 4300
+Connection ~ 7625 4300
+Wire Wire Line
+	7625 4300 7625 4350
+Connection ~ 7800 4300
+Wire Wire Line
+	7800 4300 7800 4350
+Wire Wire Line
+	7800 4300 7975 4300
+Connection ~ 7975 4300
+Wire Wire Line
+	7975 4300 7975 4350
+$Comp
+L power:GND #PWR?
+U 1 1 600264D0
+P 5450 1100
+F 0 "#PWR?" H 5450 850 50  0001 C CNN
+F 1 "GND" H 5450 1150 50  0000 C CNN
+F 2 "" H 5450 1100 50  0001 C CNN
+F 3 "" H 5450 1100 50  0001 C CNN
+	1    5450 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 1100 5600 1100
+Wire Wire Line
+	5600 1100 5600 1150
 $EndSCHEMATC
