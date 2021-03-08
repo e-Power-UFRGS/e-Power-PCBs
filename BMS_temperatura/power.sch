@@ -559,10 +559,10 @@ Wire Wire Line
 Wire Wire Line
 	2850 1550 2850 1700
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP24
 U 1 1 616FAE1D
 P 2850 1550
-F 0 "TP?" H 2800 1850 50  0000 L CNN
+F 0 "TP24" H 2800 1850 50  0000 L CNN
 F 1 "+VIN" H 2750 1750 50  0000 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 3050 1550 50  0001 C CNN
 F 3 "~" H 3050 1550 50  0001 C CNN
@@ -570,10 +570,10 @@ F 3 "~" H 3050 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP27
 U 1 1 617099BF
 P 6400 2750
-F 0 "TP?" H 6450 2850 50  0000 L CNN
+F 0 "TP27" H 6450 2850 50  0000 L CNN
 F 1 "GND" H 6300 2950 50  0000 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 6600 2750 50  0001 C CNN
 F 3 "~" H 6600 2750 50  0001 C CNN
@@ -581,10 +581,10 @@ F 3 "~" H 6600 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP26
 U 1 1 617146F3
 P 5900 2750
-F 0 "TP?" H 5950 2850 50  0000 L CNN
+F 0 "TP26" H 5950 2850 50  0000 L CNN
 F 1 "GND" H 5800 2950 50  0000 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 6100 2750 50  0001 C CNN
 F 3 "~" H 6100 2750 50  0001 C CNN
@@ -594,10 +594,10 @@ $EndComp
 Wire Wire Line
 	2850 1700 3450 1700
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP28
 U 1 1 617207CE
 P 6550 1650
-F 0 "TP?" H 6500 1950 50  0000 L CNN
+F 0 "TP28" H 6500 1950 50  0000 L CNN
 F 1 "+5V" H 6450 1850 50  0000 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 6750 1650 50  0001 C CNN
 F 3 "~" H 6750 1650 50  0001 C CNN
@@ -605,10 +605,10 @@ F 3 "~" H 6750 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP29
 U 1 1 6172573A
 P 7000 1650
-F 0 "TP?" H 6950 1950 50  0000 L CNN
+F 0 "TP29" H 6950 1950 50  0000 L CNN
 F 1 "+5V" H 6900 1850 50  0000 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7200 1650 50  0001 C CNN
 F 3 "~" H 7200 1650 50  0001 C CNN
@@ -616,10 +616,10 @@ F 3 "~" H 7200 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP25
 U 1 1 6193AF31
 P 4400 1600
-F 0 "TP?" H 4350 1900 50  0000 L CNN
+F 0 "TP25" H 4350 1900 50  0000 L CNN
 F 1 "+12V" H 4300 1800 50  0000 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 4600 1600 50  0001 C CNN
 F 3 "~" H 4600 1600 50  0001 C CNN

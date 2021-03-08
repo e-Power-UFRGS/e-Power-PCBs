@@ -3275,10 +3275,10 @@ F 3 "" H 5000 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:UFRGS_PILL U1
+L e-Power:UFRGS_PILL U?
 U 1 1 60F29F4E
 P 6250 6350
-F 0 "U1" H 6025 8705 50  0000 C CNN
+F 0 "U?" H 6025 8705 50  0000 C CNN
 F 1 "UFRGS_PILL" H 6025 8614 50  0000 C CNN
 F 2 "e-Power:UFRGS_PILL" H 6025 8523 50  0000 C CNN
 F 3 "" H 6200 7475 50  0000 C CNN
@@ -3286,10 +3286,10 @@ F 3 "" H 6200 7475 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP1
+L Connector:TestPoint TP?
 U 1 1 610CA0DB
 P 5150 4750
-F 0 "TP1" V 5150 4938 50  0000 L CNN
+F 0 "TP?" V 5150 4938 50  0000 L CNN
 F 1 "TOUT_3P" V 5195 4938 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 5350 4750 50  0001 C CNN
 F 3 "~" H 5350 4750 50  0001 C CNN
@@ -3297,10 +3297,10 @@ F 3 "~" H 5350 4750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP2
+L Connector:TestPoint TP?
 U 1 1 61104794
 P 5150 4950
-F 0 "TP2" V 5150 5138 50  0000 L CNN
+F 0 "TP?" V 5150 5138 50  0000 L CNN
 F 1 "TOUT_3P" V 5195 5138 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 5350 4950 50  0001 C CNN
 F 3 "~" H 5350 4950 50  0001 C CNN
@@ -3308,10 +3308,10 @@ F 3 "~" H 5350 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP14
+L Connector:TestPoint TP?
 U 1 1 61149042
 P 7000 5450
-F 0 "TP14" V 7000 5638 50  0000 L CNN
+F 0 "TP?" V 7000 5638 50  0000 L CNN
 F 1 "TOUT_3P" V 7045 5638 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7200 5450 50  0001 C CNN
 F 3 "~" H 7200 5450 50  0001 C CNN
@@ -3319,10 +3319,10 @@ F 3 "~" H 7200 5450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:TestPoint TP10
+L Connector:TestPoint TP?
 U 1 1 61105592
 P 6850 5650
-F 0 "TP10" V 6850 5838 50  0000 L CNN
+F 0 "TP?" V 6850 5838 50  0000 L CNN
 F 1 "TOUT_3P" V 6895 5838 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7050 5650 50  0001 C CNN
 F 3 "~" H 7050 5650 50  0001 C CNN
@@ -3336,10 +3336,10 @@ S2
 Wire Wire Line
 	5400 5350 5500 5350
 $Comp
-L Connector:TestPoint TP5
+L Connector:TestPoint TP?
 U 1 1 611C4F8D
 P 5400 5350
-F 0 "TP5" V 5400 5538 50  0000 L CNN
+F 0 "TP?" V 5400 5538 50  0000 L CNN
 F 1 "S2" V 5445 5538 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 5600 5350 50  0001 C CNN
 F 3 "~" H 5600 5350 50  0001 C CNN
@@ -3349,10 +3349,10 @@ $EndComp
 Text Label 5400 5250 2    50   ~ 0
 S1
 $Comp
-L Connector:TestPoint TP4
+L Connector:TestPoint TP?
 U 1 1 611C4F87
 P 5400 5250
-F 0 "TP4" V 5400 5438 50  0000 L CNN
+F 0 "TP?" V 5400 5438 50  0000 L CNN
 F 1 "S1" V 5445 5438 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 5600 5250 50  0001 C CNN
 F 3 "~" H 5600 5250 50  0001 C CNN
@@ -3366,10 +3366,10 @@ S0
 Wire Wire Line
 	5500 5150 5400 5150
 $Comp
-L Connector:TestPoint TP3
+L Connector:TestPoint TP?
 U 1 1 611C4F81
 P 5400 5150
-F 0 "TP3" V 5400 5338 50  0000 L CNN
+F 0 "TP?" V 5400 5338 50  0000 L CNN
 F 1 "S0" V 5445 5338 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 5600 5150 50  0001 C CNN
 F 3 "~" H 5600 5150 50  0001 C CNN
@@ -3381,10 +3381,10 @@ Wire Wire Line
 Text Label 5400 5450 2    50   ~ 0
 RX
 $Comp
-L Connector:TestPoint TP6
+L Connector:TestPoint TP?
 U 1 1 612A1F74
 P 5400 5450
-F 0 "TP6" V 5400 5638 50  0000 L CNN
+F 0 "TP?" V 5400 5638 50  0000 L CNN
 F 1 "TX" V 5445 5638 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 5600 5450 50  0001 C CNN
 F 3 "~" H 5600 5450 50  0001 C CNN
@@ -3396,10 +3396,10 @@ Wire Wire Line
 Text Label 5400 5550 2    50   ~ 0
 TX
 $Comp
-L Connector:TestPoint TP7
+L Connector:TestPoint TP?
 U 1 1 612C1792
 P 5400 5550
-F 0 "TP7" V 5400 5738 50  0000 L CNN
+F 0 "TP?" V 5400 5738 50  0000 L CNN
 F 1 "RX" V 5445 5738 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 5600 5550 50  0001 C CNN
 F 3 "~" H 5600 5550 50  0001 C CNN
@@ -3409,10 +3409,10 @@ $EndComp
 Text Label 6600 5250 0    50   ~ 0
 T_ERROR
 $Comp
-L Connector:TestPoint TP13
+L Connector:TestPoint TP?
 U 1 1 612E123F
 P 7000 5250
-F 0 "TP13" V 7000 5438 50  0000 L CNN
+F 0 "TP?" V 7000 5438 50  0000 L CNN
 F 1 "T_ERROR" V 7045 5438 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7200 5250 50  0001 C CNN
 F 3 "~" H 7200 5250 50  0001 C CNN
@@ -3424,10 +3424,10 @@ Wire Wire Line
 Wire Wire Line
 	6550 5150 7000 5150
 $Comp
-L Connector:TestPoint TP12
+L Connector:TestPoint TP?
 U 1 1 61300E5F
 P 7000 5150
-F 0 "TP12" V 7000 5338 50  0000 L CNN
+F 0 "TP?" V 7000 5338 50  0000 L CNN
 F 1 "C_ERROR" V 7045 5338 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7200 5150 50  0001 C CNN
 F 3 "~" H 7200 5150 50  0001 C CNN
@@ -3443,10 +3443,10 @@ ERROR_TRIG
 Wire Wire Line
 	7000 5450 6550 5450
 $Comp
-L Connector:TestPoint TP16
+L Connector:TestPoint TP?
 U 1 1 61837FA3
 P 7650 1150
-F 0 "TP16" V 7650 1338 50  0000 L CNN
+F 0 "TP?" V 7650 1338 50  0000 L CNN
 F 1 "VCC" V 7695 1338 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7850 1150 50  0001 C CNN
 F 3 "~" H 7850 1150 50  0001 C CNN
@@ -3454,10 +3454,10 @@ F 3 "~" H 7850 1150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP17
+L Connector:TestPoint TP?
 U 1 1 61837FA9
 P 7650 1250
-F 0 "TP17" V 7650 1438 50  0000 L CNN
+F 0 "TP?" V 7650 1438 50  0000 L CNN
 F 1 "GND" V 7695 1438 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7850 1250 50  0001 C CNN
 F 3 "~" H 7850 1250 50  0001 C CNN
@@ -3465,10 +3465,10 @@ F 3 "~" H 7850 1250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP18
+L Connector:TestPoint TP?
 U 1 1 61837FAF
 P 7650 1350
-F 0 "TP18" V 7650 1538 50  0000 L CNN
+F 0 "TP?" V 7650 1538 50  0000 L CNN
 F 1 "CAN_L" V 7695 1538 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7850 1350 50  0001 C CNN
 F 3 "~" H 7850 1350 50  0001 C CNN
@@ -3476,10 +3476,10 @@ F 3 "~" H 7850 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP19
+L Connector:TestPoint TP?
 U 1 1 61837FB5
 P 7650 1450
-F 0 "TP19" V 7650 1638 50  0000 L CNN
+F 0 "TP?" V 7650 1638 50  0000 L CNN
 F 1 "CAN_H" V 7695 1638 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7850 1450 50  0001 C CNN
 F 3 "~" H 7850 1450 50  0001 C CNN
@@ -3487,10 +3487,10 @@ F 3 "~" H 7850 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP20
+L Connector:TestPoint TP?
 U 1 1 61837FBB
 P 7650 1550
-F 0 "TP20" V 7650 1738 50  0000 L CNN
+F 0 "TP?" V 7650 1738 50  0000 L CNN
 F 1 "CAN_GND" V 7695 1738 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7850 1550 50  0001 C CNN
 F 3 "~" H 7850 1550 50  0001 C CNN
@@ -3498,10 +3498,10 @@ F 3 "~" H 7850 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP11
+L Connector:TestPoint TP?
 U 1 1 61877289
 P 7000 1650
-F 0 "TP11" V 7000 1838 50  0000 L CNN
+F 0 "TP?" V 7000 1838 50  0000 L CNN
 F 1 "VCC" V 7045 1838 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7200 1650 50  0001 C CNN
 F 3 "~" H 7200 1650 50  0001 C CNN
@@ -3509,10 +3509,10 @@ F 3 "~" H 7200 1650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP21
+L Connector:TestPoint TP?
 U 1 1 618B524F
 P 7650 1750
-F 0 "TP21" V 7650 1938 50  0000 L CNN
+F 0 "TP?" V 7650 1938 50  0000 L CNN
 F 1 "VCC" V 7695 1938 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7850 1750 50  0001 C CNN
 F 3 "~" H 7850 1750 50  0001 C CNN
@@ -3520,10 +3520,10 @@ F 3 "~" H 7850 1750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP22
+L Connector:TestPoint TP?
 U 1 1 618C9694
 P 7650 1850
-F 0 "TP22" V 7650 2038 50  0000 L CNN
+F 0 "TP?" V 7650 2038 50  0000 L CNN
 F 1 "VCC" V 7695 2038 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7850 1850 50  0001 C CNN
 F 3 "~" H 7850 1850 50  0001 C CNN
@@ -3531,10 +3531,10 @@ F 3 "~" H 7850 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP15
+L Connector:TestPoint TP?
 U 1 1 618F36D6
 P 7300 9150
-F 0 "TP15" V 7300 9338 50  0000 L CNN
+F 0 "TP?" V 7300 9338 50  0000 L CNN
 F 1 "ERROR_TRIG" V 7345 9338 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7500 9150 50  0001 C CNN
 F 3 "~" H 7500 9150 50  0001 C CNN
@@ -3542,10 +3542,10 @@ F 3 "~" H 7500 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP9
+L Connector:TestPoint TP?
 U 1 1 618F36DC
 P 6800 9150
-F 0 "TP9" V 6800 9338 50  0000 L CNN
+F 0 "TP?" V 6800 9338 50  0000 L CNN
 F 1 "T_ERROR" V 6845 9338 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7000 9150 50  0001 C CNN
 F 3 "~" H 7000 9150 50  0001 C CNN
@@ -3553,10 +3553,10 @@ F 3 "~" H 7000 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP8
+L Connector:TestPoint TP?
 U 1 1 618F36E2
 P 6450 9150
-F 0 "TP8" V 6450 9338 50  0000 L CNN
+F 0 "TP?" V 6450 9338 50  0000 L CNN
 F 1 "C_ERROR" V 6495 9338 50  0001 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 6650 9150 50  0001 C CNN
 F 3 "~" H 6650 9150 50  0001 C CNN

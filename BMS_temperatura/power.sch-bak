@@ -467,17 +467,6 @@ Wire Wire Line
 	4000 1700 4250 1700
 Wire Wire Line
 	2850 1700 2750 1700
-$Comp
-L Connector:TestPoint TP302
-U 1 1 5FB6208E
-P 4400 1600
-F 0 "TP302" H 4350 1900 50  0000 L CNN
-F 1 "+12V" H 4300 1800 50  0000 L CNN
-F 2 "e-Power:TestPoint_Pad_D1.0mm" H 4600 1600 50  0001 C CNN
-F 3 "~" H 4600 1600 50  0001 C CNN
-	1    4400 1600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4400 1600 4400 1700
 Connection ~ 4400 1700
@@ -624,6 +613,17 @@ F 1 "+5V" H 6900 1850 50  0000 L CNN
 F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7200 1650 50  0001 C CNN
 F 3 "~" H 7200 1650 50  0001 C CNN
 	1    7000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6193AF31
+P 4400 1600
+F 0 "TP?" H 4350 1900 50  0000 L CNN
+F 1 "+12V" H 4300 1800 50  0000 L CNN
+F 2 "e-Power:TestPoint_Pad_D1.0mm" H 4600 1600 50  0001 C CNN
+F 3 "~" H 4600 1600 50  0001 C CNN
+	1    4400 1600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
