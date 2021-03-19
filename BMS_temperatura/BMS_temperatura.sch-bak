@@ -3143,7 +3143,7 @@ U 1 1 62BF7C1B
 P 5000 9600
 F 0 "G101" H 5000 9400 60  0000 C CNN
 F 1 "Logo_UFRGS_Large" H 5000 9800 60  0001 C CNN
-F 2 "e-Power:Logo_UFRGS_22.0x12.0mm_Mask" H 5000 9300 50  0000 C CNN
+F 2 "e-Power:Logo_UFRGS_9.2x5.0mm_SilkS" H 5000 9300 50  0000 C CNN
 F 3 "" H 5000 9600 50  0001 C CNN
 	1    5000 9600
 	1    0    0    -1  
@@ -3255,7 +3255,7 @@ U 1 1 62BF88DC
 P 5000 9150
 F 0 "G102" H 5000 8975 60  0000 C CNN
 F 1 "Logo_e-Power_Large" H 5000 9350 60  0001 C CNN
-F 2 "e-Power:Logo_e-Power_22.8x12.0mm_SilkS" H 5000 8900 50  0000 C CNN
+F 2 "e-Power:Logo_e-Power_12.4x6.0mm_SilkS" H 5000 8900 50  0000 C CNN
 F 3 "" H 5000 9150 50  0001 C CNN
 	1    5000 9150
 	1    0    0    -1  
@@ -3549,6 +3549,10 @@ F 3 "~" H 6650 9150 50  0001 C CNN
 	1    6450 9150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5000 1100 5150 1100
+Text Label 5150 1100 0    50   ~ 0
+5.000V
 Wire Bus Line
 	1200 4100 1200 4800
 Wire Bus Line
@@ -3561,8 +3565,4 @@ Wire Bus Line
 	1200 5450 1200 6150
 Wire Bus Line
 	1200 1200 1200 1900
-Wire Wire Line
-	5000 1100 5150 1100
-Text Label 5150 1100 0    50   ~ 0
-5.000V
 $EndSCHEMATC

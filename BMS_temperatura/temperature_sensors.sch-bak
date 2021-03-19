@@ -325,4 +325,119 @@ Text HLabel 5550 3350 2    50   Output ~ 0
 T24
 Text HLabel 5550 2200 2    50   Output ~ 0
 T18
+$Comp
+L Connector:Conn_01x26_Female J1
+U 1 1 60562961
+P 7450 2250
+F 0 "J1" H 7478 2226 50  0000 L CNN
+F 1 "TEMP_IDC_26_CONN" H 7478 2135 50  0000 L CNN
+F 2 "Connector_IDC:IDC-Header_2x13_P2.54mm_Horizontal" H 7450 2250 50  0001 C CNN
+F 3 "~" H 7450 2250 50  0001 C CNN
+	1    7450 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 3450 7250 3450
+Text HLabel 7150 3450 0    50   Input ~ 0
+TS_1
+Wire Wire Line
+	7150 3550 7250 3550
+Text HLabel 7150 3550 0    50   Input ~ 0
+TS_2
+Wire Wire Line
+	7150 3350 7250 3350
+Text HLabel 7150 3350 0    50   Input ~ 0
+TS_6
+Wire Wire Line
+	7150 3250 7250 3250
+Text HLabel 7150 3250 0    50   Input ~ 0
+TS_5
+Wire Wire Line
+	7150 3150 7250 3150
+Text HLabel 7150 3150 0    50   Input ~ 0
+TS_10
+Wire Wire Line
+	7150 3050 7250 3050
+Text HLabel 7150 3050 0    50   Input ~ 0
+TS_9
+Wire Wire Line
+	7150 2950 7250 2950
+Text HLabel 7150 2950 0    50   Input ~ 0
+TS_12
+Wire Wire Line
+	7150 2850 7250 2850
+Text HLabel 7150 2850 0    50   Input ~ 0
+TS_11
+Wire Wire Line
+	7150 2750 7250 2750
+Text HLabel 7150 2750 0    50   Input ~ 0
+TS_1
+Wire Wire Line
+	7150 2650 7250 2650
+Text HLabel 7150 2650 0    50   Input ~ 0
+TS_8
+Wire Wire Line
+	7150 2550 7250 2550
+Text HLabel 7150 2550 0    50   Input ~ 0
+TS_7
+Wire Wire Line
+	7150 2450 7250 2450
+Text HLabel 7150 2450 0    50   Input ~ 0
+TS_14
+Wire Wire Line
+	7150 2350 7250 2350
+Text HLabel 7150 2350 0    50   Input ~ 0
+TS_13
+Wire Wire Line
+	7150 2250 7250 2250
+Text HLabel 7150 2250 0    50   Input ~ 0
+TS_1
+Wire Wire Line
+	7150 2150 7250 2150
+Text HLabel 7150 2150 0    50   Input ~ 0
+TS_1
+Wire Wire Line
+	7150 2050 7250 2050
+Text HLabel 7150 2050 0    50   Input ~ 0
+TS_1
+Wire Wire Line
+	7150 1950 7250 1950
+Text HLabel 7150 1950 0    50   Input ~ 0
+TS_1
+Wire Wire Line
+	7150 1850 7250 1850
+Text HLabel 7150 1850 0    50   Input ~ 0
+TS_1
+Wire Wire Line
+	7150 1750 7250 1750
+Text HLabel 7150 1750 0    50   Input ~ 0
+TS_1
+Wire Wire Line
+	7150 1650 7250 1650
+Text HLabel 7150 1650 0    50   Input ~ 0
+TS_1
+Wire Wire Line
+	7150 1550 7250 1550
+Text HLabel 7150 1550 0    50   Input ~ 0
+TS_1
+Wire Wire Line
+	7150 1450 7250 1450
+Text HLabel 7150 1450 0    50   Input ~ 0
+TS_1
+Wire Wire Line
+	7150 1350 7250 1350
+Text HLabel 7150 1350 0    50   Input ~ 0
+TS_1
+Wire Wire Line
+	7150 1250 7250 1250
+Text HLabel 7150 1250 0    50   Input ~ 0
+TS_1
+Wire Wire Line
+	7150 1150 7250 1150
+Text HLabel 7150 1150 0    50   Input ~ 0
+GND
+Wire Wire Line
+	7150 1050 7250 1050
+Text HLabel 7150 1050 0    50   Input ~ 0
+GND
 $EndSCHEMATC

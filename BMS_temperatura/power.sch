@@ -343,8 +343,6 @@ Wire Wire Line
 	4250 1700 4400 1700
 Text Notes 5050 2450 0    50   ~ 0
 Vref = 1.25V
-Wire Wire Line
-	6750 1700 7000 1700
 $Comp
 L Device:CP C305
 U 1 1 5FADAFCE
@@ -537,11 +535,6 @@ Wire Wire Line
 	7300 1700 7200 1700
 Connection ~ 7200 1700
 Connection ~ 2850 1700
-Wire Wire Line
-	7000 1650 7000 1700
-Connection ~ 7000 1700
-Wire Wire Line
-	7000 1700 7200 1700
 $Comp
 L power:GND #PWR0317
 U 1 1 5FC06092
@@ -607,12 +600,12 @@ $EndComp
 $Comp
 L Connector:TestPoint TP29
 U 1 1 6172573A
-P 7000 1650
-F 0 "TP29" H 6950 1950 50  0000 L CNN
-F 1 "+5V" H 6900 1850 50  0000 L CNN
-F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7200 1650 50  0001 C CNN
-F 3 "~" H 7200 1650 50  0001 C CNN
-	1    7000 1650
+P 6800 2750
+F 0 "TP29" H 6850 2850 50  0000 L CNN
+F 1 "GND" H 6700 2950 50  0000 L CNN
+F 2 "e-Power:TestPoint_Pad_D1.0mm" H 7000 2750 50  0001 C CNN
+F 3 "~" H 7000 2750 50  0001 C CNN
+	1    6800 2750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -626,4 +619,9 @@ F 3 "~" H 4600 1600 50  0001 C CNN
 	1    4400 1600
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6800 2750 6400 2750
+Connection ~ 6400 2750
+Wire Wire Line
+	6750 1700 7200 1700
 $EndSCHEMATC
