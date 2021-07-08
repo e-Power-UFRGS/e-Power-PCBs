@@ -1,0 +1,654 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R6
+U 1 1 60C12ED8
+P 4000 3225
+F 0 "R6" V 3900 3175 50  0000 L CNN
+F 1 "1k" V 4000 3185 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3930 3225 50  0001 C CNN
+F 3 "~" H 4000 3225 50  0001 C CNN
+	1    4000 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 60C15B7E
+P 2400 2575
+F 0 "R1" V 2500 2525 50  0000 L CNN
+F 1 "100k" V 2400 2475 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2330 2575 50  0001 C CNN
+F 3 "~" H 2400 2575 50  0001 C CNN
+	1    2400 2575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 60C16E3B
+P 2800 2575
+F 0 "R2" V 2700 2575 50  0000 C CNN
+F 1 "100k" V 2800 2575 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2730 2575 50  0001 C CNN
+F 3 "~" H 2800 2575 50  0001 C CNN
+	1    2800 2575
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 60C176C8
+P 3250 2575
+F 0 "R3" V 3150 2575 50  0000 C CNN
+F 1 "10k" V 3250 2575 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3180 2575 50  0001 C CNN
+F 3 "~" H 3250 2575 50  0001 C CNN
+	1    3250 2575
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 60C17A56
+P 3650 2575
+F 0 "R4" V 3550 2575 50  0000 C CNN
+F 1 "10k" V 3650 2575 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3580 2575 50  0001 C CNN
+F 3 "~" H 3650 2575 50  0001 C CNN
+	1    3650 2575
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 60C186C0
+P 4000 2825
+F 0 "R5" V 4100 2875 50  0000 R CNN
+F 1 "10k" V 3990 2895 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3930 2825 50  0001 C CNN
+F 3 "~" H 4000 2825 50  0001 C CNN
+	1    4000 2825
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 60C18E56
+P 4000 3650
+F 0 "R7" V 3910 3605 50  0000 L CNN
+F 1 "1k" V 4000 3605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3930 3650 50  0001 C CNN
+F 3 "~" H 4000 3650 50  0001 C CNN
+	1    4000 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 60C1AA2D
+P 4000 3950
+F 0 "#PWR0101" H 4000 3700 50  0001 C CNN
+F 1 "GND" H 4005 3777 50  0000 C CNN
+F 2 "" H 4000 3950 50  0001 C CNN
+F 3 "" H 4000 3950 50  0001 C CNN
+	1    4000 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 60C27324
+P 6450 2675
+F 0 "C1" V 6198 2675 50  0000 C CNN
+F 1 "1uF" V 6289 2675 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6488 2525 50  0001 C CNN
+F 3 "~" H 6450 2675 50  0001 C CNN
+	1    6450 2675
+	0    1    1    0   
+$EndComp
+Text GLabel 8225 1550 1    50   Input ~ 0
+5V
+$Comp
+L power:GND #PWR0102
+U 1 1 60C1AA78
+P 7450 4175
+F 0 "#PWR0102" H 7450 3925 50  0001 C CNN
+F 1 "GND" H 7455 4002 50  0000 C CNN
+F 2 "" H 7450 4175 50  0001 C CNN
+F 3 "" H 7450 4175 50  0001 C CNN
+	1    7450 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 60C1EAE9
+P 7025 2675
+F 0 "R9" V 6925 2675 50  0000 C CNN
+F 1 "100" V 7025 2675 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6955 2675 50  0001 C CNN
+F 3 "~" H 7025 2675 50  0001 C CNN
+	1    7025 2675
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 60C42073
+P 8225 1925
+F 0 "R11" V 8125 1875 50  0000 L CNN
+F 1 "1k" V 8225 1850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8155 1925 50  0001 C CNN
+F 3 "~" H 8225 1925 50  0001 C CNN
+	1    8225 1925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 60C499F7
+P 8325 3025
+F 0 "R12" V 8225 2975 50  0000 L CNN
+F 1 "10" V 8325 2975 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8255 3025 50  0001 C CNN
+F 3 "~" H 8325 3025 50  0001 C CNN
+	1    8325 3025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 60C4C43C
+P 8325 3275
+F 0 "#PWR0103" H 8325 3025 50  0001 C CNN
+F 1 "GND" H 8330 3102 50  0000 C CNN
+F 2 "" H 8325 3275 50  0001 C CNN
+F 3 "" H 8325 3275 50  0001 C CNN
+	1    8325 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 60C53F1B
+P 8475 3850
+F 0 "R13" V 8375 3850 50  0000 C CNN
+F 1 "1k" V 8475 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8405 3850 50  0001 C CNN
+F 3 "~" H 8475 3850 50  0001 C CNN
+	1    8475 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6775 2125 6775 2675
+Wire Wire Line
+	6775 2675 6875 2675
+Wire Wire Line
+	6600 2675 6775 2675
+Connection ~ 6775 2675
+Wire Wire Line
+	6175 2225 6075 2225
+Wire Wire Line
+	6075 2225 6075 2675
+Wire Wire Line
+	6075 2675 6300 2675
+Wire Wire Line
+	8125 2675 8225 2675
+Wire Wire Line
+	8225 2675 8225 2350
+Wire Wire Line
+	6175 2025 6075 2025
+Wire Wire Line
+	6075 2025 6075 1750
+Wire Wire Line
+	6075 1750 7925 1750
+Wire Wire Line
+	7925 2350 8225 2350
+Connection ~ 8225 2350
+Wire Wire Line
+	8225 1550 8225 1775
+Wire Wire Line
+	8225 2075 8225 2350
+Wire Wire Line
+	7175 2675 7250 2675
+Wire Wire Line
+	7525 2875 7425 2875
+Wire Wire Line
+	7425 2875 7425 3850
+Wire Wire Line
+	7425 3850 7500 3850
+Wire Wire Line
+	7500 4050 7450 4050
+Wire Wire Line
+	7450 4050 7450 4175
+$Comp
+L Device:R R14
+U 1 1 60C5D0B6
+P 8475 4050
+F 0 "R14" V 8375 4050 50  0000 C CNN
+F 1 "10" V 8475 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 8405 4050 50  0001 C CNN
+F 3 "~" H 8475 4050 50  0001 C CNN
+	1    8475 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8625 4050 8650 4050
+Wire Wire Line
+	8225 3575 8225 3850
+Wire Wire Line
+	2550 2575 2650 2575
+Wire Wire Line
+	2950 2575 3100 2575
+Wire Wire Line
+	3400 2575 3500 2575
+Wire Wire Line
+	4000 2675 4000 2575
+Wire Wire Line
+	4000 2975 4000 3075
+Wire Wire Line
+	4000 3375 4000 3500
+Wire Wire Line
+	4000 3800 4000 3950
+Wire Wire Line
+	8100 4050 8325 4050
+Wire Wire Line
+	8650 4050 8650 4275
+$Comp
+L Device:R R8
+U 1 1 60C67A5F
+P 5650 2675
+F 0 "R8" V 5550 2675 50  0000 C CNN
+F 1 "10k" V 5650 2675 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5580 2675 50  0001 C CNN
+F 3 "~" H 5650 2675 50  0001 C CNN
+	1    5650 2675
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 2575 4550 2575
+Wire Wire Line
+	4550 2775 4350 2775
+Wire Wire Line
+	4350 2775 4350 2975
+Wire Wire Line
+	4350 2975 5275 2975
+Wire Wire Line
+	5275 2975 5275 2675
+Wire Wire Line
+	5275 2675 5150 2675
+Text Notes 10175 3750 0    50   ~ 0
+3,3V - 67,2V\n2,48V - 48V
+Wire Wire Line
+	8325 3175 8325 3275
+Wire Wire Line
+	8125 2875 8325 2875
+Wire Wire Line
+	5800 2675 6075 2675
+Connection ~ 6075 2675
+Wire Wire Line
+	5275 2675 5500 2675
+Connection ~ 5275 2675
+$Comp
+L Device:R R10
+U 1 1 60C92FF1
+P 7025 2900
+F 0 "R10" V 6925 2900 50  0000 C CNN
+F 1 "100" V 7025 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6955 2900 50  0001 C CNN
+F 3 "~" H 7025 2900 50  0001 C CNN
+	1    7025 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6875 2900 6775 2900
+Wire Wire Line
+	6775 2900 6775 2675
+Wire Wire Line
+	7175 2900 7250 2900
+Wire Wire Line
+	7250 2900 7250 2675
+Connection ~ 7250 2675
+Wire Wire Line
+	7250 2675 7525 2675
+Text Notes 8625 4575 0    50   ~ 0
+FT
+Wire Wire Line
+	7925 1750 7925 2350
+Connection ~ 8225 3850
+Wire Wire Line
+	8225 3850 8325 3850
+Wire Wire Line
+	8100 3850 8225 3850
+Wire Wire Line
+	3800 2575 4000 2575
+Connection ~ 4000 2575
+$Comp
+L Amplifier_Operational:LM358 U1
+U 1 1 60C945C0
+P 4850 2675
+F 0 "U1" H 4850 3042 50  0000 C CNN
+F 1 "LM358" H 4850 2951 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4850 2675 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12855&prodName=TLP290-4" H 4850 2675 50  0001 C CNN
+	1    4850 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U1
+U 2 1 60C98D8A
+P 6475 2125
+F 0 "U1" H 6600 2400 50  0000 C CNN
+F 1 "LM358" H 6575 2300 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6475 2125 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12855&prodName=TLP290-4" H 6475 2125 50  0001 C CNN
+	2    6475 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM358 U1
+U 3 1 60C9B79B
+P 10625 1300
+F 0 "U1" H 10583 1346 50  0000 L CNN
+F 1 "LM358" H 10583 1255 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 10625 1300 50  0001 C CNN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12855&prodName=TLP290-4" H 10625 1300 50  0001 C CNN
+	3    10625 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 60CA9772
+P 10525 1600
+F 0 "#PWR0105" H 10525 1350 50  0001 C CNN
+F 1 "GND" H 10530 1427 50  0000 C CNN
+F 2 "" H 10525 1600 50  0001 C CNN
+F 3 "" H 10525 1600 50  0001 C CNN
+	1    10525 1600
+	1    0    0    -1  
+$EndComp
+Text GLabel 10525 1000 1    50   Input ~ 0
+5V
+$Comp
+L Isolator:TLP290-4 U2
+U 2 1 60CB014A
+P 7825 2775
+F 0 "U2" H 7825 3100 50  0000 C CNN
+F 1 "TLP290-4" H 7825 3009 50  0000 C CNN
+F 2 "e-Power:SOIC-16_4.55x10.3mm_P1.27mm(TLP290-4)" H 6975 2575 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12855&prodName=TLP290-4" H 7850 2775 50  0001 L CNN
+	2    7825 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Isolator:TLP290-4 U2
+U 1 1 60CB1B79
+P 7800 3950
+F 0 "U2" H 7800 4275 50  0000 C CNN
+F 1 "TLP290-4" H 7800 4184 50  0000 C CNN
+F 2 "e-Power:SOIC-16_4.55x10.3mm_P1.27mm(TLP290-4)" H 6950 3750 50  0001 L CIN
+F 3 "https://toshiba.semicon-storage.com/info/docget.jsp?did=12855&prodName=TLP290-4" H 7825 3950 50  0001 L CNN
+	1    7800 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 60D622F3
+P 3050 1600
+F 0 "#PWR0104" H 3050 1350 50  0001 C CNN
+F 1 "GND" H 3055 1427 50  0000 C CNN
+F 2 "" H 3050 1600 50  0001 C CNN
+F 3 "" H 3050 1600 50  0001 C CNN
+	1    3050 1600
+	1    0    0    -1  
+$EndComp
+Text GLabel 3725 1125 2    50   Input ~ 0
+5V
+$Comp
+L Connector:TestPoint TP1
+U 1 1 60D9CC05
+P 3475 1125
+F 0 "TP1" H 3533 1243 50  0001 L CNN
+F 1 "+5V" H 3400 1350 50  0000 L CNN
+F 2 "e-Power:TestPoint_Pad_D1.0mm" H 3675 1125 50  0001 C CNN
+F 3 "~" H 3675 1125 50  0001 C CNN
+	1    3475 1125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3475 1125 3725 1125
+$Comp
+L Connector:Screw_Terminal_01x02 Signal_voltage1
+U 1 1 60D9F46D
+P 825 2675
+F 0 "Signal_voltage1" H 743 2442 50  0000 C CNN
+F 1 "Screw_Terminal_01x02" H 743 2441 50  0001 C CNN
+F 2 "e-Power:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.08mm_Horizontal" H 825 2675 50  0001 C CNN
+F 3 "~" H 825 2675 50  0001 C CNN
+	1    825  2675
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 60DA316D
+P 1725 3000
+F 0 "#PWR0106" H 1725 2750 50  0001 C CNN
+F 1 "GND" H 1730 2827 50  0000 C CNN
+F 2 "" H 1725 3000 50  0001 C CNN
+F 3 "" H 1725 3000 50  0001 C CNN
+	1    1725 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0107
+U 1 1 60DB33D2
+P 8650 4275
+F 0 "#PWR0107" H 8650 4025 50  0001 C CNN
+F 1 "GNDREF" H 8650 4125 50  0000 C CNN
+F 2 "" H 8650 4275 50  0001 C CNN
+F 3 "" H 8650 4275 50  0001 C CNN
+	1    8650 4275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR0108
+U 1 1 60DB4603
+P 9700 3875
+F 0 "#PWR0108" H 9700 3625 50  0001 C CNN
+F 1 "GNDREF" H 9700 3725 50  0000 C CNN
+F 2 "" H 9700 3875 50  0001 C CNN
+F 3 "" H 9700 3875 50  0001 C CNN
+	1    9700 3875
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N53xxB D1
+U 1 1 60DBD531
+P 3050 1375
+F 0 "D1" V 3004 1455 50  0000 L CNN
+F 1 "1N5338B" V 3095 1455 50  0000 L CNN
+F 2 "Diode_THT:D_DO-201_P15.24mm_Horizontal" H 3050 1200 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/1n5345b.pdf" H 3050 1375 50  0001 C CNN
+	1    3050 1375
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 1525 3050 1600
+Wire Wire Line
+	3050 1125 3050 1225
+Wire Wire Line
+	3050 1125 3475 1125
+Connection ~ 3475 1125
+Connection ~ 3050 1125
+$Comp
+L Device:R R15
+U 1 1 60DED636
+P 2650 1125
+F 0 "R15" V 2550 1125 50  0000 C CNN
+F 1 "1K" V 2650 1125 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2580 1125 50  0001 C CNN
+F 3 "~" H 2650 1125 50  0001 C CNN
+	1    2650 1125
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J1
+U 1 1 60D488F4
+P 9950 3675
+F 0 "J1" H 10030 3717 50  0000 L CNN
+F 1 "Output" H 9825 3925 50  0000 L CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3_1x03_P5.00mm_Horizontal" H 9950 3675 50  0001 C CNN
+F 3 "~" H 9950 3675 50  0001 C CNN
+	1    9950 3675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 3775 9700 3775
+Wire Wire Line
+	9700 3775 9700 3875
+Wire Wire Line
+	8225 3575 9750 3575
+Wire Wire Line
+	8625 3850 8825 3850
+Text Label 9750 3675 2    50   ~ 0
+5V_FT
+Text Label 8825 3850 0    50   ~ 0
+5V_FT
+$Comp
+L e-Power:Logo_e-Power_Large G2
+U 1 1 60D4175E
+P 6150 7100
+F 0 "G2" H 6150 6925 60  0001 C CNN
+F 1 "Logo_e-Power_Large" H 6150 7300 60  0001 C CNN
+F 2 "e-Power:Logo_e-Power_16.5x8.0mm_SilkS" H 6150 7100 50  0001 C CNN
+F 3 "" H 6150 7100 50  0001 C CNN
+	1    6150 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L e-Power:Logo_UFRGS_Large G1
+U 1 1 60D43A8F
+P 5125 7050
+F 0 "G1" H 5125 6850 60  0001 C CNN
+F 1 "Logo_UFRGS_Large" H 5125 7250 60  0001 C CNN
+F 2 "e-Power:Logo_UFRGS_14.7x8.0mm_SilkS" H 5125 7050 50  0001 C CNN
+F 3 "" H 5125 7050 50  0001 C CNN
+	1    5125 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 60D4528E
+P 900 7300
+F 0 "H1" H 850 7475 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1000 7250 50  0001 L CNN
+F 2 "e-Power:MountingHole_3.2mm_M3_Pad_Via" H 900 7300 50  0001 C CNN
+F 3 "~" H 900 7300 50  0001 C CNN
+	1    900  7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 60D46314
+P 1150 7300
+F 0 "H2" H 1100 7475 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1250 7258 50  0001 L CNN
+F 2 "e-Power:MountingHole_3.2mm_M3_Pad_Via" H 1150 7300 50  0001 C CNN
+F 3 "~" H 1150 7300 50  0001 C CNN
+	1    1150 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 60D49881
+P 1400 7300
+F 0 "H3" H 1350 7475 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1500 7250 50  0001 L CNN
+F 2 "e-Power:MountingHole_3.2mm_M3_Pad_Via" H 1400 7300 50  0001 C CNN
+F 3 "~" H 1400 7300 50  0001 C CNN
+	1    1400 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 60D49B4E
+P 1625 7300
+F 0 "H4" H 1575 7475 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1725 7250 50  0001 L CNN
+F 2 "e-Power:MountingHole_3.2mm_M3_Pad_Via" H 1625 7300 50  0001 C CNN
+F 3 "~" H 1625 7300 50  0001 C CNN
+	1    1625 7300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 900  7400
+NoConn ~ 1150 7400
+NoConn ~ 1400 7400
+NoConn ~ 1625 7400
+Wire Wire Line
+	2800 1125 3050 1125
+$Comp
+L Device:R R16
+U 1 1 60D5E2C2
+P 2200 1125
+F 0 "R16" V 2100 1125 50  0000 C CNN
+F 1 "1K" V 2200 1125 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2130 1125 50  0001 C CNN
+F 3 "~" H 2200 1125 50  0001 C CNN
+	1    2200 1125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2350 1125 2500 1125
+Wire Wire Line
+	2050 1125 1925 1125
+Wire Wire Line
+	1925 1125 1925 2575
+Wire Wire Line
+	1925 2575 2250 2575
+Wire Wire Line
+	1025 2575 1375 2575
+Wire Wire Line
+	1925 2575 1675 2575
+Connection ~ 1925 2575
+Wire Wire Line
+	1025 2675 1375 2675
+Wire Wire Line
+	1725 2675 1725 3000
+Wire Wire Line
+	1675 2675 1725 2675
+$Comp
+L Device:Fuse F2
+U 1 1 60D8343E
+P 1525 2675
+F 0 "F2" V 1375 2625 50  0000 L CNN
+F 1 "Fuse" V 1450 2600 50  0000 L CNN
+F 2 "e-Power:FUSE_1206_3216Metric" V 1455 2675 50  0001 C CNN
+F 3 "~" H 1525 2675 50  0001 C CNN
+	1    1525 2675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 60D6A7C6
+P 1525 2575
+F 0 "F1" V 1675 2525 50  0000 L CNN
+F 1 "Fuse" V 1600 2500 50  0000 L CNN
+F 2 "e-Power:FUSE_1206_3216Metric" V 1455 2575 50  0001 C CNN
+F 3 "~" H 1525 2575 50  0001 C CNN
+	1    1525 2575
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP2
+U 1 1 60D4F40E
+P 1725 2675
+F 0 "TP2" H 1783 2793 50  0001 L CNN
+F 1 "GND" V 1800 2775 50  0000 L CNN
+F 2 "e-Power:TestPoint_Pad_D1.0mm" H 1925 2675 50  0001 C CNN
+F 3 "~" H 1925 2675 50  0001 C CNN
+	1    1725 2675
+	0    1    1    0   
+$EndComp
+Connection ~ 1725 2675
+$EndSCHEMATC
