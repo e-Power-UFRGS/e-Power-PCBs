@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name BMS_24S-rescue)(type Legacy)(uri ${KIPRJMOD}/BMS_24S-rescue.lib)(options "")(descr ""))
+  (lib (name BMS_temperatura-rescue)(type Legacy)(uri ${KIPRJMOD}/BMS_temperatura-rescue.lib)(options "")(descr ""))
+  (lib (name e-Power)(type Legacy)(uri ${KISYS3DMOD}/e-Power.lib)(options "")(descr ""))
 )

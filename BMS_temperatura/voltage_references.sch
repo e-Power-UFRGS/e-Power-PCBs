@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R R201
+L BMS_temperatura-rescue:R-Device R201
 U 1 1 5EAE3031
 P 1000 950
 F 0 "R201" H 1070 996 50  0000 L CNN
@@ -28,7 +28,7 @@ $EndComp
 Text HLabel 2950 2000 2    50   Output ~ 0
 2.2727V
 $Comp
-L e-Power:LM324 U201
+L BMS_temperatura-rescue:LM324-e-Power U201
 U 1 1 5EAE9BFA
 P 2300 2000
 F 0 "U201" H 2300 2367 50  0000 C CNN
@@ -40,7 +40,7 @@ F 4 "C71035" H 2300 2000 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0201
+L BMS_temperatura-rescue:+5V-power #PWR0201
 U 1 1 5EB89179
 P 1000 750
 F 0 "#PWR0201" H 1000 600 50  0001 C CNN
@@ -51,7 +51,7 @@ F 3 "" H 1000 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R210
+L BMS_temperatura-rescue:R-Device R210
 U 1 1 5EB8AA78
 P 1000 1300
 F 0 "R210" H 1070 1346 50  0000 L CNN
@@ -63,7 +63,7 @@ F 4 "C17408" H 1000 1300 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0208
+L BMS_temperatura-rescue:GND-power #PWR0208
 U 1 1 5EB8BCC6
 P 1000 1850
 F 0 "#PWR0208" H 1000 1600 50  0001 C CNN
@@ -94,7 +94,7 @@ Connection ~ 1000 1500
 Wire Wire Line
 	1000 1500 1000 1550
 $Comp
-L Device:C C206
+L BMS_temperatura-rescue:C-Device C206
 U 1 1 5EB8E025
 P 850 1650
 F 0 "C206" H 750 1450 50  0000 L CNN
@@ -108,7 +108,7 @@ F 6 "50V" H 850 1650 50  0001 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C205
+L BMS_temperatura-rescue:C-Device C205
 U 1 1 5EB8ED80
 P 650 1650
 F 0 "C205" H 550 1450 50  0000 L CNN
@@ -126,7 +126,7 @@ Wire Wire Line
 Text Notes 1100 1450 0    50   ~ 0
 2.5V
 $Comp
-L power:GND #PWR0212
+L BMS_temperatura-rescue:GND-power #PWR0212
 U 1 1 5EB956D1
 P 2300 2400
 F 0 "#PWR0212" H 2300 2150 50  0001 C CNN
@@ -137,7 +137,7 @@ F 3 "" H 2300 2400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R229
+L BMS_temperatura-rescue:R-Device R229
 U 1 1 5EBB0544
 P 1650 2400
 F 0 "R229" V 1550 2350 50  0000 L CNN
@@ -152,7 +152,7 @@ F 7 "150V" H 1650 2400 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R230
+L BMS_temperatura-rescue:R-Device R230
 U 1 1 5EBB1776
 P 2050 2400
 F 0 "R230" V 1950 2350 50  0000 L CNN
@@ -182,7 +182,7 @@ Wire Wire Line
 Wire Wire Line
 	1150 2400 1500 2400
 $Comp
-L Device:C C208
+L BMS_temperatura-rescue:C-Device C208
 U 1 1 5EBBB1C2
 P 1550 2100
 F 0 "C208" V 1500 2150 50  0000 L CNN
@@ -194,7 +194,7 @@ F 4 "C15850" H 1550 2100 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C207
+L BMS_temperatura-rescue:C-Device C207
 U 1 1 5EBBBF29
 P 1550 1900
 F 0 "C207" V 1500 1950 50  0000 L CNN
@@ -208,7 +208,7 @@ F 6 "50V" H 1550 1900 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0210
+L BMS_temperatura-rescue:GND-power #PWR0210
 U 1 1 5EBBC902
 P 1300 2150
 F 0 "#PWR0210" H 1300 1900 50  0001 C CNN
@@ -237,7 +237,7 @@ Wire Wire Line
 Text Notes 1700 1850 0    50   ~ 0
 2.2727V
 $Comp
-L power:+12V #PWR0214
+L BMS_temperatura-rescue:+12V-power #PWR0214
 U 1 1 5ED9B422
 P 2650 3000
 F 0 "#PWR0214" H 2650 2850 50  0001 C CNN
@@ -248,7 +248,7 @@ F 3 "" H 2650 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0215
+L BMS_temperatura-rescue:GND-power #PWR0215
 U 1 1 5ED9CE9B
 P 1850 3100
 F 0 "#PWR0215" H 1850 2850 50  0001 C CNN
@@ -259,7 +259,7 @@ F 3 "" H 1850 3100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C211
+L BMS_temperatura-rescue:C-Device C211
 U 1 1 5ED9DBAA
 P 2650 3300
 F 0 "C211" H 2700 3400 50  0000 L CNN
@@ -300,7 +300,7 @@ Wire Wire Line
 	2000 1900 1850 1900
 Connection ~ 1850 1900
 $Comp
-L power:GND #PWR0216
+L BMS_temperatura-rescue:GND-power #PWR0216
 U 1 1 5ED9FCD3
 P 2650 3500
 F 0 "#PWR0216" H 2650 3250 50  0001 C CNN
@@ -311,7 +311,7 @@ F 3 "" H 2650 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:LM324 U201
+L BMS_temperatura-rescue:LM324-e-Power U201
 U 5 1 5EAEE4D6
 P 2250 3200
 F 0 "U201" V 1925 3200 50  0000 C CNN
@@ -331,7 +331,7 @@ Connection ~ 2900 2000
 Wire Wire Line
 	2900 2000 2950 2000
 $Comp
-L Reference_Voltage:TL432DBZ U203
+L BMS_temperatura-rescue:TL432DBZ-Reference_Voltage U203
 U 1 1 5FB99557
 P 1000 1650
 F 0 "U203" V 1000 1950 50  0000 R CNN
@@ -345,7 +345,7 @@ $EndComp
 Wire Wire Line
 	2650 2000 2900 2000
 $Comp
-L Connector:TestPoint TP?
+L BMS_temperatura-rescue:TestPoint-Connector TP?
 U 1 1 6193203A
 P 2900 2050
 AR Path="/5ED9340F/6193203A" Ref="TP?"  Part="1" 

@@ -326,11 +326,11 @@ T24
 Text HLabel 5550 2200 2    50   Output ~ 0
 T18
 $Comp
-L Connector:Conn_01x26_Female J1
+L BMS_temperatura-rescue:Conn_01x26_Female-Connector J1
 U 1 1 60562961
 P 7450 2250
 F 0 "J1" H 7478 2226 50  0000 L CNN
-F 1 "TEMP_IDC_26_CONN" H 7478 2135 50  0000 L CNN
+F 1 "TEMP_IDC_26_CONN" H 6800 850 50  0000 L CNN
 F 2 "Connector_IDC:IDC-Header_2x13_P2.54mm_Horizontal" H 7450 2250 50  0001 C CNN
 F 3 "~" H 7450 2250 50  0001 C CNN
 	1    7450 2250
@@ -371,19 +371,17 @@ TS_11
 Wire Wire Line
 	7150 2750 7250 2750
 Text HLabel 7150 2750 0    50   Input ~ 0
-TS_1
+TS_8
 Wire Wire Line
 	7150 2650 7250 2650
 Text HLabel 7150 2650 0    50   Input ~ 0
-TS_8
+TS_7
 Wire Wire Line
 	7150 2550 7250 2550
-Text HLabel 7150 2550 0    50   Input ~ 0
-TS_7
 Wire Wire Line
 	7150 2450 7250 2450
 Text HLabel 7150 2450 0    50   Input ~ 0
-TS_14
+TS_3
 Wire Wire Line
 	7150 2350 7250 2350
 Text HLabel 7150 2350 0    50   Input ~ 0
@@ -391,53 +389,96 @@ TS_13
 Wire Wire Line
 	7150 2250 7250 2250
 Text HLabel 7150 2250 0    50   Input ~ 0
-TS_1
+TS_14
 Wire Wire Line
 	7150 2150 7250 2150
 Text HLabel 7150 2150 0    50   Input ~ 0
-TS_1
+TS_17
 Wire Wire Line
 	7150 2050 7250 2050
 Text HLabel 7150 2050 0    50   Input ~ 0
-TS_1
+TS_18
 Wire Wire Line
 	7150 1950 7250 1950
 Text HLabel 7150 1950 0    50   Input ~ 0
-TS_1
+TS_21
 Wire Wire Line
 	7150 1850 7250 1850
-Text HLabel 7150 1850 0    50   Input ~ 0
-TS_1
 Wire Wire Line
 	7150 1750 7250 1750
 Text HLabel 7150 1750 0    50   Input ~ 0
-TS_1
+TS_24
 Wire Wire Line
 	7150 1650 7250 1650
 Text HLabel 7150 1650 0    50   Input ~ 0
-TS_1
+TS_23
 Wire Wire Line
 	7150 1550 7250 1550
 Text HLabel 7150 1550 0    50   Input ~ 0
-TS_1
+TS_20
 Wire Wire Line
 	7150 1450 7250 1450
 Text HLabel 7150 1450 0    50   Input ~ 0
-TS_1
+TS_19
 Wire Wire Line
 	7150 1350 7250 1350
 Text HLabel 7150 1350 0    50   Input ~ 0
-TS_1
+TS_16
 Wire Wire Line
 	7150 1250 7250 1250
 Text HLabel 7150 1250 0    50   Input ~ 0
-TS_1
+TS_15
 Wire Wire Line
 	7150 1150 7250 1150
-Text HLabel 7150 1150 0    50   Input ~ 0
-GND
+Text HLabel 7150 2550 0    50   Input ~ 0
+TS_4
+$Comp
+L BMS_temperatura-rescue:GND-power #PWR?
+U 1 1 60567A6E
+P 7050 1050
+AR Path="/5EA47040/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EA471BF/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EEF4361/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EEF524D/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC044AE/5EC054C7/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC044AE/5EC39151/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5EC054C7/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5EC3A225/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5EC4031A/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5EC462FD/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5EC4BDFE/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5EC51A1F/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5EC574F6/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5EC5D2D3/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5EC62E5E/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5EC6897D/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5EC6E4EA/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5EC74033/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5EC79B70/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5EC7F6A7/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5EC85226/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5F2675E0/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5F26D4B2/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5F646961/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5F656EA4/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5F675FE6/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5F67B671/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/5F6A1F0B/60567A6E" Ref="#PWR?"  Part="1" 
+AR Path="/5EC24961/60567A6E" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 7050 800 50  0001 C CNN
+F 1 "GND" V 7150 1050 50  0000 C CNN
+F 2 "" H 7050 1050 50  0001 C CNN
+F 3 "" H 7050 1050 50  0001 C CNN
+	1    7050 1050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7050 1050 7150 1050
+Wire Wire Line
+	7150 1150 7150 1050
+Connection ~ 7150 1050
 Wire Wire Line
 	7150 1050 7250 1050
-Text HLabel 7150 1050 0    50   Input ~ 0
-GND
+Text HLabel 7150 1850 0    50   Input ~ 0
+TS_22
 $EndSCHEMATC

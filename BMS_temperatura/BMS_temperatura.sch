@@ -22,7 +22,7 @@ F2 "5.000V" O R 5000 1100 50
 F3 "2.2727V" O R 5000 1200 50 
 $EndSheet
 $Comp
-L Mechanical:MountingHole_Pad H101
+L BMS_temperatura-rescue:MountingHole_Pad-Mechanical H101
 U 1 1 5EEFB35E
 P 10000 1400
 F 0 "H101" H 9900 1600 50  0000 L CNN
@@ -41,7 +41,7 @@ CAN_H
 Text Label 7750 1550 0    50   ~ 0
 CAN_GND
 $Comp
-L power:GND #PWR?
+L BMS_temperatura-rescue:GND-power #PWR?
 U 1 1 5EDB96E9
 P 7700 1900
 AR Path="/5ED9340F/5EDB96E9" Ref="#PWR?"  Part="1" 
@@ -105,7 +105,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 1800 2800 1700
 $Comp
-L power:GND #PWR?
+L BMS_temperatura-rescue:GND-power #PWR?
 U 1 1 5F2350EF
 P 2800 1800
 AR Path="/5EA47040/5F2350EF" Ref="#PWR?"  Part="1" 
@@ -142,7 +142,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 3250 2800 3150
 $Comp
-L power:GND #PWR?
+L BMS_temperatura-rescue:GND-power #PWR?
 U 1 1 5F22BD87
 P 2800 3250
 AR Path="/5EA47040/5F22BD87" Ref="#PWR?"  Part="1" 
@@ -179,7 +179,7 @@ Wire Wire Line
 Wire Wire Line
 	2800 4700 2800 4600
 $Comp
-L power:GND #PWR?
+L BMS_temperatura-rescue:GND-power #PWR?
 U 1 1 5F2231CF
 P 2800 4700
 AR Path="/5EA47040/5F2231CF" Ref="#PWR?"  Part="1" 
@@ -212,7 +212,7 @@ F 3 "" H 2800 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 5F222B0C
 P 2550 4600
 AR Path="/5EA47040/5F222B0C" Ref="R?"  Part="1" 
@@ -249,7 +249,7 @@ F 7 "150V" H 2550 4600 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 5F222485
 P 2550 3150
 AR Path="/5EA47040/5F222485" Ref="R?"  Part="1" 
@@ -286,7 +286,7 @@ F 7 "150V" H 2550 3150 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 5F21A31F
 P 2550 1700
 AR Path="/5EA47040/5F21A31F" Ref="R?"  Part="1" 
@@ -365,7 +365,7 @@ Entry Wire Line
 Text Label 850  4800 0    50   ~ 0
 T[1..8]
 $Comp
-L power:+5V #PWR?
+L BMS_temperatura-rescue:+5V-power #PWR?
 U 1 1 5EF8B87E
 P 1950 3750
 AR Path="/5EA47040/5EF8B87E" Ref="#PWR?"  Part="1" 
@@ -398,7 +398,7 @@ F 3 "" H 1950 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C?
+L BMS_temperatura-rescue:C-Device C?
 U 1 1 5EF8B884
 P 2200 3750
 AR Path="/5EA47040/5EF8B884" Ref="C?"  Part="1" 
@@ -434,7 +434,7 @@ F 6 "50V" H 2200 3750 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L BMS_temperatura-rescue:GND-power #PWR?
 U 1 1 5EF8B88A
 P 2450 3750
 AR Path="/5EA47040/5EF8B88A" Ref="#PWR?"  Part="1" 
@@ -483,7 +483,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 4400 1600 4400
 $Comp
-L 74xx:74HC4051 U105
+L BMS_temperatura-rescue:74HC4051-74xx U105
 U 1 1 5EE58D81
 P 2000 4300
 F 0 "U105" H 1650 3850 50  0000 C CNN
@@ -503,7 +503,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 4000 2400 4000
 $Comp
-L power:GND #PWR?
+L BMS_temperatura-rescue:GND-power #PWR?
 U 1 1 5EF91897
 P 2150 4950
 AR Path="/5EA47040/5EF91897" Ref="#PWR?"  Part="1" 
@@ -576,7 +576,7 @@ Entry Wire Line
 Text Label 850  3350 0    50   ~ 0
 T[9..16]
 $Comp
-L power:+5V #PWR?
+L BMS_temperatura-rescue:+5V-power #PWR?
 U 1 1 5EFA5AC8
 P 1950 2300
 AR Path="/5EA47040/5EFA5AC8" Ref="#PWR?"  Part="1" 
@@ -609,7 +609,7 @@ F 3 "" H 1950 2300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C?
+L BMS_temperatura-rescue:C-Device C?
 U 1 1 5EFA5AD2
 P 2200 2300
 AR Path="/5EA47040/5EFA5AD2" Ref="C?"  Part="1" 
@@ -645,7 +645,7 @@ F 6 "50V" H 2200 2300 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L BMS_temperatura-rescue:GND-power #PWR?
 U 1 1 5EFA5ADC
 P 2450 2300
 AR Path="/5EA47040/5EFA5ADC" Ref="#PWR?"  Part="1" 
@@ -694,7 +694,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 2950 1600 2950
 $Comp
-L 74xx:74HC4051 U103
+L BMS_temperatura-rescue:74HC4051-74xx U103
 U 1 1 5EFA5AEE
 P 2000 2850
 F 0 "U103" H 1650 2400 50  0000 C CNN
@@ -714,7 +714,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 2550 2400 2550
 $Comp
-L power:GND #PWR?
+L BMS_temperatura-rescue:GND-power #PWR?
 U 1 1 5EFA5AFC
 P 2150 3500
 AR Path="/5EA47040/5EFA5AFC" Ref="#PWR?"  Part="1" 
@@ -807,7 +807,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 2050 2000 2050
 $Comp
-L power:GND #PWR?
+L BMS_temperatura-rescue:GND-power #PWR?
 U 1 1 5EFFA00B
 P 2150 2050
 AR Path="/5EA47040/5EFFA00B" Ref="#PWR?"  Part="1" 
@@ -848,7 +848,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 900  2000 850 
 $Comp
-L 74xx:74HC4051 U101
+L BMS_temperatura-rescue:74HC4051-74xx U101
 U 1 1 5EFF9FFD
 P 2000 1400
 F 0 "U101" H 1700 950 50  0000 C CNN
@@ -868,7 +868,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 1300 1600 1300
 $Comp
-L power:GND #PWR?
+L BMS_temperatura-rescue:GND-power #PWR?
 U 1 1 5EFF9FEB
 P 2450 850
 AR Path="/5EA47040/5EFF9FEB" Ref="#PWR?"  Part="1" 
@@ -901,7 +901,7 @@ F 3 "" H 2450 850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C?
+L BMS_temperatura-rescue:C-Device C?
 U 1 1 5EFF9FE1
 P 2200 850
 AR Path="/5EA47040/5EFF9FE1" Ref="C?"  Part="1" 
@@ -937,7 +937,7 @@ F 6 "50V" H 2200 850 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L BMS_temperatura-rescue:+5V-power #PWR?
 U 1 1 5EFF9FD7
 P 1950 850
 AR Path="/5EA47040/5EFF9FD7" Ref="#PWR?"  Part="1" 
@@ -1155,7 +1155,7 @@ Wire Bus Line
 Wire Bus Line
 	800  1900 1200 1900
 $Comp
-L Mechanical:MountingHole_Pad H102
+L BMS_temperatura-rescue:MountingHole_Pad-Mechanical H102
 U 1 1 5F1B97BB
 P 10250 1400
 F 0 "H102" H 10150 1600 50  0000 L CNN
@@ -1166,7 +1166,7 @@ F 3 "~" H 10250 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H103
+L BMS_temperatura-rescue:MountingHole_Pad-Mechanical H103
 U 1 1 5F1B998C
 P 10550 1400
 F 0 "H103" H 10450 1600 50  0000 L CNN
@@ -1177,7 +1177,7 @@ F 3 "~" H 10550 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H104
+L BMS_temperatura-rescue:MountingHole_Pad-Mechanical H104
 U 1 1 5F1B9C0D
 P 10800 1400
 F 0 "H104" H 10700 1600 50  0000 L CNN
@@ -1236,7 +1236,7 @@ T23
 Text Label 1400 1800 0    50   ~ 0
 T24
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 601A7725
 P 1500 7750
 AR Path="/5EA47040/601A7725" Ref="R?"  Part="1" 
@@ -1280,7 +1280,7 @@ F 7 "150V" H 1500 7750 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 601D22C8
 P 1500 7850
 AR Path="/5EA47040/601D22C8" Ref="R?"  Part="1" 
@@ -1324,7 +1324,7 @@ F 7 "150V" H 1500 7850 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 601D25C7
 P 1500 8150
 AR Path="/5EA47040/601D25C7" Ref="R?"  Part="1" 
@@ -1380,7 +1380,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 7750 1350 7750
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 60364B4C
 P 1500 8250
 AR Path="/5EA47040/60364B4C" Ref="R?"  Part="1" 
@@ -1446,7 +1446,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 8250 1350 8250
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 6041E49E
 P 2200 7700
 AR Path="/5EA47040/6041E49E" Ref="R?"  Part="1" 
@@ -1503,7 +1503,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 7700 2350 7700
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 604E0D62
 P 2200 8300
 AR Path="/5EA47040/604E0D62" Ref="R?"  Part="1" 
@@ -1554,7 +1554,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 8100 1850 8300
 $Comp
-L power:GND #PWR0157
+L BMS_temperatura-rescue:GND-power #PWR0157
 U 1 1 60575196
 P 2400 8300
 F 0 "#PWR0157" H 2400 8050 50  0001 C CNN
@@ -1582,7 +1582,7 @@ TOUT_1
 Text Label 2650 8000 0    50   ~ 0
 TOUT_1P
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 606A973F
 P 1500 8750
 AR Path="/5EA47040/606A973F" Ref="R?"  Part="1" 
@@ -1626,7 +1626,7 @@ F 7 "150V" H 1500 8750 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 606A974D
 P 1500 8850
 AR Path="/5EA47040/606A974D" Ref="R?"  Part="1" 
@@ -1670,7 +1670,7 @@ F 7 "150V" H 1500 8850 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 606A975B
 P 1500 9150
 AR Path="/5EA47040/606A975B" Ref="R?"  Part="1" 
@@ -1726,7 +1726,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 8750 1350 8750
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 606A976F
 P 1500 9250
 AR Path="/5EA47040/606A976F" Ref="R?"  Part="1" 
@@ -1792,7 +1792,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 9250 1350 9250
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 606A9789
 P 2200 8700
 AR Path="/5EA47040/606A9789" Ref="R?"  Part="1" 
@@ -1849,7 +1849,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 8700 2350 8700
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 606A979E
 P 2200 9300
 AR Path="/5EA47040/606A979E" Ref="R?"  Part="1" 
@@ -1900,7 +1900,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 9100 1850 9300
 $Comp
-L power:GND #PWR0162
+L BMS_temperatura-rescue:GND-power #PWR0162
 U 1 1 606A97AC
 P 2400 9300
 F 0 "#PWR0162" H 2400 9050 50  0001 C CNN
@@ -1928,7 +1928,7 @@ TOUT_2
 Text Label 2650 9000 0    50   ~ 0
 TOUT_2P
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 606E824B
 P 1500 9750
 AR Path="/5EA47040/606E824B" Ref="R?"  Part="1" 
@@ -1972,7 +1972,7 @@ F 7 "150V" H 1500 9750 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 606E8259
 P 1500 9850
 AR Path="/5EA47040/606E8259" Ref="R?"  Part="1" 
@@ -2016,7 +2016,7 @@ F 7 "150V" H 1500 9850 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 606E8267
 P 1500 10150
 AR Path="/5EA47040/606E8267" Ref="R?"  Part="1" 
@@ -2072,7 +2072,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 9750 1350 9750
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 606E827B
 P 1500 10250
 AR Path="/5EA47040/606E827B" Ref="R?"  Part="1" 
@@ -2138,7 +2138,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 10250 1350 10250
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 606E8295
 P 2200 9700
 AR Path="/5EA47040/606E8295" Ref="R?"  Part="1" 
@@ -2195,7 +2195,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 9700 2350 9700
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 606E82AA
 P 2200 10300
 AR Path="/5EA47040/606E82AA" Ref="R?"  Part="1" 
@@ -2246,7 +2246,7 @@ Wire Wire Line
 Wire Wire Line
 	1850 10100 1850 10300
 $Comp
-L power:GND #PWR0173
+L BMS_temperatura-rescue:GND-power #PWR0173
 U 1 1 606E82B8
 P 2400 10300
 F 0 "#PWR0173" H 2400 10050 50  0001 C CNN
@@ -2274,7 +2274,7 @@ TOUT_3
 Text Label 2650 10000 0    50   ~ 0
 TOUT_3P
 $Comp
-L Amplifier_Operational:LM324 U112
+L BMS_temperatura-rescue:LM324-Amplifier_Operational U112
 U 1 1 61DF3A64
 P 2200 8000
 F 0 "U112" H 2400 8100 50  0000 C CNN
@@ -2286,7 +2286,7 @@ F 4 "C71035" H 2200 8000 50  0001 C CNN "LCSC"
 	1    0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:LM324 U112
+L BMS_temperatura-rescue:LM324-Amplifier_Operational U112
 U 3 1 61DF831C
 P 2200 10000
 F 0 "U112" H 2400 10100 50  0000 C CNN
@@ -2298,7 +2298,7 @@ F 4 "C71035" H 2200 10000 50  0001 C CNN "LCSC"
 	1    0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:LM324 U112
+L BMS_temperatura-rescue:LM324-Amplifier_Operational U112
 U 2 1 61DF7054
 P 2200 9000
 F 0 "U112" H 2400 9100 50  0000 C CNN
@@ -2310,7 +2310,7 @@ F 4 "C71035" H 2200 9000 50  0001 C CNN "LCSC"
 	1    0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:LM324 U112
+L BMS_temperatura-rescue:LM324-Amplifier_Operational U112
 U 5 1 627ACC67
 P 2050 10900
 F 0 "U112" V 2100 11050 50  0000 C CNN
@@ -2322,7 +2322,7 @@ F 4 "C71035" H 2050 10900 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L BMS_temperatura-rescue:+5V-power #PWR?
 U 1 1 627ACC71
 P 2550 10750
 AR Path="/5EA47040/627ACC71" Ref="#PWR?"  Part="1" 
@@ -2362,7 +2362,7 @@ F 3 "" H 2550 10750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L BMS_temperatura-rescue:C-Device C?
 U 1 1 627ACC7E
 P 2050 11100
 AR Path="/5EA47040/627ACC7E" Ref="C?"  Part="1" 
@@ -2405,7 +2405,7 @@ F 6 "50V" H 2050 11100 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L BMS_temperatura-rescue:GND-power #PWR?
 U 1 1 627ACC88
 P 1500 10850
 AR Path="/5EA47040/627ACC88" Ref="#PWR?"  Part="1" 
@@ -2467,7 +2467,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 10750 2550 10800
 $Comp
-L Amplifier_Operational:LM324 U112
+L BMS_temperatura-rescue:LM324-Amplifier_Operational U112
 U 4 1 5F6C65C5
 P 3200 10800
 F 0 "U112" H 3400 10900 50  0000 C CNN
@@ -2484,7 +2484,7 @@ NoConn ~ 10250 1500
 NoConn ~ 10550 1500
 NoConn ~ 10800 1500
 $Comp
-L Connector:Conn_01x08_Male J101
+L BMS_temperatura-rescue:Conn_01x08_Male-Connector J101
 U 1 1 5F47A60C
 P 8500 1450
 F 0 "J101" H 8472 1424 50  0000 R CNN
@@ -2497,7 +2497,7 @@ $EndComp
 NoConn ~ 2900 10900
 NoConn ~ 2900 10700
 $Comp
-L power:GND #PWR0134
+L BMS_temperatura-rescue:GND-power #PWR0134
 U 1 1 60861DF1
 P 5500 4450
 F 0 "#PWR0134" H 5500 4200 50  0001 C CNN
@@ -2512,7 +2512,7 @@ TOUT_2P
 Text Label 5400 4750 2    50   ~ 0
 TOUT_3P
 $Comp
-L Transistor_BJT:MMBT3904 Q101
+L BMS_temperatura-rescue:MMBT3904-Transistor_BJT Q101
 U 1 1 619766E6
 P 7000 1950
 F 0 "Q101" H 6900 1750 50  0000 L CNN
@@ -2524,7 +2524,7 @@ F 4 "C20526" H 7000 1950 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L BMS_temperatura-rescue:GND-power #PWR?
 U 1 1 6197A842
 P 7100 2250
 AR Path="/5ED9340F/6197A842" Ref="#PWR?"  Part="1" 
@@ -2537,7 +2537,7 @@ F 3 "" H 7100 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 619E9A73
 P 6650 1950
 AR Path="/5EA47040/619E9A73" Ref="R?"  Part="1" 
@@ -2583,7 +2583,7 @@ $EndComp
 Text Label 6400 1950 2    50   ~ 0
 ERROR_TRIG
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 61B36158
 P 6500 2100
 AR Path="/5EA47040/61B36158" Ref="R?"  Part="1" 
@@ -2627,7 +2627,7 @@ F 7 "150V" H 6500 2100 50  0001 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L BMS_temperatura-rescue:GND-power #PWR?
 U 1 1 61B3AEB8
 P 6500 2250
 AR Path="/5ED9340F/61B3AEB8" Ref="#PWR?"  Part="1" 
@@ -2645,7 +2645,7 @@ Wire Wire Line
 	6400 1950 6500 1950
 Connection ~ 6500 1950
 $Comp
-L Device:LED D104
+L BMS_temperatura-rescue:LED-Device D104
 U 1 1 61C16818
 P 7300 10150
 F 0 "D104" V 7339 10033 50  0000 R CNN
@@ -2656,7 +2656,7 @@ F 3 "~" H 7300 10150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0167
+L BMS_temperatura-rescue:GND-power #PWR0167
 U 1 1 61C16822
 P 7300 10400
 F 0 "#PWR0167" H 7300 10150 50  0001 C CNN
@@ -2667,7 +2667,7 @@ F 3 "" H 7300 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 61C16830
 P 7300 9750
 AR Path="/5EA47040/61C16830" Ref="R?"  Part="1" 
@@ -2715,7 +2715,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 10000 7300 9900
 $Comp
-L Device:LED D102
+L BMS_temperatura-rescue:LED-Device D102
 U 1 1 61C1686D
 P 6800 10150
 F 0 "D102" V 6839 10033 50  0000 R CNN
@@ -2726,7 +2726,7 @@ F 3 "~" H 6800 10150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0165
+L BMS_temperatura-rescue:GND-power #PWR0165
 U 1 1 61C16877
 P 6800 10400
 F 0 "#PWR0165" H 6800 10150 50  0001 C CNN
@@ -2737,7 +2737,7 @@ F 3 "" H 6800 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 61C16885
 P 6800 9750
 AR Path="/5EA47040/61C16885" Ref="R?"  Part="1" 
@@ -2785,7 +2785,7 @@ Wire Wire Line
 Wire Wire Line
 	6800 10000 6800 9900
 $Comp
-L Device:LED D101
+L BMS_temperatura-rescue:LED-Device D101
 U 1 1 61C16892
 P 6450 10150
 F 0 "D101" V 6489 10033 50  0000 R CNN
@@ -2796,7 +2796,7 @@ F 3 "~" H 6450 10150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0164
+L BMS_temperatura-rescue:GND-power #PWR0164
 U 1 1 61C1689C
 P 6450 10400
 F 0 "#PWR0164" H 6450 10150 50  0001 C CNN
@@ -2807,7 +2807,7 @@ F 3 "" H 6450 10400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 61C168AA
 P 6450 9750
 AR Path="/5EA47040/61C168AA" Ref="R?"  Part="1" 
@@ -2861,7 +2861,7 @@ T_ERROR
 Text Label 6450 9150 3    50   ~ 0
 COMM_ERROR
 $Comp
-L Interface_CAN_LIN:MCP2558FD-xSN U110
+L BMS_temperatura-rescue:MCP2558FD-xSN-Interface_CAN_LIN U110
 U 1 1 61DF335E
 P 10050 4150
 F 0 "U110" H 10200 3700 50  0000 C CNN
@@ -2872,7 +2872,7 @@ F 3 "https://ww1.microchip.com/downloads/en/DeviceDoc/20005533A.pdf" H 10050 415
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 61DF888A
 P 11150 4050
 AR Path="/5EA47040/61DF888A" Ref="R?"  Part="1" 
@@ -2928,7 +2928,7 @@ TX
 Text Label 9450 4250 2    50   ~ 0
 RX
 $Comp
-L power:GND #PWR0150
+L BMS_temperatura-rescue:GND-power #PWR0150
 U 1 1 620A07FD
 P 9000 4050
 F 0 "#PWR0150" H 9000 3800 50  0001 C CNN
@@ -2943,7 +2943,7 @@ Wire Wire Line
 Wire Wire Line
 	9450 4050 9550 4050
 $Comp
-L power:GND #PWR0151
+L BMS_temperatura-rescue:GND-power #PWR0151
 U 1 1 62112372
 P 10050 4650
 F 0 "#PWR0151" H 10050 4400 50  0001 C CNN
@@ -2954,7 +2954,7 @@ F 3 "" H 10050 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L BMS_temperatura-rescue:+5V-power #PWR?
 U 1 1 62118634
 P 10050 3650
 AR Path="/5ED9340F/62118634" Ref="#PWR?"  Part="1" 
@@ -2967,7 +2967,7 @@ F 3 "" H 10050 3650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L BMS_temperatura-rescue:C-Device C?
 U 1 1 6218866E
 P 9850 3700
 AR Path="/5EA47040/6218866E" Ref="C?"  Part="1" 
@@ -3017,7 +3017,7 @@ Connection ~ 10050 3700
 Wire Wire Line
 	10050 3700 10050 3750
 $Comp
-L power:GND #PWR0147
+L BMS_temperatura-rescue:GND-power #PWR0147
 U 1 1 6226BEFC
 P 9600 3700
 F 0 "#PWR0147" H 9600 3450 50  0001 C CNN
@@ -3030,7 +3030,7 @@ $EndComp
 Wire Wire Line
 	9600 3700 9700 3700
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 623547A4
 P 11150 4450
 AR Path="/5EA47040/623547A4" Ref="R?"  Part="1" 
@@ -3074,7 +3074,7 @@ F 7 "150V" H 11150 4450 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 62354D6B
 P 11400 4250
 AR Path="/5EA47040/62354D6B" Ref="R?"  Part="1" 
@@ -3138,7 +3138,7 @@ Wire Wire Line
 Wire Wire Line
 	10550 4250 10900 4250
 $Comp
-L e-Power:Logo_UFRGS_Large G101
+L BMS_temperatura-rescue:Logo_UFRGS_Large-e-Power G101
 U 1 1 62BF7C1B
 P 5000 9600
 F 0 "G101" H 5000 9400 60  0000 C CNN
@@ -3175,7 +3175,7 @@ Connection ~ 7700 1850
 Wire Wire Line
 	7700 1850 7650 1850
 $Comp
-L Device:C C?
+L BMS_temperatura-rescue:C-Device C?
 U 1 1 6209F749
 P 9300 4050
 AR Path="/5EA47040/6209F749" Ref="C?"  Part="1" 
@@ -3239,7 +3239,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 9150 7300 9600
 $Comp
-L Graphic:SYM_LASER_Large G104
+L BMS_temperatura-rescue:SYM_LASER_Large-Graphic G104
 U 1 1 6048FD74
 P 5000 10200
 F 0 "G104" H 5000 10400 50  0000 C CNN
@@ -3250,7 +3250,7 @@ F 3 "~" H 5030 10000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:Logo_e-Power_Large G102
+L BMS_temperatura-rescue:Logo_e-Power_Large-e-Power G102
 U 1 1 62BF88DC
 P 5000 9150
 F 0 "G102" H 5000 8975 60  0000 C CNN
@@ -3261,7 +3261,7 @@ F 3 "" H 5000 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L e-Power:UFRGS_PILL U1
+L BMS_temperatura-rescue:UFRGS_PILL-e-Power U1
 U 1 1 60F29F4E
 P 6250 6350
 F 0 "U1" H 6025 8705 50  0000 C CNN
@@ -3272,7 +3272,7 @@ F 3 "" H 6200 7475 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP1
+L BMS_temperatura-rescue:TestPoint-Connector TP1
 U 1 1 610CA0DB
 P 5150 4750
 F 0 "TP1" V 5150 4938 50  0000 L CNN
@@ -3283,7 +3283,7 @@ F 3 "~" H 5350 4750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP2
+L BMS_temperatura-rescue:TestPoint-Connector TP2
 U 1 1 61104794
 P 5150 4950
 F 0 "TP2" V 5150 5138 50  0000 L CNN
@@ -3294,7 +3294,7 @@ F 3 "~" H 5350 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP10
+L BMS_temperatura-rescue:TestPoint-Connector TP10
 U 1 1 61105592
 P 6850 5650
 F 0 "TP10" V 6850 5838 50  0000 L CNN
@@ -3311,7 +3311,7 @@ S2
 Wire Wire Line
 	5400 5350 5500 5350
 $Comp
-L Connector:TestPoint TP5
+L BMS_temperatura-rescue:TestPoint-Connector TP5
 U 1 1 611C4F8D
 P 5400 5350
 F 0 "TP5" V 5400 5538 50  0000 L CNN
@@ -3324,7 +3324,7 @@ $EndComp
 Text Label 5400 5250 2    50   ~ 0
 S1
 $Comp
-L Connector:TestPoint TP4
+L BMS_temperatura-rescue:TestPoint-Connector TP4
 U 1 1 611C4F87
 P 5400 5250
 F 0 "TP4" V 5400 5438 50  0000 L CNN
@@ -3341,7 +3341,7 @@ S0
 Wire Wire Line
 	5500 5150 5400 5150
 $Comp
-L Connector:TestPoint TP3
+L BMS_temperatura-rescue:TestPoint-Connector TP3
 U 1 1 611C4F81
 P 5400 5150
 F 0 "TP3" V 5400 5338 50  0000 L CNN
@@ -3356,7 +3356,7 @@ Wire Wire Line
 Text Label 5400 5450 2    50   ~ 0
 RX
 $Comp
-L Connector:TestPoint TP6
+L BMS_temperatura-rescue:TestPoint-Connector TP6
 U 1 1 612A1F74
 P 5400 5450
 F 0 "TP6" V 5400 5638 50  0000 L CNN
@@ -3371,7 +3371,7 @@ Wire Wire Line
 Text Label 5400 5550 2    50   ~ 0
 TX
 $Comp
-L Connector:TestPoint TP7
+L BMS_temperatura-rescue:TestPoint-Connector TP7
 U 1 1 612C1792
 P 5400 5550
 F 0 "TP7" V 5400 5738 50  0000 L CNN
@@ -3396,7 +3396,7 @@ ERROR_TRIG
 Wire Wire Line
 	7000 5450 6550 5450
 $Comp
-L Connector:TestPoint TP16
+L BMS_temperatura-rescue:TestPoint-Connector TP16
 U 1 1 61837FA3
 P 7650 1150
 F 0 "TP16" V 7650 1338 50  0000 L CNN
@@ -3407,7 +3407,7 @@ F 3 "~" H 7850 1150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP17
+L BMS_temperatura-rescue:TestPoint-Connector TP17
 U 1 1 61837FA9
 P 7650 1250
 F 0 "TP17" V 7650 1438 50  0000 L CNN
@@ -3418,7 +3418,7 @@ F 3 "~" H 7850 1250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP18
+L BMS_temperatura-rescue:TestPoint-Connector TP18
 U 1 1 61837FAF
 P 7650 1350
 F 0 "TP18" V 7650 1538 50  0000 L CNN
@@ -3429,7 +3429,7 @@ F 3 "~" H 7850 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP19
+L BMS_temperatura-rescue:TestPoint-Connector TP19
 U 1 1 61837FB5
 P 7650 1450
 F 0 "TP19" V 7650 1638 50  0000 L CNN
@@ -3440,7 +3440,7 @@ F 3 "~" H 7850 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP20
+L BMS_temperatura-rescue:TestPoint-Connector TP20
 U 1 1 61837FBB
 P 7650 1550
 F 0 "TP20" V 7650 1738 50  0000 L CNN
@@ -3451,7 +3451,7 @@ F 3 "~" H 7850 1550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP11
+L BMS_temperatura-rescue:TestPoint-Connector TP11
 U 1 1 61877289
 P 7000 1650
 F 0 "TP11" V 7000 1838 50  0000 L CNN
@@ -3462,7 +3462,7 @@ F 3 "~" H 7200 1650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP21
+L BMS_temperatura-rescue:TestPoint-Connector TP21
 U 1 1 618B524F
 P 7650 1750
 F 0 "TP21" V 7650 1938 50  0000 L CNN
@@ -3473,7 +3473,7 @@ F 3 "~" H 7850 1750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP22
+L BMS_temperatura-rescue:TestPoint-Connector TP22
 U 1 1 618C9694
 P 7650 1850
 F 0 "TP22" V 7650 2038 50  0000 L CNN
@@ -3484,7 +3484,7 @@ F 3 "~" H 7850 1850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP15
+L BMS_temperatura-rescue:TestPoint-Connector TP15
 U 1 1 618F36D6
 P 7300 9150
 F 0 "TP15" V 7300 9338 50  0000 L CNN
@@ -3495,7 +3495,7 @@ F 3 "~" H 7500 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP9
+L BMS_temperatura-rescue:TestPoint-Connector TP9
 U 1 1 618F36DC
 P 6800 9150
 F 0 "TP9" V 6800 9338 50  0000 L CNN
@@ -3506,7 +3506,7 @@ F 3 "~" H 7000 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP8
+L BMS_temperatura-rescue:TestPoint-Connector TP8
 U 1 1 618F36E2
 P 6450 9150
 F 0 "TP8" V 6450 9338 50  0000 L CNN
@@ -3521,7 +3521,7 @@ Wire Wire Line
 Text Label 5150 1100 0    50   ~ 0
 5.000V
 $Comp
-L power:+12V #PWR?
+L BMS_temperatura-rescue:+12V-power #PWR?
 U 1 1 606CA144
 P 6550 4250
 AR Path="/5ED9340F/606CA144" Ref="#PWR?"  Part="1" 
@@ -3535,6 +3535,268 @@ F 3 "" H 6550 4250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6550 4350 6550 4250
+Wire Wire Line
+	10150 6050 10200 6050
+$Comp
+L BMS_temperatura-rescue:R-Device R?
+U 1 1 610AC87B
+P 9650 6050
+AR Path="/5EA47040/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EA471BF/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EEF4361/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EEF524D/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC044AE/5EC054C7/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC044AE/5EC39151/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC054C7/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC3A225/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC4031A/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC462FD/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC4BDFE/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC51A1F/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC574F6/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC5D2D3/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC62E5E/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC6897D/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC6E4EA/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC74033/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC79B70/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC7F6A7/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC85226/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F2675E0/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F26D4B2/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F646961/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F656EA4/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F675FE6/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F67B671/610AC87B" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F6A1F0B/610AC87B" Ref="R?"  Part="1" 
+AR Path="/610AC87B" Ref="R1"  Part="1" 
+F 0 "R1" V 9550 6050 50  0000 C CNN
+F 1 "10k" V 9650 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9580 6050 50  0001 C CNN
+F 3 "1812121441_Uniroyal-Elec-0805W8F100JT5E_C17415.pdf" H 9650 6050 50  0001 C CNN
+F 4 "C17415" H 9650 6050 50  0001 C CNN "LCSC"
+F 5 "1%" H 9650 6050 50  0001 C CNN "Precision"
+F 6 "1/8W" H 9650 6050 50  0001 C CNN "Power"
+F 7 "150V" H 9650 6050 50  0001 C CNN "Voltage"
+	1    9650 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L BMS_temperatura-rescue:R-Device R?
+U 1 1 61098A26
+P 10350 6050
+AR Path="/5EA47040/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EA471BF/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EEF4361/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EEF524D/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC044AE/5EC054C7/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC044AE/5EC39151/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC054C7/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC3A225/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC4031A/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC462FD/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC4BDFE/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC51A1F/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC574F6/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC5D2D3/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC62E5E/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC6897D/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC6E4EA/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC74033/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC79B70/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC7F6A7/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC85226/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F2675E0/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F26D4B2/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F646961/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F656EA4/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F675FE6/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F67B671/61098A26" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F6A1F0B/61098A26" Ref="R?"  Part="1" 
+AR Path="/61098A26" Ref="R3"  Part="1" 
+F 0 "R3" V 10250 6050 50  0000 C CNN
+F 1 "1k" V 10350 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 10280 6050 50  0001 C CNN
+F 3 "1812121441_Uniroyal-Elec-0805W8F100JT5E_C17415.pdf" H 10350 6050 50  0001 C CNN
+F 4 "C17415" H 10350 6050 50  0001 C CNN "LCSC"
+F 5 "1%" H 10350 6050 50  0001 C CNN "Precision"
+F 6 "1/8W" H 10350 6050 50  0001 C CNN "Power"
+F 7 "150V" H 10350 6050 50  0001 C CNN "Voltage"
+	1    10350 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L BMS_temperatura-rescue:R-Device R?
+U 1 1 61084B0D
+P 10000 6050
+AR Path="/5EA47040/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EA471BF/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EEF4361/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EEF524D/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC044AE/5EC054C7/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC044AE/5EC39151/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC054C7/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC3A225/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC4031A/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC462FD/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC4BDFE/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC51A1F/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC574F6/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC5D2D3/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC62E5E/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC6897D/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC6E4EA/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC74033/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC79B70/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC7F6A7/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC85226/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F2675E0/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F26D4B2/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F646961/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F656EA4/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F675FE6/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F67B671/61084B0D" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F6A1F0B/61084B0D" Ref="R?"  Part="1" 
+AR Path="/61084B0D" Ref="R2"  Part="1" 
+F 0 "R2" V 9900 6050 50  0000 C CNN
+F 1 "1k" V 10000 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 9930 6050 50  0001 C CNN
+F 3 "1812121441_Uniroyal-Elec-0805W8F100JT5E_C17415.pdf" H 10000 6050 50  0001 C CNN
+F 4 "C17415" H 10000 6050 50  0001 C CNN "LCSC"
+F 5 "1%" H 10000 6050 50  0001 C CNN "Precision"
+F 6 "1/8W" H 10000 6050 50  0001 C CNN "Power"
+F 7 "150V" H 10000 6050 50  0001 C CNN "Voltage"
+	1    10000 6050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9850 6050 9800 6050
+Text GLabel 9300 6050 0    50   Input ~ 0
+Signal_bateria_baixa
+Text GLabel 11000 6050 2    50   Input ~ 0
+Output
+Wire Wire Line
+	9300 6050 9500 6050
+Wire Wire Line
+	10500 6050 10700 6050
+Wire Wire Line
+	10700 6050 11000 6050
+Connection ~ 10700 6050
+$Comp
+L BMS_temperatura-rescue:GND-power #PWR0105
+U 1 1 6124DFCF
+P 10700 6850
+F 0 "#PWR0105" H 10700 6600 50  0001 C CNN
+F 1 "GND-power" H 10705 6677 50  0000 C CNN
+F 2 "" H 10700 6850 50  0001 C CNN
+F 3 "" H 10700 6850 50  0001 C CNN
+	1    10700 6850
+	1    0    0    -1  
+$EndComp
+Text Notes 11000 5900 0    50   ~ 0
+16,8 V - 4,94 V
+Wire Wire Line
+	10550 6450 10700 6450
+Wire Wire Line
+	10700 6050 10700 6450
+Connection ~ 10700 6450
+Wire Wire Line
+	10700 6450 10850 6450
+Wire Wire Line
+	10550 6750 10700 6750
+$Comp
+L BMS_temperatura-rescue:R-Device R?
+U 1 1 61070A8F
+P 10550 6600
+AR Path="/5EA47040/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EA471BF/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EEF4361/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EEF524D/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC044AE/5EC054C7/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC044AE/5EC39151/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC054C7/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC3A225/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC4031A/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC462FD/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC4BDFE/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC51A1F/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC574F6/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC5D2D3/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC62E5E/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC6897D/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC6E4EA/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC74033/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC79B70/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC7F6A7/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC85226/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F2675E0/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F26D4B2/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F646961/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F656EA4/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F675FE6/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F67B671/61070A8F" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F6A1F0B/61070A8F" Ref="R?"  Part="1" 
+AR Path="/61070A8F" Ref="R4"  Part="1" 
+F 0 "R4" V 10450 6600 50  0000 C CNN
+F 1 "10k" V 10550 6600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 10480 6600 50  0001 C CNN
+F 3 "1812121441_Uniroyal-Elec-0805W8F100JT5E_C17415.pdf" H 10550 6600 50  0001 C CNN
+F 4 "C17415" H 10550 6600 50  0001 C CNN "LCSC"
+F 5 "1%" H 10550 6600 50  0001 C CNN "Precision"
+F 6 "1/8W" H 10550 6600 50  0001 C CNN "Power"
+F 7 "150V" H 10550 6600 50  0001 C CNN "Voltage"
+	1    10550 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L BMS_temperatura-rescue:R-Device R?
+U 1 1 6105CCD3
+P 10850 6600
+AR Path="/5EA47040/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EA471BF/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EEF4361/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EEF524D/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC044AE/5EC054C7/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC044AE/5EC39151/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC054C7/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC3A225/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC4031A/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC462FD/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC4BDFE/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC51A1F/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC574F6/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC5D2D3/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC62E5E/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC6897D/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC6E4EA/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC74033/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC79B70/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC7F6A7/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5EC85226/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F2675E0/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F26D4B2/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F646961/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F656EA4/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F675FE6/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F67B671/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/5EC24961/5F6A1F0B/6105CCD3" Ref="R?"  Part="1" 
+AR Path="/6105CCD3" Ref="R5"  Part="1" 
+F 0 "R5" V 10750 6600 50  0000 C CNN
+F 1 "10k" V 10850 6600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 10780 6600 50  0001 C CNN
+F 3 "1812121441_Uniroyal-Elec-0805W8F100JT5E_C17415.pdf" H 10850 6600 50  0001 C CNN
+F 4 "C17415" H 10850 6600 50  0001 C CNN "LCSC"
+F 5 "1%" H 10850 6600 50  0001 C CNN "Precision"
+F 6 "1/8W" H 10850 6600 50  0001 C CNN "Power"
+F 7 "150V" H 10850 6600 50  0001 C CNN "Voltage"
+	1    10850 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10700 6750 10700 6850
+Connection ~ 10700 6750
+Wire Wire Line
+	10700 6750 10850 6750
 Wire Bus Line
 	1200 4100 1200 4800
 Wire Bus Line

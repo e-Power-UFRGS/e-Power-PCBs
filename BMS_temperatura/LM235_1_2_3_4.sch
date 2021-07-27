@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L e-Power:LM324 U?
+L BMS_temperatura-rescue:LM324-e-Power U?
 U 5 1 5EA4C987
 P 1400 3100
 AR Path="/5EA47040/5EA4C987" Ref="U?"  Part="5" 
@@ -58,7 +58,7 @@ TS_2
 Wire Wire Line
 	1500 1850 1600 1850
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 5EC12A8F
 P 1400 1700
 AR Path="/5EA47040/5EC12A8F" Ref="R?"  Part="1" 
@@ -101,7 +101,7 @@ F 7 "150V" H 1400 1700 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L BMS_temperatura-rescue:+5V-power #PWR?
 U 1 1 5EC12A91
 P 1200 1700
 AR Path="/5EA47040/5EC12A91" Ref="#PWR?"  Part="1" 
@@ -176,7 +176,7 @@ Wire Wire Line
 	1600 1150 1650 1150
 Connection ~ 1600 1150
 $Comp
-L power:+5V #PWR?
+L BMS_temperatura-rescue:+5V-power #PWR?
 U 1 1 5EC12A90
 P 1200 1000
 AR Path="/5EA47040/5EC12A90" Ref="#PWR?"  Part="1" 
@@ -215,7 +215,7 @@ F 3 "" H 1200 1000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 5EC12A8E
 P 1400 1000
 AR Path="/5EA47040/5EC12A8E" Ref="R?"  Part="1" 
@@ -262,7 +262,7 @@ Wire Wire Line
 Text HLabel 1500 1150 0    50   Input ~ 0
 TS_1
 $Comp
-L e-Power:LM324 U?
+L BMS_temperatura-rescue:LM324-e-Power U?
 U 1 1 5EC12A89
 P 1950 1250
 AR Path="/5EA47040/5EC12A89" Ref="U?"  Part="1" 
@@ -308,7 +308,7 @@ Wire Wire Line
 Text HLabel 2400 1250 2    50   Output ~ 0
 T1
 $Comp
-L power:+5V #PWR?
+L BMS_temperatura-rescue:+5V-power #PWR?
 U 1 1 5EC12AA0
 P 1800 2900
 AR Path="/5EA47040/5EC12AA0" Ref="#PWR?"  Part="1" 
@@ -347,7 +347,7 @@ F 3 "" H 1800 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L BMS_temperatura-rescue:C-Device C?
 U 1 1 5EC12AA2
 P 1800 3250
 AR Path="/5EA47040/5EC12AA2" Ref="C?"  Part="1" 
@@ -389,7 +389,7 @@ F 6 "50V" H 1800 3250 50  0001 C CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L BMS_temperatura-rescue:GND-power #PWR?
 U 1 1 5EC12AA4
 P 1800 3500
 AR Path="/5EA47040/5EC12AA4" Ref="#PWR?"  Part="1" 
@@ -428,7 +428,7 @@ F 3 "" H 1800 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L BMS_temperatura-rescue:GND-power #PWR?
 U 1 1 5EC12AA5
 P 1000 3500
 AR Path="/5EA47040/5EC12AA5" Ref="#PWR?"  Part="1" 
@@ -478,7 +478,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 3400 1800 3500
 $Comp
-L e-Power:LM324 U?
+L BMS_temperatura-rescue:LM324-e-Power U?
 U 2 1 5EA4A09D
 P 1950 1950
 AR Path="/5EA47040/5EA4A09D" Ref="U?"  Part="2" 
@@ -528,7 +528,7 @@ TS_4
 Wire Wire Line
 	3400 1850 3500 1850
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 5F5E9DCD
 P 3300 1700
 AR Path="/5EA47040/5F5E9DCD" Ref="R?"  Part="1" 
@@ -571,7 +571,7 @@ F 7 "150V" H 3300 1700 50  0001 C CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L BMS_temperatura-rescue:+5V-power #PWR?
 U 1 1 5F5E9DD7
 P 3100 1700
 AR Path="/5EA47040/5F5E9DD7" Ref="#PWR?"  Part="1" 
@@ -646,7 +646,7 @@ Wire Wire Line
 	3500 1150 3550 1150
 Connection ~ 3500 1150
 $Comp
-L power:+5V #PWR?
+L BMS_temperatura-rescue:+5V-power #PWR?
 U 1 1 5F5E9DF4
 P 3100 1000
 AR Path="/5EA47040/5F5E9DF4" Ref="#PWR?"  Part="1" 
@@ -685,7 +685,7 @@ F 3 "" H 3100 1000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L BMS_temperatura-rescue:R-Device R?
 U 1 1 5F5E9E02
 P 3300 1000
 AR Path="/5EA47040/5F5E9E02" Ref="R?"  Part="1" 
@@ -732,7 +732,7 @@ Wire Wire Line
 Text HLabel 3400 1150 0    50   Input ~ 0
 TS_3
 $Comp
-L e-Power:LM324 U?
+L BMS_temperatura-rescue:LM324-e-Power U?
 U 3 1 5F5E9E0E
 P 3850 1250
 AR Path="/5EA47040/5F5E9E0E" Ref="U?"  Part="1" 
@@ -778,7 +778,7 @@ Wire Wire Line
 Text HLabel 4300 1250 2    50   Output ~ 0
 T3
 $Comp
-L e-Power:LM324 U?
+L BMS_temperatura-rescue:LM324-e-Power U?
 U 4 1 5F5E9E1B
 P 3850 1950
 AR Path="/5EA47040/5F5E9E1B" Ref="U?"  Part="2" 

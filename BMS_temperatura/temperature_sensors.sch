@@ -326,7 +326,7 @@ T24
 Text HLabel 5550 2200 2    50   Output ~ 0
 T18
 $Comp
-L Connector:Conn_01x26_Female J1
+L BMS_temperatura-rescue:Conn_01x26_Female-Connector J1
 U 1 1 60562961
 P 7450 2250
 F 0 "J1" H 7478 2226 50  0000 L CNN
@@ -433,7 +433,7 @@ Wire Wire Line
 Text HLabel 7150 2550 0    50   Input ~ 0
 TS_4
 $Comp
-L power:GND #PWR?
+L BMS_temperatura-rescue:GND-power #PWR?
 U 1 1 60567A6E
 P 7050 1050
 AR Path="/5EA47040/60567A6E" Ref="#PWR?"  Part="1" 
